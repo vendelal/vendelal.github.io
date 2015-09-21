@@ -64,6 +64,7 @@ body {
 em {
     font-family: 'akkuratbold';
     font-style: normal;
+    color: #fff;
 }
 
 h1 {
@@ -78,7 +79,29 @@ h2 {
     font-family: 'akkuratbold';
     font-weight: bold;
     font-size: 36px;
+    color: #fff;
+}
+
+a, a:focus {
+    padding: 10px 20px;
+    border: solid 2px #fff;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #fff;
     color: #1e1e1e;
+    text-decoration: none;
+}
+
+.project0 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/portfolio.jpg");
+    background-size: 100vw;
+    background-position: center;
+    padding: 20px;
+    height: 250px;
 }
 
 .project1 {
@@ -87,23 +110,6 @@ h2 {
     background-position: center;
     padding: 20px;
     height: 250px;
-}
-
-.project1 h2, em {
-    color:#fff;
-}
-
-.project1 a, a:focus {
-    padding: 10px 20px;
-    border: solid 2px #fff;
-    color: #fff;
-    margin-top: 15px;
-}
-
-.project1 a:hover {
-    background-color: #fff;
-    color: #1e1e1e;
-    text-decoration: none;
 }
 
 .project-description {
