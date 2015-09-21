@@ -61,6 +61,18 @@ body {
     height: 75px;
 }
 
+@media only screen and (max-width: 768px) {
+    .top-container {
+        margin: 0px 3%;
+    }
+    h1 {
+        font-size: 19px;
+    }
+    .project-description {
+        margin: 0px 3% !important;
+    }
+}
+
 em {
     font-family: 'akkuratbold';
     font-style: normal;
@@ -97,11 +109,17 @@ a:hover {
 }
 
 .project0 {
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/portfolio.jpg");
+    /*background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/portfolio.jpg");*/
+    background: linear-gradient(rgba(76, 199, 233, 1), rgba(76, 209, 189, 1));
+    /*background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.45)), url("../images/portfolio.jpg");*/
     background-size: 100vw;
     background-position: center;
     padding: 20px;
     height: 250px;
+}
+
+.project0 a:hover {
+    color: rgba(76, 209, 189, 1);
 }
 
 .project1 {
@@ -127,4 +145,13 @@ a:hover {
     background-color: rgba(0,0,0,.9);
 }
 
+.footer {
+    width: 100vw;
+    padding: 25px 20%;
+    color: #fff;
+    bottom: 0;
+    float: left;
+    text-align: right;
+    background-color: #4cc6e8;
+}
 
