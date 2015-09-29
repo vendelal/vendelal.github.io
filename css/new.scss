@@ -1,0 +1,82 @@
+---
+
+---
+
+$mainColor: #49eec7;
+$size: 32px;
+@mixin border($radius: 5px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+/* SVG COLORS FOR KANDINSKY */
+
+$green: #73ac28;
+$yellow: #f4c33c;
+
+
+body {
+  font-family: sans-serif; }
+
+p {
+  color: $mainColor;
+  font-weight: bold;
+  font-size: $size;
+  margin: 0px 0px;
+  background-color: blue;
+  @include border();
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-size: $size + 68;
+  margin: 10px 0px; }
+
+.borderDiv {
+  border-top: solid 10px #000;
+  width: 50%;
+  margin: 20px; 
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  fill: red;
+}
+
+/* If you want to have a bunch of mixins in an outside file, save it in a folder called "_scss" and put @import "nameOfFile"
+somewhere in this file or whatever one you want to have it go into */
+
+
+/* SVG STYLES FOR KANDINSKY.HTML */
+
+.half-circle {
+  fill:#ff0000;
+  fill-opacity: 1;
+  stroke:black;
+  stroke-width: 1;
+}
+
+.rotate55 {
+  transform: rotate(55deg);
+  transform-origin: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
