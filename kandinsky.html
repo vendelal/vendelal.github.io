@@ -66,7 +66,19 @@ title: Kandinsky SVG
 	<circle cx="531" cy="331" r="29" fill="white" />
 
 	<!-- Two white/black half circles on an angle -->
-	<path d="M222, 207c-44, 11.6-70, 56-58, 100l159-42C312, 221, 267, 195, 222, 207z" class="half-circle" />
+	<circle cx="380" cy="323" r="69" fill="#bf4329" stroke="black" stroke-width="7" clip-path="url(#cutOffCross)" class="rotate14" />
+	<circle cx="380" cy="323" r="59" fill="white" clip-path="url(#cutOffCross)" class="rotate14" />
+
+	<circle cx="520" cy="293" r="69" fill="#bf4329" stroke="black" stroke-width="7" clip-path="url(#cutOffCross)" class="rotate14" />
+	<circle cx="520" cy="293" r="59" fill="white" clip-path="url(#cutOffCross)" class="rotate14" />
+
+	<clipPath id="cutOffCross">
+		<rect x="300px" y="125px" width="300" height="200">
+	</clipPath>
+
+	<clipPath id="cutOffCross2">
+		<rect x="300px" y="125px" width="300" height="200">
+	</clipPath>
 
 	<!-- Lines that cross by half circles on left -->
 	<line x1="460" y1="40" x2="570" y2="460" stroke="black" stroke-width="3" />
