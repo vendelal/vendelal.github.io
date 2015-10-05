@@ -1,0 +1,60 @@
+---
+
+layout: default
+title: Javascript!
+
+---
+
+<svg width="720" height="120">
+	<g id="dataCircles">
+	</g>
+</svg>
+
+
+<script>
+
+	// http://spin.atomicobject.com/2015/06/12/objects-around-svg-circle-d3-js/
+	// d3.select('body').append('h1').text('vendela');
+
+	var dataArray = [
+		{'x': 40, 'radius': 10, 'color': 'red'},
+		{'x': 80, 'radius': 15, 'color': 'green'},
+		{'x': 120, 'radius': 20, 'color': 'blue'},
+		{'x': 200, 'radius': 30, 'color': 'goldenrod'}
+	];
+
+	var dataArray2 = [
+		{'x': 40, 'radius': 10, 'color': 'red'},
+		{'x': 120, 'radius': 20, 'color': 'blue'}
+	];
+
+	function draw(data) {
+
+	var circle = d3.select('g#dataCircles').selectAll('circle')
+		.data(data, function(d) {
+			return d.color;
+		});
+
+	circle.enter().append('circle')
+		.attr('cy', 60)
+		.style('fill', function(d) {
+		return d.color;
+	})
+		.attr('r', 0);
+
+	circle.transition().duration(1000)
+		.attr('r', function(dataPoint){
+			return dataPoint.radius;
+		})
+		.style('fill', function(d) {
+			return d.color;
+		})
+		.attr('cx', function(d) {
+			return d.x;
+		});
+
+	circle.exit().transition().duration(1000)
+		.attr('r', 0).remove();
+	}
+
+</script>

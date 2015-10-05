@@ -11,11 +11,6 @@ $size: 32px;
   border-radius: $radius;
 }
 
-/* SVG COLORS FOR KANDINSKY */
-
-$green: #73ac28;
-$yellow: #f4c33c;
-
 
 body {
   font-family: sans-serif; }
@@ -72,6 +67,103 @@ somewhere in this file or whatever one you want to have it go into */
 }
 
 
+/* STYLES FOR HOMEWORK3.HTML */
+
+.st0 {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit:10;
+}
+.st1 {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+@keyframes blink {  
+    0% { stroke:#222; }
+    25% { stroke:#fff; }
+    100% { stroke:#fff; }
+}
+
+#click path {
+  stroke: #fff;
+}
+
+// #c1 {
+//   animation-name: blink;
+//   animation-duration: .5s;
+//   animation-delay: 2s;
+//   animation-iteration-count: infinite;
+// }
+
+#l {
+  animation-name: blink;
+  animation-duration: .5s;
+  // animation-delay: 2.7s;
+  animation-delay: .7s;
+  animation-iteration-count: infinite;
+}
+
+// #i {
+//   animation-name: blink;
+//   animation-duration: .5s;
+//   animation-delay: 3.2s;
+//   animation-iteration-count: infinite;
+// }
+
+#c2 {
+  animation-name: blink;
+  // animation-duration: .5s;
+  animation-duration: 1.3s;
+  // animation-delay: 3.9s;
+  animation-delay: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+// #k {
+//   animation-name: blink;
+//   animation-duration: .5s;
+//   animation-delay: 4.6s;
+//   animation-iteration-count: infinite;
+// }
+
+.style1 {
+  fill:none;
+  stroke: #222;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.style2 {
+  fill: none;
+  stroke: #222;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.style3 {
+  fill: none;
+  stroke: #222;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.style4 {
+  fill: none;
+  stroke:#222; 
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
 
 
 
