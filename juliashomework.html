@@ -1,0 +1,72 @@
+---
+
+layout: default
+title: Circles
+
+---
+
+<svg width="1000" height="300">
+  <g id="dataCircles"></g>
+</svg>
+
+<button id="start">change circle</button>
+
+<script>
+
+var dataArray = [
+  {"x": 350, "radius": 60, "color": "#D1D2D4"},
+  {"x": 500, "radius": 60, "color": "#A7A9AB"},
+  {"x": 650, "radius": 60, "color": "#808284"},
+  {"x": 800, "radius": 60, "color": "#58585B"}
+];
+
+var dataArray2 = [
+  {"x": 350, "radius": 60, "color": "#CDB5C3"},
+  {"x": 500, "radius": 60, "color": "#CDB5C3"},
+  {"x": 650, "radius": 60, "color": "#CDB5C3"},
+  {"x": 800, "radius": 60, "color": "#CC9AB6"}
+];
+
+
+
+function draw(data) {
+
+  console.log(data)
+
+  var circle = d3.select("g#dataCircles").selectAll("circle")
+    .data(data);
+
+  circle.enter().append("circle")
+    .attr("cy", 170)
+    .style("fill", function (d){
+      return d.color;
+    })
+    .attr("r", 0);
+
+  circle.transition().duration(2000)
+    .attr("r", function(dataPoint){
+      return dataPoint.radius;
+    })
+    .style("fill", function (d){
+      return d.color;
+    })
+    .attr("cx", function (d) {
+      return d.x;
+    })
+
+  circle.exit().transition().duration(1000)
+    .attr("r", 0).remove();
+}
+
+draw(dataArray);
+d3.select("#start").on("click",function(){
+    draw(dataArray2);
+});
+
+
+</script>
+</body>
+</HTML>
+
+</body>
+</html>

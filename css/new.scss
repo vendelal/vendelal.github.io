@@ -83,53 +83,63 @@ somewhere in this file or whatever one you want to have it go into */
   stroke-miterlimit: 10;
 }
 
-@keyframes blink {  
-    0% { stroke:#222; }
-    25% { stroke:#fff; }
-    100% { stroke:#fff; }
+@keyframes blink { 
+  0% {
+    stroke:#fff;
+  }
+  50% {
+    stroke:#222;
+  }
+  100% {
+    stroke:#fff;
+  } 
 }
 
 #click path {
   stroke: #fff;
 }
 
-// #c1 {
-//   animation-name: blink;
-//   animation-duration: .5s;
-//   animation-delay: 2s;
-//   animation-iteration-count: infinite;
-// }
+#c1 {
+  animation-name: blink;
+  transition-timing-function: steps(3, start);
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+}
 
 #l {
   animation-name: blink;
-  animation-duration: .5s;
-  // animation-delay: 2.7s;
-  animation-delay: .7s;
-  animation-iteration-count: infinite;
+  transition-timing-function: steps(3, start);
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
 }
 
-// #i {
-//   animation-name: blink;
-//   animation-duration: .5s;
-//   animation-delay: 3.2s;
-//   animation-iteration-count: infinite;
-// }
+#i {
+  animation-name: blink;
+  transition-timing-function: steps(3, start);
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
 
 #c2 {
   animation-name: blink;
-  // animation-duration: .5s;
-  animation-duration: 1.3s;
-  // animation-delay: 3.9s;
-  animation-delay: 1.5s;
-  animation-iteration-count: infinite;
+  transition-timing-function: steps(3, start);
+  animation-duration: 1s;
+  // animation-duration: 1.3s;
+  animation-delay: 2.5s;
+  // animation-delay: 1.5s;
+  animation-iteration-count: 1;
 }
 
-// #k {
-//   animation-name: blink;
-//   animation-duration: .5s;
-//   animation-delay: 4.6s;
-//   animation-iteration-count: infinite;
-// }
+#k {
+  animation-name: blink;
+  transition-timing-function: steps(3, start);
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+}
 
 .style1 {
   fill:none;
