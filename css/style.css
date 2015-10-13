@@ -150,6 +150,14 @@ a:hover {
     height: 250px;
 }
 
+.project4 {
+    background: linear-gradient(rgba(45, 211, 179, 1), rgba(47, 209, 112, 1));
+    background-size: 100vw;
+    background-position: center;
+    padding: 20px;
+    height: 250px;
+}
+
 .project-description {
     margin: 0px 20%;
     padding: 5px 0px;

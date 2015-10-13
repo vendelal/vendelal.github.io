@@ -16,12 +16,9 @@ body {
   font-family: sans-serif; }
 
 p {
-  color: $mainColor;
-  font-weight: bold;
-  font-size: $size;
+  color: black;
+  font-size: 17px;
   margin: 0px 0px;
-  background-color: blue;
-  @include border();
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -29,7 +26,13 @@ p {
 
 h1 {
   font-size: $size + 68;
-  margin: 10px 0px; }
+  margin: 10px 0px; 
+}
+
+ul, li {
+  text-decoration: none;
+  font-style: normal;
+}
 
 .borderDiv {
   border-top: solid 10px #000;
