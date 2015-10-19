@@ -1,0 +1,846 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "udwx-qxp4",
+      "name" : "Farmers Markets With Benefits",
+      "attribution" : "Mayor's Office of Food Initiatives",
+      "attributionLink" : "http://cityofboston.gov/food",
+      "averageRating" : 0,
+      "category" : "Health",
+      "createdAt" : 1367422001,
+      "description" : "Summer farmers' market in Boston and surrounding areas that accept various forms of food assistance benefits. Subject to change in future seasons; information listed was accurate as of spring 2013. Please contact us with any corrections: genevieve.goldleaf@cityofboston.gov",
+      "displayType" : "table",
+      "downloadCount" : 654,
+      "indexUpdatedAt" : 1414539340,
+      "licenseId" : "CC0_10",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 3425311,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1371045114,
+      "publicationGroup" : 830403,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1367425515,
+      "rowsUpdatedBy" : "qyzb-duix",
+      "tableId" : 830403,
+      "totalTimesRated" : 0,
+      "viewCount" : 3507,
+      "viewLastModified" : 1371045114,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 62425146,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025012,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "Allston Harvard",
+          "null" : 0,
+          "largest" : "SoWa",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Allston Harvard"
+          }, {
+            "count" : 19,
+            "item" : "Allston Village /Union Square"
+          }, {
+            "count" : 18,
+            "item" : "Boston City Hall"
+          }, {
+            "count" : 17,
+            "item" : "Boston Medical Center"
+          }, {
+            "count" : 16,
+            "item" : "Copley Square"
+          }, {
+            "count" : 15,
+            "item" : "Dewey Square"
+          }, {
+            "count" : 14,
+            "item" : "Prudential Center"
+          }, {
+            "count" : 13,
+            "item" : "Charlestown"
+          }, {
+            "count" : 12,
+            "item" : "Ashmont/Peabody"
+          }, {
+            "count" : 11,
+            "item" : "Bowdoin Geneva"
+          }, {
+            "count" : 10,
+            "item" : "Codman Square"
+          }, {
+            "count" : 9,
+            "item" : "Dorchester House"
+          }, {
+            "count" : 8,
+            "item" : "Dudley Town"
+          }, {
+            "count" : 7,
+            "item" : "Field's Corner"
+          }, {
+            "count" : 6,
+            "item" : "ReVision Urban Farm Stand"
+          }, {
+            "count" : 5,
+            "item" : "East Boston"
+          }, {
+            "count" : 4,
+            "item" : "Egleston"
+          }, {
+            "count" : 3,
+            "item" : "Jamaica Plain"
+          }, {
+            "count" : 2,
+            "item" : "Loring-Greenough House"
+          }, {
+            "count" : 1,
+            "item" : "Mattapan"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425147,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025013,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "1062 Blue Hill Ave. ",
+          "null" : 0,
+          "largest" : "W 446 W. Broadway St. ",
+          "top" : [ {
+            "count" : 20,
+            "item" : "200 North Harvard St."
+          }, {
+            "count" : 19,
+            "item" : "500 Cambridge St."
+          }, {
+            "count" : 18,
+            "item" : "1 City Hall Plaza "
+          }, {
+            "count" : 17,
+            "item" : "850 Harrison Ave. "
+          }, {
+            "count" : 16,
+            "item" : "261 Dartmouth St."
+          }, {
+            "count" : 15,
+            "item" : "200 Atlantic Ave."
+          }, {
+            "count" : 14,
+            "item" : "800 Boylston St."
+          }, {
+            "count" : 13,
+            "item" : "1 Thompson Sq."
+          }, {
+            "count" : 12,
+            "item" : "1900 Dorchester Ave."
+          }, {
+            "count" : 11,
+            "item" : "230 Bowdoin St."
+          }, {
+            "count" : 10,
+            "item" : "6 Norfolk St."
+          }, {
+            "count" : 9,
+            "item" : "1353 Dorchester Ave. "
+          }, {
+            "count" : 8,
+            "item" : "390 Dudley St."
+          }, {
+            "count" : 7,
+            "item" : "1520 Dorchester Ave."
+          }, {
+            "count" : 6,
+            "item" : "1062 Blue Hill Ave. "
+          }, {
+            "count" : 5,
+            "item" : "230 Meridian St."
+          }, {
+            "count" : 4,
+            "item" : "45 Brookside Ave"
+          }, {
+            "count" : 3,
+            "item" : "677 Centre St. "
+          }, {
+            "count" : 2,
+            "item" : "12 South St."
+          }, {
+            "count" : 1,
+            "item" : "525 River St. "
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425148,
+        "name" : "Area",
+        "dataTypeName" : "text",
+        "fieldName" : "area",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025014,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "Allston",
+          "null" : 0,
+          "largest" : "West Roxbury",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Allston"
+          }, {
+            "count" : 19,
+            "item" : "Boston"
+          }, {
+            "count" : 18,
+            "item" : "Charlestown"
+          }, {
+            "count" : 17,
+            "item" : "Dorchester"
+          }, {
+            "count" : 16,
+            "item" : "East Boston"
+          }, {
+            "count" : 15,
+            "item" : "Jamaica Plain"
+          }, {
+            "count" : 14,
+            "item" : "Mattapan"
+          }, {
+            "count" : 13,
+            "item" : "Mission Hill"
+          }, {
+            "count" : 12,
+            "item" : "Roslindale"
+          }, {
+            "count" : 11,
+            "item" : "South Boston"
+          }, {
+            "count" : 10,
+            "item" : "South End"
+          }, {
+            "count" : 9,
+            "item" : "West Roxbury"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425149,
+        "name" : "Open/Close Dates",
+        "dataTypeName" : "text",
+        "fieldName" : "open_close_dates",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025015,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "July 11 - Oct 17",
+          "null" : 0,
+          "largest" : "May 5 - Oct 27",
+          "top" : [ {
+            "count" : 20,
+            "item" : "June 14 - Oct 25"
+          }, {
+            "count" : 19,
+            "item" : "May 15 - Oct 26"
+          }, {
+            "count" : 18,
+            "item" : "May 20 - Nov 27"
+          }, {
+            "count" : 17,
+            "item" : "May 14- Nov 26"
+          }, {
+            "count" : 16,
+            "item" : "May 21 - Nov 26"
+          }, {
+            "count" : 15,
+            "item" : "May 16 - Oct 24"
+          }, {
+            "count" : 14,
+            "item" : "July - Oct"
+          }, {
+            "count" : 13,
+            "item" : "June 21 - Oct 18"
+          }, {
+            "count" : 12,
+            "item" : "June 20 - Oct 31"
+          }, {
+            "count" : 11,
+            "item" : "June 20 - Oct 24"
+          }, {
+            "count" : 10,
+            "item" : "June 25 - Oct 8"
+          }, {
+            "count" : 9,
+            "item" : "June 4 - Oct 29"
+          }, {
+            "count" : 8,
+            "item" : "July 6 - Oct 23"
+          }, {
+            "count" : 7,
+            "item" : "July 5 - Oct 12"
+          }, {
+            "count" : 6,
+            "item" : "July 11 - Oct 17"
+          }, {
+            "count" : 5,
+            "item" : "June 2 - Oct 12"
+          }, {
+            "count" : 4,
+            "item" : "June - Thanksgiving"
+          }, {
+            "count" : 3,
+            "item" : "July 13 - Oct 12"
+          }, {
+            "count" : 2,
+            "item" : "June 20 - Nov 21"
+          }, {
+            "count" : 1,
+            "item" : "June 1 - Nov 23"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425150,
+        "name" : "Day",
+        "dataTypeName" : "text",
+        "fieldName" : "day",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025016,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "Friday ",
+          "null" : 0,
+          "largest" : "Wednesday",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Fridays"
+          }, {
+            "count" : 19,
+            "item" : "Saturdays"
+          }, {
+            "count" : 18,
+            "item" : "Monday and Wednesday"
+          }, {
+            "count" : 17,
+            "item" : "Friday "
+          }, {
+            "count" : 16,
+            "item" : "Tuesday and Friday"
+          }, {
+            "count" : 15,
+            "item" : "Tuesday and Thursday"
+          }, {
+            "count" : 14,
+            "item" : "Thursday"
+          }, {
+            "count" : 13,
+            "item" : "Wednesday"
+          }, {
+            "count" : 12,
+            "item" : "Tuesday  "
+          }, {
+            "count" : 11,
+            "item" : "Tuesdays"
+          }, {
+            "count" : 10,
+            "item" : "Saturday"
+          }, {
+            "count" : 9,
+            "item" : "Thurs, Fri and Sat"
+          }, {
+            "count" : 8,
+            "item" : "Tuesday"
+          }, {
+            "count" : 7,
+            "item" : "Monday"
+          }, {
+            "count" : 6,
+            "item" : "Sunday"
+          }, {
+            "count" : 5,
+            "item" : "Sundays"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425151,
+        "name" : "Time",
+        "dataTypeName" : "text",
+        "fieldName" : "time",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025017,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "10am - 2pm",
+          "null" : 0,
+          "largest" : "9am - 12pm",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3-7pm"
+          }, {
+            "count" : 19,
+            "item" : "11am-3pm"
+          }, {
+            "count" : 18,
+            "item" : "11am - 6pm"
+          }, {
+            "count" : 17,
+            "item" : "11:30-2:30"
+          }, {
+            "count" : 16,
+            "item" : "11:30am - 6:30pm"
+          }, {
+            "count" : 15,
+            "item" : "2-7pm"
+          }, {
+            "count" : 14,
+            "item" : "3pm-7pm"
+          }, {
+            "count" : 13,
+            "item" : "2:30-6:30"
+          }, {
+            "count" : 12,
+            "item" : "1-6pm"
+          }, {
+            "count" : 11,
+            "item" : "11:30am - 2pm"
+          }, {
+            "count" : 10,
+            "item" : "9am - 12pm"
+          }, {
+            "count" : 9,
+            "item" : "2-6pm, Sat 10am - 1pm"
+          }, {
+            "count" : 8,
+            "item" : "3-6:30pm"
+          }, {
+            "count" : 7,
+            "item" : "10am - 2pm"
+          }, {
+            "count" : 6,
+            "item" : "12-5pm"
+          }, {
+            "count" : 5,
+            "item" : "2-dusk"
+          }, {
+            "count" : 4,
+            "item" : "9am - 1:30pm"
+          }, {
+            "count" : 3,
+            "item" : "12pm-6pm"
+          }, {
+            "count" : 2,
+            "item" : "10am - 4pm"
+          }, {
+            "count" : 1,
+            "item" : "11am - 3pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425152,
+        "name" : "SNAP",
+        "dataTypeName" : "text",
+        "fieldName" : "snap",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025018,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "No",
+          "null" : 0,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425153,
+        "name" : "WIC",
+        "dataTypeName" : "text",
+        "fieldName" : "wic",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025019,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "Yes",
+          "null" : 0,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425154,
+        "name" : "EBT",
+        "dataTypeName" : "text",
+        "fieldName" : "ebt",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025020,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "No",
+          "null" : 0,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425155,
+        "name" : "BBB",
+        "dataTypeName" : "text",
+        "fieldName" : "bbb",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 10025021,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : "No",
+          "null" : 0,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 62425156,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 12,
+        "renderTypeName" : "location",
+        "tableColumnId" : 10025022,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 26,
+          "smallest" : {
+            "longitude" : "-71.05669999960514",
+            "latitude" : "42.35862999957499",
+            "human_address" : "{\"address\":\"1 City Hall Plaza&nbsp;\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2108\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-71.04948000030163",
+            "latitude" : "42.337950000092576",
+            "human_address" : "{\"address\":\"W 446 W. Broadway St.&nbsp;\",\"city\":\"South Boston\",\"state\":\"MA\",\"zip\":\"2127\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-71.12989702892453",
+              "latitude" : "42.36294649117586",
+              "human_address" : "{\"address\":\"200 North Harvard St.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-71.13854338564968",
+              "latitude" : "42.353068632256054",
+              "human_address" : "{\"address\":\"500 Cambridge St.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-71.05669999960514",
+              "latitude" : "42.35862999957499",
+              "human_address" : "{\"address\":\"1 City Hall Plaza&nbsp;\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2108\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-71.05669999960514",
+              "latitude" : "42.35862999957499",
+              "human_address" : "{\"address\":\"850 Harrison Ave.&nbsp;\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2118\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-71.07743885250946",
+              "latitude" : "42.35037907261797",
+              "human_address" : "{\"address\":\"261 Dartmouth St.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2116\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-71.05096847503998",
+              "latitude" : "42.36377855691379",
+              "human_address" : "{\"address\":\"200 Atlantic Ave.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2109\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-71.08272542754287",
+              "latitude" : "42.348600250100844",
+              "human_address" : "{\"address\":\"800 Boylston St.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2199\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-71.06416671726463",
+              "latitude" : "42.375360285272365",
+              "human_address" : "{\"address\":\"1 Thompson Sq.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-71.06425662735673",
+              "latitude" : "42.285593702767336",
+              "human_address" : "{\"address\":\"1900 Dorchester Ave.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-71.06764200765619",
+              "latitude" : "42.30580023935842",
+              "human_address" : "{\"address\":\"230 Bowdoin St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-71.07240121064649",
+              "latitude" : "42.28985653514695",
+              "human_address" : "{\"address\":\"6 Norfolk St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-71.0591541971549",
+              "latitude" : "42.30455145710573",
+              "human_address" : "{\"address\":\"1353 Dorchester Ave.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-71.07549468090706",
+              "latitude" : "42.326310460822675",
+              "human_address" : "{\"address\":\"390 Dudley St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2119\"}"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-71.06055668638655",
+              "latitude" : "42.298680619199025",
+              "human_address" : "{\"address\":\"1520 Dorchester Ave.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-71.09006389530197",
+              "latitude" : "42.288048897868066",
+              "human_address" : "{\"address\":\"1062 Blue Hill Ave.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-71.03914428200301",
+              "latitude" : "42.37566984318278",
+              "human_address" : "{\"address\":\"230 Meridian St.\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-71.1034748920108",
+              "latitude" : "42.31333910264873",
+              "human_address" : "{\"address\":\"45 Brookside Ave\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-71.11424666466985",
+              "latitude" : "42.312114755372136",
+              "human_address" : "{\"address\":\"677 Centre St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-71.11546974262967",
+              "latitude" : "42.309470748605975",
+              "human_address" : "{\"address\":\"12 South St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : "-71.09459999998984",
+              "latitude" : "42.267260000248996",
+              "human_address" : "{\"address\":\"525 River St.&nbsp;\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons 1.0 Universal (Public Domain Dedication)",
+        "logoUrl" : "images/licenses/ccZero.png",
+        "termsLink" : "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Owner" : {
+            "Owner" : "Office of the Mayor"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "qyzb-duix",
+        "displayName" : "GGoldleaf",
+        "roleName" : "publisher",
+        "screenName" : "GGoldleaf",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qyzb-duix",
+        "displayName" : "GGoldleaf",
+        "roleName" : "publisher",
+        "screenName" : "GGoldleaf",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "tags" : [ "snap", "ebt", "wic", "bounty bucks", "food", "farmers markets", "food initiatives", "office of food initiatives", "food access", "local food" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "356882CD-C97D-45AB-BAFB-E170CAE814A8", 1, 1367422003, "699782", 1367425504, "699782", "{\n}", "Allston Harvard", "200 North Harvard St.", "Allston", "June 14 - Oct 25", "Fridays", "3-7pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"200 North Harvard St.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}", "42.36294649117586", "-71.12989702892453", null, false ] ]
+, [ 2, "1DB1730B-8DD8-42BD-A932-D7B83A0403C9", 2, 1367422003, "699782", 1367425503, "699782", "{\n}", "Allston Village /Union Square", "500 Cambridge St.", "Allston", "May 15 - Oct 26", "Saturdays", "11am-3pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"500 Cambridge St.\",\"city\":\"Allston\",\"state\":\"MA\",\"zip\":\"2134\"}", "42.353068632256054", "-71.13854338564968", null, false ] ]
+, [ 3, "CA22C4C3-E034-44C7-90A1-5F81D98831E4", 3, 1367422003, "699782", 1367425513, "699782", "{\n}", "Boston City Hall", "1 City Hall Plaza ", "Boston", "May 20 - Nov 27", "Monday and Wednesday", "11am - 6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1 City Hall Plaza&nbsp;\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2108\"}", "42.35862999957499", "-71.05669999960514", null, false ] ]
+, [ 4, "653D8EF1-0FCF-446C-923D-51B23D929592", 4, 1367422003, "699782", 1367425508, "699782", "{\n}", "Boston Medical Center", "850 Harrison Ave. ", "Boston", "June 14 - Oct 25", "Friday ", "11:30-2:30", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"850 Harrison Ave.&nbsp;\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2118\"}", "42.35862999957499", "-71.05669999960514", null, false ] ]
+, [ 5, "E20EEA22-EDCF-4FD3-A801-1631AD611B47", 5, 1367422003, "699782", 1367425514, "699782", "{\n}", "Copley Square", "261 Dartmouth St.", "Boston", "May 14- Nov 26", "Tuesday and Friday", "11am - 6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"261 Dartmouth St.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2116\"}", "42.35037907261797", "-71.07743885250946", null, false ] ]
+, [ 6, "2CBFB78F-D3ED-495A-AD2D-70CC7F015434", 6, 1367422003, "699782", 1367425504, "699782", "{\n}", "Dewey Square", "200 Atlantic Ave.", "Boston", "May 21 - Nov 26", "Tuesday and Thursday", "11:30am - 6:30pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"200 Atlantic Ave.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2109\"}", "42.36377855691379", "-71.05096847503998", null, false ] ]
+, [ 7, "B50C8124-28F5-432A-A668-FD1A64D2309A", 7, 1367422003, "699782", 1367425510, "699782", "{\n}", "Prudential Center", "800 Boylston St.", "Boston", "May 16 - Oct 24", "Thursday", "11am - 6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"800 Boylston St.\",\"city\":\"Boston\",\"state\":\"MA\",\"zip\":\"2199\"}", "42.348600250100844", "-71.08272542754287", null, false ] ]
+, [ 8, "D7BBC4BF-8EDE-4CA5-A66E-727DAA6AD8BC", 8, 1367422003, "699782", 1367425513, "699782", "{\n}", "Charlestown", "1 Thompson Sq.", "Charlestown", "July - Oct", "Wednesday", "2-7pm", "No", "Yes", "No", "No", [ "{\"address\":\"1 Thompson Sq.\",\"city\":\"Charlestown\",\"state\":\"MA\",\"zip\":\"2129\"}", "42.375360285272365", "-71.06416671726463", null, false ] ]
+, [ 9, "2764C7AC-6D74-44CC-AAD8-630B2A5C2331", 9, 1367422003, "699782", 1367425503, "699782", "{\n}", "Ashmont/Peabody", "1900 Dorchester Ave.", "Dorchester", "June 21 - Oct 18", "Fridays", "3pm-7pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1900 Dorchester Ave.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}", "42.285593702767336", "-71.06425662735673", null, false ] ]
+, [ 10, "F5BC4639-4FC9-4F0A-B9EC-7F62EBE94B3C", 10, 1367422003, "699782", 1367425515, "699782", "{\n}", "Bowdoin Geneva", "230 Bowdoin St.", "Dorchester", "June 20 - Oct 31", "Thursday", "2:30-6:30", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"230 Bowdoin St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}", "42.30580023935842", "-71.06764200765619", null, false ] ]
+, [ 11, "C98DEFC1-DF73-4079-AC76-732D4D99A645", 11, 1367422003, "699782", 1367425510, "699782", "{\n}", "Codman Square", "6 Norfolk St.", "Dorchester", "June 20 - Oct 24", "Thursday", "1-6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"6 Norfolk St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}", "42.28985653514695", "-71.07240121064649", null, false ] ]
+, [ 12, "6A987D98-CE03-4EC3-B0BC-C18AD0FABD98", 12, 1367422003, "699782", 1367425508, "699782", "{\n}", "Dorchester House", "1353 Dorchester Ave. ", "Dorchester", "June 25 - Oct 8", "Tuesday  ", "11:30am - 2pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1353 Dorchester Ave.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}", "42.30455145710573", "-71.0591541971549", null, false ] ]
+, [ 13, "A540C1FC-FB29-4A74-B908-EFD7E5833ECA", 13, 1367422003, "699782", 1367425509, "699782", "{\n}", "Dudley Town", "390 Dudley St.", "Dorchester", "June 4 - Oct 29", "Tuesdays", "3-7pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"390 Dudley St.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2119\"}", "42.326310460822675", "-71.07549468090706", null, false ] ]
+, [ 14, "0A1476DC-CC4B-475F-B899-A108D4446EA1", 14, 1367422003, "699782", 1367425502, "699782", "{\n}", "Field's Corner", "1520 Dorchester Ave.", "Dorchester", "July 6 - Oct 23", "Saturday", "9am - 12pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1520 Dorchester Ave.\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2122\"}", "42.298680619199025", "-71.06055668638655", null, false ] ]
+, [ 15, "A79C795D-73B9-4B7B-8D18-F1E01B78913A", 15, 1367422003, "699782", 1367425510, "699782", "{\n}", "ReVision Urban Farm Stand", "1062 Blue Hill Ave. ", "Dorchester", "July 5 - Oct 12", "Thurs, Fri and Sat", "2-6pm, Sat 10am - 1pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1062 Blue Hill Ave.&nbsp;\",\"city\":\"Dorchester\",\"state\":\"MA\",\"zip\":\"2124\"}", "42.288048897868066", "-71.09006389530197", null, false ] ]
+, [ 16, "387C8A8A-2232-47EB-9FB9-D8E93E1B2FF7", 16, 1367422003, "699782", 1367425505, "699782", "{\n}", "East Boston", "230 Meridian St.", "East Boston", "July 11 - Oct 17", "Thursday", "3-6:30pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"230 Meridian St.\",\"city\":\"East Boston\",\"state\":\"MA\",\"zip\":\"2128\"}", "42.37566984318278", "-71.03914428200301", null, false ] ]
+, [ 17, "079A7872-206D-4B3B-9983-88F5BB9CD489", 17, 1367422003, "699782", 1367425502, "699782", "{\n}", "Egleston", "45 Brookside Ave", "Jamaica Plain", "June 2 - Oct 12", "Saturday", "10am - 2pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"45 Brookside Ave\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}", "42.31333910264873", "-71.1034748920108", null, false ] ]
+, [ 18, "09FFE7B9-8AAF-4F43-9643-823C2EAE2109", 18, 1367422003, "699782", 1367425502, "699782", "{\n}", "Jamaica Plain", "677 Centre St. ", "Jamaica Plain", "June - Thanksgiving", "Tuesday", "12-5pm", "No", "Yes", "No", "No", [ "{\"address\":\"677 Centre St.&nbsp;\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}", "42.312114755372136", "-71.11424666466985", null, false ] ]
+, [ 19, "CFD0D7FD-F0B4-434C-AEA6-A8BFFFC3BD18", 19, 1367422003, "699782", 1367425513, "699782", "{\n}", "Loring-Greenough House", "12 South St.", "Jamaica Plain", "June - Thanksgiving", "Thursday", "2-dusk", "No", "Yes", "No", "No", [ "{\"address\":\"12 South St.\",\"city\":\"Jamaica Plain\",\"state\":\"MA\",\"zip\":\"2130\"}", "42.309470748605975", "-71.11546974262967", null, false ] ]
+, [ 20, "A4A87DBC-5BD7-4066-9346-F1A3EC90141A", 20, 1367422003, "699782", 1367425509, "699782", "{\n}", "Mattapan", "525 River St. ", "Mattapan", "July 13 - Oct 12", "Saturday", "10am - 2pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"525 River St.&nbsp;\",\"city\":\"Mattapan\",\"state\":\"MA\",\"zip\":\"2126\"}", "42.267260000248996", "-71.09459999998984", null, false ] ]
+, [ 21, "C99471E5-2D5E-431C-83EA-E9D46A1953DC", 21, 1367422003, "699782", 1367425511, "699782", "{\n}", "Mission Hill - Brigham Circle", "720 Huntington Ave.", "Mission Hill", "June 20 - Nov 21", "Thursday", "11am - 6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"720 Huntington Ave.\",\"city\":\"Mission Hill\",\"state\":\"MA\",\"zip\":\"2115\"}", "42.33414182877969", "-71.10459469562049", null, false ] ]
+, [ 22, "E2EE03EF-8B36-4386-82F3-712E74827FA3", 22, 1367422003, "699782", 1367425514, "699782", "{\n}", "Roslindale", "1-9 Cummins Highway", "Roslindale", "June 1 - Nov 23", "Saturday", "9am - 1:30pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1-9 Cummins Highway\",\"city\":\"Roslindale\",\"state\":\"MA\",\"zip\":\"2131\"}", "42.28603813355563", "-71.12761264586742", null, false ] ]
+, [ 23, "61E3D8F6-1EA7-4A8E-87D7-7772A9E3152C", 23, 1367422003, "699782", 1367425506, "699782", "{\n}", "South Boston", "W 446 W. Broadway St. ", "South Boston", "May 13 - Nov 19", "Monday", "12pm-6pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"W 446 W. Broadway St.&nbsp;\",\"city\":\"South Boston\",\"state\":\"MA\",\"zip\":\"2127\"}", "42.337950000092576", "-71.04948000030163", null, false ] ]
+, [ 24, "5A882037-B6AA-4080-9A22-264270811A19", 24, 1367422003, "699782", 1367425505, "699782", "{\n}", "SoWa", "485 Harrison Ave.", "South End", "May 5 - Oct 27", "Sunday", "10am - 4pm", "No", "Yes", "No", "No", [ "{\"address\":\"485 Harrison Ave.\",\"city\":\"South End\",\"state\":\"MA\",\"zip\":\"2118\"}", "42.341774395898426", "-71.0665196445749", null, false ] ]
+, [ 25, "5E25AEB7-36D4-47D8-A1B3-A742745056C4", 25, 1367422003, "699782", 1367425506, "699782", "{\n}", "Corey St", "120 Corey St", "West Roxbury", "June 23 - Oct 26", "Sundays", "11am - 3pm", "No", "Yes", "Yes", "Yes", [ "{\"address\":\"120 Corey St\",\"city\":\"West Roxbury\",\"state\":\"MA\",\"zip\":\"2132\"}", "42.287779101259275", "-71.15662271869047", null, false ] ]
+, [ 26, "650E4DCC-A631-44C2-B89D-692C7D8D2D4D", 26, 1367422003, "699782", 1367425507, "699782", "{\n}", "Mission Hill - Roxbury Crossing", "1420 Tremont St", "Mission Hill", "June 18 - Nov 26", "Tuesday", "2-7pm", "Yes", "Yes", "Yes", "Yes", [ "{\"address\":\"1420 Tremont St\",\"city\":\"Mission Hill\",\"state\":\"MA\",\"zip\":\"2120\"}", "42.33151056750561", "-71.09534042178258", null, false ] ]
+ ]
+}

@@ -1,0 +1,82 @@
+---
+
+layout: default
+title: Data Practice
+
+---
+
+<svg width="720" height="120">
+	<g id="dataCircles">
+	</g>
+</svg>
+
+<script>
+
+
+	// d3.text(file, function(data, error) {
+
+	// });
+
+	// d3.text("data/textData.txt", function(error, data) {
+	// 	if (error) {
+	// 		console.log(error.status, error.statusText);
+	// 	}
+	// 	else {
+	// 		console.log(data);
+	// 	}
+	// });
+
+	// console.log("first!");
+
+
+	d3.json('data/jsonData.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText);
+		}
+		else {
+			// data.forEach(function(dataPoint){
+			// 	dataPoint.size = parseFloat(dataPoint.size);
+			// 	dataPoint.x = parseFloat(dataPoint.x);
+			// });
+		draw(data);
+		console.log(data);
+		}
+	});
+
+
+
+	function draw(data) {
+
+	var circle = d3.select('g#dataCircles').selectAll('rect')
+		.data(data, function(d) {
+			return d.color;
+		});
+
+	circle.enter().append('rect')
+		.attr('y', 60)
+		.style('fill', function(d) {
+		return d.color;
+	})
+		.attr('width', 0)
+		.attr('height', 0);
+
+	circle.transition().duration(1000)
+		.attr('width', function(dataPoint){
+			return dataPoint.size;
+		})
+		.attr('height', function(dataPoint){
+			return dataPoint.size;
+		})
+		.style('fill', function(d) {
+			return d.color;
+		})
+		.attr('x', function(d) {
+			return d.x;
+		});
+
+	circle.exit().transition().duration(1000)
+		.attr('r', 0).remove();
+	}
+
+
+</script>

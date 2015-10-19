@@ -1,0 +1,1778 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "t4h6-r362",
+      "name" : "Parking Citations",
+      "averageRating" : 0,
+      "createdAt" : 1431580731,
+      "description" : "Parking citations with latitude / longitude (XY) in US Feet coordinates according to the NAD_1983_StatePlane_California_V_FIPS_0405_Feet projection.",
+      "displayType" : "table",
+      "downloadCount" : 77,
+      "indexUpdatedAt" : 1431811368,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11289007,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1431804557,
+      "publicationGroup" : 2831077,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1431789407,
+      "rowsUpdatedBy" : "vb5u-hhhh",
+      "tableId" : 2856883,
+      "totalTimesRated" : 0,
+      "viewCount" : 427,
+      "viewLastModified" : 1431804557,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 204095005,
+        "name" : "Ticket number",
+        "dataTypeName" : "number",
+        "fieldName" : "ticket_number",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302698,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 7396298,
+          "smallest" : "404966063",
+          "sum" : "26336635193247984",
+          "null" : 478,
+          "average" : "3560786111.274584",
+          "largest" : "4259428025",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4259302670"
+          }, {
+            "count" : 19,
+            "item" : "4259302681"
+          }, {
+            "count" : 18,
+            "item" : "4259302692"
+          }, {
+            "count" : 17,
+            "item" : "4259302703"
+          }, {
+            "count" : 16,
+            "item" : "4259302714"
+          }, {
+            "count" : 15,
+            "item" : "4259302725"
+          }, {
+            "count" : 14,
+            "item" : "4259302736"
+          }, {
+            "count" : 13,
+            "item" : "4259302740"
+          }, {
+            "count" : 12,
+            "item" : "4259302751"
+          }, {
+            "count" : 11,
+            "item" : "4259302762"
+          }, {
+            "count" : 10,
+            "item" : "4259302773"
+          }, {
+            "count" : 9,
+            "item" : "4259302784"
+          }, {
+            "count" : 8,
+            "item" : "4259302795"
+          }, {
+            "count" : 7,
+            "item" : "4259302806"
+          }, {
+            "count" : 6,
+            "item" : "4259358014"
+          }, {
+            "count" : 5,
+            "item" : "4259358025"
+          }, {
+            "count" : 4,
+            "item" : "4259358036"
+          }, {
+            "count" : 3,
+            "item" : "4259358040"
+          }, {
+            "count" : 2,
+            "item" : "4259358051"
+          }, {
+            "count" : 1,
+            "item" : "4259428014"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 204095006,
+        "name" : "Issue Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "issue_date",
+        "position" : 3,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 28302699,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 7395804,
+          "smallest" : "0901-07-20T00:00:00",
+          "null" : 972,
+          "largest" : "2015-05-10T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-03-02T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2015-03-16T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2015-03-17T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2015-03-18T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2015-03-19T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2015-03-23T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2015-03-24T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2015-03-25T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2015-03-26T00:00:00"
+          }, {
+            "count" : 11,
+            "item" : "2015-03-27T00:00:00"
+          }, {
+            "count" : 10,
+            "item" : "2015-03-31T00:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2015-04-02T00:00:00"
+          }, {
+            "count" : 8,
+            "item" : "2015-04-03T00:00:00"
+          }, {
+            "count" : 7,
+            "item" : "2015-04-06T00:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2015-04-07T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "2015-04-08T00:00:00"
+          }, {
+            "count" : 4,
+            "item" : "2015-04-09T00:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2015-04-13T00:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2015-04-14T00:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2015-04-15T00:00:00"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095007,
+        "name" : "Issue time",
+        "dataTypeName" : "number",
+        "description" : "on a 24 hour clock\nhttp://en.wikipedia.org/wiki/24-hour_clock",
+        "fieldName" : "issue_time",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302700,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 7394134,
+          "smallest" : "0",
+          "sum" : "9288621670",
+          "null" : 2642,
+          "average" : "1256.214949580302",
+          "largest" : "2359",
+          "top" : [ {
+            "count" : 20,
+            "item" : "940"
+          }, {
+            "count" : 19,
+            "item" : "941"
+          }, {
+            "count" : 18,
+            "item" : "944"
+          }, {
+            "count" : 17,
+            "item" : "945"
+          }, {
+            "count" : 16,
+            "item" : "1011"
+          }, {
+            "count" : 15,
+            "item" : "1044"
+          }, {
+            "count" : 14,
+            "item" : "1114"
+          }, {
+            "count" : 13,
+            "item" : "1229"
+          }, {
+            "count" : 12,
+            "item" : "1236"
+          }, {
+            "count" : 11,
+            "item" : "1238"
+          }, {
+            "count" : 10,
+            "item" : "1241"
+          }, {
+            "count" : 9,
+            "item" : "1243"
+          }, {
+            "count" : 8,
+            "item" : "1244"
+          }, {
+            "count" : 7,
+            "item" : "1307"
+          }, {
+            "count" : 6,
+            "item" : "1511"
+          }, {
+            "count" : 5,
+            "item" : "1513"
+          }, {
+            "count" : 4,
+            "item" : "1526"
+          }, {
+            "count" : 3,
+            "item" : "1541"
+          }, {
+            "count" : 2,
+            "item" : "1542"
+          }, {
+            "count" : 1,
+            "item" : "1610"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 204095008,
+        "name" : "Meter Id",
+        "dataTypeName" : "text",
+        "fieldName" : "meter_id",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302701,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 2465619,
+          "smallest" : ",13",
+          "null" : 4931157,
+          "largest" : "ZZ25",
+          "top" : [ {
+            "count" : 20,
+            "item" : "53"
+          }, {
+            "count" : 19,
+            "item" : "37"
+          }, {
+            "count" : 18,
+            "item" : "96"
+          }, {
+            "count" : 17,
+            "item" : "51"
+          }, {
+            "count" : 16,
+            "item" : "41"
+          }, {
+            "count" : 15,
+            "item" : "12"
+          }, {
+            "count" : 14,
+            "item" : "13"
+          }, {
+            "count" : 13,
+            "item" : "30"
+          }, {
+            "count" : 12,
+            "item" : "34"
+          }, {
+            "count" : 11,
+            "item" : "15"
+          }, {
+            "count" : 10,
+            "item" : "76"
+          }, {
+            "count" : 9,
+            "item" : "26"
+          }, {
+            "count" : 8,
+            "item" : "25"
+          }, {
+            "count" : 7,
+            "item" : "162"
+          }, {
+            "count" : 6,
+            "item" : "78"
+          }, {
+            "count" : 5,
+            "item" : "VH16759"
+          }, {
+            "count" : 4,
+            "item" : "101"
+          }, {
+            "count" : 3,
+            "item" : "98"
+          }, {
+            "count" : 2,
+            "item" : "V6124"
+          }, {
+            "count" : 1,
+            "item" : "V27610"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095009,
+        "name" : "Marked Time",
+        "dataTypeName" : "text",
+        "fieldName" : "marked_time",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302702,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 209482,
+          "smallest" : "0001",
+          "null" : 7187294,
+          "largest" : "2400",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0800"
+          }, {
+            "count" : 19,
+            "item" : "0930"
+          }, {
+            "count" : 18,
+            "item" : "1100"
+          }, {
+            "count" : 17,
+            "item" : "0945"
+          }, {
+            "count" : 16,
+            "item" : "1220"
+          }, {
+            "count" : 15,
+            "item" : "1108"
+          }, {
+            "count" : 14,
+            "item" : "0835"
+          }, {
+            "count" : 13,
+            "item" : "1122"
+          }, {
+            "count" : 12,
+            "item" : "1035"
+          }, {
+            "count" : 11,
+            "item" : "1105"
+          }, {
+            "count" : 10,
+            "item" : "1125"
+          }, {
+            "count" : 9,
+            "item" : "0933"
+          }, {
+            "count" : 8,
+            "item" : "1050"
+          }, {
+            "count" : 7,
+            "item" : "1800"
+          }, {
+            "count" : 6,
+            "item" : "0926"
+          }, {
+            "count" : 5,
+            "item" : "1140"
+          }, {
+            "count" : 4,
+            "item" : "1310"
+          }, {
+            "count" : 3,
+            "item" : "1330"
+          }, {
+            "count" : 2,
+            "item" : "1450"
+          }, {
+            "count" : 1,
+            "item" : "0815"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095010,
+        "name" : "RP State Plate",
+        "dataTypeName" : "text",
+        "fieldName" : "rp_state_plate",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302703,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 7396014,
+          "smallest" : "|",
+          "null" : 762,
+          "largest" : "YU",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CA"
+          }, {
+            "count" : 19,
+            "item" : "OR"
+          }, {
+            "count" : 18,
+            "item" : "NV"
+          }, {
+            "count" : 17,
+            "item" : "AZ"
+          }, {
+            "count" : 16,
+            "item" : "CO"
+          }, {
+            "count" : 15,
+            "item" : "MI"
+          }, {
+            "count" : 14,
+            "item" : "TX"
+          }, {
+            "count" : 13,
+            "item" : "TN"
+          }, {
+            "count" : 12,
+            "item" : "OK"
+          }, {
+            "count" : 11,
+            "item" : "NJ"
+          }, {
+            "count" : 10,
+            "item" : "GA"
+          }, {
+            "count" : 9,
+            "item" : "MN"
+          }, {
+            "count" : 8,
+            "item" : "WA"
+          }, {
+            "count" : 7,
+            "item" : "FL"
+          }, {
+            "count" : 6,
+            "item" : "UT"
+          }, {
+            "count" : 5,
+            "item" : "NY"
+          }, {
+            "count" : 4,
+            "item" : "MA"
+          }, {
+            "count" : 3,
+            "item" : "PA"
+          }, {
+            "count" : 2,
+            "item" : "IL"
+          }, {
+            "count" : 1,
+            "item" : "NM"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095011,
+        "name" : "Plate Expiry Date",
+        "dataTypeName" : "number",
+        "fieldName" : "plate_expiry_date",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302704,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 6814488,
+          "smallest" : "1",
+          "sum" : "1283828691369",
+          "null" : 582288,
+          "average" : "188396.9406606923",
+          "largest" : "832200",
+          "top" : [ {
+            "count" : 20,
+            "item" : "201304"
+          }, {
+            "count" : 19,
+            "item" : "201302"
+          }, {
+            "count" : 18,
+            "item" : "201303"
+          }, {
+            "count" : 17,
+            "item" : "201307"
+          }, {
+            "count" : 16,
+            "item" : "201305"
+          }, {
+            "count" : 15,
+            "item" : "201301"
+          }, {
+            "count" : 14,
+            "item" : "201306"
+          }, {
+            "count" : 13,
+            "item" : "201308"
+          }, {
+            "count" : 12,
+            "item" : "201309"
+          }, {
+            "count" : 11,
+            "item" : "201310"
+          }, {
+            "count" : 10,
+            "item" : "201312"
+          }, {
+            "count" : 9,
+            "item" : "201311"
+          }, {
+            "count" : 8,
+            "item" : "201401"
+          }, {
+            "count" : 7,
+            "item" : "201402"
+          }, {
+            "count" : 6,
+            "item" : "201403"
+          }, {
+            "count" : 5,
+            "item" : "201404"
+          }, {
+            "count" : 4,
+            "item" : "201405"
+          }, {
+            "count" : 3,
+            "item" : "201406"
+          }, {
+            "count" : 2,
+            "item" : "201407"
+          }, {
+            "count" : 1,
+            "item" : "201408"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 204095012,
+        "name" : "VIN",
+        "dataTypeName" : "text",
+        "fieldName" : "vin",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302705,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 5541585,
+          "smallest" : "-----------------",
+          "null" : 1855191,
+          "largest" : "ZZ290",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NV"
+          }, {
+            "count" : 19,
+            "item" : "NOT VISIBLE"
+          }, {
+            "count" : 18,
+            "item" : "COVERED"
+          }, {
+            "count" : 17,
+            "item" : "1594"
+          }, {
+            "count" : 16,
+            "item" : "1459"
+          }, {
+            "count" : 15,
+            "item" : "4500"
+          }, {
+            "count" : 14,
+            "item" : "9051"
+          }, {
+            "count" : 13,
+            "item" : "4169"
+          }, {
+            "count" : 12,
+            "item" : "0702"
+          }, {
+            "count" : 11,
+            "item" : "6451"
+          }, {
+            "count" : 10,
+            "item" : "2401"
+          }, {
+            "count" : 9,
+            "item" : "4718"
+          }, {
+            "count" : 8,
+            "item" : "1C6RR7FP4DS664751"
+          }, {
+            "count" : 7,
+            "item" : "7025"
+          }, {
+            "count" : 6,
+            "item" : "2717"
+          }, {
+            "count" : 5,
+            "item" : "6058"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095013,
+        "name" : "Make",
+        "dataTypeName" : "text",
+        "fieldName" : "make",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302706,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 7386477,
+          "smallest" : "AB",
+          "null" : 10299,
+          "largest" : "ZUMA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NISS"
+          }, {
+            "count" : 19,
+            "item" : "CHEV"
+          }, {
+            "count" : 18,
+            "item" : "DODG"
+          }, {
+            "count" : 17,
+            "item" : "MAZD"
+          }, {
+            "count" : 16,
+            "item" : "FORD"
+          }, {
+            "count" : 15,
+            "item" : "JEEP"
+          }, {
+            "count" : 14,
+            "item" : "CADI"
+          }, {
+            "count" : 13,
+            "item" : "TOYO"
+          }, {
+            "count" : 12,
+            "item" : "HOND"
+          }, {
+            "count" : 11,
+            "item" : "VOLK"
+          }, {
+            "count" : 10,
+            "item" : "GMC"
+          }, {
+            "count" : 9,
+            "item" : "ACUR"
+          }, {
+            "count" : 8,
+            "item" : "MITS"
+          }, {
+            "count" : 7,
+            "item" : "BMW"
+          }, {
+            "count" : 6,
+            "item" : "CHRY"
+          }, {
+            "count" : 5,
+            "item" : "KIA"
+          }, {
+            "count" : 4,
+            "item" : "INFI"
+          }, {
+            "count" : 3,
+            "item" : "HYUN"
+          }, {
+            "count" : 2,
+            "item" : "VOLV"
+          }, {
+            "count" : 1,
+            "item" : "AUDI"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095014,
+        "name" : "Body Style",
+        "dataTypeName" : "text",
+        "fieldName" : "body_style",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302707,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 7384552,
+          "smallest" : "|",
+          "null" : 12224,
+          "largest" : "ZX",
+          "top" : [ {
+            "count" : 20,
+            "item" : "PA"
+          }, {
+            "count" : 19,
+            "item" : "TR"
+          }, {
+            "count" : 18,
+            "item" : "SU"
+          }, {
+            "count" : 17,
+            "item" : "VN"
+          }, {
+            "count" : 16,
+            "item" : "MC"
+          }, {
+            "count" : 15,
+            "item" : "TL"
+          }, {
+            "count" : 14,
+            "item" : "CO"
+          }, {
+            "count" : 13,
+            "item" : "UT"
+          }, {
+            "count" : 12,
+            "item" : "MH"
+          }, {
+            "count" : 11,
+            "item" : "SW"
+          }, {
+            "count" : 10,
+            "item" : "RV"
+          }, {
+            "count" : 9,
+            "item" : "LI"
+          }, {
+            "count" : 8,
+            "item" : "JE"
+          }, {
+            "count" : 7,
+            "item" : "PU"
+          }, {
+            "count" : 6,
+            "item" : "SC"
+          }, {
+            "count" : 5,
+            "item" : "CA"
+          }, {
+            "count" : 4,
+            "item" : "BU"
+          }, {
+            "count" : 3,
+            "item" : "VA"
+          }, {
+            "count" : 2,
+            "item" : "OT"
+          }, {
+            "count" : 1,
+            "item" : "CM"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095015,
+        "name" : "Color",
+        "dataTypeName" : "text",
+        "fieldName" : "color",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302708,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 7392689,
+          "smallest" : "A",
+          "null" : 4087,
+          "largest" : "Z",
+          "top" : [ {
+            "count" : 20,
+            "item" : "BL"
+          }, {
+            "count" : 19,
+            "item" : "GY"
+          }, {
+            "count" : 18,
+            "item" : "BK"
+          }, {
+            "count" : 17,
+            "item" : "WH"
+          }, {
+            "count" : 16,
+            "item" : "GR"
+          }, {
+            "count" : 15,
+            "item" : "TA"
+          }, {
+            "count" : 14,
+            "item" : "SI"
+          }, {
+            "count" : 13,
+            "item" : "RE"
+          }, {
+            "count" : 12,
+            "item" : "GO"
+          }, {
+            "count" : 11,
+            "item" : "BU"
+          }, {
+            "count" : 10,
+            "item" : "CH"
+          }, {
+            "count" : 9,
+            "item" : "BR"
+          }, {
+            "count" : 8,
+            "item" : "MA"
+          }, {
+            "count" : 7,
+            "item" : "PU"
+          }, {
+            "count" : 6,
+            "item" : "BE"
+          }, {
+            "count" : 5,
+            "item" : "YE"
+          }, {
+            "count" : 4,
+            "item" : "OR"
+          }, {
+            "count" : 3,
+            "item" : "CR"
+          }, {
+            "count" : 2,
+            "item" : "RD"
+          }, {
+            "count" : 1,
+            "item" : "TU"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095016,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302709,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 7395544,
+          "smallest" : ",13600 STRATHERN ST",
+          "null" : 1232,
+          "largest" : "ZOPHYR CT/PACIFIC",
+          "top" : [ {
+            "count" : 20,
+            "item" : "800 TOWNE AVE S"
+          }, {
+            "count" : 19,
+            "item" : "800 KOHLER ST S"
+          }, {
+            "count" : 18,
+            "item" : "4642 RUSSELL AVE"
+          }, {
+            "count" : 17,
+            "item" : "3470 6TH ST W"
+          }, {
+            "count" : 16,
+            "item" : "40 WINDWARD AVE E"
+          }, {
+            "count" : 15,
+            "item" : "1608 PACIFIC AVE S"
+          }, {
+            "count" : 14,
+            "item" : "100 VENICE WAY"
+          }, {
+            "count" : 13,
+            "item" : "61 WINDWARD AVE E"
+          }, {
+            "count" : 12,
+            "item" : "5315 8TH ST W"
+          }, {
+            "count" : 11,
+            "item" : "700 GRAND AVE S"
+          }, {
+            "count" : 10,
+            "item" : "580 S MATEO ST"
+          }, {
+            "count" : 9,
+            "item" : "1308 E WILLOW ST"
+          }, {
+            "count" : 8,
+            "item" : "1450 20TH ST E"
+          }, {
+            "count" : 7,
+            "item" : "1318 21ST ST E"
+          }, {
+            "count" : 6,
+            "item" : "2800 WORKMAN ST N"
+          }, {
+            "count" : 5,
+            "item" : "1309 3RD ST E"
+          }, {
+            "count" : 4,
+            "item" : "150 NORTH POINSETTIA PLACE"
+          }, {
+            "count" : 3,
+            "item" : "346 NORTH SIERRA BONITA AVENUE"
+          }, {
+            "count" : 2,
+            "item" : "731 NORTH DETROIT STREET"
+          }, {
+            "count" : 1,
+            "item" : "1524 COURTNEY AVENUE"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095017,
+        "name" : "Route",
+        "dataTypeName" : "text",
+        "fieldName" : "route",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302710,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 7328422,
+          "smallest" : "00001",
+          "null" : 68354,
+          "largest" : "ZOM18",
+          "top" : [ {
+            "count" : 20,
+            "item" : "00111"
+          }, {
+            "count" : 19,
+            "item" : "00107"
+          }, {
+            "count" : 18,
+            "item" : "00402"
+          }, {
+            "count" : 17,
+            "item" : "00500"
+          }, {
+            "count" : 16,
+            "item" : "00600"
+          }, {
+            "count" : 15,
+            "item" : "00300"
+          }, {
+            "count" : 14,
+            "item" : "00403"
+          }, {
+            "count" : 13,
+            "item" : "00135"
+          }, {
+            "count" : 12,
+            "item" : "00601"
+          }, {
+            "count" : 11,
+            "item" : "00681"
+          }, {
+            "count" : 10,
+            "item" : "00108"
+          }, {
+            "count" : 9,
+            "item" : "00472"
+          }, {
+            "count" : 8,
+            "item" : "00401"
+          }, {
+            "count" : 7,
+            "item" : "00309"
+          }, {
+            "count" : 6,
+            "item" : "330R1"
+          }, {
+            "count" : 5,
+            "item" : "00611"
+          }, {
+            "count" : 4,
+            "item" : "00204"
+          }, {
+            "count" : 3,
+            "item" : "00112"
+          }, {
+            "count" : 2,
+            "item" : "00482"
+          }, {
+            "count" : 1,
+            "item" : "00474"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095018,
+        "name" : "Agency",
+        "dataTypeName" : "number",
+        "fieldName" : "agency",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302711,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 7395798,
+          "smallest" : "1",
+          "sum" : "386240132",
+          "null" : 978,
+          "average" : "52.22426734748569",
+          "largest" : "97",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1"
+          }, {
+            "count" : 19,
+            "item" : "40"
+          }, {
+            "count" : 18,
+            "item" : "3"
+          }, {
+            "count" : 17,
+            "item" : "34"
+          }, {
+            "count" : 16,
+            "item" : "77"
+          }, {
+            "count" : 15,
+            "item" : "4"
+          }, {
+            "count" : 14,
+            "item" : "53"
+          }, {
+            "count" : 13,
+            "item" : "56"
+          }, {
+            "count" : 12,
+            "item" : "54"
+          }, {
+            "count" : 11,
+            "item" : "55"
+          }, {
+            "count" : 10,
+            "item" : "97"
+          }, {
+            "count" : 9,
+            "item" : "58"
+          }, {
+            "count" : 8,
+            "item" : "57"
+          }, {
+            "count" : 7,
+            "item" : "51"
+          }, {
+            "count" : 6,
+            "item" : "62"
+          }, {
+            "count" : 5,
+            "item" : "2"
+          }, {
+            "count" : 4,
+            "item" : "11"
+          }, {
+            "count" : 3,
+            "item" : "61"
+          }, {
+            "count" : 2,
+            "item" : "5"
+          }, {
+            "count" : 1,
+            "item" : "59"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095019,
+        "name" : "Violation code",
+        "dataTypeName" : "text",
+        "fieldName" : "violation_code",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302712,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 7396776,
+          "smallest" : "000",
+          "null" : 0,
+          "largest" : "VC 5204A-",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8069BS"
+          }, {
+            "count" : 19,
+            "item" : "MC 80.69BS"
+          }, {
+            "count" : 18,
+            "item" : "MC 88.13B+"
+          }, {
+            "count" : 17,
+            "item" : "MC 80.56E4+"
+          }, {
+            "count" : 16,
+            "item" : "VC 5204A-"
+          }, {
+            "count" : 15,
+            "item" : "MC 80.69C"
+          }, {
+            "count" : 14,
+            "item" : "MC 80.69B"
+          }, {
+            "count" : 13,
+            "item" : "MC 8058L"
+          }, {
+            "count" : 12,
+            "item" : "88.13B+"
+          }, {
+            "count" : 11,
+            "item" : "80.56E4+"
+          }, {
+            "count" : 10,
+            "item" : "80.69C"
+          }, {
+            "count" : 9,
+            "item" : "80.69BS"
+          }, {
+            "count" : 8,
+            "item" : "5204A-"
+          }, {
+            "count" : 7,
+            "item" : "80.69B"
+          }, {
+            "count" : 6,
+            "item" : "8058L"
+          }, {
+            "count" : 5,
+            "item" : "80.56E1"
+          }, {
+            "count" : 4,
+            "item" : "5200"
+          }, {
+            "count" : 3,
+            "item" : "80.69A+"
+          }, {
+            "count" : 2,
+            "item" : "80.69AP+"
+          }, {
+            "count" : 1,
+            "item" : "22500F"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095020,
+        "name" : "Violation Description",
+        "dataTypeName" : "text",
+        "fieldName" : "violation_description",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28302713,
+        "width" : 352,
+        "cachedContents" : {
+          "non_null" : 7395738,
+          "smallest" : "11402",
+          "null" : 1038,
+          "largest" : "YELLOW ZONE",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NO EVIDENCE OF REG"
+          }, {
+            "count" : 19,
+            "item" : "RED ZONE"
+          }, {
+            "count" : 18,
+            "item" : "EXPIRED TAGS"
+          }, {
+            "count" : 17,
+            "item" : "NO STOP/STAND PM"
+          }, {
+            "count" : 16,
+            "item" : "NO PARKING"
+          }, {
+            "count" : 15,
+            "item" : "NO STOP/STAND AM"
+          }, {
+            "count" : 14,
+            "item" : "NO PARK/STREET CLEAN"
+          }, {
+            "count" : 13,
+            "item" : "METER EXPIRED"
+          }, {
+            "count" : 12,
+            "item" : "WHITE ZONE"
+          }, {
+            "count" : 11,
+            "item" : "PREF PARKING"
+          }, {
+            "count" : 10,
+            "item" : "YELLOW ZONE"
+          }, {
+            "count" : 9,
+            "item" : "METER EXP."
+          }, {
+            "count" : 8,
+            "item" : "DISPLAY OF TABS"
+          }, {
+            "count" : 7,
+            "item" : "STOP/STAND PROHIBIT"
+          }, {
+            "count" : 6,
+            "item" : "DISPLAY OF PLATES"
+          }, {
+            "count" : 5,
+            "item" : "PARKED OVER TIME LIMIT"
+          }, {
+            "count" : 4,
+            "item" : "PREFERENTIAL PARKING"
+          }, {
+            "count" : 3,
+            "item" : "BLOCKING DRIVEWAY"
+          }, {
+            "count" : 2,
+            "item" : "FIRE HYDRANT"
+          }, {
+            "count" : 1,
+            "item" : "PARKED ON SIDEWALK"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095021,
+        "name" : "Fine amount",
+        "dataTypeName" : "number",
+        "fieldName" : "fine_amount",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302714,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 7393114,
+          "smallest" : "3",
+          "sum" : "504591964",
+          "null" : 3662,
+          "average" : "68.25161413715520",
+          "largest" : "505",
+          "top" : [ {
+            "count" : 20,
+            "item" : "353"
+          }, {
+            "count" : 19,
+            "item" : "68"
+          }, {
+            "count" : 18,
+            "item" : "50"
+          }, {
+            "count" : 17,
+            "item" : "45"
+          }, {
+            "count" : 16,
+            "item" : "80"
+          }, {
+            "count" : 15,
+            "item" : "58"
+          }, {
+            "count" : 14,
+            "item" : "88"
+          }, {
+            "count" : 13,
+            "item" : "93"
+          }, {
+            "count" : 12,
+            "item" : "63"
+          }, {
+            "count" : 11,
+            "item" : "73"
+          }, {
+            "count" : 10,
+            "item" : "60"
+          }, {
+            "count" : 9,
+            "item" : "363"
+          }, {
+            "count" : 8,
+            "item" : "25"
+          }, {
+            "count" : 7,
+            "item" : "128"
+          }, {
+            "count" : 6,
+            "item" : "288"
+          }, {
+            "count" : 5,
+            "item" : "75"
+          }, {
+            "count" : 4,
+            "item" : "55"
+          }, {
+            "count" : 3,
+            "item" : "345"
+          }, {
+            "count" : 2,
+            "item" : "40"
+          }, {
+            "count" : 1,
+            "item" : "78"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 204095022,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302715,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 7396776,
+          "smallest" : "99999",
+          "sum" : "43236061658800.55866943",
+          "null" : 0,
+          "average" : "5845257.671558603",
+          "largest" : "4042322160",
+          "top" : [ {
+            "count" : 20,
+            "item" : "99999"
+          }, {
+            "count" : 19,
+            "item" : "6426272.923493"
+          }, {
+            "count" : 18,
+            "item" : "6485613.977877"
+          }, {
+            "count" : 17,
+            "item" : "6484004.050217"
+          }, {
+            "count" : 16,
+            "item" : "6482303.019898"
+          }, {
+            "count" : 15,
+            "item" : "6482955.174047"
+          }, {
+            "count" : 14,
+            "item" : "6484093.562885"
+          }, {
+            "count" : 13,
+            "item" : "6456828.205166"
+          }, {
+            "count" : 12,
+            "item" : "6473716.727772"
+          }, {
+            "count" : 11,
+            "item" : "6479672.763487"
+          }, {
+            "count" : 10,
+            "item" : "6471661.352054"
+          }, {
+            "count" : 9,
+            "item" : "6424718.536085"
+          }, {
+            "count" : 8,
+            "item" : "6418282.267925"
+          }, {
+            "count" : 7,
+            "item" : "6418525.821464"
+          }, {
+            "count" : 6,
+            "item" : "6418576.797082"
+          }, {
+            "count" : 5,
+            "item" : "6418361.518963"
+          }, {
+            "count" : 4,
+            "item" : "6418478.1769"
+          }, {
+            "count" : 3,
+            "item" : "6418563.054281"
+          }, {
+            "count" : 2,
+            "item" : "6418395.753898"
+          }, {
+            "count" : 1,
+            "item" : "6445814.443837"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 204095023,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28302716,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 7396776,
+          "smallest" : "99999",
+          "sum" : "12479907749581.69475239",
+          "null" : 0,
+          "average" : "1687209.096176725",
+          "largest" : "4042322160",
+          "top" : [ {
+            "count" : 20,
+            "item" : "99999"
+          }, {
+            "count" : 19,
+            "item" : "1845437.665825"
+          }, {
+            "count" : 18,
+            "item" : "1842580.430093"
+          }, {
+            "count" : 17,
+            "item" : "1835453.101926"
+          }, {
+            "count" : 16,
+            "item" : "1837608.624382"
+          }, {
+            "count" : 15,
+            "item" : "1837100.718171"
+          }, {
+            "count" : 14,
+            "item" : "1837884.957444"
+          }, {
+            "count" : 13,
+            "item" : "1847199.804645"
+          }, {
+            "count" : 12,
+            "item" : "1860540.449588"
+          }, {
+            "count" : 11,
+            "item" : "1864664.300231"
+          }, {
+            "count" : 10,
+            "item" : "1845655.430643"
+          }, {
+            "count" : 9,
+            "item" : "1808222.106232"
+          }, {
+            "count" : 8,
+            "item" : "1818074.79249"
+          }, {
+            "count" : 7,
+            "item" : "1818220.601088"
+          }, {
+            "count" : 6,
+            "item" : "1818157.091388"
+          }, {
+            "count" : 5,
+            "item" : "1818132.383345"
+          }, {
+            "count" : 4,
+            "item" : "1818975.29429"
+          }, {
+            "count" : 3,
+            "item" : "1818845.701966"
+          }, {
+            "count" : 2,
+            "item" : "1818157.261495"
+          }, {
+            "count" : 1,
+            "item" : "1803440.374299"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Committed Update Frequency" : {
+            "Refresh rate" : "Daily"
+          },
+          "Data Owner" : {
+            "Board of Public Works" : "",
+            "LAPD" : "",
+            "City Administrative Officer" : "",
+            "Personnel " : "",
+            "Bureau of Engineering" : "",
+            "City Attorney" : "",
+            "Employee Relations Board" : "",
+            "Transportation" : "",
+            "Housing and Community Investment" : "",
+            "Library" : "",
+            "Recreation and Parks " : "",
+            "Neighborhood Empowerment" : "",
+            "Controller's Office" : "",
+            "El Pueblo" : "",
+            "Other" : "",
+            "Bureau of Sanitation" : "",
+            "Disability, Department on" : "",
+            "LACERS" : "",
+            "Cultural Affairs" : "",
+            "Information Technology" : "",
+            "Fire and Police Pensions" : "",
+            "Emergency Management" : "",
+            "General Services" : "",
+            "Council District 12" : "",
+            "Council District 13" : "",
+            "Council District 14" : "",
+            "Project Restore" : "",
+            "Council District 15" : "",
+            "Council District 10" : "",
+            "Council District 11" : "",
+            "Aging" : "",
+            "Bureau of Street Lighting" : "",
+            "City Clerk" : "",
+            "Bureau of Contract Administration" : "",
+            "Planning" : "",
+            "Harbor " : "",
+            "LAWA" : "",
+            "Public Accountability, The Office of" : "",
+            "Office of Finance" : "",
+            "Council District 03" : "",
+            "Council District 04" : "",
+            "Council District 01" : "",
+            "Council District 02" : "",
+            "Bureau of Street Services" : "",
+            "Zoo" : "",
+            "Council District 09" : "",
+            "Council District 07" : "",
+            "Council District 08" : "",
+            "Council District 05" : "",
+            "Council District 06" : "",
+            "Economic and Workforce Development" : "",
+            "LAFD" : "",
+            "Animal Services" : "",
+            "Ethics Commission" : "",
+            "Mayor's Office" : "",
+            "Housing Authority" : "",
+            "Building and Safety" : "",
+            "LADWP" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "vb5u-hhhh",
+        "displayName" : "Peter Marx",
+        "roleName" : "publisher",
+        "screenName" : "Peter Marx",
+        "rights" : [ "create_datasets", "edit_others_datasets", "chown_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "vb5u-hhhh",
+        "displayName" : "Peter Marx",
+        "roleName" : "publisher",
+        "screenName" : "Peter Marx",
+        "rights" : [ "create_datasets", "edit_others_datasets", "chown_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "0570BC82-3F96-417D-BF73-D6245416AAC0", 1, 1431580739, "879598", 1431580739, "879598", "{\n}", "1000512892", "2012-08-01T00:00:00", "2235", null, null, "CA", "201304", null, "NISS", "PA", "BL", "17076 DEVONSHIRE ST", "17A81", "1", "225078A", "HANDICAP/NO DP ID", "353", "6409139.73927406", "1916488.96370272" ]
+, [ 2, "34EA5E37-0B5A-4B1D-81EA-3DF9369865BE", 2, 1431580739, "879598", 1431580739, "879598", "{\n}", "1001080356", "2012-08-25T00:00:00", "530", null, null, "CA", "201208", null, "CHEV", "PA", "GY", "1585 E 42ND ST", "01347", "1", "22500H#", "DOUBLE PARKING", "68", "6487209.6972269", "1824854.88083744" ]
+, [ 3, "60CB37D0-E167-40B3-AFBC-36EA524BE1C6", 3, 1431580739, "879598", 1431580739, "879598", "{\n}", "1002690150", "2012-08-03T00:00:00", "1245", null, null, "CA", "201109", null, "DODG", "PA", "BK", "2332 WELLINGTON RD", "3A99", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6459927.10447", "1835098.66741" ]
+, [ 4, "B6C9941E-D92F-4365-9FB4-83E2386D49D3", 4, 1431580739, "879598", 1431580739, "879598", "{\n}", "1005518183", "2012-08-12T00:00:00", "838", null, null, "CA", "201204", null, "MAZD", "PA", "WH", "19212 CHASE ST", "17A23", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6394907.51066326", "1904575.33248763" ]
+, [ 5, "644DDF11-394A-4E3D-83C6-73C1194B83C9", 5, 1431580739, "879598", 1431580739, "879598", "{\n}", "1006653244", "2012-07-26T00:00:00", "2235", null, null, "CA", "201211", null, "NISS", "PA", "WH", "950 W 76TH ST", "01257", "1", "22500E#", "BLOCKING DRIVEWAY", "45", "6473627.197047", "1811852.681886" ]
+, [ 6, "E6381C49-E7C4-4705-B56B-08AEA56CDA21", 6, 1431580739, "879598", 1431580739, "879598", "{\n}", "1007615103", "2012-07-25T00:00:00", "2230", null, null, "CA", "201212", null, "FORD", "TR", "WH", "2027 S SANTA FE", "13A85", "1", "8069A#", "NO STOPPING/STANDING", "80", "6496393.65286989", "1777810.90794115" ]
+, [ 7, "B31DC1D5-C35B-4911-9069-34321114520E", 7, 1431580739, "879598", 1431580739, "879598", "{\n}", "1014453871", "2012-07-31T00:00:00", "1645", null, null, "CA", "201206", null, "FORD", "PA", "GR", "WINSTON/LOS ANGELES", "23R82", "1", "8813B#", "METER EXPIRED", "58", "99999", "99999" ]
+, [ 8, "1FF8653C-E580-4A51-9C6D-F05337410A1A", 8, 1431580739, "879598", 1431580739, "879598", "{\n}", "1015683616", "2012-08-05T00:00:00", "1845", null, null, "CA", "201304", null, "JEEP", "PA", "GY", "40TH PL/BROADWAY PL", "13635", "1", "8056E4#", "RED ZONE", "88", "99999", "99999" ]
+, [ 9, "7D6DEC26-37B3-40FC-BF4B-8A90EB4282E5", 9, 1431580739, "879598", 1431580739, "879598", "{\n}", "1015683620", "2012-08-11T00:00:00", "1925", null, null, "CA", "201212", null, "ISUZ", "TR", "WH", "TOWNE-VERNON", "13A52", "1", "8056E4#", "RED ZONE", "93", "99999", "99999" ]
+, [ 10, "0F2AC263-DBB9-4765-AB7F-07C3DC6200DE", 10, 1431580739, "879598", 1431580739, "879598", "{\n}", "1015683631", "2012-08-12T00:00:00", "2000", null, null, "CA", "201302", null, "MERZ", "PA", "TA", "1533 E 48TH PL", "13635", "1", "22500F#", "PARKED ON SIDEWALK", "68", "6486799.22601", "1822238.67118" ]
+, [ 11, "C5351961-491D-4560-ADE8-546369911852", 11, 1431580739, "879598", 1431580739, "879598", "{\n}", "1015683642", "2012-08-12T00:00:00", "2000", null, null, "CA", "201303", null, "CHEV", "PA", "WH", "1533 E 48TH PL", "13635", "1", "22500F#", "PARKED ON SIDEWALK", "68", "6486799.22601", "1822238.67118" ]
+, [ 12, "024C01D4-3B4B-48C8-9DA5-8F20A24C00FE", 12, 1431580739, "879598", 1431580739, "879598", "{\n}", "1019719514", "2012-07-30T00:00:00", "1925", null, null, "CA", "201307", null, "JEEP", "SU", "SI", "18339 COLLINS ST", "01044", "1", "22500H#", "DOUBLE PARKING", "63", "6400671.528965", "1886462.601615" ]
+, [ 13, "4B2B40EA-FB1D-40AD-9AA4-7ED9551AE5F0", 13, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175274", "2012-07-30T00:00:00", "1340", null, null, "CA", "201210", null, "CHEV", "TR", "GY", "229 W 47TH PL", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6477773.834575", "1822877.163686" ]
+, [ 14, "45858C10-8FCA-4910-A2FF-EB2C3282413D", 14, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175285", "2012-07-30T00:00:00", "1350", null, null, "CA", "201302", null, "CADI", "PA", "WH", "349 E 53RD ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6480193.91984", "1820407.25919" ]
+, [ 15, "556D5126-50D3-4C77-8B13-31ED0B98321F", 15, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175296", "2012-07-30T00:00:00", "1355", null, null, "CA", "201208", null, "DODG", "TR", "RE", "126 E 55TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6478781.788754", "1819746.629985" ]
+, [ 16, "A89F5A25-E382-447D-84E5-71A4888EEB61", 16, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175300", "2012-07-30T00:00:00", "1355", null, null, "CA", "201212", null, "TOYO", "PA", "RE", "354 E 56TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6480246.012116", "1819421.455534" ]
+, [ 17, "E3EEB67F-D678-4E9A-BB62-807A975C1044", 17, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175311", "2012-07-30T00:00:00", null, null, null, "CA", "201305", null, "HOND", "PA", "GO", "427 E 56TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6480706.667373", "1819421.669396" ]
+, [ 18, "9880CFF9-CFD0-48C2-8B02-5184CF36466B", 18, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175322", "2012-07-30T00:00:00", "1400", null, null, "CA", "201211", null, "VOLK", "PA", "GO", "354 E 56TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6480246.012116", "1819421.455534" ]
+, [ 19, "3142A68C-CD4F-49B0-B606-7B80E3303741", 19, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175333", "2012-07-30T00:00:00", "1440", null, null, "CA", "201313", null, "CHEV", "TR", "WH", "1227 E 35TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6484813.787466", "1826839.607412" ]
+, [ 20, "A0D80B71-1C67-4972-9DF0-DF161ED1CF1A", 20, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175344", "2012-07-30T00:00:00", "1555", null, null, "CA", "201209", null, "GMC", "PA", "SI", "654 E 54TH ST", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6481642.14266957", "1820048.01077596" ]
+, [ 21, "6D5F693E-6C28-41EF-A87F-9BB972C3DBA7", 21, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175355", "2012-07-30T00:00:00", "1655", null, null, "CA", "201209", null, "CHEV", "PA", "BK", "WALL ST S/O VERNON", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "99999", "99999" ]
+, [ 22, "733F1509-9BF5-4602-AA30-02EF596C81C2", 22, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175366", "2012-07-30T00:00:00", "1615", null, null, "CA", "201203", null, "FORD", "PA", "SI", "172 E 41ST PL", "13A9", "1", "22500H#", "DOUBLE PARKING", "63", "6479219.03261235", "1825470.47038314" ]
+, [ 23, "1E3D0F0A-B471-41FE-AF19-2FF506297040", 23, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175370", "2012-08-03T00:00:00", "226", null, null, "CA", "201303", null, "ACUR", "PA", "RE", "351 E 56TH", "A43", "1", "22500H#", "DOUBLE PARKING", "63", "6480212.200805", "1819421.439925" ]
+, [ 24, "A80607F9-3D35-4264-8C63-99FE15D9AF74", 24, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175381", "2012-08-13T00:00:00", "945", null, null, "CA", null, null, "TOYO", null, "TA", "435 E 43RD ST", "A63", "1", "22500H#", "DOUBLE PARKING", "68", "6480460.914137", "1824562.290401" ]
+, [ 25, "E91B4CC2-5F7D-4738-8714-C6DD0B801642", 25, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175392", "2012-08-13T00:00:00", "1144", null, null, "CA", "201208", null, "HOND", "PA", "BU", "55TH PL W/O MAIN", "A93", "1", "22500H#", "DOUBLE PARKING", "68", "99999", "99999" ]
+, [ 26, "72B83F0A-A581-4877-8840-90CF85925F14", 26, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175403", "2012-08-16T00:00:00", "1325", null, null, "CA", "201303", null, "NISS", "PA", "WH", "40 PL E/O CENTRAL", null, "1", "8069BS#", "NO PARK STRT CLEAN", "73", "99999", "99999" ]
+, [ 27, "5F162737-6415-4D03-A084-FD35D8F25F8E", 27, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175414", "2012-08-16T00:00:00", "1333", null, null, "CA", "201301", null, "NISS", "PA", "GY", "1151 E 52ND ST", null, "1", "8069BS#", "NO PARK STRT CLEAN", "45", "6484264.457428", "1821012.443425" ]
+, [ 28, "FE967A3E-84E7-4D55-99CE-DA68F66E9CD1", 28, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175425", "2012-08-20T00:00:00", "830", null, null, "CA", "201212", null, "GMC", "VN", "WH", "51ST ST W/O COMPTON", "A75", "1", "8056E4#", "RED ZONE", "93", "99999", "99999" ]
+, [ 29, "29A5A0A9-9DA3-4FCB-BB37-C2C28639AB28", 29, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175436", "2012-08-20T00:00:00", "1235", null, null, "CA", "201307", null, "CRYS", "PA", "BK", "805 E VERNON ALLEY", "A43", "1", "8061#", "STANDING IN ALLEY", "68", "6482371.576102", "1823907.479289" ]
+, [ 30, "9CEDD5A1-FA5B-4891-9832-0B7340D9BD25", 30, 1431580739, "879598", 1431580739, "879598", "{\n}", "1030175926", "2012-07-19T00:00:00", "2035", null, null, "CA", "201208", null, "CHRY", "PA", "CH", "539 E FLORENCE", null, "1", "022", "225078", "60", "6581147.69196568", "1841024.7718856" ]
+, [ 31, "57A9AB58-ED44-4323-B313-E19E756D1270", 31, 1431580739, "879598", 1431580739, "879598", "{\n}", "1036491142", "2012-07-19T00:00:00", "745", null, null, "CA", "200808", null, "NISS", "PA", "SI", "WESTERN AVE-96TH ST", "12A49", "1", "4000A1", "NO EVIDENCE OF REG", "50", "99999", "99999" ]
+, [ 32, "F5FB34D1-18A9-47C9-8795-451B4710D5F0", 32, 1431580739, "879598", 1431580739, "879598", "{\n}", "1036661220", "2012-07-29T00:00:00", "1240", null, null, "CA", "201210", null, "HOND", "PA", "BK", "E/W ALLEY 56TH/HOOPE", "A75", "1", "8061", "STNDNG IN ALLEY", "63", "99999", "99999" ]
+, [ 33, "D04E68A6-FA33-4C70-B81D-974B27B47347", 33, 1431580739, "879598", 1431580739, "879598", "{\n}", "1036774340", "2012-07-20T00:00:00", "50", null, null, "CA", "201209", null, "MITS", "PA", "WH", "219 N LACHMONT", "07X47", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 34, "B3DBB773-D3C3-43BC-8984-C1B7E5B3BADC", 34, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037759855", "2012-08-05T00:00:00", "1610", null, null, "CA", "200713", null, "SATU", "PA", "GY", "400 N FIRMIN ALLEY", "RAMP", "1", "8061", "STNDNG IN ALLEY", "63", "6484756.5597054", "1846007.58213885" ]
+, [ 35, "24E6E7D8-56A5-4805-B915-31E15C62E1A4", 35, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037759866", "2012-08-13T00:00:00", "1615", null, null, "CA", "201211", null, "FORD", "PA", "RE", "N/O OLYMPIC E/O LAKE", "2F3", "1", "8061", "STNDNG IN ALLEY", "68", "99999", "99999" ]
+, [ 36, "B9A666E2-392F-4954-8A8F-BB1D96F24F2F", 36, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037759870", "2012-08-17T00:00:00", "1455", null, null, "CA", "201303", null, "LINC", "SU", "GY", "S/E/L MOHAWK ELSINOR", "2F3", "1", "8056E4", "RED ZONE", "93", "99999", "99999" ]
+, [ 37, "D5B69468-5D95-4A9E-9EDC-35347F959CFF", 37, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037765643", "2012-08-03T00:00:00", "1720", null, null, "CA", null, null, "TOYO", "TR", "BL", "TEMPLE/CORONADO", "2V2", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 38, "73808E38-215A-4BE6-9905-1E02DCF64D31", 38, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037765654", "2012-08-10T00:00:00", "1750", null, null, "CA", "201304", null, "FORD", "TR", "BK", "WITMER ST S/O MIRIMA", "2V1", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 39, "B5363886-FB2A-466D-980C-27CCA4EBE24C", 39, 1431580739, "879598", 1431580739, "879598", "{\n}", "1037840344", "2012-08-14T00:00:00", "2300", null, null, "CA", "201308", null, "ACUR", "PA", "BK", "LANKERSHIM/PENDLETO", "16Z57", "1", "225078A", "HANDICAP/NO DP ID", "363", "99999", "99999" ]
+, [ 40, "A4B4870F-FA55-4D64-B9C6-4E6840A0FAD3", 40, 1431580739, "879598", 1431580739, "879598", "{\n}", "1038255750", "2012-08-16T00:00:00", "1130", null, null, "CA", "201205", null, "HOND", "PA", "BK", "2155 E 14TH ST A/S", "13W13", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6490519.699677", "1831169.31298" ]
+, [ 41, "0E117A5A-71BB-4A8C-B525-01E59A06B97E", 41, 1431580739, "879598", 1431580739, "879598", "{\n}", "1038423466", "2012-07-26T00:00:00", "150", null, null, "CA", "201305", null, "BONN", "MC", "BK", "159 S LA BREA AVE", "7SL21", "1", "8056E4", "RED ZONE", "88", "6454520.481629", "1808838.764241" ]
+, [ 42, "757CA75A-D2EA-41F4-A218-39EB0BCADEB1", 42, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040522151", "2012-08-18T00:00:00", "1510", null, null, "CA", "201212", null, "CHEV", "PA", "GO", "13117 VAN NUYS BL", null, "1", "024", "22514", "68", "6435201.906434", "1920412.899195" ]
+, [ 43, "12E1ED2B-467A-40AA-AD30-A059566F6A1F", 43, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040547001", "2012-07-26T00:00:00", "1107", null, null, "CA", "201110", null, "MAZD", "VN", "GR", "19349 WELBY WAY", null, "40", "80713", "PARKING/FRONT YARD 1", "63", "6393722.71567", "1893065.72282" ]
+, [ 44, "77038439-7D5D-4124-9A4F-437DBC9D3EB2", 44, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040547012", "2012-07-26T00:00:00", "1107", null, null, "CA", "201305", null, "CHEV", "VN", "BR", "19349 WELBY WAY", null, "40", "80713", "PARKING/FRONT YARD 1", "63", "6393722.71567", "1893065.72282" ]
+, [ 45, "DEC947AD-8273-4212-9406-688DF85D708A", 45, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040547023", "2012-07-26T00:00:00", "1100", null, null, "CA", "200904", null, "SAAB", "PA", "GR", "19349 WELBY WAY", null, "40", "80713", "PARKING/FRONT YARD 1", "63", "6393722.71567", "1893065.72282" ]
+, [ 46, "D8A2FB65-CB71-4A85-9353-8B79C486F6FA", 46, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040659034", "2012-07-31T00:00:00", "925", null, null, "CA", "201302", null, "NISS", "PA", "WH", "3509 GLEASON AVE", "4A59", "1", "5200A", "DSPLYPLATE A", "25", "6503048.70137", "1835302.902806" ]
+, [ 47, "FF0A189A-7A14-452D-9DFB-F7643BE83C21", 47, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040659045", "2012-07-31T00:00:00", "927", null, null, "CA", "201304", null, "FORD", "PA", "WH", "3411 GLEASON AVE", "4A59", "1", "5200A", "DSPLYPLATE A", "25", "6502479.126902", "1835610.065928" ]
+, [ 48, "85371C12-BC10-4935-98C2-383471D7C982", 48, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040673605", "2012-07-25T00:00:00", "1430", null, null, "CA", "201012", null, "INTR", "TR", "WH", "13124 COMMUNITY ST", "19N85", "1", "80692**", "COMVEH RES/OV TM C-3", "128", "6435162.708862", "1903925.08818" ]
+, [ 49, "7CDC8136-B7E8-479D-AB63-7ABA85173725", 49, 1431580739, "879598", 1431580739, "879598", "{\n}", "1040673616", "2012-07-25T00:00:00", "1430", null, null, "CA", "201012", null, "INTL", "TR", "WH", "13124 COMMUNITY ST", "19N85", "1", "018", "22502A", "58", "6435162.708862", "1903925.08818" ]
+, [ 50, "6CC3D9E2-43CD-4C4A-AD35-A2C839E4F056", 50, 1431580739, "879598", 1431580739, "879598", "{\n}", "1042901392", "2012-07-29T00:00:00", "1045", null, null, "CA", "201206", null, "NISS", "PA", "GY", "1775 SYCAMORE", "6Z2", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6457734.12712", "1860214.39052" ]
+, [ 51, "712A8F5F-642A-40D6-BEEB-46FC07BE31A1", 51, 1431580739, "879598", 1431580739, "879598", "{\n}", "1042901403", "2012-07-30T00:00:00", "1210", null, null, "CA", "201204", null, "VOLK", "PA", "GY", "1415 GARDENER", "00622", "1", "4000A1", "NO EVIDENCE OF REG", "25", "6472648.62420174", "1879934.61100726" ]
+, [ 52, "07172A01-45FD-45C6-A6F3-CCA3FDE63BD2", 52, 1431580739, "879598", 1431580739, "879598", "{\n}", "1044606496", "2012-08-16T00:00:00", "1925", null, null, "CA", "201206", null, "FORD", "SU", "BL", "17825 SATICOY ST", "22P12", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6403932.75386", "1898635.45542" ]
+, [ 53, "92A4E6BC-FD82-44E3-B956-D71364EAA563", 53, 1431580739, "879598", 1431580739, "879598", "{\n}", "1044606500", "2012-08-24T00:00:00", "1045", null, null, "CA", "200806", null, "LEXU", "PA", "BU", "GILMORE/TYRONE", "22P12", "1", "4000A1", "NO EVIDENCE OF REG", "50", "99999", "99999" ]
+, [ 54, "DF6E87CB-2AA9-440F-AE13-B59253A05460", 54, 1431580739, "879598", 1431580739, "879598", "{\n}", "1045220606", "2012-07-28T00:00:00", "430", null, null, "CA", "201301", null, "DODG", "VN", "BK", "417 N BIXEL ST", "2A69", "1", "006", "22500A", "63", "6484587.87293", "1846100.66572" ]
+, [ 55, "16201527-009E-47D3-B8D3-F0929C06E291", 55, 1431580739, "879598", 1431580739, "879598", "{\n}", "1045741830", "2012-08-22T00:00:00", "1950", null, null, "CA", "201303", null, "TOYO", "PA", "GO", "SAN JULIAN N/O 7TH", "1FB31", "1", "8069A", "NO STOPPING/STANDING", "93", "99999", "99999" ]
+, [ 56, "AAA78D95-E28B-45C0-AEA1-C4D25F35B8E2", 56, 1431580739, "879598", 1431580739, "879598", "{\n}", "1047509411", "2012-07-19T00:00:00", "2045", null, null, "CA", "201211", null, "TOYO", "PA", "SI", "REGAN ST/DWP STATION", "KING2", "3", "006", "22500A", "63", "99999", "99999" ]
+, [ 57, "F174535F-A5D7-4898-9948-09195BB8D93E", 57, 1431580739, "879598", 1431580739, "879598", "{\n}", "1048879915", "2012-08-05T00:00:00", "2100", null, null, "CA", "201306", null, "TOYO", "TR", "BK", "43RD ST/HOOVER", "3A99", "1", "8069A", "NO STOPPING/STANDING", "88", "6485255.60298", "1824570.14627" ]
+, [ 58, "89385D4D-15AC-4BC2-AA78-8D113BE99A11", 58, 1431580739, "879598", 1431580739, "879598", "{\n}", "1050684541", "2012-08-03T00:00:00", "1745", null, null, "CA", "201211", null, "INFI", "SU", "GY", "5323 BROADWAY", "13X28", "1", "225078A", "HANDICAP/NO DP ID", "353", "6522370.222146", "1735831.554773" ]
+, [ 59, "6A9E31BD-686D-41DE-815A-DC271663451D", 59, 1431580739, "879598", 1431580739, "879598", "{\n}", "1050889766", "2012-08-09T00:00:00", "255", null, null, "CA", "200401", null, "FORD", "PA", "WH", "12993 GLENOAKS BL", "01915", "1", "4000A1", "NO EVIDENCE OF REG", "50", "6426293.53334372", "1934228.53149447" ]
+, [ 60, "66DFC90C-EB4C-4165-B769-F0740ABAC0F2", 60, 1431580739, "879598", 1431580739, "879598", "{\n}", "1051339995", "2012-08-05T00:00:00", "1027", null, null, "CA", "201106", null, "BENZ", "PA", "WH", "6100 WOODLEY AVE/VAN", null, "34", "5204A", "EXPIRED TAGS", "25", "6415390.24778825", "1888738.19682135" ]
+, [ 61, "5C37CDC8-CF24-474E-9714-34D14BBF7475", 61, 1431580739, "879598", 1431580739, "879598", "{\n}", "1051340006", "2012-08-05T00:00:00", "1035", null, null, "CA", null, null, "AUDI", "SU", "BK", "6100 WOODLEY AVE/VAN", null, "34", "5204A", "EXPIRED TAGS", "25", "6415390.24778825", "1888738.19682135" ]
+, [ 62, "6667883D-3576-4825-9DC1-66122DFE08B3", 62, 1431580739, "879598", 1431580739, "879598", "{\n}", "1051340010", "2012-08-05T00:00:00", "1037", null, null, "CA", null, null, "BENZ", "SU", "MA", "6100 WOODLEY AVE/VAN", null, "34", "5204A", "EXPIRED TAGS", "25", "6415390.24778825", "1888738.19682135" ]
+, [ 63, "F5B8D3A2-CB37-45BD-A1E5-E08C93F953FD", 63, 1431580739, "879598", 1431580739, "879598", "{\n}", "1051408934", "2012-08-09T00:00:00", "1345", null, null, "CA", null, null, "TOYO", "TR", "SI", "200 WORLD WAY", "14FBL", "1", "8069AP", "NO STOP/STAND PM", "88", "6438529.38787", "1802555.692156" ]
+, [ 64, "06997AEC-6CA8-4D33-800B-B53D64395752", 64, 1431580739, "879598", 1431580739, "879598", "{\n}", "1051408945", "2012-08-13T00:00:00", "2305", null, null, "CA", "201211", null, "NISS", "SU", "BK", "300 WORLD WY", "ZL92", "1", "8069B", "NO PARKING", "73", "99999", "99999" ]
+, [ 65, "99393711-97B1-4294-8076-0E00A36ECBC1", 65, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055630516", "2012-07-26T00:00:00", "1100", null, null, "CA", "201212", null, "FRHT", "TL", "GR", "KOHLER S/O 8TH", "MQ36", "1", "013", "22500H", "63", "99999", "99999" ]
+, [ 66, "758F1B4C-51BB-438A-B7CC-0F6E2E6FED1F", 66, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055630520", "2012-07-26T00:00:00", "1120", null, null, "CA", null, null, "ISUZ", null, "WH", "7TH/KOHLER", "MQ36", "1", "013", "22500H", "63", "99999", "99999" ]
+, [ 67, "FBE5A213-64EB-42AA-994B-0769BCF0CD1E", 67, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055630531", "2012-07-31T00:00:00", "1200", null, null, "CA", "201302", null, "FORD", "VN", "WH", "934 11TH ST", "MQ36", "1", "013", "22500H", "63", "6440374.558111", "1781346.728604" ]
+, [ 68, "02FC00F2-BB7C-40C7-AEB7-7B034DF5A561", 68, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055630542", "2012-08-02T00:00:00", "1200", null, null, "OR", "201212", null, "FREI", "TL", "WH", "749 KOHLER", "MQ36", "1", "013", "22500H", "63", "6487861.317115", "1835684.251851" ]
+, [ 69, "4FBE2184-8B7E-487A-B10E-9363191DF318", 69, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792010", "2012-07-25T00:00:00", "1335", null, null, "CA", "201307", null, "HYUN", "PA", "RE", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 70, "04B792A5-87B1-4EF1-AF74-65C8DC8C0429", 70, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792032", "2012-07-25T00:00:00", "1345", null, null, "CA", "201210", null, "CHEV", "SU", "BL", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 71, "7957E0D4-9ADB-4898-8CCC-69434CE4946C", 71, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792043", "2012-07-26T00:00:00", "710", null, null, "CA", "201305", null, "MBNZ", "PA", "BK", "154 W 21ST ST", "SL013", "1", "8069B", "NO PARKING", "68", "6503000.105181", "1747946.386497" ]
+, [ 72, "2D6DB8E7-089B-43E5-836D-6B1C240EBB5B", 72, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792054", "2012-07-26T00:00:00", "710", null, null, "CA", "201301", null, "LEXU", "PA", "GY", "154 W 21ST ST", "SL013", "1", "8069B", "NO PARKING", "68", "6503000.105181", "1747946.386497" ]
+, [ 73, "14B3AADF-7F63-464A-BDE0-4DC0237711B5", 73, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792065", "2012-07-26T00:00:00", "800", null, null, "CA", "201210", null, "FORD", "SU", "GY", "154 W 21ST ST", "SL013", "1", "8069B", "NO PARKING", "68", "6503000.105181", "1747946.386497" ]
+, [ 74, "E43D23DA-D325-4363-8F61-60F1B05DD180", 74, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792076", "2012-07-26T00:00:00", "800", null, null, "CA", "201208", null, "TOYO", "PA", "GY", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 75, "52E485BB-A1CF-4314-AC45-764E98282F33", 75, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792080", "2012-07-26T00:00:00", "805", null, null, "CA", "201210", null, "CHEV", "SU", "GR", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 76, "51C8062A-BFC9-42BD-B7AD-26677D1F0C55", 76, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792091", "2012-07-26T00:00:00", "840", null, null, "CA", "201306", null, "MAZD", "CO", "GY", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "50", "6480757.844909", "1833963.205392" ]
+, [ 77, "74BD8256-1845-4614-BD04-0DEA73A34387", 77, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792102", "2012-07-26T00:00:00", "915", null, null, "CA", "201302", null, "NISS", "SU", "WH", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 78, "09F11BE2-C7F3-4848-979E-A6AF928E272C", 78, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792113", "2012-07-26T00:00:00", "920", null, null, "CA", "201212", null, "LAND", "SU", "BK", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 79, "58CA2C33-1DAA-449F-B80F-9768BADFBD78", 79, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792124", "2012-07-26T00:00:00", "920", null, null, "CA", "201210", null, "CHEV", "TR", "BL", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 80, "9CAC65ED-2290-41B9-A841-F27DDE8655CF", 80, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792135", "2012-07-26T00:00:00", "920", null, null, "CA", "201210", null, "VOLK", "PA", "WH", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 81, "DE043991-C75D-464F-8002-5C5C196CCB00", 81, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792146", "2012-07-26T00:00:00", "925", null, null, "CA", "201207", null, "HOND", "PA", "GR", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 82, "A4E42955-A024-43F5-9B1A-A618991D302D", 82, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792150", "2012-07-26T00:00:00", "955", null, null, "CA", "201101", null, "BMW", "PA", "GY", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 83, "77029F37-66B5-43A8-A9C0-57209601F3E0", 83, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055792161", "2012-07-26T00:00:00", "1010", null, null, "CA", "201306", null, "HOND", "PA", "TA", "1945 S HILL ST", "SL013", "1", "8069B", "NO PARKING", "68", "6480757.844909", "1833963.205392" ]
+, [ 84, "26DE5EB6-B2B5-45FB-BD38-4D4861A26EB8", 84, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055803442", "2012-07-23T00:00:00", "2320", null, null, "CA", "201301", null, "OLDS", "PA", "GY", "4432 METTLER ST", "13A43", "1", "013", "22500H", "63", "6480902.295918", "1823630.999999" ]
+, [ 85, "D1F6A710-5B32-443B-91FC-34D6759CA616", 85, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055803453", "2012-08-04T00:00:00", "2250", null, null, "CA", "201212", null, "FORD", "TR", "GY", "S/W SAN PEDRO/57TH", "13A43", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 86, "C99602A9-B366-442B-994C-A2BC3CCBBEF4", 86, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055948563", "2012-07-28T00:00:00", "2145", null, null, "CA", "201306", null, "GMC", "PA", "BU", "S/W/C 43RD PL/WADSWO", "13A93", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 87, "FD7D654E-6D00-435F-96C7-336D828CBD70", 87, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055948585", "2012-07-29T00:00:00", "120", null, null, "CA", "201305", null, "ACUR", "PA", "TA", "7101 S BROADWAY", "13A93", "1", "8056E4", "RED ZONE", "88", "6477288.99775", "1813620.537811" ]
+, [ 88, "C8520321-5412-4722-A539-1265FF406865", 88, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055948596", "2012-08-15T00:00:00", "300", null, null, "CA", "201212", null, "PONT", "PA", "RE", "42ND PL E/O BROADWAY", "BA75", "1", "8056E4", "RED ZONE", "93", "99999", "99999" ]
+, [ 89, "F7722745-21EB-42C9-AD15-3E148E668D5C", 89, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055948600", "2012-08-16T00:00:00", null, null, null, "CA", "201206", null, "VOLV", "PA", "GR", "60TH ST/MAIN ST", "13A93", "1", "8056E4", "RED ZONE", "93", "99999", "99999" ]
+, [ 90, "D3121881-B037-4923-A11B-EFC1EABE99CE", 90, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055955342", "2012-07-28T00:00:00", "255", null, null, "CA", "201303", null, "LINC", "PA", "BK", "1024 W FLORENCE AVE", "12A53", "1", "011", "22500F", "63", "6473239.73425583", "1813277.73611697" ]
+, [ 91, "CBF70BD0-89CF-4043-9EA8-4A23EAAB3FD7", 91, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055955353", "2012-07-28T00:00:00", null, null, null, "CA", "201212", null, "LINC", "PA", "WH", "1024 W FLORENCE AVE", "12A53", "1", "011", "22500F", "63", "6473239.73425583", "1813277.73611697" ]
+, [ 92, "268EF06D-A987-4122-8F71-EDF9845426C7", 92, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055955364", "2012-07-28T00:00:00", "1455", null, null, "CA", "201208", null, "CHEV", "PA", "TA", "1024 W FLORENCE", "12A53", "1", "011", "22500F", "45", "6472928.307689", "1813277.048074" ]
+, [ 93, "C028E04F-0F64-4F7E-B82F-469712431DCF", 93, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055971184", "2012-07-29T00:00:00", "115", null, null, "CA", "201306", null, "NISS", "PA", "RE", "1552 E 49TH ST", "13A75", "1", "011", "22500F", "63", "6486939.125464", "1821901.710107" ]
+, [ 94, "1529E2A3-9A30-447E-9383-B1E6D40E0F4E", 94, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055971195", "2012-07-31T00:00:00", "140", null, null, "CA", "201308", null, "VOLK", "PA", "WH", "224 W 71ST ST", "13A93", "1", "013", "22500H", "63", "6477785.323122", "1813622.814971" ]
+, [ 95, "E62BD551-485C-4D90-954C-4BB1D90867DA", 95, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978545", "2012-07-29T00:00:00", "1623", null, null, "CA", "201212", null, "TOYO", "PA", "BU", "1048 42ND PL", "13A43", "1", "013", "22500H", "63", "6483673.708234", "1824906.545903" ]
+, [ 96, "D9A55FC7-DE06-4B87-8887-1C7E2CA5F0CA", 96, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978556", "2012-07-29T00:00:00", "1630", null, null, "CA", "201302", null, "TOYO", "PA", null, "1010 42ND PL", "13A43", "1", "013", "22500H", "63", "6483480.446526", "1824906.369784" ]
+, [ 97, "FBCC6AAA-6CC0-4404-B5B5-76AC9B42D93B", 97, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978571", "2012-07-29T00:00:00", "1630", null, null, "CA", "201307", null, "MERZ", "PA", "GO", "WADWORTH/42ND PL", "13A43", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 98, "73367BC4-E8D3-4603-98B5-F7D600F46375", 98, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978582", "2012-07-29T00:00:00", "1635", null, null, "CA", "201209", null, "BUIC", "PA", "SI", "42ND PL/WADSWORTH", "13A43", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 99, "E823526D-201C-40BC-80F8-26F862E88749", 99, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978593", "2012-07-29T00:00:00", "1635", null, null, "CA", "201301", null, "DODG", "PA", "BK", "42ND PL/WADSWORTH AV", "13A43", "1", "225078A", "HANDICAP/NO DP ID", "353", "6483246.43012", "1824905.69274" ]
+, [ 100, "58C01B20-4EB2-4727-A3DE-652DA194A9E2", 100, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978604", "2012-07-29T00:00:00", "1635", null, null, "CA", "201303", null, "CHEV", "PA", "WH", "42ND PL/WADSWORTH", "13A75", "1", "8056E4", "RED ZONE", "88", "99999", "99999" ]
+, [ 101, "5D463C04-6F27-4599-A25E-7AF777CA98FD", 101, 1431580739, "879598", 1431580739, "879598", "{\n}", "1055978615", "2012-07-29T00:00:00", "1640", null, null, "CA", "201001", null, "FORD", "PA", "SI", "42ND PL W/O WADSWORT", "13A43", "1", "8056E4", "RED ZONE", "70", "99999", "99999" ]
+, [ 102, "6E84EAFD-CFF7-4357-A437-6F9B0EE0C545", 102, 1431580739, "879598", 1431580739, "879598", "{\n}", "1056392525", "2012-08-21T00:00:00", "245", null, null, "CA", "201208", null, "HOND", "PA", "BU", "BORDEN/CARL", "16A23", "1", "5204A", "EXPIRED TAGS", "25", "99999", "99999" ]
+, [ 103, "909AAE90-94F5-4CA3-96E3-F5B07D23E97A", 103, 1431580739, "879598", 1431580739, "879598", "{\n}", "1056400925", "2012-08-13T00:00:00", "55", null, null, "CA", "201305", null, "TOYO", "PA", "GY", "7817 VENTURA CYN BL", "01999", "1", "8056E4", "RED ZONE", "93", "6432058.96444799", "1899956.77725169" ]
+, [ 104, "F7845A37-C17E-425B-B7A2-ED9B662D0B9A", 104, 1431580739, "879598", 1431580739, "879598", "{\n}", "1057088491", "2012-07-28T00:00:00", "2232", null, null, "CA", "201305", null, "VOLV", "SU", "BK", "400 S HOPE SWC", "1L20", "1", "014", "22500I", "288", "99999", "99999" ]
+, [ 105, "6915B40B-2FCC-41E5-B7EC-AF

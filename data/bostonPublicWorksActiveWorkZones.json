@@ -1,0 +1,2084 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "4xn9-dedu",
+      "name" : "Public Works Active Work Zones",
+      "attribution" : "Public Works Department",
+      "averageRating" : 0,
+      "category" : "Permitting",
+      "createdAt" : 1415223346,
+      "displayType" : "table",
+      "downloadCount" : 5858,
+      "indexUpdatedAt" : 1445195451,
+      "licenseId" : "CC0_10",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 10622355,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1426533308,
+      "publicationGroup" : 1859517,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1445195004,
+      "rowsUpdatedBy" : "2pz3-cb5i",
+      "state" : "normal",
+      "tableId" : 2493475,
+      "totalTimesRated" : 0,
+      "viewCount" : 1619,
+      "viewLastModified" : 1426533939,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 195066620,
+        "name" : "Neighborhood",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730773,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "ALLSTON/BRIGHTON",
+          "null" : 0,
+          "largest" : "W ROXBURY/ROSLINDALE",
+          "top" : [ {
+            "count" : 20,
+            "item" : "ROXBURY"
+          }, {
+            "count" : 19,
+            "item" : "MISSION HILL/FENWAY"
+          }, {
+            "count" : 18,
+            "item" : "EAST BOSTON"
+          }, {
+            "count" : 17,
+            "item" : "HYDE PARK"
+          }, {
+            "count" : 16,
+            "item" : "SOUTH DORCHESTER/MATTAPAN"
+          }, {
+            "count" : 15,
+            "item" : "W ROXBURY/ROSLINDALE"
+          }, {
+            "count" : 14,
+            "item" : "SOUTH BOSTON"
+          }, {
+            "count" : 13,
+            "item" : "ALLSTON/BRIGHTON"
+          }, {
+            "count" : 12,
+            "item" : "NORTH DORCHESTER"
+          }, {
+            "count" : 11,
+            "item" : "JAMAICA PLAIN"
+          }, {
+            "count" : 10,
+            "item" : "BOSTON PROPER"
+          }, {
+            "count" : 9,
+            "item" : "SOUTH END/BACK BAY"
+          }, {
+            "count" : 8,
+            "item" : "NORTH END/BEACON HILL"
+          }, {
+            "count" : 7,
+            "item" : "CHARLESTOWN"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066621,
+        "name" : "Street",
+        "dataTypeName" : "text",
+        "fieldName" : "street",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730774,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "ALBANY ST",
+          "null" : 0,
+          "largest" : "WOODWARD ST",
+          "top" : [ {
+            "count" : 20,
+            "item" : "WASHINGTON ST"
+          }, {
+            "count" : 19,
+            "item" : "BOWDOIN ST"
+          }, {
+            "count" : 18,
+            "item" : "SAINT ROSE ST"
+          }, {
+            "count" : 17,
+            "item" : "ALBANY ST"
+          }, {
+            "count" : 16,
+            "item" : "KNEELAND ST"
+          }, {
+            "count" : 15,
+            "item" : "WEST ST"
+          }, {
+            "count" : 14,
+            "item" : "COMMONWEALTH AV"
+          }, {
+            "count" : 13,
+            "item" : "FAIRFIELD ST"
+          }, {
+            "count" : 12,
+            "item" : "HARRISON AV"
+          }, {
+            "count" : 11,
+            "item" : "NEWBURY ST"
+          }, {
+            "count" : 10,
+            "item" : "TREMONT ST"
+          }, {
+            "count" : 9,
+            "item" : "ANDERSON ST"
+          }, {
+            "count" : 8,
+            "item" : "BEACON ST"
+          }, {
+            "count" : 7,
+            "item" : "CAUSEWAY ST"
+          }, {
+            "count" : 6,
+            "item" : "CHARLES ST"
+          }, {
+            "count" : 5,
+            "item" : "JOY ST"
+          }, {
+            "count" : 4,
+            "item" : "LIME ST"
+          }, {
+            "count" : 3,
+            "item" : "LOMASNEY WAY"
+          }, {
+            "count" : 2,
+            "item" : "MT VERNON ST"
+          }, {
+            "count" : 1,
+            "item" : "MYRTLE ST"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066622,
+        "name" : "Address1",
+        "dataTypeName" : "number",
+        "fieldName" : "address1",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730775,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 273,
+          "smallest" : "0",
+          "sum" : "80981",
+          "null" : 20,
+          "average" : "296.6336996336996",
+          "largest" : "4019",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1"
+          }, {
+            "count" : 19,
+            "item" : "43"
+          }, {
+            "count" : 18,
+            "item" : "10"
+          }, {
+            "count" : 17,
+            "item" : "41"
+          }, {
+            "count" : 16,
+            "item" : "25"
+          }, {
+            "count" : 15,
+            "item" : "120"
+          }, {
+            "count" : 14,
+            "item" : "0"
+          }, {
+            "count" : 13,
+            "item" : "32"
+          }, {
+            "count" : 12,
+            "item" : "320"
+          }, {
+            "count" : 11,
+            "item" : "425"
+          }, {
+            "count" : 10,
+            "item" : "5"
+          }, {
+            "count" : 9,
+            "item" : "57"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 195066623,
+        "name" : "Address2",
+        "dataTypeName" : "number",
+        "fieldName" : "address2",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730776,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 64,
+          "smallest" : "4",
+          "sum" : "25149",
+          "null" : 229,
+          "average" : "392.953125",
+          "largest" : "3587",
+          "top" : [ {
+            "count" : 20,
+            "item" : "111"
+          }, {
+            "count" : 19,
+            "item" : "381"
+          }, {
+            "count" : 18,
+            "item" : "475"
+          }, {
+            "count" : 17,
+            "item" : "32"
+          }, {
+            "count" : 16,
+            "item" : "3587"
+          }, {
+            "count" : 15,
+            "item" : "9"
+          }, {
+            "count" : 14,
+            "item" : "50"
+          }, {
+            "count" : 13,
+            "item" : "173"
+          }, {
+            "count" : 12,
+            "item" : "75"
+          }, {
+            "count" : 11,
+            "item" : "21"
+          }, {
+            "count" : 10,
+            "item" : "204"
+          }, {
+            "count" : 9,
+            "item" : "26"
+          }, {
+            "count" : 8,
+            "item" : "778"
+          }, {
+            "count" : 7,
+            "item" : "59"
+          }, {
+            "count" : 6,
+            "item" : "355"
+          }, {
+            "count" : 5,
+            "item" : "425"
+          }, {
+            "count" : 4,
+            "item" : "30"
+          }, {
+            "count" : 3,
+            "item" : "483"
+          }, {
+            "count" : 2,
+            "item" : "4"
+          }, {
+            "count" : 1,
+            "item" : "89"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 195066624,
+        "name" : "Intersection",
+        "dataTypeName" : "text",
+        "fieldName" : "intersection",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730777,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 34,
+          "smallest" : "100 DARTMOUTH  ST",
+          "null" : 259,
+          "largest" : "WEST MILTON ST",
+          "top" : [ {
+            "count" : 20,
+            "item" : "MELNEA CASS"
+          }, {
+            "count" : 19,
+            "item" : "SHIRLEY ST"
+          }, {
+            "count" : 18,
+            "item" : "PARK DRIVE"
+          }, {
+            "count" : 17,
+            "item" : "BROOKLINE AV"
+          }, {
+            "count" : 16,
+            "item" : "BOYLSTON ST"
+          }, {
+            "count" : 15,
+            "item" : "WEST MILTON ST"
+          }, {
+            "count" : 14,
+            "item" : "ADAMS ST"
+          }, {
+            "count" : 13,
+            "item" : "WALWORTH ST / ROBERT"
+          }, {
+            "count" : 12,
+            "item" : "P ST"
+          }, {
+            "count" : 11,
+            "item" : "EAST SECOND ST"
+          }, {
+            "count" : 10,
+            "item" : "EAST BROADWAY"
+          }, {
+            "count" : 9,
+            "item" : "WESTERN AV"
+          }, {
+            "count" : 8,
+            "item" : "AT GENEVA AV"
+          }, {
+            "count" : 7,
+            "item" : "GRAMPIAN WAY"
+          }, {
+            "count" : 6,
+            "item" : "CAROLINA TER/LEE  ST"
+          }, {
+            "count" : 5,
+            "item" : "SOUTH ST"
+          }, {
+            "count" : 4,
+            "item" : "JAMAICA ST"
+          }, {
+            "count" : 3,
+            "item" : "BROOKSIDE AV"
+          }, {
+            "count" : 2,
+            "item" : "TREMONT ST"
+          }, {
+            "count" : 1,
+            "item" : "AT HARRISON AV INT"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066625,
+        "name" : "From",
+        "dataTypeName" : "text",
+        "fieldName" : "from",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730778,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 9,
+          "smallest" : "CENTRAL SQ SOUTH",
+          "null" : 284,
+          "largest" : "STUART ST",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CENTRAL SQ SOUTH"
+          }, {
+            "count" : 19,
+            "item" : "MOZART ST"
+          }, {
+            "count" : 18,
+            "item" : "CHATHAM ST"
+          }, {
+            "count" : 17,
+            "item" : "EAST BOUND"
+          }, {
+            "count" : 16,
+            "item" : "MASS AV"
+          }, {
+            "count" : 15,
+            "item" : "CHARLESGATE EAST"
+          }, {
+            "count" : 14,
+            "item" : "STUART ST"
+          }, {
+            "count" : 13,
+            "item" : "HUNTINGTON AV"
+          }, {
+            "count" : 12,
+            "item" : "EXETER ST"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066626,
+        "name" : "To",
+        "dataTypeName" : "text",
+        "fieldName" : "to",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730779,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 9,
+          "smallest" : "BELVIDERE ST",
+          "null" : 284,
+          "largest" : "WEST BOUND",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CENTRAL SQ NORTH"
+          }, {
+            "count" : 19,
+            "item" : "SHERIDAN ST"
+          }, {
+            "count" : 18,
+            "item" : "STATE ST"
+          }, {
+            "count" : 17,
+            "item" : "WEST BOUND"
+          }, {
+            "count" : 16,
+            "item" : "CHARLES GATE EAST"
+          }, {
+            "count" : 15,
+            "item" : "MASS AV"
+          }, {
+            "count" : 14,
+            "item" : "BELVIDERE ST"
+          }, {
+            "count" : 13,
+            "item" : "ST STEPHENS"
+          }, {
+            "count" : 12,
+            "item" : "FAIRFIELD"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066627,
+        "name" : "Permitee",
+        "dataTypeName" : "text",
+        "fieldName" : "permitee",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730780,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "A A Will Corp",
+          "null" : 0,
+          "largest" : "WL French",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Boston Water & Sewer Commission"
+          }, {
+            "count" : 19,
+            "item" : "Comcast"
+          }, {
+            "count" : 18,
+            "item" : "National Grid"
+          }, {
+            "count" : 17,
+            "item" : "Boston Transportation Department"
+          }, {
+            "count" : 16,
+            "item" : "Eversource Electric"
+          }, {
+            "count" : 15,
+            "item" : "J Derenzo Co"
+          }, {
+            "count" : 14,
+            "item" : "Verizon"
+          }, {
+            "count" : 13,
+            "item" : "Boston Public Works"
+          }, {
+            "count" : 12,
+            "item" : "Eversource Gas"
+          }, {
+            "count" : 11,
+            "item" : "Sean Farrell Excavation"
+          }, {
+            "count" : 10,
+            "item" : "Keash Excavation"
+          }, {
+            "count" : 9,
+            "item" : "JRF Corp"
+          }, {
+            "count" : 8,
+            "item" : "A A Will Corp"
+          }, {
+            "count" : 7,
+            "item" : "Bond Brothers"
+          }, {
+            "count" : 6,
+            "item" : "Baystate Engineering"
+          }, {
+            "count" : 5,
+            "item" : "BSI Engineering"
+          }, {
+            "count" : 4,
+            "item" : "Atlantic Drain"
+          }, {
+            "count" : 3,
+            "item" : "Welch Corp"
+          }, {
+            "count" : 2,
+            "item" : "Phoenix Communication"
+          }, {
+            "count" : 1,
+            "item" : "RCN"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066628,
+        "name" : "Contractor",
+        "dataTypeName" : "text",
+        "fieldName" : "contractor",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730781,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "A A Will Corp",
+          "null" : 0,
+          "largest" : "WL FRENCH",
+          "top" : [ {
+            "count" : 20,
+            "item" : "BWSC"
+          }, {
+            "count" : 19,
+            "item" : "PV Barrone"
+          }, {
+            "count" : 18,
+            "item" : "National Grid"
+          }, {
+            "count" : 17,
+            "item" : "Feeney Brothers Excavation"
+          }, {
+            "count" : 16,
+            "item" : "Eversource Electric"
+          }, {
+            "count" : 15,
+            "item" : "Bond Brothers"
+          }, {
+            "count" : 14,
+            "item" : "J Derenzo Co"
+          }, {
+            "count" : 13,
+            "item" : "Mirra Co"
+          }, {
+            "count" : 12,
+            "item" : "Sheerin"
+          }, {
+            "count" : 11,
+            "item" : "Umbro & Sons"
+          }, {
+            "count" : 10,
+            "item" : "RJV"
+          }, {
+            "count" : 9,
+            "item" : "McCourt Construction"
+          }, {
+            "count" : 8,
+            "item" : "Keash Excavation"
+          }, {
+            "count" : 7,
+            "item" : "A A Will Corp"
+          }, {
+            "count" : 6,
+            "item" : "JRF Corp"
+          }, {
+            "count" : 5,
+            "item" : "Waveguide"
+          }, {
+            "count" : 4,
+            "item" : "Riley Brothers"
+          }, {
+            "count" : 3,
+            "item" : "K&K Excavation"
+          }, {
+            "count" : 2,
+            "item" : "Baystate Engineering"
+          }, {
+            "count" : 1,
+            "item" : "Gioioso"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066629,
+        "name" : "Permit",
+        "dataTypeName" : "text",
+        "fieldName" : "permit",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730782,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "EMER-435678",
+          "null" : 0,
+          "largest" : "OCCU-482283",
+          "top" : [ {
+            "count" : 20,
+            "item" : "EXCA-504453"
+          }, {
+            "count" : 19,
+            "item" : "EMER-521694"
+          }, {
+            "count" : 18,
+            "item" : "EXCA-504456"
+          }, {
+            "count" : 17,
+            "item" : "EXCA-504457"
+          }, {
+            "count" : 16,
+            "item" : "EMER-516955"
+          }, {
+            "count" : 15,
+            "item" : "EXCA-504463"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066630,
+        "name" : "ProjectCategory",
+        "dataTypeName" : "text",
+        "fieldName" : "projectcategory",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730783,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 291,
+          "smallest" : "EMERGENCY",
+          "null" : 2,
+          "largest" : "SERVICES",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NEW CONDUIT AND/OR MAIN"
+          }, {
+            "count" : 19,
+            "item" : "SERVICE"
+          }, {
+            "count" : 18,
+            "item" : "EMERGENCY"
+          }, {
+            "count" : 17,
+            "item" : "PVT EMERGENCY"
+          }, {
+            "count" : 16,
+            "item" : "MAINTENANCE"
+          }, {
+            "count" : 15,
+            "item" : "RECONSTRUCTION"
+          }, {
+            "count" : 14,
+            "item" : "NEW CONDUIT AN/OR MAIN"
+          }, {
+            "count" : 13,
+            "item" : "SERVICES"
+          }, {
+            "count" : 12,
+            "item" : "ROADWAY AND SIDEWALK RESTORATION"
+          }, {
+            "count" : 11,
+            "item" : "ROADWAY RECONSTRUCTION/SIDEWALK REPAIRS"
+          }, {
+            "count" : 10,
+            "item" : "RESURFACING"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066631,
+        "name" : "ConstructionNotes",
+        "dataTypeName" : "text",
+        "fieldName" : "constructionnotes",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730784,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 290,
+          "smallest" : "(8) DRAIN TIE INS / (2) HYDRANT RELOCATIONS",
+          "null" : 3,
+          "largest" : "WATER MAIN REPAIR",
+          "top" : [ {
+            "count" : 20,
+            "item" : "INSTALL CONDUIT"
+          }, {
+            "count" : 19,
+            "item" : "GAS LEAK REPAIR"
+          }, {
+            "count" : 18,
+            "item" : "EMERGENCY SEWER REPAIR"
+          }, {
+            "count" : 17,
+            "item" : "INSTALLATION OF NEW GAS MAIN"
+          }, {
+            "count" : 16,
+            "item" : "LEAK REPAIR"
+          }, {
+            "count" : 15,
+            "item" : "NEW GAS SERVICE"
+          }, {
+            "count" : 14,
+            "item" : "REPAIR DAMAGED CONDUIT"
+          }, {
+            "count" : 13,
+            "item" : "INSTALLATION OF NEW GAS SERVICE"
+          }, {
+            "count" : 12,
+            "item" : "INSTALLATION OF NEW WATER MAIN"
+          }, {
+            "count" : 11,
+            "item" : "INSTALLATION OF CONDUIT"
+          }, {
+            "count" : 10,
+            "item" : "INSTALLATION OF CONDUIT / MANHOLE"
+          }, {
+            "count" : 9,
+            "item" : "INSTALLATION OF NEW SERVICE"
+          }, {
+            "count" : 8,
+            "item" : "DRAIN AND SEWER INSTALLATION"
+          }, {
+            "count" : 7,
+            "item" : "INSTALLATION OF NEW WATER & SEWER MAIN RELAY / BYPASS"
+          }, {
+            "count" : 6,
+            "item" : "INSTALL NEW WATER, DRAIN, AND FIREPIPE"
+          }, {
+            "count" : 5,
+            "item" : "INSTALL NEW SEWER AND DRAIN"
+          }, {
+            "count" : 4,
+            "item" : "INSTALL NEW WATER AND FIRE PIPE"
+          }, {
+            "count" : 3,
+            "item" : "ROADWAY AND SIDEWALK RECONSTRUCTION"
+          }, {
+            "count" : 2,
+            "item" : "INSTALLATION OF SERVICE"
+          }, {
+            "count" : 1,
+            "item" : "STEAM LINE CUT AND CAP"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066632,
+        "name" : "WorkSchedule",
+        "dataTypeName" : "text",
+        "fieldName" : "workschedule",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730785,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "24 Hour Work",
+          "null" : 0,
+          "largest" : "Weekends",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Days & Weekends"
+          }, {
+            "count" : 19,
+            "item" : "Weekends"
+          }, {
+            "count" : 18,
+            "item" : "Nights"
+          }, {
+            "count" : 17,
+            "item" : "Days"
+          }, {
+            "count" : 16,
+            "item" : "24 Hour Work"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066633,
+        "name" : "ExpirationDate",
+        "dataTypeName" : "text",
+        "fieldName" : "expirationdate",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730786,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "Dec 12 2015 12:00AM",
+          "null" : 0,
+          "largest" : "Sep  3 2015 12:00AM",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Oct 20 2015 12:00AM"
+          }, {
+            "count" : 19,
+            "item" : "Oct 15 2015 12:00AM"
+          }, {
+            "count" : 18,
+            "item" : "Oct 18 2015 12:00AM"
+          }, {
+            "count" : 17,
+            "item" : "Oct 17 2015 12:00AM"
+          }, {
+            "count" : 16,
+            "item" : "Nov 21 2015 12:00AM"
+          }, {
+            "count" : 15,
+            "item" : "Oct  9 2015 12:00AM"
+          }, {
+            "count" : 14,
+            "item" : "Oct 14 2015 12:00AM"
+          }, {
+            "count" : 13,
+            "item" : "Oct 16 2015 12:00AM"
+          }, {
+            "count" : 12,
+            "item" : "Nov 10 2015 12:00AM"
+          }, {
+            "count" : 11,
+            "item" : "Oct 30 2015 12:00AM"
+          }, {
+            "count" : 10,
+            "item" : "Nov 11 2015 12:00AM"
+          }, {
+            "count" : 9,
+            "item" : "Nov 15 2015 12:00AM"
+          }, {
+            "count" : 8,
+            "item" : "Oct 25 2015 12:00AM"
+          }, {
+            "count" : 7,
+            "item" : "Nov  1 2015 12:00AM"
+          }, {
+            "count" : 6,
+            "item" : "Oct 23 2015 12:00AM"
+          }, {
+            "count" : 5,
+            "item" : "Oct 27 2015 12:00AM"
+          }, {
+            "count" : 4,
+            "item" : "Oct  7 2015 12:00AM"
+          }, {
+            "count" : 3,
+            "item" : "Oct 11 2015 12:00AM"
+          }, {
+            "count" : 2,
+            "item" : "Oct 26 2015 12:00AM"
+          }, {
+            "count" : 1,
+            "item" : "Oct 13 2015 12:00AM"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066634,
+        "name" : "EstimatedCompletionDate",
+        "dataTypeName" : "text",
+        "fieldName" : "estimatedcompletiondate",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730787,
+        "width" : 376,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "Dec 12 2015 12:00AM",
+          "null" : 0,
+          "largest" : "Oct  9 2015 12:00AM",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Nov 12 2015 12:00AM"
+          }, {
+            "count" : 19,
+            "item" : "Oct 20 2015 12:00AM"
+          }, {
+            "count" : 18,
+            "item" : "Oct 15 2015 12:00AM"
+          }, {
+            "count" : 17,
+            "item" : "Oct 18 2015 12:00AM"
+          }, {
+            "count" : 16,
+            "item" : "Oct 17 2015 12:00AM"
+          }, {
+            "count" : 15,
+            "item" : "Nov 21 2015 12:00AM"
+          }, {
+            "count" : 14,
+            "item" : "Oct 14 2015 12:00AM"
+          }, {
+            "count" : 13,
+            "item" : "Nov  8 2015 12:00AM"
+          }, {
+            "count" : 12,
+            "item" : "Oct 16 2015 12:00AM"
+          }, {
+            "count" : 11,
+            "item" : "Nov 10 2015 12:00AM"
+          }, {
+            "count" : 10,
+            "item" : "Oct 30 2015 12:00AM"
+          }, {
+            "count" : 9,
+            "item" : "Oct 27 2015 12:00AM"
+          }, {
+            "count" : 8,
+            "item" : "Nov 15 2015 12:00AM"
+          }, {
+            "count" : 7,
+            "item" : "Oct 25 2015 12:00AM"
+          }, {
+            "count" : 6,
+            "item" : "Nov  2 2015 12:00AM"
+          }, {
+            "count" : 5,
+            "item" : "Nov 11 2015 12:00AM"
+          }, {
+            "count" : 4,
+            "item" : "Nov  1 2015 12:00AM"
+          }, {
+            "count" : 3,
+            "item" : "Oct 23 2015 12:00AM"
+          }, {
+            "count" : 2,
+            "item" : "Oct 19 2015 12:00AM"
+          }, {
+            "count" : 1,
+            "item" : "Oct 11 2015 12:00AM"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066635,
+        "name" : "RoadwayPlatesInUse",
+        "dataTypeName" : "number",
+        "fieldName" : "roadwayplatesinuse",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730788,
+        "width" : 316,
+        "cachedContents" : {
+          "non_null" : 243,
+          "smallest" : "0",
+          "sum" : "420",
+          "null" : 50,
+          "average" : "1.728395061728395",
+          "largest" : "57",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "8"
+          }, {
+            "count" : 18,
+            "item" : "2"
+          }, {
+            "count" : 17,
+            "item" : "3"
+          }, {
+            "count" : 16,
+            "item" : "4"
+          }, {
+            "count" : 15,
+            "item" : "1"
+          }, {
+            "count" : 14,
+            "item" : "6"
+          }, {
+            "count" : 13,
+            "item" : "5"
+          }, {
+            "count" : 12,
+            "item" : "10"
+          }, {
+            "count" : 11,
+            "item" : "29"
+          }, {
+            "count" : 10,
+            "item" : "57"
+          }, {
+            "count" : 9,
+            "item" : "15"
+          }, {
+            "count" : 8,
+            "item" : "7"
+          }, {
+            "count" : 7,
+            "item" : "30"
+          }, {
+            "count" : 6,
+            "item" : "14"
+          }, {
+            "count" : 5,
+            "item" : "12"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066636,
+        "name" : "SidewalkPlatesInUse",
+        "dataTypeName" : "number",
+        "fieldName" : "sidewalkplatesinuse",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730789,
+        "width" : 328,
+        "cachedContents" : {
+          "non_null" : 233,
+          "smallest" : "0",
+          "sum" : "53",
+          "null" : 60,
+          "average" : "0.2274678111587983",
+          "largest" : "6",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0"
+          }, {
+            "count" : 19,
+            "item" : "2"
+          }, {
+            "count" : 18,
+            "item" : "4"
+          }, {
+            "count" : 17,
+            "item" : "1"
+          }, {
+            "count" : 16,
+            "item" : "3"
+          }, {
+            "count" : 15,
+            "item" : "6"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066637,
+        "name" : "Status",
+        "dataTypeName" : "text",
+        "fieldName" : "status",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730790,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "BEHIND BARRIERS",
+          "null" : 0,
+          "largest" : "TO GRADE IN HMA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "PLATES PINNED & BERMED"
+          }, {
+            "count" : 19,
+            "item" : "ONGOING/SECTIONS TOPPED TO GRADE"
+          }, {
+            "count" : 18,
+            "item" : "DOWN 1.5 IN BINDER"
+          }, {
+            "count" : 17,
+            "item" : "PLATES BERMED"
+          }, {
+            "count" : 16,
+            "item" : "DOWN IN BINDER AWAITING TOP"
+          }, {
+            "count" : 15,
+            "item" : "TO GRADE IN COLD PATCH"
+          }, {
+            "count" : 14,
+            "item" : "DOWN IN BINDER"
+          }, {
+            "count" : 13,
+            "item" : "NO START"
+          }, {
+            "count" : 12,
+            "item" : "FLUSH TO GRADE"
+          }, {
+            "count" : 11,
+            "item" : "PLATE PAVED OVER"
+          }, {
+            "count" : 10,
+            "item" : "ON HOLD"
+          }, {
+            "count" : 9,
+            "item" : "PLATES ON SIDEWALK"
+          }, {
+            "count" : 8,
+            "item" : "PLATES RECESSED"
+          }, {
+            "count" : 7,
+            "item" : "PINNED & BERMED"
+          }, {
+            "count" : 6,
+            "item" : "TO GRADE IN HMA"
+          }, {
+            "count" : 5,
+            "item" : "PLATED ON TRAFFIC ISLAND"
+          }, {
+            "count" : 4,
+            "item" : "DOWN IN BINDER AWATING TOP"
+          }, {
+            "count" : 3,
+            "item" : "BEHIND BARRIERS AND FENCIN"
+          }, {
+            "count" : 2,
+            "item" : "BEHIND BARRIERS/FENCING"
+          }, {
+            "count" : 1,
+            "item" : "ONGOING TO GRADE IN COLDPATCH"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066638,
+        "name" : "TrenchLength",
+        "dataTypeName" : "number",
+        "fieldName" : "trenchlength",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730791,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 63,
+          "smallest" : "28",
+          "sum" : "44146",
+          "null" : 230,
+          "average" : "700.7301587301587",
+          "largest" : "3200",
+          "top" : [ {
+            "count" : 20,
+            "item" : "150"
+          }, {
+            "count" : 19,
+            "item" : "600"
+          }, {
+            "count" : 18,
+            "item" : "70"
+          }, {
+            "count" : 17,
+            "item" : "110"
+          }, {
+            "count" : 16,
+            "item" : "85"
+          }, {
+            "count" : 15,
+            "item" : "180"
+          }, {
+            "count" : 14,
+            "item" : "980"
+          }, {
+            "count" : 13,
+            "item" : "112"
+          }, {
+            "count" : 12,
+            "item" : "760"
+          }, {
+            "count" : 11,
+            "item" : "985"
+          }, {
+            "count" : 10,
+            "item" : "900"
+          }, {
+            "count" : 9,
+            "item" : "385"
+          }, {
+            "count" : 8,
+            "item" : "28"
+          }, {
+            "count" : 7,
+            "item" : "665"
+          }, {
+            "count" : 6,
+            "item" : "139"
+          }, {
+            "count" : 5,
+            "item" : "52"
+          }, {
+            "count" : 4,
+            "item" : "51"
+          }, {
+            "count" : 3,
+            "item" : "510"
+          }, {
+            "count" : 2,
+            "item" : "975"
+          }, {
+            "count" : 1,
+            "item" : "250"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 195066639,
+        "name" : "ContactNumber",
+        "dataTypeName" : "text",
+        "fieldName" : "contactnumber",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730792,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 254,
+          "smallest" : "508-427-6441",
+          "null" : 39,
+          "largest" : "978-758-0213",
+          "top" : [ {
+            "count" : 20,
+            "item" : "617-989-7000"
+          }, {
+            "count" : 19,
+            "item" : "877-359-1821"
+          }, {
+            "count" : 18,
+            "item" : "877-304-1148"
+          }, {
+            "count" : 17,
+            "item" : "617-635-4396"
+          }, {
+            "count" : 16,
+            "item" : "617-442-7020"
+          }, {
+            "count" : 15,
+            "item" : "508-427-6441"
+          }, {
+            "count" : 14,
+            "item" : "800-592-2000"
+          }, {
+            "count" : 13,
+            "item" : "800-446-8946"
+          }, {
+            "count" : 12,
+            "item" : "617-635-4950"
+          }, {
+            "count" : 11,
+            "item" : "617-424-2309"
+          }, {
+            "count" : 10,
+            "item" : "617-590-195"
+          }, {
+            "count" : 9,
+            "item" : "518-817-3331"
+          }, {
+            "count" : 8,
+            "item" : "617-818-2653"
+          }, {
+            "count" : 7,
+            "item" : "781-424-5189"
+          }, {
+            "count" : 6,
+            "item" : "617-387-3400"
+          }, {
+            "count" : 5,
+            "item" : "617-293-0201"
+          }, {
+            "count" : 4,
+            "item" : "617-254-7550"
+          }, {
+            "count" : 3,
+            "item" : "978-758-0213"
+          }, {
+            "count" : 2,
+            "item" : "978-408-3168"
+          }, {
+            "count" : 1,
+            "item" : "617-828-4402"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066640,
+        "name" : "NumberofWorkZones",
+        "dataTypeName" : "number",
+        "fieldName" : "numberofworkzones",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22730793,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "1",
+          "sum" : "293",
+          "null" : 0,
+          "average" : "1",
+          "largest" : "1",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066641,
+        "name" : "District",
+        "dataTypeName" : "text",
+        "fieldName" : "district",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22730794,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 293,
+          "smallest" : "01A",
+          "null" : 0,
+          "largest" : "10B",
+          "top" : [ {
+            "count" : 20,
+            "item" : "10B"
+          }, {
+            "count" : 19,
+            "item" : "10A"
+          }, {
+            "count" : 18,
+            "item" : "09"
+          }, {
+            "count" : 17,
+            "item" : "08"
+          }, {
+            "count" : 16,
+            "item" : "07"
+          }, {
+            "count" : 15,
+            "item" : "06"
+          }, {
+            "count" : 14,
+            "item" : "05"
+          }, {
+            "count" : 13,
+            "item" : "04"
+          }, {
+            "count" : 12,
+            "item" : "03"
+          }, {
+            "count" : 11,
+            "item" : "02"
+          }, {
+            "count" : 10,
+            "item" : "01F"
+          }, {
+            "count" : 9,
+            "item" : "01C"
+          }, {
+            "count" : 8,
+            "item" : "01B"
+          }, {
+            "count" : 7,
+            "item" : "01A"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066722,
+        "name" : "Lat",
+        "dataTypeName" : "text",
+        "fieldName" : "lat",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26828176,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 265,
+          "smallest" : "42.238490000",
+          "null" : 28,
+          "largest" : "42.381260000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "42.358704000"
+          }, {
+            "count" : 19,
+            "item" : "42.357040000"
+          }, {
+            "count" : 18,
+            "item" : "42.364142000"
+          }, {
+            "count" : 17,
+            "item" : "42.357891000"
+          }, {
+            "count" : 16,
+            "item" : "42.359485000"
+          }, {
+            "count" : 15,
+            "item" : "42.362110000"
+          }, {
+            "count" : 14,
+            "item" : "42.363880000"
+          }, {
+            "count" : 13,
+            "item" : "42.365220000"
+          }, {
+            "count" : 12,
+            "item" : "42.363427000"
+          }, {
+            "count" : 11,
+            "item" : "42.368030000"
+          }, {
+            "count" : 10,
+            "item" : "42.361813000"
+          }, {
+            "count" : 9,
+            "item" : "42.358733000"
+          }, {
+            "count" : 8,
+            "item" : "42.360229000"
+          }, {
+            "count" : 7,
+            "item" : "42.377280000"
+          }, {
+            "count" : 6,
+            "item" : "42.377800000"
+          }, {
+            "count" : 5,
+            "item" : "42.375990000"
+          }, {
+            "count" : 4,
+            "item" : "42.381260000"
+          }, {
+            "count" : 3,
+            "item" : "42.380560000"
+          }, {
+            "count" : 2,
+            "item" : "42.372610000"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066823,
+        "name" : "Long",
+        "dataTypeName" : "text",
+        "fieldName" : "long",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26828177,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 265,
+          "smallest" : "-71.025730000",
+          "null" : 28,
+          "largest" : "-71.164440000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-71.065290000"
+          }, {
+            "count" : 19,
+            "item" : "-71.071490000"
+          }, {
+            "count" : 18,
+            "item" : "-71.063867000"
+          }, {
+            "count" : 17,
+            "item" : "-71.070638000"
+          }, {
+            "count" : 16,
+            "item" : "-71.064513000"
+          }, {
+            "count" : 15,
+            "item" : "-71.061740000"
+          }, {
+            "count" : 14,
+            "item" : "-71.053630000"
+          }, {
+            "count" : 13,
+            "item" : "-71.055260000"
+          }, {
+            "count" : 12,
+            "item" : "-71.054658000"
+          }, {
+            "count" : 11,
+            "item" : "-71.056490000"
+          }, {
+            "count" : 10,
+            "item" : "-71.064200000"
+          }, {
+            "count" : 9,
+            "item" : "-71.069771000"
+          }, {
+            "count" : 8,
+            "item" : "-71.070203000"
+          }, {
+            "count" : 7,
+            "item" : "-71.062094000"
+          }, {
+            "count" : 6,
+            "item" : "-71.063350000"
+          }, {
+            "count" : 5,
+            "item" : "-71.062330000"
+          }, {
+            "count" : 4,
+            "item" : "-71.063010000"
+          }, {
+            "count" : 3,
+            "item" : "-71.031040000"
+          }, {
+            "count" : 2,
+            "item" : "-71.063930000"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 195066835,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 26,
+        "renderTypeName" : "location",
+        "tableColumnId" : 26828189,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 265,
+          "smallest" : {
+            "longitude" : "-71.07419",
+            "latitude" : "42.33074"
+          },
+          "null" : 28,
+          "largest" : {
+            "longitude" : "-71.06393",
+            "latitude" : "42.37261"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-71.064921",
+              "latitude" : "42.358704"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-71.07149",
+              "latitude" : "42.35704"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-71.063867",
+              "latitude" : "42.364142"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-71.070638",
+              "latitude" : "42.357891"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-71.064513",
+              "latitude" : "42.359485"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-71.06174",
+              "latitude" : "42.36211"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-71.05363",
+              "latitude" : "42.36388"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-71.05526",
+              "latitude" : "42.36522"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-71.054658",
+              "latitude" : "42.363427"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-71.05649",
+              "latitude" : "42.36803"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-71.0642",
+              "latitude" : "42.361813"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-71.069771",
+              "latitude" : "42.358733"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-71.070203",
+              "latitude" : "42.360229"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "longitude" : "-71.062094",
+              "latitude" : "42.37728"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "longitude" : "-71.06335",
+              "latitude" : "42.3778"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-71.06233",
+              "latitude" : "42.37599"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-71.06301",
+              "latitude" : "42.38126"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "longitude" : "-71.03104",
+              "latitude" : "42.38056"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "longitude" : "-71.06393",
+              "latitude" : "42.37261"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons 1.0 Universal (Public Domain Dedication)",
+        "logoUrl" : "images/licenses/ccZero.png",
+        "termsLink" : "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Owner" : {
+            "Owner" : "Streets, Transportation & Sanitation"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "2pz3-cb5i",
+        "displayName" : "Curt Savoie",
+        "roleName" : "administrator",
+        "screenName" : "Curt Savoie",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2pz3-cb5i",
+        "displayName" : "Curt Savoie",
+        "roleName" : "administrator",
+        "screenName" : "Curt Savoie",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "public works", "construction", "work zones", "paving" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1146103, "51802CB0-9C20-43E6-B609-725797D84A2F", 1146103, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "ALTHER ST", "6", null, null, null, null, "Boston Water & Sewer Commission", "Fed Corp", "EXCA-517538", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER AND SEWER MAIN", "Days & Weekends", "Nov 12 2015 12:00AM", "Nov 12 2015 12:00AM", "0", "0", "PLATES PINNED & BERMED", "250", "617-989-7000", "1", "10B", "42.330740000", "-71.074190000", [ null, "42.33074", "-71.07419", null, false ] ]
+, [ 1146104, "85A4EDA5-23AD-4EF7-BB40-EC85976BFEFF", 1146104, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "COLUMBUS AV", "805", null, null, null, null, "The Dow Company", "The Dow Company", "EXCA-372316", "SERVICE", "INSTALLATION OF WATER SERVICE / WORK ON HOLD UNTIL AFTER LABOR DAY", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "2", "PLATES PINNED & BERMED", null, "978-682-1414", "1", "10B", null, null, [ null, null, null, null, null ] ]
+, [ 1146105, "78110EFF-3B75-4A85-9BDF-F1B20611C85A", 1146105, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "DEWITT DR", "101", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521698", "EMERGENCY", "SEWER REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "10B", "42.332770000", "-71.084710000", [ null, "42.33277", "-71.08471", null, false ] ]
+, [ 1146106, "4FE56E55-54B1-4B9F-A6BD-1DD3C2DB14C8", 1146106, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "DEWITT DR", "125", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521698", "EMERGENCY", "SEWER REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "10B", "42.332770000", "-71.084710000", [ null, "42.33277", "-71.08471", null, false ] ]
+, [ 1146107, "82FD7453-9DE2-4461-A751-6787AB6BB308", 1146107, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "DUDLEY ST", "135", null, null, null, null, "Comcast", "PV Barrone", "EXCA-503410", "NEW CONDUIT AND/OR MAIN", "INSTALL CONDUIT", "Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "10B", "42.328320000", "-71.084050000", [ null, "42.32832", "-71.08405", null, false ] ]
+, [ 1146108, "F29D75B6-F276-4F63-A0B7-4F104DF1A8A0", 1146108, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "HAMPDEN ST", "59", null, null, null, null, "National Grid", "National Grid", "EMER-519844", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10B", "42.330982000", "-71.075078000", [ null, "42.330982", "-71.075078", null, false ] ]
+, [ 1146109, "F4379A15-65BE-4821-920F-46CC7503AE7C", 1146109, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "HAMPDEN ST", "59", "210", null, null, null, "Boston Water & Sewer Commission", "Fed Corp", "EXCA-511075", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER SEWER AND DRAIN MAIN", "Nights", "Nov 21 2015 12:00AM", "Nov 21 2015 12:00AM", "8", "0", "PLATES PINNED & BERMED", "1960", "617-989-7000", "1", "10B", "42.330982000", "-71.075078000", [ null, "42.330982", "-71.075078", null, false ] ]
+, [ 1146110, "764809F0-A0CD-48F7-8BB9-44E4A2BDBC90", 1146110, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "HARRISON AV", null, null, "MELNEA CASS", null, null, "National Grid", "National Grid", "EMER-511013", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "DOWN 1.5 IN BINDER", null, "877-304-1148", "1", "10B", "42.349940000", "-71.062363000", [ null, "42.34994", "-71.062363", null, false ] ]
+, [ 1146111, "BC82319D-9700-4979-B074-F1983301D9E3", 1146111, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "KERR WAY", "31", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521693", "EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "10B", "42.333430000", "-71.085881000", [ null, "42.33343", "-71.085881", null, false ] ]
+, [ 1146112, "5E4C4B75-4074-4DB0-A410-F5C76868E59A", 1146112, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "MASSACHUSETTS AV", "1000", null, null, null, null, "Advanced Water and Sewer", "Advanced Water and Sewer", "EXCA-518154", "SERVICE", "INSTALL NEW WATER, SEWER, AND FIREPIPE", "Nights", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "2", "2", "PLATES PINNED & BERMED", null, "617-756-6200", "1", "10B", "42.328370000", "-71.067610000", [ null, "42.32837", "-71.06761", null, false ] ]
+, [ 1146113, "03FA7056-490F-427D-978E-2404A8108010", 1146113, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "NEWMARKET SQ", "130", null, null, null, null, "National Grid", "National Grid", "EMER-511008", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  6 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10B", "42.330416000", "-71.066709000", [ null, "42.330416", "-71.066709", null, false ] ]
+, [ 1146114, "5B6E2754-46B5-4021-AC21-571A45329CB8", 1146114, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "NORFOLK ST", null, null, "SHIRLEY ST", null, null, "Boston Transportation Department", "Siemens", "EXCA-394462", "SERVICE", "INSTALL TRAFFIC CONDUIT", "Days & Weekends", "Nov  8 2015 12:00AM", "Nov  8 2015 12:00AM", "0", "0", "PLATES PINNED & BERMED", null, "617-635-4396", "1", "10B", "42.324636000", "-71.069864000", [ null, "42.324636", "-71.069864", null, false ] ]
+, [ 1146115, "BB0BC161-A103-41F0-8393-F0A95F6B135A", 1146115, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "NORTHAMPTON ST", "200", "214", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-506909", "SERVICE", "RELAY GAS MAIN", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "8", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "10B", "42.339390000", "-71.081376000", [ null, "42.33939", "-71.081376", null, false ] ]
+, [ 1146116, "3A1FFBB9-B1B5-4F03-A611-8F29807B5783", 1146116, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "ROXBURY ST", "10", null, null, null, null, "Comcast", "PV Barrone", "EXCA-503412", "NEW CONDUIT AND/OR MAIN", "INSTALL CONDUIT", "Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "10B", "42.329393000", "-71.085127000", [ null, "42.329393", "-71.085127", null, false ] ]
+, [ 1146117, "68B00F23-8630-436A-A9E4-7FF3BACD1FA3", 1146117, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "THORNTON ST", "192", null, null, null, null, "Eversource Electric", "Eversource Electric", "EMER-488557", "EMERGENCY", null, "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "10B", "42.321320000", "-71.093620000", [ null, "42.32132", "-71.09362", null, false ] ]
+, [ 1146118, "E90C09AD-8058-404F-A581-A87D4F9CCD1D", 1146118, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "TREMONT ST", "888", null, null, null, null, "Atlantic Drain", "Atlantic Drain", "EXCA-527893", "SERVICE", "INSTALL NEW SEWER", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-442-7020", "1", "10B", "42.337920000", "-71.082330000", [ null, "42.33792", "-71.08233", null, false ] ]
+, [ 1146119, "2D17DA9A-20A7-4D12-A380-C339F45A5367", 1146119, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "WASHINGTON ST", "1900", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521703", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "10B", "42.334590000", "-71.078900000", [ null, "42.33459", "-71.0789", null, false ] ]
+, [ 1146120, "9BE3E398-6F66-417D-A36B-C1E85E278783", 1146120, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "WASHINGTON ST", "2101", "2115", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-437228", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / NATIONAL GRID TO PERFORM PERMANENT TRENCH RESTORATION WORK", "Nights", "Nov 10 2015 12:00AM", "Nov 10 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "608", "877-304-1148", "1", "10B", "42.332277000", "-71.081786000", [ null, "42.332277", "-71.081786", null, false ] ]
+, [ 1146121, "791CFE29-9F4A-4D2D-BE3C-CAFCDE592635", 1146121, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "WASHINGTON ST", "2359", null, null, null, null, "Comcast", "PV Barrone", "EXCA-503409", "NEW CONDUIT AND/OR MAIN", "INSTALL CONDUIT", "Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "10B", "42.329480000", "-71.084870000", [ null, "42.32948", "-71.08487", null, false ] ]
+, [ 1146122, "1C36E2AA-BABD-408B-85FB-409C23676197", 1146122, 1445194993, "525314", 1445194993, "525314", null, "ROXBURY", "WOODVILLE PK", "11", null, null, null, null, "National Grid", "National Grid", "EMER-516963", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10B", "42.321590000", "-71.075020000", [ null, "42.32159", "-71.07502", null, false ] ]
+, [ 1146123, "173B4A45-0C4D-47E6-8117-0CF0FEBA8E45", 1146123, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "ALLEGHANY ST", "76", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-523762", "SERVICE", "RELAY GAS SERVICE", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10A", "42.330830000", "-71.100620000", [ null, "42.33083", "-71.10062", null, false ] ]
+, [ 1146124, "EBD3FEBE-0BFE-4578-B7DA-85ADBAC6CEC7", 1146124, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "BOYLSTON ST", null, null, "PARK DRIVE", null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-503106", "SERVICE", "INSTALL NEW WATER SERVICE/BEHIND JERSEY BARRIERS / TEMP PED WALK WAY", "Days & Weekends", "Oct  8 2015 12:00AM", "Mar 18 2016 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "508-427-6441", "1", "10A", "42.347639000", "-71.083401000", [ null, "42.347639", "-71.083401", null, false ] ]
+, [ 1146125, "1187F3C3-7A91-40A5-B7D6-FEAFE752900D", 1146125, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "BOYLSTON ST", "1365", null, "BROOKLINE AV", null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-520448", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER AND DRAIN SERVICE", "Nights", "Nov 20 2015 12:00AM", "Nov 20 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "150", "508-427-6441", "1", "10A", "42.347602000", "-71.087075000", [ null, "42.347602", "-71.087075", null, false ] ]
+, [ 1146126, "1C3A9FEE-BF0F-4D43-B3A6-B8CCA6D376B9", 1146126, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "BROOKLINE AV", "396", "410", null, null, null, "Comcast", "Mirra Co", "EXCA-503401", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "10A", "42.338290000", "-71.106950000", [ null, "42.33829", "-71.10695", null, false ] ]
+, [ 1146127, "2895A6B4-14A1-497B-A3E7-C872085AF642", 1146127, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "COMMONWEALTH AV", "540", null, null, null, null, "Eversource Electric", "Sheerin", "EXCA-516836", "SERVICE", "INSTALL ELECTRICAL CONDUIT / REROOF MANHOLE/INVESTIGATION IN SDWK ONLY/INSTALLING VAULT 8FT", "Days & Weekends", "Nov 11 2015 12:00AM", "Oct 27 2015 12:00AM", "0", "4", "PLATES BERMED", null, "800-592-2000", "1", "10A", "42.348492000", "-71.096725000", [ null, "42.348492", "-71.096725", null, false ] ]
+, [ 1146128, "CC9DC702-2751-437F-B35C-3FD9E88B7F0D", 1146128, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "COMMONWEALTH AV", "543", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-521255", "EMERGENCY", "GAS LEAK REPAIR / EMER-501587/IDLE", "Days & Weekends", "Oct  2 2015 12:00AM", "Oct 16 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "10A", "42.348476000", "-71.096838000", [ null, "42.348476", "-71.096838", null, false ] ]
+, [ 1146129, "3107943D-847F-43A9-AFFA-72C37E569B02", 1146129, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "FENWOOD RD", "80", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-524499", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10A", null, null, [ null, null, null, null, null ] ]
+, [ 1146130, "9F942A1F-293F-43C9-B6A3-D98762FCF21F", 1146130, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "FISHER ST", "1", "16", null, null, null, "Eversource Electric", "Sheerin", "EXCA-506075", "NEW CONDUIT AND/OR MAIN", "INSTALL CONDUIT", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "112", "800-592-2000", "1", "10A", "42.327984000", "-71.106454000", [ null, "42.327984", "-71.106454", null, false ] ]
+, [ 1146131, "A7FFE662-B753-4D8B-8634-6974E1A6992B", 1146131, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "HILLSIDE ST", "32", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-508236", "SERVICE", "RELAY GAS SERVICE", "Days & Weekends", "Oct 22 2015 12:00AM", "Oct 22 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "10A", "42.329710000", "-71.100590000", [ null, "42.32971", "-71.10059", null, false ] ]
+, [ 1146132, "9A1ADBCF-4667-42D1-8908-A58E9DD1D789", 1146132, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "HUNTINGTON AV", "745", "747", null, null, null, "Boston Drain", "Walsh Corp", "EXCA-528763", "PVT EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "2", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-592-4916", "1", "10A", "42.333980000", "-71.105682000", [ null, "42.33398", "-71.105682", null, false ] ]
+, [ 1146133, "8366CB9C-741D-4688-8027-DA9395A5A226", 1146133, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "KILMARNOCK ST", null, null, "BOYLSTON ST", null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-413111", "SERVICE", "INSTALL NEW WATER, SEWER, AND DRAIN", "Days & Weekends", "Nov 17 2015 12:00AM", "Nov 17 2015 12:00AM", "0", "0", "DOWN IN BINDER AWAITING TOP", null, "508-427-6441", "1", "10A", "42.341593000", "-71.099040000", [ null, "42.341593", "-71.09904", null, false ] ]
+, [ 1146134, "33AC566F-EB77-458A-9DD8-7F19E7C232A9", 1146134, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "LONGWOOD AV", "477", null, null, null, null, "Verizon", "Mirra Co", "EMER-448617", "EMERGENCY", "EMERGENCY CONDUIT REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "10A", "42.340338000", "-71.109399000", [ null, "42.340338", "-71.109399", null, false ] ]
+, [ 1146135, "A1A96F18-D656-4362-A7EE-3711EBF5A1DC", 1146135, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "MISSION ST", "1", "17", null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-505485", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER MAIN / SEWER REHAB / IDLE", "Days & Weekends", "Oct 15 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "260", "617-989-7000", "1", "10A", "42.332310000", "-71.107440000", [ null, "42.33231", "-71.10744", null, false ] ]
+, [ 1146136, "6CF560FA-84E6-4711-AE5B-29E22A3DC796", 1146136, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "PARKER ST", "631", "651", null, null, null, "Eversource Electric", "Eversource Electric", "EXCA-506077", "SERVICE", "INSTALLATION OF CONDUIT", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "0", "TO GRADE IN COLD PATCH", "30", "800-592-2000", "1", "10A", "42.333867000", "-71.095938000", [ null, "42.333867", "-71.095938", null, false ] ]
+, [ 1146137, "F176FC42-F1C3-4D5B-A9F7-D9F9CA88AE77", 1146137, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "PARKER ST", "841", null, null, null, null, "Eversource Electric", "Sheerin", "EXCA-506074", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-592-2000", "1", "10A", null, null, [ null, null, null, null, null ] ]
+, [ 1146138, "3B39AA8E-8A4E-40CA-B80D-5073DB53CC45", 1146138, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "SOUTH HUNTINGTON AV", "135", "161", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-506931", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF GAS MAIN /  NATIONAL GRID TO PERFORM PERMANENT TRENCH RESTORATION WORK  7.5\" DENSE BINDER IN THREE EVEN LIFTS   MILL TRENCH & OVERLAY  60-120 DAYS AFTER COMPLETION OF DENSE BINDER WORK", "Days & Weekends", "Oct 31 2015 12:00AM", "Oct 20 2015 12:00AM", null, null, "DOWN IN BINDER", "150", "877-304-1148", "1", "10A", "42.328100000", "-71.111426000", [ null, "42.3281", "-71.111426", null, false ] ]
+, [ 1146139, "D917C541-F2F3-41EB-B023-B50844CDD230", 1146139, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "ST ALPHONSUS ST", "94", null, null, null, null, "Boston Water & Sewer Commision", "Umbro & Sons", "EXCA-516113", "NEW CONDUIT AND/OR MAIN", "WATER, DRAIN", "Days", "Dec  6 2015 12:00AM", "Nov 10 2015 12:00AM", "2", null, "PLATES PINNED & BERMED", "660", "617-989-7000", "1", "10A", "42.333859000", "-71.100478000", [ null, "42.333859", "-71.100478", null, false ] ]
+, [ 1146140, "69E7ED6F-87EC-4642-9412-7FE248FA67BE", 1146140, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "ST BOTOLPH ST", "241", null, null, null, null, "Eversource Electric", "Bond Brothers", "EXCA-489311", "SERVICE", "INSTALL CONDUIT / BEHIND JERSEY BARRIERS", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "NO START", null, "800-592-2000", "1", "10A", null, null, [ null, null, null, null, null ] ]
+, [ 1146141, "9F8C34A9-005B-4A1F-BCBE-04CBE1E79FD6", 1146141, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "STOCKWELL ST", "2", "28", null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-505486", "NEW CONDUIT AND/OR MAIN", "INSTALLTION OF WATER AND SEWER / TEMP WATER BYPASS / IDLE", "Days & Weekends", "Oct 15 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "TO GRADE IN COLD PATCH", "780", "617-989-7000", "1", "10A", "42.331834000", "-71.106720000", [ null, "42.331834", "-71.10672", null, false ] ]
+, [ 1146142, "1ACE06FB-6264-49D4-A75A-7E439985F690", 1146142, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "TREMONT ST", "1486", null, null, null, null, "MJ Scully", "MJ Scully", "EXCA-519194", "SERVICE", "INSTALLATION OF WATER SEWER FIREPIPE AND DRAIN SERVICE/SHORING", "Days & Weekends", "Oct 29 2015 12:00AM", "Oct 29 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, "978-657-5655", "1", "10A", "42.331840000", "-71.098810000", [ null, "42.33184", "-71.09881", null, false ] ]
+, [ 1146143, "0C27261C-A0D1-43C3-A89A-08B5F2FB2661", 1146143, 1445194993, "525314", 1445194993, "525314", null, "MISSION HILL/FENWAY", "WIGGLESWORTH ST", "1", "35", null, null, null, "Eversource Electric", "Riley Brothers", "EXCA-505074", "NEW CONDUIT AND/OR MAIN", "INSTALL CONDUIT AND TWO MANHOLES / IDLE/BRICK SDWKS", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "1", "PLATES BERMED", "552", "800-592-2000", "1", "10A", "42.333969000", "-71.102916000", [ null, "42.333969", "-71.102916", null, false ] ]
+, [ 1146144, "4CC7A154-DA95-4EEB-B087-B09580647819", 1146144, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "BENNINGTON ST", "291", "325", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-372384", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / SERVICE TIE INS", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", "346", "877-304-1148", "1", "09", "42.378710000", "-71.028180000", [ null, "42.37871", "-71.02818", null, false ] ]
+, [ 1146145, "D19A925A-5393-441F-8F8F-AD747111E982", 1146145, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "BENNINGTON ST", "331", null, null, null, null, "Boston Water & Sewer Commission", "RJV", "EXCA-518519", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER MAIN", "Days & Weekends", "Nov 15 2015 12:00AM", "Nov 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "730", "617-989-7000", "1", "09", null, null, [ null, null, null, null, null ] ]
+, [ 1146146, "87C4B7C2-CA8B-40FE-8FB9-A27D85722A94", 1146146, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "BREMEN ST", "156", "262", null, null, null, "National Grid", "National Grid", "EXCA-502712", "NEW CONDUIT AND/OR MAIN", "FINISHING UP WORK RELATED TO THE NEW GAS MAIN INSTALLATION", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "FLUSH TO GRADE", null, "877-304-1148", "1", "09", "42.372340000", "-71.035080000", [ null, "42.37234", "-71.03508", null, false ] ]
+, [ 1146147, "559D854A-E858-4DFE-BBF7-0511681BD457", 1146147, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "BREMEN ST", "162", "415", null, null, null, "Boston Water & Sewer Commission", "RJV", "EXCA-490279", "NEW CONDUIT AND/OR MAIN", "WATER MAIN RELAY", "Days & Weekends", "Nov  2 2015 12:00AM", "Nov  2 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "3200", "617-989-7000", "1", "09", "42.372460000", "-71.034930000", [ null, "42.37246", "-71.03493", null, false ] ]
+, [ 1146148, "7D1909D7-FB64-4CE1-8CD0-D72B0DDE2F7C", 1146148, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "BREMEN ST", "464", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-482034", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF GAS MAIN", "Days & Weekends", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "515", "877-304-1148", "1", "09", "42.380110000", "-71.026070000", [ null, "42.38011", "-71.02607", null, false ] ]
+, [ 1146149, "D1DC3AA1-5DF3-4479-BA38-C5F326EDE46E", 1146149, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "CHELSEA ST", "154", null, null, null, null, "National Grid", "National Grid", "EXCA-483766", "MAINTENANCE", "GAS LEAK REPAIR", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "09", "42.373700000", "-71.034640000", [ null, "42.3737", "-71.03464", null, false ] ]
+, [ 1146150, "987B1F23-AE29-4453-AB5E-BB203055A28D", 1146150, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "CHELSEA ST", "343", "373", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-372385", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / PLATES ON CHELSEA ST AT PRESCOTT ST AND NEWPUTNE ST", "Days & Weekends", "Nov  8 2015 12:00AM", "Nov  8 2015 12:00AM", "2", null, "PLATES PINNED & BERMED", "1525", "877-304-1148", "1", "09", "42.378080000", "-71.028880000", [ null, "42.37808", "-71.02888", null, false ] ]
+, [ 1146151, "702FCA09-C950-4E91-AC06-734BA1C0D6FF", 1146151, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "CHELSEA ST", "403", null, null, null, null, "National Grid", "National Grid", "EXCA-525543", "MAINTENANCE", "GAS LEAK REPAIR / EMER-495832", "Days & Weekends", "Nov  3 2015 12:00AM", "Nov  3 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "09", "42.379716000", "-71.027060000", [ null, "42.379716", "-71.02706", null, false ] ]
+, [ 1146152, "F987D070-D1B7-405E-906A-869CEAF7916F", 1146152, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "CHELSEA ST", "429", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-515590", "SERVICE", "TEST PITS", "Days & Weekends", "Oct 28 2015 12:00AM", "Oct 28 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "09", "42.380880000", "-71.025730000", [ null, "42.38088", "-71.02573", null, false ] ]
+, [ 1146153, "55DFD07D-7AD6-40B1-BB9A-915314E5C50A", 1146153, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "LAMSON", "46", null, null, null, null, "Rapid Construction", "Rapid Construction", "EXCA-524348", "SERVICE", "INSTALLATION OF NEW WATER AND SEWER SERVICES", "Days & Weekends", "Oct 23 2015 12:00AM", "Oct 23 2015 12:00AM", "4", null, "PLATES PINNED & BERMED", null, null, "1", "09", "42.367041000", "-71.032259000", [ null, "42.367041", "-71.032259", null, false ] ]
+, [ 1146154, "98B17CB8-CE4C-485C-A162-F5DBA8FF65EE", 1146154, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "LONDON ST", "99", "233", null, null, null, "Boston Water & Sewer Commission", "RJV", "EXCA-518032", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN", "Days & Weekends", "Dec 12 2015 12:00AM", "Dec 12 2015 12:00AM", "1", null, "PLATES PINNED & BERMED", "1500", "617-989-7000", "1", "09", "42.372570000", "-71.039530000", [ null, "42.37257", "-71.03953", null, false ] ]
+, [ 1146155, "ACAFC971-14F2-4112-9CBB-FEA900174D63", 1146155, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "MARION ST", "1", "258", null, null, null, "Boston Water & Sewer Commission", "RJV Construction", "EXCA-487676", "NEW CONDUIT AND/OR MAIN", "WATER MAIN RELAY / PLATE ON CHELSEA ST AT MARION ST", "Days & Weekends", "Oct 27 2015 12:00AM", "Oct 27 2015 12:00AM", "0", "0", "FLUSH TO GRADE", "1215", "617-989-7000", "1", "09", "42.380389000", "-71.039017000", [ null, "42.380389", "-71.039017", null, false ] ]
+, [ 1146156, "D1ED1930-5BCF-473C-B551-19F143D41E7A", 1146156, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "MARION ST", "10", "14", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-464182", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / TIE INS", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", "400", "877-304-1148", "1", "09", "42.380420000", "-71.038680000", [ null, "42.38042", "-71.03868", null, false ] ]
+, [ 1146157, "A09C5B0F-AE92-4ADF-9161-777E2F567615", 1146157, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "MERIDIAN ST", null, null, null, "CENTRAL SQ SOUTH", "CENTRAL SQ NORTH", "Boston Public Works", "McCourt Construction", "EXCA-499062", "RECONSTRUCTION", "ON HOLD UNTIL N GRID COMPLETES THEIR WORK", "Days & Weekends", "Oct 27 2015 12:00AM", "Oct 27 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-635-4950", "1", "09", "42.371730000", "-71.039180000", [ null, "42.37173", "-71.03918", null, false ] ]
+, [ 1146158, "1324BC64-3478-4134-9988-E4A656B21E97", 1146158, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "MERIDIAN ST", "321", null, null, null, null, "DPW", "Maverick Construction", "EXCA-480061", "SERVICE", "INSTALLATION OF HAND HOLE AND BASE", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "09", "42.377769000", "-71.038991000", [ null, "42.377769", "-71.038991", null, false ] ]
+, [ 1146159, "116048FA-8102-4B95-8A56-F205FD06F9BA", 1146159, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "MONMOUTH ST", "22", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-510398", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Nov 21 2015 12:00AM", "Nov 21 2015 12:00AM", "0", "0", "DOWN IN BINDER AWAITING TOP", "1100", "877-304-1148", "1", "09", "42.379870000", "-71.038310000", [ null, "42.37987", "-71.03831", null, false ] ]
+, [ 1146160, "286B5609-60B8-486E-AB83-298B6DF45691", 1146160, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "SARATOGA ST", "1116", null, null, null, null, "Verizon", "Crown Castle", "EXCA-228066", "MAINTENANCE", "MANHOLE CASTING REPAIR / ON HOLD CANNOT RETAIN POLICE DETAIL", "Days & Weekends", "Nov 15 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "PLATE PAVED OVER", null, "800-446-8946", "1", "09", "42.366030000", "-71.036810000", [ null, "42.36603", "-71.03681", null, false ] ]
+, [ 1146161, "4C987BC5-8B6E-4686-ABC1-B74F76592669", 1146161, 1445194993, "525314", 1445194993, "525314", null, "EAST BOSTON", "WHITE ST", "17", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-464181", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / SERVICE", "Days & Weekends", "Oct 19 2015 12:00AM", "Oct 19 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "336", "877-304-1148", "1", "09", "42.380400000", "-71.038320000", [ null, "42.3804", "-71.03832", null, false ] ]
+, [ 1146162, "E7134082-5568-4D14-8079-2D1E1F21EE91", 1146162, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "FIELDMONT ST", "10", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-516996", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 11 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "08", "42.272240000", "-71.117480000", [ null, "42.27224", "-71.11748", null, false ] ]
+, [ 1146163, "977D2179-72FA-45B9-82ED-4FFDB1510028", 1146163, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "HYDE PARK AV", "1112", "1300", null, null, null, "Eversource Gas", "Feeney Brothers Excavation", "EXCA-458426", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / JOB ON HOLD", "Days & Weekends", "Oct 29 2015 12:00AM", "Oct 29 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", "2650", "800-592-2000", "1", "08", "42.261368000", "-71.122058000", [ null, "42.261368", "-71.122058", null, false ] ]
+, [ 1146164, "F01F356E-2EBD-47B5-BC29-7393234C780E", 1146164, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "LEWISTON ST", "91", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521692", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "08", "42.264040000", "-71.110730000", [ null, "42.26404", "-71.11073", null, false ] ]
+, [ 1146165, "811C7B64-B683-4BFC-A61D-D4BBBEEC3184", 1146165, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "METROPOLITAN AV", "920", null, null, null, null, "Eversource Gas", "Eversource Gas", "EMER-435678", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "08", "42.254840000", "-71.111550000", [ null, "42.25484", "-71.11155", null, false ] ]
+, [ 1146166, "07FDCD56-7559-4AA0-95B4-9954324C8F68", 1146166, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "READVILLE ST", null, null, "WEST MILTON ST", null, null, "Eversource Gas", "Feeney Brothers Excavation", "EXCA-520946", "SERVICE", "RELAY GAS MAIN", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-424-2309", "1", "08", "42.241375000", "-71.134681000", [ null, "42.241375", "-71.134681", null, false ] ]
+, [ 1146167, "4BDC8C74-AF20-4275-8759-5D70F6526AA3", 1146167, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "RIVER ST", "1481", "1724", null, null, null, "Eversource Gas", "Feeney Brothers Excavation", "EXCA-463486", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 17 2015 12:00AM", "Nov 15 2015 12:00AM", "6", "0", "PLATES PINNED & BERMED", "2900", "800-592-2000", "1", "08", "42.251430000", "-71.131180000", [ null, "42.25143", "-71.13118", null, false ] ]
+, [ 1146168, "EF529A63-3C1C-4D1D-88F1-67B48F0A0C42", 1146168, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "RUSKINDALE RD", "119", null, null, null, null, "Eversource Gas", "Eversource Gas", "EMER-435679", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "08", "42.267790000", "-71.106490000", [ null, "42.26779", "-71.10649", null, false ] ]
+, [ 1146169, "FD51B1DB-E22B-47F9-B1D5-4DD883FD8024", 1146169, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "WEST MILTON ST", "46", null, null, null, null, "Eversource Gas", "Feeney Brothers Excavation", "EXCA-520491", "SERVICE", "RELAY GAS MAIN", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "617-424-2309", "1", "08", "42.239980000", "-71.140410000", [ null, "42.23998", "-71.14041", null, false ] ]
+, [ 1146170, "5E46AE06-E050-4D17-9AD2-8B956CCA3D76", 1146170, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "WEST MILTON ST", "89", null, null, null, null, "Eversource Gas", "Feeney Brothers Excavation", "EXCA-515292", "SERVICE", "RELAY GAS MAIN AND SERVICES", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 14 2015 12:00AM", "5", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "08", "42.238490000", "-71.137180000", [ null, "42.23849", "-71.13718", null, false ] ]
+, [ 1146171, "C1B535D6-9CBA-42D5-A4AD-E9BBCC3C7501", 1146171, 1445194993, "525314", 1445194993, "525314", null, "HYDE PARK", "WOOD AV", "125", null, null, null, null, "Alga Paving", "Alga Paving", "EXCA-523493", "SERVICE", "INSTALL NEW WATER AND SEWER", "Days & Weekends", "Oct 19 2015 12:00AM", "Oct 19 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-593-5731", "1", "08", null, null, [ null, null, null, null, null ] ]
+, [ 1146172, "077766B0-3926-49AE-BFB8-F58BE2F0A922", 1146172, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "ASHMONT ST", "382", "402", null, null, null, "Eversource Electric", "Keash Excavation", "EXCA-523315", "MAINTENANCE", "REPAIR COLLAPSED DUCT", "Days & Weekends", "Oct 23 2015 12:00AM", "Oct 23 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "07", "42.287800000", "-71.057240000", [ null, "42.2878", "-71.05724", null, false ] ]
+, [ 1146173, "A9259AC1-1E6C-461B-9561-9A963DCD579E", 1146173, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "CUMMINS HWY", "794", null, null, null, null, "National Grid", "National Grid", "EMER-516960", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", "42.270007000", "-71.099137000", [ null, "42.270007", "-71.099137", null, false ] ]
+, [ 1146174, "A719951E-6AF4-4F6C-8E4C-20F9B45B1492", 1146174, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "EVANS ST", "60", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-522212", "SERVICE", "INSTALLATION OF SERVICE", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", "42.282380000", "-71.079800000", [ null, "42.28238", "-71.0798", null, false ] ]
+, [ 1146175, "950342D2-74DA-42FD-A91C-65C06267E065", 1146175, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "LAURIAT ST", "16", null, null, null, null, "National Grid", "National Grid", "EXCA-525400", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", "42.288473000", "-71.080769000", [ null, "42.288473", "-71.080769", null, false ] ]
+, [ 1146176, "D08BE41D-66BF-4116-B938-5339E294BDFE", 1146176, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "MILTON AV", "67", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-520455", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", "42.284120000", "-71.077080000", [ null, "42.28412", "-71.07708", null, false ] ]
+, [ 1146177, "B774A842-DA15-4302-9623-407CDED33443", 1146177, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "MINOT ST", "16", null, null, null, null, "Comcast", "PV Barone", "EXCA-524154", "MAINTENANCE", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Nov  3 2015 12:00AM", "Nov  3 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "07", "42.286220000", "-71.044650000", [ null, "42.28622", "-71.04465", null, false ] ]
+, [ 1146178, "63F68487-3E5A-4CC7-BB02-989799F8BB0A", 1146178, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "NEPONSET AV", "367", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-526985", "SERVICE", "RELAY GAS SERVICE", "Days & Weekends", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", null, null, [ null, null, null, null, null ] ]
+, [ 1146179, "B000B24B-4257-459B-BD29-92B5E94F04F8", 1146179, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "NORFOLK ST", "156", "259", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-354929", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 30 2015 12:00AM", "10", "0", "PLATES PINNED & BERMED", "1375", "877-304-1148", "1", "07", "42.287230000", "-71.078540000", [ null, "42.28723", "-71.07854", null, false ] ]
+, [ 1146180, "BD6A4CAB-1529-4E30-8AA3-DECC3765EDF4", 1146180, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "ORMOND ST", "55", null, null, null, null, "Sean Farrell", "Sean Farrell", "EXCA-529056", "PVT EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-472-2020", "1", "07", "42.281890000", "-71.093150000", [ null, "42.28189", "-71.09315", null, false ] ]
+, [ 1146181, "28577E93-A4DF-43BB-9D88-EC6ECDB2DCBB", 1146181, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "PARK ST", "89", null, "ADAMS ST", null, null, "National Grid", "Bond Brothers", "EXCA-522732", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "07", "42.299910000", "-71.057225000", [ null, "42.29991", "-71.057225", null, false ] ]
+, [ 1146182, "A25B1A87-8F16-4BB2-AC4C-8F84729BDDA6", 1146182, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "STRATTON ST", "132", null, null, null, null, "Boston Water & Sewer Commission", "K&K Excavation", "EXCA-508996", "SERVICE", "WATER INSTALLATION / DRAIN RELAY", "Days & Weekends", "Nov 21 2015 12:00AM", "Nov 21 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "617-989-7000", "1", "07", "42.288990000", "-71.084270000", [ null, "42.28899", "-71.08427", null, false ] ]
+, [ 1146183, "431AF764-B081-4D16-B066-B6AC099B1B07", 1146183, 1445194993, "525314", 1445194993, "525314", null, "SOUTH DORCHESTER/MATTAPAN", "TALBOT AV", "537", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521695", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "07", "42.286680000", "-71.065020000", [ null, "42.28668", "-71.06502", null, false ] ]
+, [ 1146184, "A65B792A-CEBD-4DD7-B603-9FBBF059B276", 1146184, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "ALDRICK ST", "11", null, null, null, null, "Sean Farrell Excavation", "Sean Farrell Excavation", "EXCA-525981", "SERVICE", "INSTALLATION OF NEW SEWER SERVICE", "Days & Weekends", "Oct 21 2015 12:00AM", "Oct 21 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-590-195", "1", "06", "42.285840000", "-71.139810000", [ null, "42.28584", "-71.13981", null, false ] ]
+, [ 1146185, "4DC47906-8567-4AB8-A982-200FADC67F2A", 1146185, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "BONAD RD", "11", null, null, null, null, "National Grid", "National Grid", "EMER-516961", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "06", "42.293450000", "-71.150290000", [ null, "42.29345", "-71.15029", null, false ] ]
+, [ 1146186, "09E64646-D6D9-4609-9375-1CBBA72F8E65", 1146186, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "CENTRE ST", "2135", "2395", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-361508", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / SERVICES", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", null, "2", "PLATES PINNED & BERMED", "1400", "877-304-1148", "1", "06", "42.275030000", "-71.160440000", [ null, "42.27503", "-71.16044", null, false ] ]
+, [ 1146187, "3AD53E7D-ECAF-42C8-B82E-80BA9FDDFD16", 1146187, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "CLEMENT AV", "51", null, null, null, null, "National Grid", "National Grid", "EMER-516947", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 11 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "06", "42.285500000", "-71.149900000", [ null, "42.2855", "-71.1499", null, false ] ]
+, [ 1146188, "175B71FB-854E-4ED2-B414-9B62C79FBFD5", 1146188, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "HIGH VIEW AV", "31", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521704", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "06", "42.267663000", "-71.152131000", [ null, "42.267663", "-71.152131", null, false ] ]
+, [ 1146189, "71C6DBF0-55B1-40EE-B83C-03B42B759379", 1146189, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "NEPONSET AV", "32", "34", null, null, null, "LaRosa Landscaping", "LaRosa Landscaping", "EXCA-524910", "SERVICE", "INSTALL NEW WATER AND SEWER SERVICE", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-828-6764", "1", "06", "42.249310000", "-71.119410000", [ null, "42.24931", "-71.11941", null, false ] ]
+, [ 1146190, "DB17B1ED-E22D-499B-93DA-DB3628D268C6", 1146190, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "NEWBURY ST", "130", null, null, null, null, "National Grid", "National Grid", "EXCA-522812", "MAINTENANCE", "GAS LEAK REPAIR", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "06", "42.282720000", "-71.141930000", [ null, "42.28272", "-71.14193", null, false ] ]
+, [ 1146191, "C7E3D650-7996-41DB-A0DA-05400B0B9700", 1146191, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "PARKLAWN RD", "90", null, null, null, null, "National Grid", "National Grid", "EXCA-522210", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "06", "42.295340000", "-71.146450000", [ null, "42.29534", "-71.14645", null, false ] ]
+, [ 1146192, "C3897D1C-C293-4673-8EDE-DB254D9F6A6E", 1146192, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "PERHAM ST", "105", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521705", "SERVICE", "SERVICE RELAY", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "06", "42.283300000", "-71.164440000", [ null, "42.2833", "-71.16444", null, false ] ]
+, [ 1146193, "95090479-718D-462F-BE51-A2F0D555498F", 1146193, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "ROWE ST", "130", "145", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-462732", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "6", "0", "PLATES PINNED & BERMED", "516", "877-304-1148", "1", "06", "42.280400000", "-71.120520000", [ null, "42.2804", "-71.12052", null, false ] ]
+, [ 1146194, "BD375FC7-3E58-4E4F-A069-F73F91183C7D", 1146194, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "SEYMOUR ST", "1", "77", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-462730", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "1", "PLATES BERMED", "1184", "877-304-1148", "1", "06", "42.280600000", "-71.123680000", [ null, "42.2806", "-71.12368", null, false ] ]
+, [ 1146195, "2A70ABA2-2EF4-437A-871E-9DCA93EF6170", 1146195, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "SOUTH ST", null, null, "WALWORTH ST / ROBERT", null, null, "Boston Transportation Department", "EB Rotondi", "EXCA-461098", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT SIGNAL FOUNDATIONS, RAMPS & LOOPS", "Days & Weekends", "Nov 18 2015 12:00AM", "Nov 18 2015 12:00AM", "0", "0", "DOWN IN BINDER AWAITING TOP", "480", "617-635-4396", "1", "06", "42.288220000", "-71.136440000", [ null, "42.28822", "-71.13644", null, false ] ]
+, [ 1146196, "C5438735-1242-4D01-9FE2-D4B825070DA8", 1146196, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "WASHINGTON ST", "4019", null, null, null, null, "National Grid", "National Grid", "EMER-516964", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "06", "42.292140000", "-71.122319000", [ null, "42.29214", "-71.122319", null, false ] ]
+, [ 1146197, "DF70E6A0-3CE6-45DE-8DE1-E908CFEBD465", 1146197, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "WHIPPLE AV", "9", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521696", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "06", "42.291263000", "-71.121868000", [ null, "42.291263", "-71.121868", null, false ] ]
+, [ 1146198, "65C7945F-4978-4F2A-BC7A-DA09BA640D5D", 1146198, 1445194993, "525314", 1445194993, "525314", null, "W ROXBURY/ROSLINDALE", "WILLOWDEAN AV", "65", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521700", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "06", "42.294510000", "-71.146920000", [ null, "42.29451", "-71.14692", null, false ] ]
+, [ 1146199, "50DC980C-D39D-496C-A251-2615CD437752", 1146199, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "ATLANTIC ST", "20", null, null, null, null, "Boston Water & Sewer Commission", "Albanese", "EXCA-515250", "SERVICE", "INSTALL MAIN LINE GATE", "Days & Weekends", "Nov  6 2015 12:00AM", "Nov  6 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, null, "1", "05", "42.333900000", "-71.046070000", [ null, "42.3339", "-71.04607", null, false ] ]
+, [ 1146200, "4F8871F8-E820-42E9-B6DF-5ABAC0A958A8", 1146200, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "BOWEN ST", "252", null, null, null, null, "Comcast", "Mirra Co", "EMER-439066", "EMERGENCY", "EMERGENCY CONDUIT REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "05", "42.335080000", "-71.049340000", [ null, "42.33508", "-71.04934", null, false ] ]
+, [ 1146201, "C71B9BB5-D318-4292-B282-81A766376DC5", 1146201, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "CONGRESS ST", "374", null, null, null, null, "Phoenix Communications", "Phoenix Communications", "EXCA-510789", "SERVICE", "INSTALL CONDUIT", "Weekends", "Oct 11 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "518-817-3331", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146202, "3D427819-59BA-47CA-8F6F-EB11C37A78DD", 1146202, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "DORCHESTER AV", "547", null, null, null, null, "National Grid", "National Grid", "EXCA-526833", "SERVICE", "CUT AND CAP", "Days & Weekends", "Nov 10 2015 12:00AM", "Nov 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "05", "42.330688000", "-71.057117000", [ null, "42.330688", "-71.057117", null, false ] ]
+, [ 1146203, "14464B29-4CFA-4DB5-BB2A-5F5C32CE3657", 1146203, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "E ST", "288", null, null, null, null, "Comcast", "PV Barrone", "EXCA-516087", "MAINTENANCE", "REPAIR DAMAGED CONDUIT / AWAITING ON PERMIT EXTENSION", "Days & Weekends", "Nov 15 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ON HOLD", null, "877-359-1821", "1", "05", "42.336920000", "-71.050570000", [ null, "42.33692", "-71.05057", null, false ] ]
+, [ 1146204, "98641D14-BB80-470F-B43B-92BA9CCB6997", 1146204, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST BROADWAY", "728", null, null, null, null, "Larkin and Larkin", "Larkin and Larkin", "EXCA-517231", "SERVICE", "INSTALL NEW WATER, SEWER AND FIREPIPE", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "781-944-7808", "1", "05", "42.335807000", "-71.036260000", [ null, "42.335807", "-71.03626", null, false ] ]
+, [ 1146205, "7D710309-43D3-47A3-96A8-2E6359058D87", 1146205, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST BROADWAY", "745", "761", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-463255", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / NATIONAL GRID TO PERFORM PERMANENT TRENCH RESTORATION WORK", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "DOWN IN BINDER AWAITING TOP", "200", "877-304-1148", "1", "05", "42.335450000", "-71.035816000", [ null, "42.33545", "-71.035816", null, false ] ]
+, [ 1146206, "D867A8C6-6B81-4ACB-AA0D-7D43E5183948", 1146206, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST BROADWAY", "761", null, null, null, null, "National Grid", "National Grid", "EMER-516956", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "05", "42.335454000", "-71.034903000", [ null, "42.335454", "-71.034903", null, false ] ]
+, [ 1146207, "18D4A63C-7120-4FEC-8F36-ECD4692EAAE6", 1146207, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST BROADWAY", "945", null, null, null, null, "Landmark", "Landmark", "EXCA-522575", "SERVICE", "INSTALLATION OF SERVICES", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 14 2015 12:00AM", "3", "1", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "05", "42.335520000", "-71.026020000", [ null, "42.33552", "-71.02602", null, false ] ]
+, [ 1146208, "C8AF402D-6209-438F-B517-CA2B644C1988", 1146208, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST FIFTH ST", "581", null, null, null, null, "National Grid", "National Grid", "EMER-514478", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "05", "42.334080000", "-71.037020000", [ null, "42.33408", "-71.03702", null, false ] ]
+, [ 1146209, "65DA216F-38D0-46AF-8B28-91F5B88C5AD2", 1146209, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST FIRST ST", "900", null, "P ST", null, null, "MassPort", "DW White", "EXCA-519022", "SERVICE", "(8) DRAIN TIE INS / (2) HYDRANT RELOCATIONS", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "508-763-8868", "1", "05", "42.340067000", "-71.027535000", [ null, "42.340067", "-71.027535", null, false ] ]
+, [ 1146210, "3C831152-1734-4D6A-B32C-23DDB19EC8D1", 1146210, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST SECOND ST", "543", "615", null, null, null, "Eversource Electric", "McCourt Construction", "EXCA-505451", "NEW CONDUIT AN/OR MAIN", "DIRECTIONAL DRILLING FOR INSTALLATION OF NEW TRANSMISSION LINE/4 PLATES ON K ST", "Days & Weekends", "Nov 10 2015 12:00AM", "Oct 14 2015 12:00AM", "29", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "05", "42.337016000", "-71.041441000", [ null, "42.337016", "-71.041441", null, false ] ]
+, [ 1146211, "BCBCD730-94FF-4792-A13C-56B88372730F", 1146211, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST SECOND ST", "652", null, null, null, null, "National Grid", "National Grid", "EMER-516965", "EMERGENCY", "GAS LEAK REPAIR  [EMER-516965]", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "05", "42.337640000", "-71.037190000", [ null, "42.33764", "-71.03719", null, false ] ]
+, [ 1146212, "37F91559-2AD4-49CE-8495-85D7FF28FC33", 1146212, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "EAST SECOND ST", "724", null, null, null, null, "Sean Farrell Excavation", "Sean Farrell Excavation", "EXCA-525036", "SERVICE", "INSTALL NEW WATER AND SEWER SERVICE", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-590-195", "1", "05", "42.337500000", "-71.034360000", [ null, "42.3375", "-71.03436", null, false ] ]
+, [ 1146213, "F93BB035-6322-4A36-8A08-2EB5F70F7538", 1146213, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "G ST", "64", null, null, null, null, "Keash Excavation", "Keash Excavation", "EXCA-525698", "SERVICES", "RECONNECT SERVICES", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "05", "42.333910000", "-71.043980000", [ null, "42.33391", "-71.04398", null, false ] ]
+, [ 1146214, "BAAE3489-BC14-4D3D-8D9B-CE0AA579D78D", 1146214, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "GOLD ST", "188", null, null, null, null, "Comcast", "PV Barrone", "EXCA-516085", "MAINTENANCE", "REPAIR DAMAGED CONDUIT / ON HOLD WAITING EXTENSION", "Days & Weekends", "Nov 11 2015 12:00AM", "Oct 14 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-359-1821", "1", "05", "42.337150000", "-71.050880000", [ null, "42.33715", "-71.05088", null, false ] ]
+, [ 1146215, "7617E88D-D15A-47A3-9A3D-88906DF681EF", 1146215, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "H ST", null, null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521685", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 11 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "05", "42.332530000", "-71.041620000", [ null, "42.33253", "-71.04162", null, false ] ]
+, [ 1146216, "B6DBA3AC-9238-4B1D-80D3-B63FEBCF9984", 1146216, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "H ST", "135", null, null, null, null, "Eversource Electric", "McCourt Construction", "EXCA-469657", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT AND (6) MANHOLES", "Days & Weekends", "Nov  7 2015 12:00AM", "Nov  7 2015 12:00AM", "57", "0", "PLATES PINNED & BERMED", "600", "800-592-2000", "1", "05", "42.333160000", "-71.041640000", [ null, "42.33316", "-71.04164", null, false ] ]
+, [ 1146217, "A276D531-0436-4EA4-B075-68CF1D64620A", 1146217, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "H ST", "159", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-516992", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "05", "42.332410000", "-71.041610000", [ null, "42.33241", "-71.04161", null, false ] ]
+, [ 1146218, "886F9F65-EF74-4AE2-BAB8-E0F4696E3AC5", 1146218, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "H ST", "200", null, null, null, null, "Boston Public Works", "Maverick Const", "EXCA-517625", "SERVICE", "INSTALLATION OF HANDHOLD AND BASE", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "05", "42.330960000", "-71.041240000", [ null, "42.33096", "-71.04124", null, false ] ]
+, [ 1146219, "2968E6F4-E1CD-4331-ACC0-A886FF2C0629", 1146219, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "I ST", null, null, "EAST SECOND ST", null, null, "Verizon", "Mirra Co", "EXCA-527328", "MAINTENANCE", "REPAIR PLUG", "Days & Weekends", "Oct 10 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "05", "42.337019000", "-71.041214000", [ null, "42.337019", "-71.041214", null, false ] ]
+, [ 1146220, "1B232B70-AFA6-4ED7-AD6B-98E8840F35D1", 1146220, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "I ST", "192", null, null, null, null, "Eversource Electric", "Eversource Electric", "EMER-488555", "EMERGENCY", "CONDUIT REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-592-2000", "1", "05", "42.331710000", "-71.039680000", [ null, "42.33171", "-71.03968", null, false ] ]
+, [ 1146221, "EDB89C60-A0CE-4304-9EA4-6A1F10701C20", 1146221, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "K ST", "110", null, null, null, null, "Eversource Electric", "McCourt", "EXCA-511194", null, null, "Days & Weekends", "Oct 24 2015 12:00AM", "Oct 24 2015 12:00AM", "15", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-592-2000", "1", "05", "42.340802000", "-71.036554000", [ null, "42.340802", "-71.036554", null, false ] ]
+, [ 1146222, "9413A5A2-7173-4F2D-A9A6-3BF774CD4C53", 1146222, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "L ST", "50", null, "EAST BROADWAY", null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-463252", "SERVICE", "GAS MAIN TIE IN", "Days & Weekends", "Nov 10 2015 12:00AM", "Nov 10 2015 12:00AM", "7", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "05", "42.336780000", "-71.035230000", [ null, "42.33678", "-71.03523", null, false ] ]
+, [ 1146223, "0BAE8915-E937-4319-B8BE-B9FD33C74358", 1146223, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "LANARK ST", "84", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-516997", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct  9 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "05", "42.340480000", "-71.147366000", [ null, "42.34048", "-71.147366", null, false ] ]
+, [ 1146224, "99B3637B-02E8-4FC3-B52B-59C60D56276D", 1146224, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "MERCER ST", "25", null, null, null, null, "JRF Corp", "JRF Corp", "EXCA-526247", "SERVICE", "INSTALL NEW FIREPIPE, SEWER, AND WATER", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-818-2653", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146225, "779BAEC7-AC60-4466-A733-B74F54BCB562", 1146225, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "MERCER ST", "25", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-511619", "SERVICE", "INSTALLATION OF SERVICE", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", "4", "1", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146226, "D446019E-9508-4EBD-9F6F-28705DE375A2", 1146226, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "NORTHERN AV", "104", null, null, null, null, "A A Will Corp", "A A Will Corp", "EXCA-416661", "SERVICE", "RELOCATE WATER, SEWER, FIREPIPE, AND DRAIN", "Days & Weekends", "Nov  6 2015 12:00AM", "Nov  6 2015 12:00AM", "5", "0", "PLATES PINNED & BERMED", null, "781-424-5189", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146227, "23457FBA-A5BB-4497-A755-AEFE69EE2575", 1146227, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "NORTHERN AV", "104", null, null, null, null, "A A Will Corp", "A A Will Corp", "EXCA-485064", "MAINTENANCE", "INSTALL NEW STORM DRAIN", "Nights", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "781-424-5189", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146228, "95483FCD-2A46-4241-9752-B7F8956F93E1", 1146228, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "O ST", "75", null, null, null, null, "JRF Corp", "JRF Corp", "EXCA-528057", "SERVICE", "INSTALL NEW FIREPIPE", "Days & Weekends", "Oct 26 2015 12:00AM", "Oct 26 2015 12:00AM", "0", "2", "PLATES ON SIDEWALK", null, "617-818-2653", "1", "05", "42.335580000", "-71.029360000", [ null, "42.33558", "-71.02936", null, false ] ]
+, [ 1146229, "1CCDA7DF-E42C-4898-8FBC-C3FF2B960827", 1146229, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "OLD HARBOR ST", "103", null, null, null, null, "National Grid", "National Grid", "EXCA-463260", "SERVICE", "RELAY GAS MAIN", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "05", "42.331350000", "-71.047600000", [ null, "42.33135", "-71.0476", null, false ] ]
+, [ 1146230, "35294782-4213-43E0-B1F3-D43F0E5D5A32", 1146230, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "SUMMER ST", "327", "333", null, null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-521225", "SERVICE", "REMOVE AND REPLACE FIREPIPE", "Weekends", "Oct 10 2015 12:00AM", "Oct 14 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "508-427-6441", "1", "05", "42.349030000", "-71.048340000", [ null, "42.34903", "-71.04834", null, false ] ]
+, [ 1146231, "D1198D1F-50E8-4FBF-A480-F3A63BE33FAA", 1146231, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "SUMMER ST", "333", null, null, null, null, "Waveguide", "Waveguide", "EXCA-517181", "SERVICE", "INSTALL CONDUIT", "Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "978-224-8866", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146232, "5EF539EA-5E3B-4B74-B915-B98100E66783", 1146232, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "WEST SECOND ST", "193", null, null, null, null, "Keash Excavation", "Keash Excavation", "EXCA-511983", "SERVICE", "INSTALL NEW WATER, SEWER, AND DRAIN", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ON HOLD", null, null, "1", "05", "42.341314000", "-71.051372000", [ null, "42.341314", "-71.051372", null, false ] ]
+, [ 1146233, "C0879172-531D-46FD-A1B7-817FAAE70EE0", 1146233, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "WEST SECOND ST", "193", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-519838", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "05", "42.341314000", "-71.051372000", [ null, "42.341314", "-71.051372", null, false ] ]
+, [ 1146234, "1DBA690F-6661-4D27-B6EB-A75560B90902", 1146234, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "WEST THIRD ST", "90", null, null, null, null, "Keash Excavation", "Keash Excavation", "EXCA-525700", "SERVICE", "INSTALL NEW WATER SEWER AND DRAIN", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "2", "1", "PLATES PINNED & BERMED", null, null, "1", "05", "42.341349000", "-71.052378000", [ null, "42.341349", "-71.052378", null, false ] ]
+, [ 1146235, "AAA3F71B-ABDF-4CB2-910E-E27DD095513D", 1146235, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "WOODWARD ST", "22", null, null, null, null, "JRF Corp", "JRF Corp", "EXCA-526245", "SERVICE", "INSTALLATION OF NEW WATER SEWER AND FIREPIPE SERVICE", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-818-2653", "1", "05", null, null, [ null, null, null, null, null ] ]
+, [ 1146236, "82804AC4-AB94-4955-AE92-31241F487420", 1146236, 1445194993, "525314", 1445194993, "525314", null, "SOUTH BOSTON", "WOODWARD ST", "28", null, null, null, null, "National Grid", "National Grid", "EMER-519843", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "05", "42.331450000", "-71.056000000", [ null, "42.33145", "-71.056", null, false ] ]
+, [ 1146237, "87D10341-0198-4243-B4FD-F0D171466975", 1146237, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "ALLSTON ST", "205", "220", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-482022", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF GAS MAIN", "Days & Weekends", "Oct 13 2015 12:00AM", "Nov 13 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", "205", "877-304-1148", "1", "04", "42.346444000", "-71.138700000", [ null, "42.346444", "-71.1387", null, false ] ]
+, [ 1146238, "11614265-9244-43ED-89C9-CEB7F2F43384", 1146238, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "ARLINGTON ST", "154", null, null, null, null, "Steven Miller", "Steven Miller", "EXCA-528205", "PVT EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-590-1950", "1", "04", "42.352418000", "-71.159584000", [ null, "42.352418", "-71.159584", null, false ] ]
+, [ 1146239, "182D3497-AD37-42A8-80EC-5C2DD90802BB", 1146239, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "CAMBRIDGE ST", "731", null, null, null, null, "National Grid", "MPS", "EXCA-512838", "SERVICE", "ENTRY PIT", "Days & Weekends", "Nov  2 2015 12:00AM", "Nov  2 2015 12:00AM", "2", "0", "PLATES RECESSED", null, "877-304-1148", "1", "04", "42.349920000", "-71.148410000", [ null, "42.34992", "-71.14841", null, false ] ]
+, [ 1146240, "2B18C868-FC41-4D18-AB10-C366A186F0EC", 1146240, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "CAMBRIDGE ST", "743", null, null, null, null, "National Grid", "National Grid", "EXCA-512840", "SERVICE", "ENTRY PIT", "Days & Weekends", "Nov  2 2015 12:00AM", "Nov  2 2015 12:00AM", "0", "0", "NO START", null, "877-304-1148", "1", "04", "42.349760000", "-71.148790000", [ null, "42.34976", "-71.14879", null, false ] ]
+, [ 1146241, "E9E2F525-B5AA-433A-A419-843AF1BED829", 1146241, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "COMMONWEALTH AV", "1455", null, null, null, null, "Bond Brothers", "Bond Brothers", "EXCA-522444", "SERVICE", "INSTALLATION OF NEW WATER SUPPLY", "Days & Weekends", "Oct 11 2015 12:00AM", "Oct 11 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-387-3400", "1", "04", "42.348317000", "-71.142665000", [ null, "42.348317", "-71.142665", null, false ] ]
+, [ 1146242, "9486250F-2295-4827-B0DB-9AE07D0AA58D", 1146242, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "COMMONWEALTH AV", "820", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-512833", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW MAIN / TEST PITS", "Nights", "Nov 15 2015 12:00AM", "Nov 15 2015 12:00AM", "3", "4", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "04", "42.352756000", "-71.123991000", [ null, "42.352756", "-71.123991", null, false ] ]
+, [ 1146243, "6BAB66D0-7EC8-4287-928A-7BC312627F9C", 1146243, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "COMMONWEALTH AV", "829", "924", null, null, null, "Verizon", "Mirra Co", "EXCA-519634", "NEW CONDUIT AND/OR MAIN", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "179", "800-446-8946", "1", "04", "42.351586000", "-71.116958000", [ null, "42.351586", "-71.116958", null, false ] ]
+, [ 1146244, "7B405DA5-B9B7-4A21-844E-BEF058BDD9AB", 1146244, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "COMMONWEALTH TER", "3", "29", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-482025", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF GAS MAIN", "Days & Weekends", "Nov  7 2015 12:00AM", "Nov  7 2015 12:00AM", "1", "0", "PINNED & BERMED", null, "877-304-1148", "1", "04", "42.346570000", "-71.139040000", [ null, "42.34657", "-71.13904", null, false ] ]
+, [ 1146245, "F6298CFF-361C-4B91-850B-25F422E481E9", 1146245, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "GARDENA ST", "6", "38", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-467918", "NEW CONDUIT AND/OR MAIN", "INSTALLATAION OF NEW GAS MAIN", "Days & Weekends", "Nov 12 2015 12:00AM", "Nov 13 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", "452", "877-304-1148", "1", "04", "42.354206000", "-71.149978000", [ null, "42.354206", "-71.149978", null, false ] ]
+, [ 1146246, "32CF376B-DBFA-4252-BB5B-A3607330AFB3", 1146246, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "GUEST ST", "1", "99", null, null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-358937", "ROADWAY AND SIDEWALK RESTORATION", "ROADWAY AND SIDEWALK RESTORATION / BEHIND JERSEY BARRIERS", "Days & Weekends", "Oct 14 2015 12:00AM", "Jan 29 2016 12:00AM", "0", "0", "DOWN IN BINDER AWAITING TOP", null, "508-427-6441", "1", "04", "42.357159000", "-71.148087000", [ null, "42.357159", "-71.148087", null, false ] ]
+, [ 1146247, "48F81179-D696-41F1-B9FA-BEF7A7FBEFD9", 1146247, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "LINDEN ST", "1", "55", null, null, null, "Boston Water & Sewer Commission", "DALLESSANDRO", "EXCA-512325", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN / (6) 8x5 RDWY CUTS", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, "617-989-7000", "1", "04", "42.355780000", "-71.131350000", [ null, "42.35578", "-71.13135", null, false ] ]
+, [ 1146248, "BF774C16-8E90-495E-89B8-A4C9FA0C591A", 1146248, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "NORTH BEACON ST", "48", null, null, null, null, "National Grid", "National Grid", "EMER-516962", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 19 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "04", "42.353720000", "-71.140050000", [ null, "42.35372", "-71.14005", null, false ] ]
+, [ 1146249, "2330B94C-3B9B-4BEC-964D-452CBE42F7D1", 1146249, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "NORTH HARVARD ST", null, null, "WESTERN AV", null, null, "Eversource Electric", "Eversource Electric", "EMER-488556", "EMERGENCY", "CONDUIT REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "04", "42.359632000", "-71.128271000", [ null, "42.359632", "-71.128271", null, false ] ]
+, [ 1146250, "18FD53C8-61C1-468F-84D5-156672B3043C", 1146250, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "NORTH HARVARD ST", "201", null, null, null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-462783", "SERVICE", "INSTALLATION OF CONDUIT /HALF SIDEWALK IN CONCRETE / IDLE", "Days & Weekends", "Oct 24 2015 12:00AM", "Oct 24 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "508-427-6441", "1", "04", "42.362934000", "-71.130464000", [ null, "42.362934", "-71.130464", null, false ] ]
+, [ 1146251, "C11CC847-CB25-4005-A0C9-0309ED6B595C", 1146251, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "VINAL ST", "4", "52", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-482027", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF GAS MAIN", "Days & Weekends", "Nov 17 2015 12:00AM", "Nov 17 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "04", "42.346200000", "-71.138780000", [ null, "42.3462", "-71.13878", null, false ] ]
+, [ 1146252, "90A184D4-ECAA-45FC-8742-C7BFB3BB2C4B", 1146252, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "WARREN ST", "126", null, null, null, null, "Comcast", "Mirra Co", "EXCA-526450", "MAINTENANCE", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "04", "42.348977000", "-71.140589000", [ null, "42.348977", "-71.140589", null, false ] ]
+, [ 1146253, "133F614C-330D-4A3F-AD82-521C450A19F5", 1146253, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "WASHINGTON ST", "60", null, null, null, null, "Eversource Electric", "Riley Brothers", "EMER-488552", "EMERGENCY", "EMERGENCY REPAIR", "Days & Weekends", "Sep 27 2015 12:00AM", "Oct 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-592-2000", "1", "04", "42.343250000", "-71.142370000", [ null, "42.34325", "-71.14237", null, false ] ]
+, [ 1146254, "35EEA785-0E3F-47D3-AEB4-C2732F069C56", 1146254, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "WESTERN AV", "1", null, null, null, null, "Bond Brothers", "Bond Brothers", "EXCA-519131", "MAINTENANCE", "STEAM LEAK REPAIR", "Days & Weekends", "Oct 26 2015 12:00AM", "Dec  5 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "617-387-3400", "1", "04", "42.362580000", "-71.123100000", [ null, "42.36258", "-71.1231", null, false ] ]
+, [ 1146255, "F25588E0-A574-4EB6-8BE2-09D2DA66D6A6", 1146255, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "WESTERN AV", "194", "216", null, null, null, "Eversource Electric", "Eversource Electric", "EXCA-524299", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT", "Days & Weekends", "Oct 21 2015 12:00AM", "Oct 21 2015 12:00AM", null, null, "TO GRADE IN HMA", null, "800-592-2000", "1", "04", "42.362835000", "-71.130373000", [ null, "42.362835", "-71.130373", null, false ] ]
+, [ 1146256, "29CD3818-83C8-4D02-AE98-AF0D215CBEB6", 1146256, 1445194993, "525314", 1445194993, "525314", null, "ALLSTON/BRIGHTON", "WESTERN AV", "219", null, null, null, null, "J Derenzo Co", "J Derenzo Co", "EXCA-462793", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT / SIDEWALK IN CONCRETE", "Days & Weekends", "Oct 23 2015 12:00AM", "Oct 23 2015 12:00AM", "0", "0", "TO GRADE IN COLD PATCH", "160", "508-427-6441", "1", "04", "42.364022000", "-71.130413000", [ null, "42.364022", "-71.130413", null, false ] ]
+, [ 1146257, "630427E8-46BA-4140-9691-C8DD00B0D317", 1146257, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "BOWDOIN ST", "121", "123", "AT GENEVA AV", null, null, "Boston Water & Sewer Commission", "Albanese", "EXCA-513058", "MAINTENANCE", "INSTALLATION OF MAIN LINE GATE", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "617-989-7000", "1", "03", "42.303110000", "-71.071230000", [ null, "42.30311", "-71.07123", null, false ] ]
+, [ 1146258, "620DE228-2A82-44CF-BE72-8C74F9DC1AA7", 1146258, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "BOWDOIN ST", "266", null, null, null, null, "National Grid", "National Grid", "EMER-514493", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", null, null, [ null, null, null, null, null ] ]
+, [ 1146259, "A0E4B4FC-0167-4395-9752-2D83DCD73C88", 1146259, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "BOWDOIN ST", "330", "434", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-469856", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Nov 14 2015 12:00AM", "Nov 14 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", "1271", "877-304-1148", "1", "03", "42.308370000", "-71.064990000", [ null, "42.30837", "-71.06499", null, false ] ]
+, [ 1146260, "E023C788-545F-4C83-8842-7EE5B500FF3A", 1146260, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "CLAPP ST", "24", null, null, null, null, "Boston Public Works", "Maverick", "EXCA-515180", "SERVICE", "INSTALL HAND HOLD AND BASE", "Days & Weekends", "Oct 12 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-635-4950", "1", "03", "42.322710000", "-71.061960000", [ null, "42.32271", "-71.06196", null, false ] ]
+, [ 1146261, "BB9C40AB-EFCF-4557-BBC3-79115BBB091A", 1146261, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "COLUMBIA RD", "847", null, null, null, null, "Boston Water & Sewer Commission", "K&K Excavation", "EXCA-486475", "NEW CONDUIT AND/OR MAIN", "WATER MAIN RELAY", "Days & Weekends", "Sep 22 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "475", "617-989-7000", "1", "03", "42.321160000", "-71.054360000", [ null, "42.32116", "-71.05436", null, false ] ]
+, [ 1146262, "89BBFCFE-D249-4ECD-88AB-F66ED7200B9D", 1146262, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "DORCHESTER AV", "1110", null, null, null, null, "National Grid", "National Grid", "EMER-504548", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Sep 28 2015 12:00AM", "Oct 15 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "03", "42.312721000", "-71.056968000", [ null, "42.312721", "-71.056968", null, false ] ]
+, [ 1146263, "5982C79E-11E5-43D5-B2C5-2C2A2B603AC7", 1146263, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "DORCHESTER AV", "1286", null, null, null, null, "National Grid", "National Grid", "EMER-516948", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "2", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", null, null, [ null, null, null, null, null ] ]
+, [ 1146264, "CE8E7221-4A36-45A1-B0F8-A118B50008B6", 1146264, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "DORCHESTER AV", "870", null, null, null, null, "K&K Excavation", "K&K Excavation", "EXCA-486920", "NEW CONDUIT AND/OR MAIN", "WATER MAIN RELAY", "Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "135", "617-269-0400", "1", "03", "42.321180000", "-71.056550000", [ null, "42.32118", "-71.05655", null, false ] ]
+, [ 1146265, "F65D6A89-F843-49F2-836B-69A53578B068", 1146265, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "DUDLEY ST", "650", null, null, null, null, "National Grid", "National Grid", "EMER-516958", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", null, null, [ null, null, null, null, null ] ]
+, [ 1146266, "DB02EA43-D998-4C73-8534-3A36DAE468E2", 1146266, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "DUDLEY ST", "690", "780", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-467899", "NEW CONDUIT AND/OR MAIN", "RELAY GAS MAIN", "Days & Weekends", "Nov 12 2015 12:00AM", "Nov 12 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "1183", "877-304-1148", "1", "03", "42.318775000", "-71.068127000", [ null, "42.318775", "-71.068127", null, false ] ]
+, [ 1146267, "C0B2EC43-3A5F-43EA-814F-A751A2EFB477", 1146267, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "HARVEST ST", "70", "72", null, null, null, "Comcast", "Mirra Co", "EXCA-521684", "MAINTENANCE", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Oct 27 2015 12:00AM", "Oct 27 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "03", "42.323330000", "-71.059810000", [ null, "42.32333", "-71.05981", null, false ] ]
+, [ 1146268, "C53A0812-31FB-41C4-942C-F23448637F6E", 1146268, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "LINDSEY ST", "15", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521702", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "03", "42.298110000", "-71.067500000", [ null, "42.29811", "-71.0675", null, false ] ]
+, [ 1146269, "745E527B-9FBA-4AD2-8C53-516525DFFBBF", 1146269, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "MT VERNON ST", "38", null, null, null, null, "National Grid", "National Grid", "EMER-498657", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Sep 11 2015 12:00AM", "Oct 15 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "03", "42.321836000", "-71.056978000", [ null, "42.321836", "-71.056978", null, false ] ]
+, [ 1146270, "6912935F-D7EA-4EF6-B136-CBCB76EE603F", 1146270, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "MT VERNON ST", "44", null, null, null, null, "National Grid", "National Grid", "EMER-501603", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Sep 23 2015 12:00AM", "Oct 15 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "03", "42.321710000", "-71.056540000", [ null, "42.32171", "-71.05654", null, false ] ]
+, [ 1146271, "14477BA7-E5B9-46B0-A421-941DE4FDE18A", 1146271, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "NORMANDY ST", "18", null, null, null, null, "National Grid", "National Grid", "EMER-514484", "EMERGENCY", "GAS LEAK REAPAIR", "Days & Weekends", "Oct  8 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", "42.311480000", "-71.077820000", [ null, "42.31148", "-71.07782", null, false ] ]
+, [ 1146272, "F4CDA08D-1383-4D8F-9763-DF94C071D5AB", 1146272, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "NORMANY ST", "1", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-509756", null, null, "Days & Weekends", "Nov 21 2015 12:00AM", "Nov 21 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "03", "42.311960000", "-71.077890000", [ null, "42.31196", "-71.07789", null, false ] ]
+, [ 1146273, "2E059ED9-3BDC-486F-B019-B9B0B86F1116", 1146273, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "OLNEY ST", "16", null, null, null, null, "National Grid", "National Grid", "EXCA-469109", "NEW CONDUIT AND/OR MAIN", "RELAY GAS MAIN / HITTING OBSTACLES, LEDGE", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "600", "877-304-1148", "1", "03", "42.305260000", "-71.069320000", [ null, "42.30526", "-71.06932", null, false ] ]
+, [ 1146274, "446D13D7-18E1-4EFE-96C3-6D887B16AB39", 1146274, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "PARK ST", "0", null, null, null, null, "RCN Metro", "Waveguide", "EXCA-521982", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "617-293-0201", "1", "03", "42.298604000", "-71.059574000", [ null, "42.298604", "-71.059574", null, false ] ]
+, [ 1146275, "704D35A8-81FC-4B27-8236-F273BA87E2CE", 1146275, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "SAVIN HILL AV", null, null, "GRAMPIAN WAY", null, null, "Eversource Electric", "Eversource Electric", "EMER-476815", "EMERGENCY", "EMERGENCY REPAIR", "Days & Weekends", "Sep 15 2015 12:00AM", "Oct 15 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "03", "42.311839000", "-71.051870000", [ null, "42.311839", "-71.05187", null, false ] ]
+, [ 1146276, "066B2B71-E44F-4E0E-BF47-A330DE6EF079", 1146276, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "SAVIN HILL AV", "77", null, null, null, null, "National Grid", "National Grid", "EMER-514480", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", "42.312320000", "-71.055420000", [ null, "42.31232", "-71.05542", null, false ] ]
+, [ 1146277, "8BF129BD-9256-4186-B80B-85541A4C490D", 1146277, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "SHAFTER ST", "6", null, null, null, null, "Comcast", "Comcast", "EMER-439065", "EMERGENCY", "CONDUIT REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "03", "42.298390000", "-71.076890000", [ null, "42.29839", "-71.07689", null, false ] ]
+, [ 1146278, "A485DDC5-9A19-4452-A8C5-61D29AEA02A0", 1146278, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "ST MARGARET ST", "50", null, null, null, null, "National Grid", "National Grid", "EXCA-525402", "SERVICE", "CUT OFF GAS", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "03", "42.321460000", "-71.057850000", [ null, "42.32146", "-71.05785", null, false ] ]
+, [ 1146279, "31E50B97-A6EC-4B1A-A7E7-AB9E736E970B", 1146279, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "WASHINGTON ST", "326", null, null, null, null, "Baystate Engineering", "Baystate Engineering", "EXCA-513211", "SERVICE", "INSTALL WATER, SEWERE, FIREPIPE, AND DRAIN", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 14 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, null, "1", "03", "42.299910000", "-71.073896000", [ null, "42.29991", "-71.073896", null, false ] ]
+, [ 1146280, "C760C2C0-CDC9-40E6-9929-A18EA7AE1CCC", 1146280, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "WASHINGTON ST", "331", null, null, null, null, "Baystate Engineering", "Baystate Engineering", "EXCA-513210", "SERVICE", "INTALLATION OF WATER SEWER FIREPIPE AND DRAIN", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 13 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "03", "42.299649000", "-71.074262000", [ null, "42.299649", "-71.074262", null, false ] ]
+, [ 1146281, "DF155129-A9F0-4C35-A8C7-F1308DBC5AB6", 1146281, 1445194993, "525314", 1445194993, "525314", null, "NORTH DORCHESTER", "WILLOW CT", "4", null, null, null, null, "LVMJ Corp", "LVMJ Corp", "EXCA-524489", "SERVICE", "CUT AND CAP EXISTING", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "03", "42.324650000", "-71.064200000", [ null, "42.32465", "-71.0642", null, false ] ]
+, [ 1146282, "DC45E479-4392-490A-92C8-C27180A4B27C", 1146282, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "CAROLINA AV", "95", "111", "CAROLINA TER/LEE  ST", "MOZART ST", "SHERIDAN ST", "National Grid", "Feeney Brothers Excavation", "EXCA-413429", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN, 12\" PIPE / IDLE", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "551", "877-304-1148", "1", "02", "42.307790000", "-71.111970000", [ null, "42.30779", "-71.11197", null, false ] ]
+, [ 1146283, "C153D1D4-0735-47EB-90E3-A7377DC12818", 1146283, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "CENTRE ST", "315", "381", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-350358", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / IDLE", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "6", "0", "PLATES PINNED & BERMED", "1420", "877-304-1148", "1", "02", "42.322966000", "-71.103847000", [ null, "42.322966", "-71.103847", null, false ] ]
+, [ 1146284, "CD238E95-D2A5-4341-915D-63F2008A9B44", 1146284, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "CENTRE ST", "408", "475", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-487601", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Nov  5 2015 12:00AM", "Nov  5 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", "1442", "877-304-1148", "1", "02", "42.320890000", "-71.110270000", [ null, "42.32089", "-71.11027", null, false ] ]
+, [ 1146285, "BF5E6F73-0112-4E8F-A156-BDAC6F8A6312", 1146285, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "CUSTER ST", "8", null, "SOUTH ST", null, null, "Mathias Corp", "Mathias Corp", "EXCA-526956", "SERVICE", "NEW WATER AND FIREPIPE", "Days & Weekends", "Oct 21 2015 12:00AM", "Oct 21 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-308-6066", "1", "02", "42.307380000", "-71.116020000", [ null, "42.30738", "-71.11602", null, false ] ]
+, [ 1146286, "2D851581-FBD2-42DB-81E6-511750E9E864", 1146286, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "ELIOT ST", "1", "32", null, null, null, "Eversource Electric", "Riley Brothers", "EXCA-505370", "NEW CONDUIT AND/OR MAIN", "INSTALLATION CONDUIT", "Days & Weekends", "Nov 15 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "852", "800-592-2000", "1", "02", "42.310130000", "-71.115700000", [ null, "42.31013", "-71.1157", null, false ] ]
+, [ 1146287, "BD6D1A20-69BB-4D4C-92F2-6CE97027CC1A", 1146287, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "METCALF CT", "15", null, "JAMAICA ST", null, null, "National Grid", "Bond Brothers", "EXCA-515554", "SERVICE", "INSTALLATION OF NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.305390000", "-71.119060000", [ null, "42.30539", "-71.11906", null, false ] ]
+, [ 1146288, "038975A5-F8A6-47F5-9014-F8A8C785D693", 1146288, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "METCALF CT", "9", null, "JAMAICA ST", null, null, "National Grid", "Bond Brothers", "EXCA-515552", "SERVICE", "INSTALLATION OF NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.306030000", "-71.117180000", [ null, "42.30603", "-71.11718", null, false ] ]
+, [ 1146289, "A52AB2ED-02EF-4BD6-BADE-76892F523440", 1146289, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "MINTON ST", "11", null, "BROOKSIDE AV", null, null, "National Grid", "Bond Brothers", "EXCA-518810", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.313130000", "-71.104110000", [ null, "42.31313", "-71.10411", null, false ] ]
+, [ 1146290, "CCA340E1-E5EC-4365-B48E-15696169C143", 1146290, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "POND ST", "60", null, null, null, null, "Street Lighting", "Maverick Construction", "EXCA-524284", "SERVICE", "INVESTIGATION", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "02", null, null, [ null, null, null, null, null ] ]
+, [ 1146291, "193C71B3-457C-4B7B-855A-98606DB8C9BE", 1146291, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "SAINT ROSE ST", "23", null, null, null, null, "National Grid", "National Grid", "EXCA-515560", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.305120000", "-71.115810000", [ null, "42.30512", "-71.11581", null, false ] ]
+, [ 1146292, "F790E6B8-68AA-4569-94B9-E0D294141ED7", 1146292, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "SAINT ROSE ST", "25", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-515561", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 28 2015 12:00AM", "Oct 28 2015 12:00AM", null, "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.304780000", "-71.115590000", [ null, "42.30478", "-71.11559", null, false ] ]
+, [ 1146293, "57AB7930-AFA5-41D7-A69F-825CB5BC42C9", 1146293, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "SAINT ROSE ST", "31", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-515563", "SERVICE", "INSTALLATION OF NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.304780000", "-71.116000000", [ null, "42.30478", "-71.116", null, false ] ]
+, [ 1146294, "4667D338-30A1-4D26-8715-590FD5F656B0", 1146294, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "SOUTH ST", "97", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-515550", "SERVICE", "INSTALLATION OF NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "02", "42.306340000", "-71.115630000", [ null, "42.30634", "-71.11563", null, false ] ]
+, [ 1146295, "DD7AF4A2-2A1F-4445-960E-7BA2475B0E08", 1146295, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "WASHINGTON ST", "3585", "3587", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-496699", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "5", "2", "PLATES PINNED & BERMED", "70", "877-304-1148", "1", "02", "42.303801000", "-71.110359000", [ null, "42.303801", "-71.110359", null, false ] ]
+, [ 1146296, "A11FF2FC-032C-4910-BF26-73A5B6708499", 1146296, 1445194993, "525314", 1445194993, "525314", null, "JAMAICA PLAIN", "WASHINGTON ST", "3611", null, null, null, null, "National Grid", "National Grid", "EXCA-514655", "MAINTENANCE", "GAS LEAK REPAIR", "Days & Weekends", "Oct 28 2015 12:00AM", "Oct 14 2015 12:00AM", "5", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "02", "42.303680000", "-71.110740000", [ null, "42.30368", "-71.11074", null, false ] ]
+, [ 1146297, "931CE368-A0DD-4655-BF80-D522DD7A37ED", 1146297, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "ALBANY ST", "237", null, null, null, null, "National Grid", "National Grid", "EXCA-526842", "SERVICE", "CUT OFF GAS", "Days & Weekends", "Nov  8 2015 12:00AM", "Nov  8 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01F", "42.344860000", "-71.062020000", [ null, "42.34486", "-71.06202", null, false ] ]
+, [ 1146298, "DC100531-6C6E-41A2-99FE-0391B420EBD5", 1146298, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "AVERY ST", null, null, "TREMONT ST", null, null, "Eversource Electric", "Bond Brothers", "EMER-476813", "EMERGENCY", "EMERGENCY REPAIR", "Days & Weekends", "Sep 13 2015 12:00AM", "Oct 16 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "01F", "42.353458000", "-71.062852000", [ null, "42.353458", "-71.062852", null, false ] ]
+, [ 1146299, "A023EFC5-35D7-4558-844A-5D10775AEA57", 1146299, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "BATTERYMARCH ST", "22", null, null, null, null, "Comcast", "Mirra Co", "EXCA-513577", "MAINTENANCE", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Oct  4 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "01F", "42.357870000", "-71.054590000", [ null, "42.35787", "-71.05459", null, false ] ]
+, [ 1146300, "FA7D72DF-83D5-48CD-B7DF-EDF70ED6DB41", 1146300, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "BROAD ST", "110", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-484817", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 24 2015 12:00AM", "Oct 24 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01F", "42.357370000", "-71.052040000", [ null, "42.35737", "-71.05204", null, false ] ]
+, [ 1146301, "380B12AA-8D17-4BE2-9E6A-8BA8569BAA69", 1146301, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "CHATHAM ROW", null, null, null, "CHATHAM ST", "STATE ST", "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-505344", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN", "Nights", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "110", "617-989-7000", "1", "01F", "42.359370000", "-71.054440000", [ null, "42.35937", "-71.05444", null, false ] ]
+, [ 1146302, "B6388C94-E40A-4EA3-B725-BD1A065FDCDB", 1146302, 1445194993, "525314", 1445194993, "525314", null, "BOSTON PROPER", "CHAUNCY ST", "110", null, null, null, null, "Comcast", "Mirra Co", "EXCA-517496", "MAINTENANCE", "ROADWAY REPAIR", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "01F", "42.352700000", "-71.060880000", [ null, "42.3527", "-71.06088", null, false ] ]
+, [ 1146303, "BA1AB692-9894-442D-872D-545B44496B5A", 1146303, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "CHAUNCY ST", "115", null, null, null, null, "National Grid", "National Grid", "EXCA-471584", "MAINTENANCE", "GAS LEAK REPAIR / ON HOLD AWAITING DUCT BANK RELOCATION BY EVERSOURCE / (EMER-457280)", "Days & Weekends", "Nov  5 2015 12:00AM", "Nov  5 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01F", "42.352730000", "-71.061240000", [ null, "42.35273", "-71.06124", null, false ] ]
+, [ 1146304, "914E1814-552E-4802-826E-1FF747E9FF3C", 1146304, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "DEVONSHIRE ST", "43", null, null, null, null, "Verizon", "Mirra Co", "EXCA-518401", "MAINTENANCE", "CASTING REPAIR", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01F", "42.358458000", "-71.057444000", [ null, "42.358458", "-71.057444", null, false ] ]
+, [ 1146305, "E9A10887-4443-433C-9324-21205C9E90E2", 1146305, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "ESSEX ST", "33", null, null, null, null, "Comcast", "Mirra Co", "EXCA-517492", "MAINTENANCE", "REPAIR CONDUIT", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "01F", null, null, [ null, null, null, null, null ] ]
+, [ 1146306, "C96CAF94-5EC6-4E19-83B2-862012CD93D8", 1146306, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "ESSEX ST", "50", null, null, null, null, "National Grid", "National Grid", "EMER-514491", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "2", "PLATED ON TRAFFIC ISLAND", null, "877-304-1148", "1", "01F", "42.352725000", "-71.061251000", [ null, "42.352725", "-71.061251", null, false ] ]
+, [ 1146307, "64A11716-823F-4677-A6FC-B2D7CA1477B8", 1146307, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "FRANKLIN ST", "93", null, null, null, null, "National Grid", "National Grid", "EXCA-465253", "MAINTENANCE", "GAS LEAK REPAIR / AWAITING DUCT BANK RELOCATION BY EVERSOURCE / EMER-448613", "Days & Weekends", "Nov  5 2015 12:00AM", "Nov  5 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01F", "42.355619000", "-71.057604000", [ null, "42.355619", "-71.057604", null, false ] ]
+, [ 1146308, "FD9F6AEA-01BD-4483-91B3-4D0B5881C05A", 1146308, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "HARRISON AV", "213", null, null, null, null, "J A Ferrara", "J A Ferrara", "EXCA-507210", "SERVICE", "INSTALL NEW WATER, SEWER, AND FIREPIPE", "Days & Weekends", "Nov  2 2015 12:00AM", "Nov  2 2015 12:00AM", "5", "3", "PLATES PINNED & BERMED", null, "508-844-9581", "1", "01F", "42.348090000", "-71.062730000", [ null, "42.34809", "-71.06273", null, false ] ]
+, [ 1146309, "C201D9B6-DEE8-4CF8-AEC1-C406FD964B9D", 1146309, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "INDIA ST", "1", "9", null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-505347", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN", "Nights", "Nov 11 2015 12:00AM", "Nov 11 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", "150", "617-989-7000", "1", "01F", "42.358980000", "-71.054233000", [ null, "42.35898", "-71.054233", null, false ] ]
+, [ 1146310, "7C6AF3C2-8135-4234-A444-949B0489D5F7", 1146310, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "KILBY ST", "44", null, null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-502070", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER MAIN", "Nights", "Nov  7 2015 12:00AM", "Nov  7 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "85", "617-989-7000", "1", "01F", "42.358114000", "-71.055317000", [ null, "42.358114", "-71.055317", null, false ] ]
+, [ 1146311, "A98E5884-A978-4381-A2B6-2E2F76A25529", 1146311, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "KNEELAND ST", "1", "50", null, null, null, "Boston Water & Sewer Commission", "Gioioso", "EXCA-265774", "NEW CONDUIT AND/OR MAIN", "WATER AND SEWER RELAY", "Days", "Nov 14 2015 12:00AM", "Nov 14 2015 12:00AM", "7", "0", "PLATES PINNED & BERMED", "180", "617-989-7000", "1", "01F", "42.350720000", "-71.062720000", [ null, "42.35072", "-71.06272", null, false ] ]
+, [ 1146312, "40A8F801-26C3-4D25-BEEF-0332A9919A53", 1146312, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "KNEELAND ST", "153", "173", null, null, null, "Verizon", "Mirra Co", "EXCA-519633", "MAINTENANCE", "CONDUIT REPAIR", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01F", "42.349580000", "-71.058090000", [ null, "42.34958", "-71.05809", null, false ] ]
+, [ 1146313, "7C4C39C5-6146-43AE-8A62-B7CFC4E73E09", 1146313, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "KNEELAND ST", "43", "75", "AT HARRISON AV INT", null, null, "Boston Water & Sewer Commission", "Gioioso", "EXCA-370862", "NEW CONDUIT AND/OR MAIN", "NIGHT WORK/INSTALLATION OF NEW WATER AND SEWER MAINS", "Nights", "Nov 14 2015 12:00AM", "Nov 14 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", "980", "617-989-7000", "1", "01F", "42.350393000", "-71.062459000", [ null, "42.350393", "-71.062459", null, false ] ]
+, [ 1146314, "BF66F21F-9429-42DC-B615-983F56FC34F0", 1146314, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "MERCHANTS ROW", "7", "21", null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-502069", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF WATER MAIN", "Nights", "Nov  7 2015 12:00AM", "Nov  7 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "112", "617-989-7000", "1", "01F", "42.359460000", "-71.055480000", [ null, "42.35946", "-71.05548", null, false ] ]
+, [ 1146315, "98EA8EEE-D1D9-41B9-900B-0D1577B6611C", 1146315, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "NEW SUDBURY ST", "40", null, null, null, null, "BSI Engineering", "BSI Engineering", "EXCA-513629", "NEW CONDUIT AND/OR MAIN", "INSTALL VACUUM EXCAVATION", "Weekends", "Oct 11 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-265-4200", "1", "01F", "42.361651000", "-71.060618000", [ null, "42.361651", "-71.060618", null, false ] ]
+, [ 1146316, "E8F4C0FA-18E1-4C85-BE0B-CE207BBF9427", 1146316, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "NEW SUDBURY ST", "40", null, null, null, null, "BSI Engineering", "BSI Engineering", "EXCA-525289", "SERVICE", "VACUUM EXCAVATION", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-799-9809", "1", "01F", "42.361820000", "-71.060310000", [ null, "42.36182", "-71.06031", null, false ] ]
+, [ 1146317, "366C4BEE-367D-4860-ABB1-00DD77ABE4CC", 1146317, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "OXFORD ST", "10", null, "ESSEX ST", null, null, "Eversource Electric", "Riley Brothers", "EXCA-515608", "SERVICE", "INSTALL ELECTRICAL CONDUIT", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 13 2015 12:00AM", "0", "0", "DOWN IN BINDER AWATING TOP", null, "800-592-2000", "1", "01F", "42.352096000", "-71.060391000", [ null, "42.352096", "-71.060391", null, false ] ]
+, [ 1146318, "751C7729-691D-4DB4-A171-76F81E9DA642", 1146318, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "STATE ST", "53", "204", null, null, null, "Boston Water & Sewer Commission", "Umbro & Sons", "EXCA-472762", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN; 2 PLATES CHATHAM ST", "Nights", "Oct 22 2015 12:00AM", "Oct 22 2015 12:00AM", "3", "2", "PLATES PINNED & BERMED", "760", "617-989-7000", "1", "01F", "42.358760000", "-71.056200000", [ null, "42.35876", "-71.0562", null, false ] ]
+, [ 1146319, "24AC9184-D021-49F8-ADC2-B8E391A61EEE", 1146319, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "STUART ST", "15", null, null, null, null, "Verizon", "Mirra Co", "EXCA-516018", "MAINTENANCE", "CASTING REPAIR", "Days & Weekends", "Oct 11 2015 12:00AM", "Oct 14 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01F", "42.351170000", "-71.063590000", [ null, "42.35117", "-71.06359", null, false ] ]
+, [ 1146320, "53FF5F3D-6F79-436F-BAF5-935BBDF90142", 1146320, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "SUMMER ST", "87", null, null, null, null, "Interval Construction", "Interval Construction", "EXCA-523266", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct  4 2015 12:00AM", "Oct 16 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "603-765-8599", "1", "01F", "42.351495000", "-71.059461000", [ null, "42.351495", "-71.059461", null, false ] ]
+, [ 1146321, "CB9F2A84-0336-4461-9C12-F143FD80BEA6", 1146321, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "TEMPLE PL", "10", null, null, null, null, "Welch Corp", "Welch Corp", "EXCA-508414", "SERVICE", "CUT AND CAP", "Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-254-7550", "1", "01F", "42.355570000", "-71.062430000", [ null, "42.35557", "-71.06243", null, false ] ]
+, [ 1146322, "E47705DA-2932-4D8E-B993-FA606D0C0DD9", 1146322, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "TYLER ST", "85", null, null, null, null, "Atlantic Drain", "Atlantic Drain", "EXCA-528159", "PVT EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "1", "PLATES BERMED", null, "617-442-7020", "1", "01F", "42.348986000", "-71.061629000", [ null, "42.348986", "-71.061629", null, false ] ]
+, [ 1146323, "B4E0CEAE-C3E7-46F2-8AF0-045812865ADB", 1146323, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "WASHINGTON ST", "505", null, null, null, null, "Welch Corp", "Welch Corp", "EXCA-465518", "SERVICE", "CUT & CAP EXISTING WATER", "Days & Weekends", "Nov 14 2015 12:00AM", "Nov 14 2015 12:00AM", null, null, "BEHIND BARRIERS AND FENCIN", null, "617-254-7550", "1", "01F", "42.349577000", "-71.063758000", [ null, "42.349577", "-71.063758", null, false ] ]
+, [ 1146324, "8D1C79D5-2A21-4FE5-9557-B886AA23B1C5", 1146324, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "WEST ST", "1", "26", null, null, null, "Welch Corp", "Welch Corp", "EXCA-422843", "SERVICE", "INSTALLATION OF NEW SEWER / CUT AND CAP", "Days & Weekends", "Nov 14 2015 12:00AM", "Nov 14 2015 12:00AM", "0", "0", "BEHIND BARRIERS/FENCING", null, "617-254-7550", "1", "01F", null, null, [ null, null, null, null, null ] ]
+, [ 1146325, "DA087158-79CF-45D5-8488-1D2BD08EBBDD", 1146325, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "WEST ST", "10", null, null, null, null, "Phoenix Communication", "Feeney Brothers Excavation", "EXCA-510790", "SERVICE", "INSTALLATION OF CONDUIT", "Weekends", "Oct 11 2015 12:00AM", "Oct 17 2015 12:00AM", null, "2", "PLATES BERMED", null, "518-817-3331", "1", "01F", "42.354426000", "-71.062191000", [ null, "42.354426", "-71.062191", null, false ] ]
+, [ 1146326, "13E36F4A-7BB7-41FF-A247-0EF3F3EAB338", 1146326, 1445194994, "525314", 1445194994, "525314", null, "BOSTON PROPER", "WEST ST", "10", null, null, null, null, "Phoenix Communication", "Feeney Brothers Excavation", "EXCA-522635", "SERVICE", "INSTALLATION OF CONDUIT", "Weekends", "Sep 26 2015 12:00AM", "Oct 17 2015 12:00AM", "3", null, "PLATES PINNED & BERMED", null, "518-817-3331", "1", "01F", "42.354426000", "-71.062191000", [ null, "42.354426", "-71.062191", null, false ] ]
+, [ 1146327, "1E327361-D14B-4ADB-AC2B-68C73E30F38A", 1146327, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "ALBANY ST", "720", null, null, null, null, "Comcast", "Mirra Co", "EXCA-506100", "MAINTENANCE", "CONDUIT INSTALLATION / MANHOLE", "Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-359-1821", "1", "01C", null, null, [ null, null, null, null, null ] ]
+, [ 1146328, "6D2D8BB2-D373-45AC-8253-3000385C5978", 1146328, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "ALBANY ST", "750", "778", null, null, null, "Welch Corp", "Welch Corp", "EXCA-518788", "SERVICE", "INSTALL NEW WATER, SEWER, AND DRAIN / PLATE UNDER BARRICADE", "Nights", "Nov 12 2015 12:00AM", "Nov 12 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "617-254-7550", "1", "01C", "42.334107000", "-71.071823000", [ null, "42.334107", "-71.071823", null, false ] ]
+, [ 1146329, "6DD931FD-7DEE-4A32-9603-98EB38A67D1C", 1146329, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "BELVIDERE ST", "57", "59", "DALTON", null, null, "Welch Corp", "Welch Corp", "EXCA-472457", "SERVICE", "INSTALLATION OF WATER SERVICE / WEEKENDS ONLY / @ BARRICADES", "Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "6", "0", "PLATES PINNED & BERMED", null, "617-254-7550", "1", "01C", "42.345940000", "-71.084763000", [ null, "42.34594", "-71.084763", null, false ] ]
+, [ 1146330, "059132A9-5FBD-4F3A-BC67-97F21552B30C", 1146330, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "BOLYSTON ST", "425", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-524497", "SERVICE", "NEW GAS SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "1", "6", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01C", "42.351640000", "-71.072758000", [ null, "42.35164", "-71.072758", null, false ] ]
+, [ 1146331, "6939F0DD-3B5D-42FC-BF67-4841F22F26F9", 1146331, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "BOYLSTON ST", null, null, "100 DARTMOUTH  ST", null, null, "RCN", "Waveguide", "EXCA-515378", "SERVICE", "INSTALL CONDUIT AnD HANDHOLD", "Nights", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "1", "PLATES PINNED & BERMED", null, "617-293-0201", "1", "01C", "42.352171000", "-71.063653000", [ null, "42.352171", "-71.063653", null, false ] ]
+, [ 1146332, "56084C95-8FC2-4E83-9110-A5B001E5BB92", 1146332, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "COMMONWEALTH AV", "305", "355", null, "EAST BOUND", "WEST BOUND", "Eversource Electric / MASSDOT", "Bond Brothers", "EXCA-511684", "SERVICE", "RELOCATE CONDUIT / MANHOLE / 15 PLATES WESTBOUND / 15 PLATES EASTBOUND", "Days & Weekends", "Nov 16 2015 12:00AM", "Nov 16 2015 12:00AM", "30", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "01C", "42.350250000", "-71.086010000", [ null, "42.35025", "-71.08601", null, false ] ]
+, [ 1146333, "2A77C8A5-F1BF-4029-91EA-7EBDE46EC732", 1146333, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "COMMONWEALTH AV", "353", "425", null, "MASS AV", "CHARLES GATE EAST", "National Grid / MassDOT", "Feeney Brothers Excavation", "EXCA-509760", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF STEEL GAS MAIN (WB) / 1 PLATE ON MEDIAN", "Days & Weekends", "Nov 28 2015 12:00AM", "Nov 28 2015 12:00AM", "14", "0", "PLATES PINNED & BERMED", "985", "877-304-1148", "1", "01C", "42.349590000", "-71.088380000", [ null, "42.34959", "-71.08838", null, false ] ]
+, [ 1146334, "279EF8E3-C6B7-4E72-82CF-BE92E389FB33", 1146334, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "COMMONWEALTH AV", "366", null, null, "CHARLESGATE EAST", "MASS AV", "Verizon /  MassDOT", "Charles Contracting", "EXCA-491595", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT / 2 MANHOLES", "Days & Weekends", "Jan 28 2016 12:00AM", "Jan 28 2016 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "900", "800-446-8946", "1", "01C", "42.348766000", "-71.088189000", [ null, "42.348766", "-71.088189", null, false ] ]
+, [ 1146335, "A7873B75-D385-4C57-82EB-6F9F4D7D1777", 1146335, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "EAST BROOKLINE ST", "70", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521699", "EMERGENCY", "HYDRANT REPLACE", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01C", "42.337910000", "-71.070200000", [ null, "42.33791", "-71.0702", null, false ] ]
+, [ 1146336, "9C840724-39C4-45DD-ADA8-E498B0BCF467", 1146336, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "EAST CONCORD ST", "85", null, null, null, null, "Comcast", "Mirra Co", "EXCA-506098", "NEW CONDUIT AND/OR MAIN", "INSTALLTION OF CONDUIT / MANHOLE", "Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "385", "877-359-1821", "1", "01C", null, null, [ null, null, null, null, null ] ]
+, [ 1146337, "0FA962C6-5513-45B6-AEC5-90643CE816F0", 1146337, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "FAIRFIELD ST", "1", null, null, null, null, "Extenet", "Mirra Co", "EXCA-519173", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "978-758-0213", "1", "01C", "42.351930000", "-71.083520000", [ null, "42.35193", "-71.08352", null, false ] ]
+, [ 1146338, "BC44DF3D-2E1F-4A00-BBFA-C5C42BFE9F76", 1146338, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "FAIRFIELD ST", "35", null, null, null, null, "Extenet", "Mirra Co", "EXCA-519170", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "978-758-0213", "1", "01C", "42.349860000", "-71.082470000", [ null, "42.34986", "-71.08247", null, false ] ]
+, [ 1146339, "0345EB23-0987-49BD-99A9-B02EC61820C8", 1146339, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "GLOUCESTER ST", "17", "30", "AT COMM AV", null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-518016", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Nov 12 2015 12:00AM", "Nov 12 2015 12:00AM", "5", "0", "PLATES PINNED & BERMED", "150", "877-304-1148", "1", "01C", "42.350620000", "-71.084620000", [ null, "42.35062", "-71.08462", null, false ] ]
+, [ 1146340, "8F3EE1E3-CB75-4C6F-90E8-BB8BC6873052", 1146340, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "HARRISON AV", "560", null, null, null, null, "National Grid", "National Grid", "EMER-516949", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 16 2015 12:00AM", "Oct 20 2015 12:00AM", "2", null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01C", "42.340810000", "-71.067440000", [ null, "42.34081", "-71.06744", null, false ] ]
+, [ 1146341, "801EECBF-6E0A-4BE8-A106-1A12E2548447", 1146341, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "HARRISON AV", "732", null, null, null, null, "Welch Corp", "Welch Corp", "EXCA-529364", "EMERGENCY", "EMERGENCY FIREPIPE REPAIR / BWSC RESPONDED TO LEAK ON MAIN AT LOCATION", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 24 2015 12:00AM", "1", null, "PLATES PINNED & BERMED", null, null, "1", "01C", "42.337600000", "-71.071390000", [ null, "42.3376", "-71.07139", null, false ] ]
+, [ 1146342, "1DC2355C-8710-4085-917D-A4D5B14D29CF", 1146342, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "HUNTINGTON AV", null, null, "STUART ST", "STUART ST", "BELVIDERE ST", "Veolia Energy Co", "Bond Brothers", "EXCA-520071", "SERVICE", "UPGRADE STEAM LINE/  5 PLATES AT HARCOURT / 2 PLATES ON BELVIDERE", "24 Hour Work", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "15", "0", "PLATES PINNED & BERMED", null, "617-482-8232", "1", "01C", "42.337212000", "-71.097506000", [ null, "42.337212", "-71.097506", null, false ] ]
+, [ 1146343, "AF8004E6-6F3E-4882-AAED-5538A0AD5073", 1146343, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "MALDEN ST", null, null, "WAREHAM ST", null, null, "WL French", "WL FRENCH", "EXCA-490730", "SERVICE", "INSTALLATION OF WATER SEWER AND DRAIN SERVICES / 1 PLATE UNDER BARRICADE", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "4", "0", "PLATES PINNED & BERMED", null, "617-484-3000", "1", "01C", "42.339860000", "-71.067028000", [ null, "42.33986", "-71.067028", null, false ] ]
+, [ 1146344, "1EA12FB7-769C-4ECA-9AD8-4931280828C9", 1146344, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "MARLBOROUGH ST", "421", null, null, null, null, "Verizon / MassDOT", "Charles Contracting", "EXCA-509875", "SERVICE", "INSTALL TELEPHONE CONDUIT", "Days & Weekends", "Oct 22 2015 12:00AM", "Oct 22 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01C", "42.350140000", "-71.089440000", [ null, "42.35014", "-71.08944", null, false ] ]
+, [ 1146345, "9691323D-FB36-417E-AC39-D149DE6D8756", 1146345, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "MASSACHUSETTS AV", "100", null, null, null, null, "National Grid", "Bond Brothers", "EXCA-492634", "SERVICE", "INSTALLTION OF NEW SERVICE", "Weekends", "Oct 13 2015 12:00AM", "Oct 13 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01C", null, null, [ null, null, null, null, null ] ]
+, [ 1146346, "A1F66218-C73C-4937-8AE0-EE3FF5776E44", 1146346, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "MASSACHUSETTS AVE", null, null, null, "HUNTINGTON AV", "ST STEPHENS", "MassDOT", "McCourt Construction", "EXCA-310582", "RECONSTRUCTION", "MASSDOT RECONSTRUCTING INTERSECTION / WAS ON HOLD FOR DESIGN ISSUE NOW ACTIVE", "Days & Weekends", "Nov 26 2015 12:00AM", "Nov 26 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "617-438-1031", "1", "01C", "42.342600000", "-71.084170000", [ null, "42.3426", "-71.08417", null, false ] ]
+, [ 1146347, "DEE267FD-7F3A-4943-9AD0-6A3DBCFBF98B", 1146347, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "MSGR REYNOLDS WAY", "37", null, "AT HARRISON AV", null, null, "Eversource Electric", "Bott Co", "EXCA-506082", "SERVICE", "INSTALLATION OF CONDUIT / MANHOLE", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "28", "800-592-2000", "1", "01C", "42.340060000", "-71.069200000", [ null, "42.34006", "-71.0692", null, false ] ]
+, [ 1146348, "635AA6E2-5637-4A70-9179-57D69E9DD841", 1146348, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "NEWBURY ST", "200", null, null, "EXETER ST", "FAIRFIELD", "National Grid", "Feeney Brothers Excavation", "EXCA-373280", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / (6) SERVICES / 2 AT FAIRFIELD", "Days & Weekends", "Oct 26 2015 12:00AM", "Oct 26 2015 12:00AM", "6", "0", "PLATES PINNED & BERMED", "665", "877-304-1148", "1", "01C", "42.349973000", "-71.080143000", [ null, "42.349973", "-71.080143", null, false ] ]
+, [ 1146349, "1E63949F-5482-4FCB-A945-7199E91482EC", 1146349, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "NEWBURY ST", "279", null, "AT GLOUCESTER", null, null, "Eversource Electric", "Sheerin Const", "OCCU-482283", "MAINTENANCE", "VAULT REPAIR / ON HOLD AWAITING PARTS", "Weekends", "Nov 12 2015 12:00AM", "Nov 12 2015 12:00AM", "0", "1", "PLATES BERMED", null, "800-592-2000", "1", "01C", "42.349270000", "-71.084410000", [ null, "42.34927", "-71.08441", null, false ] ]
+, [ 1146350, "53DB370C-024C-4A4B-9A8C-E25687F35EA6", 1146350, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "NEWBURY ST", "603", null, null, null, null, "Comcast", "Comcast", "EMER-439067", "EMERGENCY", "REPAIR DAMAGED CONDUIT", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01C", "42.348168000", "-71.096630000", [ null, "42.348168", "-71.09663", null, false ] ]
+, [ 1146351, "6A28BD8C-F284-4FB2-9796-D8891C3EEA28", 1146351, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "ST BOTOLPH ST", "83", null, null, null, null, "JRF Corp", "JRF Corp", "EXCA-526510", "SERVICE", "INSTALL NEW FIRE PIPE", "Days & Weekends", "Oct 22 2015 12:00AM", "Oct 22 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-818-2653", "1", "01C", "42.345440000", "-71.080410000", [ null, "42.34544", "-71.08041", null, false ] ]
+, [ 1146352, "24005181-D104-478E-AD25-6BC0E4DFE211", 1146352, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "TREMONT ST", null, null, "APPLETON ST", null, null, "Lightower LLC", "Murphy & Fahey", "EXCA-527854", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT", "Days & Weekends", "Oct 26 2015 12:00AM", "Oct 26 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "139", null, "1", "01C", null, null, [ null, null, null, null, null ] ]
+, [ 1146353, "0B208F18-964E-42C6-A7F7-D8FC91AD535E", 1146353, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "TREMONT ST", "485", null, "EAST BERKELEY ST", null, null, "Eversource Electric", "Botti", "EXCA-506079", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT / MANHOLE", "Weekends", "Oct 22 2015 12:00AM", "Oct 22 2015 12:00AM", null, "2", "PLATES BERMED", "52", "800-592-2000", "1", "01C", "42.345742000", "-71.069816000", [ null, "42.345742", "-71.069816", null, false ] ]
+, [ 1146354, "167BC6C9-0F5A-47C0-893B-8665351B338D", 1146354, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "TREMONT ST", "652", null, null, null, null, "National Grid", "National Grid", "EXCA-483748", "MAINTENANCE", "GAS LEAK REPAIR", "Days & Weekends", "Sep  3 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01C", "42.341700000", "-71.075190000", [ null, "42.3417", "-71.07519", null, false ] ]
+, [ 1146355, "E79617F8-879D-44DF-8414-36C48D97B809", 1146355, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "TREMONT ST", "668", null, null, null, null, "National Grid", "National Grid", "EMER-514492", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 11 2015 12:00AM", "2", null, "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01C", null, null, [ null, null, null, null, null ] ]
+, [ 1146356, "54C07756-C068-46A8-BCB6-99EBADB3AA78", 1146356, 1445194994, "525314", 1445194994, "525314", null, "SOUTH END/BACK BAY", "WARREN AV", "41", null, null, null, null, "Eversource Electric", "J Botti Co", "EXCA-506084", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT / MANHOLE", "Days & Weekends", "Oct 30 2015 12:00AM", "Oct 30 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "51", "800-592-2000", "1", "01C", "42.345250000", "-71.071650000", [ null, "42.34525", "-71.07165", null, false ] ]
+, [ 1146357, "5FA28C1F-2039-46D6-85F9-2DAD851B40D6", 1146357, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "ANDERSON ST", "41", null, null, null, null, "Boston Water & Sewer Commission", "RJV", "EXCA-512320", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER MAIN", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "0", null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "01B", "42.359852000", "-71.067904000", [ null, "42.359852", "-71.067904", null, false ] ]
+, [ 1146358, "961C3E67-900F-4346-BDD9-1E51D747A89C", 1146358, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "ANDERSON ST", "41", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-519837", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN / TIE IN", "Days & Weekends", "Nov 13 2015 12:00AM", "Nov 13 2015 12:00AM", "2", null, "PLATES PINNED & BERMED", null, null, "1", "01B", "42.359800000", "-71.067910000", [ null, "42.3598", "-71.06791", null, false ] ]
+, [ 1146359, "35887C8D-1A44-46A6-AD4F-96F5BECDFDB2", 1146359, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "BATTERY ST", "12", null, null, null, null, "Boston Water & Sewer Commission", "D'Allessandro", "EXCA-442637", "MAINTENANCE", "SEWER / MANHOLE REPAIR", "Days & Weekends", "Oct 12 2015 12:00AM", "Oct 31 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "01B", "42.366410000", "-71.052300000", [ null, "42.36641", "-71.0523", null, false ] ]
+, [ 1146360, "D25E9FBB-DD70-4E27-8267-8B41C05DA4FD", 1146360, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "BEACON ST", "25", null, null, null, null, "Cavalieri Construction", "Cavalieri Construction", "EXCA-503577", "SERVICE", "INSTALL NEW WATER, SEWER, AND DRAIN LATERALS", "Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", "3", "2", "PLATES PINNED & BERMED", null, "617-828-4402", "1", "01B", "42.357411000", "-71.064739000", [ null, "42.357411", "-71.064739", null, false ] ]
+, [ 1146361, "BB141898-6178-439B-BC11-FCF8A4813446", 1146361, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "BEACON ST", "62", null, null, null, null, "Eversource Electric", "Riley Brothers", "EXCA-523897", "SERVICE", "INSTALL ELECTRICAL CONDUIT", "Days & Weekends", "Nov  7 2015 12:00AM", "Nov  7 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01B", "42.356532000", "-71.068840000", [ null, "42.356532", "-71.06884", null, false ] ]
+, [ 1146362, "3E16A7D0-4F66-4E19-A7C4-F2052CF2BB48", 1146362, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "BOWDOIN ST", "10", null, null, null, null, "D'Allesandro", "D'Allesandro", "EXCA-511644", "ROADWAY RECONSTRUCTION/SIDEWALK REPAIRS", "ROAD RECONSTRUCTION AND SIDEWALK REPAIRS / CONTRACT BY STATE MAJOR WATER LEAK THAT DAMAGED ROADWAY AND SECTIONS OF SIDEWALK /", "Days & Weekends", "Oct 20 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-413-2105", "1", "01B", "42.360393000", "-71.062203000", [ null, "42.360393", "-71.062203", null, false ] ]
+, [ 1146363, "FBAAA929-A378-4FDE-8C5B-0316CBC0DDB7", 1146363, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "BOWDOIN ST", "43", null, null, null, null, "Steve Miller Excavation", "Steve Miller Excavation", "EXCA-440106", "EMERGENCY", "EMERGENCY SEWER REPAIR", "Days & Weekends", "Oct 26 2015 12:00AM", "Nov  1 2015 12:00AM", "0", "1", "PLATES BERMED", null, "617-590-1951", "1", "01B", "42.359717000", "-71.063062000", [ null, "42.359717", "-71.063062", null, false ] ]
+, [ 1146364, "0BEE796A-60E1-4385-9759-139E37F6A864", 1146364, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CANAL ST", "1", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-523257", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct 27 2015 12:00AM", "Oct 27 2015 12:00AM", null, null, "DOWN IN BINDER AWAITING TOP", null, "877-304-1148", "1", "01B", null, null, [ null, null, null, null, null ] ]
+, [ 1146365, "7EB96335-E94C-4BE0-9D2F-841881C14C2A", 1146365, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CAUSEWAY ST", "150", null, null, null, null, "WL French", "WL French", "EXCA-521373", "SERVICE", "INSTALLATION OF NEW WATER SEWER FIREPIPE AND DRAIN SERVICES", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "12", "0", "PLATES PINNED & BERMED", null, "978-408-3168", "1", "01B", "42.365678000", "-71.061705000", [ null, "42.365678", "-71.061705", null, false ] ]
+, [ 1146366, "5CCEFF90-A689-46B6-B2A2-9713A83651A0", 1146366, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CAUSEWAY ST", "231", null, null, null, null, "Boston Public Works", "Gioioso", "EXCA-464507", "RESURFACING", "HISTORIC BOSTON", "Days & Weekends", "Oct 23 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-635-4950", "1", "01B", "42.368114000", "-71.062947000", [ null, "42.368114", "-71.062947", null, false ] ]
+, [ 1146367, "7DE656DF-692A-4194-ACF8-FD48718B12B3", 1146367, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CHARLES ST", "118", null, null, null, null, "National Grid", "National Grid", "EXCA-526847", "SERVICE", "RELAY GAS SERVICE", "Days & Weekends", "Nov 10 2015 12:00AM", "Nov 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01B", "42.359190000", "-71.070920000", [ null, "42.35919", "-71.07092", null, false ] ]
+, [ 1146368, "8D8EE7F5-11FD-41F5-973D-25E4A3DA380E", 1146368, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CHARLES ST", "120", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-516993", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct  8 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "01B", "42.359220000", "-71.070940000", [ null, "42.35922", "-71.07094", null, false ] ]
+, [ 1146369, "932C5F92-C292-47C1-AF3F-8392CC5F2C76", 1146369, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "CHESTNUT ST", "94", null, null, null, null, "National Grid", "National Grid", "EXCA-512842", "SERVICE", "INSTALLATION OF NEW SERVICE", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov  1 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01B", "42.356696000", "-71.070716000", [ null, "42.356696", "-71.070716", null, false ] ]
+, [ 1146370, "7D31D5B3-F752-49F7-B98D-4AE579549C16", 1146370, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "COMMERCIAL ST", "0", null, null, null, null, "Boston Public Works", "Gioioso", "EXCA-498499", "SERVICE", "DRAIN AND SEWER INSTALLATION", "Days & Weekends", "Oct 24 2015 12:00AM", "Nov 15 2015 12:00AM", "0", null, "ONGOING TO GRADE IN COLDPATCH", null, "617-635-4950", "1", "01B", "42.367643000", "-71.054728000", [ null, "42.367643", "-71.054728", null, false ] ]
+, [ 1146371, "A829320D-4B37-4259-9A61-AAA2DDB9F04A", 1146371, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "HANOVER ST", "415", "483", null, null, null, "Boston Water & Sewer Commission", "D'Allessandro", "EXCA-463309", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW WATER & SEWER MAIN RELAY / BYPASS", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "2", "BEHIND BARRIERS", "510", "617-989-7000", "1", "01B", "42.365578000", "-71.052718000", [ null, "42.365578", "-71.052718", null, false ] ]
+, [ 1146372, "647EEA11-2D2D-4F90-B63D-3B4A284B7187", 1146372, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "JOY ST", "1", null, null, null, null, "Sean Farrell Excavation", "Sean Farrell Excavation", "EXCA-513651", "SERVICE", "INSTALL NEW WATER, DRAIN, AND FIREPIPE", "Days & Weekends", "Oct  5 2015 12:00AM", "Oct 31 2015 12:00AM", "2", "1", "PLATES PINNED & BERMED", null, "617-590-195", "1", "01B", "42.357630000", "-71.065290000", [ null, "42.35763", "-71.06529", null, false ] ]
+, [ 1146373, "68533AC0-1921-4831-A732-F9F12CF421D5", 1146373, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "JOY ST", "3", "4", null, null, null, "Cavalieri Construction", "Cavalieri", "EXCA-503581", "SERVICE", "INSTALL NEW SEWER AND DRAIN", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "1", "0", "PLATES PINNED & BERMED", null, "617-828-4402", "1", "01B", "42.357810000", "-71.065290000", [ null, "42.35781", "-71.06529", null, false ] ]
+, [ 1146374, "662B7C60-2B53-4D3A-B920-E1900717B89C", 1146374, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "JOY ST", "70", null, null, null, null, "National Grid", "National Grid", "EMER-514495", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  9 2015 12:00AM", "Oct 11 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01B", "42.360630000", "-71.065330000", [ null, "42.36063", "-71.06533", null, false ] ]
+, [ 1146375, "B6763488-95ED-46DD-A6EF-EB5F022E2939", 1146375, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "JOY ST", "9", "89", null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-344043", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Oct  2 2015 12:00AM", "Oct 31 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", "975", "877-304-1148", "1", "01B", "42.358704000", "-71.064921000", [ null, "42.358704", "-71.064921", null, false ] ]
+, [ 1146376, "F8A7D4CB-E7DA-4DEA-BB90-F3750C259C2D", 1146376, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "LIME ST", "36", null, null, null, null, "J. Joyce Excavating", "J. Joyce Excavating", "EXCA-525804", "SERVICE", "INSTALL NEW WATER AND FIRE PIPE", "Days & Weekends", "Oct 17 2015 12:00AM", "Oct 17 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-593-0973", "1", "01B", "42.357040000", "-71.071490000", [ null, "42.35704", "-71.07149", null, false ] ]
+, [ 1146377, "C73EB45A-A738-4E2C-8162-AF9FA59A0452", 1146377, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "LOMASNEY WAY", "0", "99", null, null, null, "Boston Public Works", "Gioioso", "EXCA-464510", "RESURFACING", "ROADWAY AND SIDEWALK RECONSTRUCTION", "Days & Weekends", "Oct 23 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-635-4950", "1", "01B", "42.364142000", "-71.063867000", [ null, "42.364142", "-71.063867", null, false ] ]
+, [ 1146378, "662B6BB2-1DEB-4DAB-9CA9-3049F55CD82D", 1146378, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "MT VERNON ST", "120", null, null, null, null, "National Grid", "National Grid", "EXCA-515575", "SERVICE", "INSTALLATION OF SERVICE", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", null, null, "SAW CUT ONLY", null, null, "1", "01B", "42.357891000", "-71.070638000", [ null, "42.357891", "-71.070638", null, false ] ]
+, [ 1146379, "712003DA-AE67-4506-AAC7-AA5DC9F30E8A", 1146379, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "MT VERNON ST", "131", null, "AT CHARLES ST", null, null, "National Grid", "National Grid", "EMER-514477", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 10 2015 12:00AM", "1", "2", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01B", null, null, [ null, null, null, null, null ] ]
+, [ 1146380, "0F46C09A-43FF-45C6-9622-C9EA8DB2CB2C", 1146380, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "MYRTLE ST", "1", null, null, null, null, "National Grid", "Feeney Brothers Excavation", "EXCA-344038", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF NEW GAS MAIN", "Days & Weekends", "Nov  1 2015 12:00AM", "Nov 30 2015 12:00AM", "3", "0", "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01B", "42.359485000", "-71.064513000", [ null, "42.359485", "-71.064513", null, false ] ]
+, [ 1146381, "4D08E25D-9074-44CB-AE4B-9FB21D050F6E", 1146381, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "NEW CHARDON ST", "25", null, null, null, null, "Veolia Energy Co", "McCourt Construction", "EXCA-515476", "SERVICE", "STEAM LINE CUT AND CAP", "Nights", "Nov  5 2015 12:00AM", "Nov  5 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "617-482-8232", "1", "01B", "42.362110000", "-71.061740000", [ null, "42.36211", "-71.06174", null, false ] ]
+, [ 1146382, "F8BF5BDB-CCA7-43EF-8901-71D18FC8E47B", 1146382, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "NORTH SQ", "0", "13", null, null, null, "Verizon", "Mirra Co", "EXCA-514082", "MAINTENANCE", "REPAIR BLOCKED CONDUIT", "Days & Weekends", "Oct 11 2015 12:00AM", "Oct 14 2015 12:00AM", "0", null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01B", "42.363880000", "-71.053630000", [ null, "42.36388", "-71.05363", null, false ] ]
+, [ 1146383, "D49201AA-E6B6-49BF-94B5-65A50B361344", 1146383, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "PRINCE ST", "69", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-516991", "EMERGENCY", "WATER MAIN REPAIR", "Days & Weekends", "Oct  7 2015 12:00AM", "Oct 10 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-989-7000", "1", "01B", "42.365220000", "-71.055260000", [ null, "42.36522", "-71.05526", null, false ] ]
+, [ 1146384, "EC03FEE9-2331-4563-875D-D8DFE6A40F32", 1146384, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "RICHMOND ST", "154", null, null, null, null, "Verizon", "Mirra Co", "EXCA-525175", "MAINTENANCE", "REPAIR CONDUIT", "Days & Weekends", "Oct 18 2015 12:00AM", "Oct 18 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "800-446-8946", "1", "01B", "42.363427000", "-71.054658000", [ null, "42.363427", "-71.054658", null, false ] ]
+, [ 1146385, "63E17634-D1A3-4B11-A60A-014B83A1EA7A", 1146385, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "SNOW ST", "59", null, null, null, null, "Boston Public Works", "Maverick Const", "EXCA-523340", "SERVICE", "INSTALLATION OF BASE", "Days & Weekends", "Oct 13 2015 12:00AM", "Oct 14 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01B", "42.368030000", "-71.056490000", [ null, "42.36803", "-71.05649", null, false ] ]
+, [ 1146386, "DC6A8B57-69CC-43E8-A642-1AD0445FCDFC", 1146386, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "STANIFORD ST", "1", "99", null, null, null, "Boston Public Works", "Gioioso", "EXCA-464509", "RESURFACING", "ROADWAY AND SIDEWALK RECONSTRUCTION", "Days & Weekends", "Oct 23 2015 12:00AM", "Nov 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "617-635-4950", "1", "01B", "42.361813000", "-71.064200000", [ null, "42.361813", "-71.0642", null, false ] ]
+, [ 1146387, "41B67A8D-D0D1-4BFE-A3C4-E676C3664C1A", 1146387, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "WEST CEDAR", null, null, "PINCKNEY ST", null, null, "National Grid", "National Grid", "EMER-511015", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct  6 2015 12:00AM", "Oct 10 2015 12:00AM", "1", null, "PLATES PINNED & BERMED", null, "877-304-1148", "1", "01B", "42.358733000", "-71.069771000", [ null, "42.358733", "-71.069771", null, false ] ]
+, [ 1146388, "866F4FA9-91D6-4B53-AB84-C5A41931F628", 1146388, 1445194994, "525314", 1445194994, "525314", null, "NORTH END/BEACON HILL", "WEST CEDAR ST", "82", null, null, null, null, "Eversource Electric", "Sheerin", "EXCA-520278", "MAINTENANCE", "REROOF MANHOLE", "Days & Weekends", "Oct 20 2015 12:00AM", "Oct 20 2015 12:00AM", "2", "0", "PLATES PINNED & BERMED", null, "800-592-2000", "1", "01B", "42.360229000", "-71.070203000", [ null, "42.360229", "-71.070203", null, false ] ]
+, [ 1146389, "1F5B3923-3ABD-4D35-85BA-EC7DD350EEBA", 1146389, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "BARTLETT ST", null, null, "TRENTON ST", null, null, "NextG Networks", "Mirra Co", "EXCA-504454", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 19 2015 12:00AM", "Oct 19 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "781-626-0351", "1", "01A", "42.377280000", "-71.062094000", [ null, "42.37728", "-71.062094", null, false ] ]
+, [ 1146390, "3D97600B-BDF5-49EC-B03A-91E796EE2DE8", 1146390, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "ELM ST", "35", null, null, null, null, "NextG Networks", "Maverick", "EXCA-504453", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 19 2015 12:00AM", "Oct 19 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "781-626-0351", "1", "01A", "42.377800000", "-71.063350000", [ null, "42.3778", "-71.06335", null, false ] ]
+, [ 1146391, "6D74EF12-962A-4EBE-9251-9F21047B1789", 1146391, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "HIGH ST", "32", null, null, null, null, "Boston Water & Sewer Commission", "BWSC", "EMER-521694", "EMERGENCY", "LEAK REPAIR", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01A", "42.375990000", "-71.062330000", [ null, "42.37599", "-71.06233", null, false ] ]
+, [ 1146392, "6C282DB8-83B1-4CD2-92BB-44D560F625D7", 1146392, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "MEDFORD ST", "320", null, null, null, null, "NextG Networks", "Mirra Co", "EXCA-504456", "NEW CONDUIT AND/OR MAIN", "INSTALLATION OF CONDUIT", "Days & Weekends", "Oct 15 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", "250", "781-626-0351", "1", "01A", "42.381260000", "-71.063010000", [ null, "42.38126", "-71.06301", null, false ] ]
+, [ 1146393, "34E60CA7-C0AB-452F-85AD-BC29EC8A83E2", 1146393, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "MEDFORD ST", "425", null, null, null, null, "NextG Networks", "Maverick", "EXCA-504457", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 19 2015 12:00AM", "Oct 19 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, "781-626-0351", "1", "01A", null, null, [ null, null, null, null, null ] ]
+, [ 1146394, "F7600360-46B6-43C0-8FA0-2A6F5C86E893", 1146394, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "PRESCOTT ST", "5", null, null, null, null, "National Grid", "National Grid", "EMER-516955", "EMERGENCY", "GAS LEAK REPAIR", "Days & Weekends", "Oct 14 2015 12:00AM", "Oct 15 2015 12:00AM", null, null, "ONGOING/SECTIONS TOPPED TO GRADE", null, "877-304-1148", "1", "01A", "42.380560000", "-71.031040000", [ null, "42.38056", "-71.03104", null, false ] ]
+, [ 1146395, "42361B33-1E12-402F-93F9-D66FBA8648E4", 1146395, 1445194994, "525314", 1445194994, "525314", null, "CHARLESTOWN", "RUTHERFORD AV", "57", null, null, null, null, "Crown Castle", "Mirra Co", "EXCA-504463", "SERVICE", "INSTALL CONDUIT", "Days & Weekends", "Oct 25 2015 12:00AM", "Oct 25 2015 12:00AM", "0", "0", "ONGOING/SECTIONS TOPPED TO GRADE", null, null, "1", "01A", "42.372610000", "-71.063930000", [ null, "42.37261", "-71.06393", null, false ] ]
+ ]
+}
