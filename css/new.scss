@@ -3,7 +3,7 @@
 ---
 
 $mainColor: #49eec7;
-$size: 32px;
+$size: 45px;
 @mixin border($radius: 5px) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
@@ -62,11 +62,11 @@ $size: 32px;
 
 body {
   font-family: 'akkuratregular';
-  color: #222;
+  color: #444;
 }
 
 p {
-  color: #222;
+  color: #444;
   font-size: 17px;
   margin: 0px 0px;
   @media only screen and (max-width: 768px) {
@@ -77,6 +77,7 @@ p {
 h1 {
   font-size: $size;
   margin: 10px 0px; 
+  font-weight: bold;
 }
 
 h2 {
