@@ -155,12 +155,120 @@ title: Worst City
 
 <script>
 
-d3.json('data/laForeclosures.json', function(error, data) {
+d3.json('data/bostonAsbestosRemovalReports.json', function(error, data) {
 		if (error) {
-			console.log(error.status, error.statusText, "Something went wrong");
+			console.log(error.status, error.statusText, "Couldn't load bostonAsbestosRemovalReports.json");
 		}
 		else {
-			console.log(data);
+			console.log(data, 'Boston Asbestos Reports');
+		}
+	});
+
+d3.json('data/bostonCrimeIncidentReport.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonCrimeIncidentReport.json");
+		}
+		else {
+			console.log(data, 'Boston Crime Incident Report');
+		}
+	});
+
+d3.json('data/bostonFarmersMarketsLocations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonFarmersMarketsLocations.json");
+		}
+		else {
+			console.log(data, 'Boston Farmers Markets Locations');
+		}
+	});
+
+d3.json('data/bostonPublicWorksActiveWorkZones.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonPublicWorksActiveWorkZones.json");
+		}
+		else {
+			console.log(data, 'Boston Public Works Active Work Zones');
+		}
+	});
+
+d3.json('data/bostonWazeAlertData.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonWazeAlertData.json");
+		}
+		else {
+			console.log(data, 'Boston Waze Alert Data');
+		}
+	});
+
+d3.json('data/nyMaintenanceCodeViolations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyMaintenanceCodeViolations.json");
+		}
+		else {
+			console.log(data, 'New York Maintenance Code Violations');
+		}
+	});
+
+d3.json('data/nyRestaurantInspectionResults.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyRestaurantInspectionResults.json");
+		}
+		else {
+			console.log(data, 'New York Restaurant Inspection Results');
+		}
+	});
+
+d3.json('data/nyNoiseComplaints.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyNoiseComplaints.json");
+		}
+		else {
+			console.log(data, 'New York Noise Complaints');
+		}
+	});
+
+d3.json('data/nyRentAffordability.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyRentAffordability.json");
+		}
+		else {
+			console.log(data, 'New York Rent Affordability');
+		}
+	});
+
+d3.json('data/nyWifiHotspots.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyWifiHotspots.json");
+		}
+		else {
+			console.log(data, 'New York Wifi Hotspots');
+		}
+	});
+
+d3.json('data/laPowerOutages.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laPowerOutages.json");
+		}
+		else {
+			console.log(data, 'LA Power Outages');
+		}
+	});
+
+d3.json('data/laForeclosures.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laForeclosures.json");
+		}
+		else {
+			console.log(data, 'LA Foreclosures');
+		}
+	});
+
+d3.json('data/laParkingCitations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laParkingCitations.json");
+		}
+		else {
+			console.log(data, 'LA Parking Citations');
 		}
 	});
 
