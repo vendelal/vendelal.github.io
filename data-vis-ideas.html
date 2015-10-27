@@ -218,9 +218,9 @@ d3.json('data/nyRestaurantInspectionResults.json', function(error, data) {
 		}
 	});
 
-d3.json('data/nyNoiseComplaints.json', function(error, data) {
+d3.csv('data/nyNoiseComplaints.csv', function(error, data) {
 		if (error) {
-			console.log(error.status, error.statusText, "Couldn't Load nyNoiseComplaints.json");
+			console.log(error.status, error.statusText, "Couldn't Load nyNoiseComplaints.csv");
 		}
 		else {
 			console.log(data, 'New York Noise Complaints');

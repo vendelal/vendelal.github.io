@@ -1,0 +1,113 @@
+---
+layout: default
+---
+
+<svg width=1000 height=100></svg>
+
+<button id="boys" style="margin: 15px;">BOYS ONLY</button>
+
+<button id="girls" style="margin: 15px;">GIRLS ONLY</button>
+
+<script>
+
+var names = [];
+
+d3.csv("http://celluccim.github.io/data/1993.csv", function(error, data) {
+	//console.log(data[0]);
+	//console.log(data.length);
+	data.forEach(function(d){
+		d.total = parseFloat(d.total);
+	});
+
+	// var filtered_data_total = data.filter(function (d){
+	// 	return d.total > 1000;
+	// });
+
+	//console.log(filtered_data_total.length);
+
+	// var filtered_data_men = data.filter(function (d){
+	// 	return d.gender == "M" && d.name.indexOf("Ea") == 0;
+	// });
+
+	// filtered_data_men = filtered_data_men.sort(function(a, b){
+	// 	return b.total - a.total;
+	// }).slice(0, 10);
+
+	names = data.sort(function(a, b){
+		return b.total - a.total;
+	});
+
+	//filtered_data_men = filtered_data_men.slice(0, 10);
+
+	//console.log(filtered_data_men.length);
+	//console.log(filtered_data_men);
+
+	// draw(filtered_data_men);
+	draw(names.slice(0, 10));
+
+});
+
+function draw(name_data) {
+	console.log(name_data);
+
+	var circles = d3.select("svg").selectAll('circle')
+		.data(name_data, function(d){
+			return d.name; // this has to be unique on every data point
+		});
+
+		circles.enter().append('circle')
+			.attr('cy', 50)
+			.attr('cx', function(d, i){ // i is the index of the array
+				return 50 * (i + 1); 
+			})
+			.attr('r', 0);
+
+		var extent = d3.extent(name_data, function(d){
+			return d.total;
+		});
+
+		console.log(extent);
+
+		var scale = d3.scale.linear()
+			.domain(extent)
+			.range([2, 25])
+
+		circles.transition().duration(500)
+			.attr('r', function(d) {
+				return scale(d.total);
+			})
+			.attr('cx', function(d, i){ // i is the index of the array
+				return 50 * (i + 1); 
+			})
+			.attr('fill', function(d){
+				return d.gender == "M" ? "blue" : "pink";
+			});
+
+		circles.on('click', function(d){
+			console.log(d.name);
+		});
+
+		circles.exit().transition().duration(500)
+			.attr('r', 0).remove();
+}
+
+d3.select('#boys').on('click', function(){
+	var boys_data = names.filter(function(d){
+		return d.gender == 'M';
+	}).slice(0, 10);
+	draw(boys_data);
+});
+
+d3.select('#girls').on('click', function(){
+	var girls_data = names.filter(function(d){
+		return d.gender == 'F';
+	}).slice(0, 10);
+	draw(girls_data);
+});
+
+</script>
+
+
+
+
+

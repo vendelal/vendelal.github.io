@@ -1,0 +1,247 @@
+---
+
+layout: default
+title: Worst City
+
+---
+
+<div class="container">
+	<div class="row" style="margin-top: 70px;">
+		<h1>A guide to the worst parts of town</h1>
+		<br />
+		<p>What areas should you avoid when you visit different cities?</p>
+		<br />
+		<br />
+		<div class="col-md-4">
+			<h3>
+				Boston
+			</h3>
+			<ul>
+				<li>
+					<a href="data/bostonAsbestosRemovalReports.json">Asbestos Reports</a>
+				</li>
+				<li>
+					<a href="data/bostonCrimeIncidentReport.json">Crime Incident Reports</a>
+				</li>
+				<li>
+					<a href="data/bostonFarmersMarketsLocations.json">Farmers Markets Locations</a>
+				</li>
+				<li>
+					<a href="data/bostonPublicWorksActiveWorkZones.json">Active Construction Sites</a>
+				</li>
+				<li>
+					<a href="data/bostonWazeAlertData.json">Traffic Data from Waze</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>
+				New York
+			</h3>
+			<ul>
+				<li>
+					<a href="data/nyMaintenanceCodeViolations.json">Maintenance Code Violations</a>
+				</li>
+				<li>
+					<a href="data/nyNoiseComplaints.json">Noise Complaints</a>
+				</li>
+				<li>
+					<a href="data/nyRentAffordability.json">Rent Affordability</a>
+				</li>
+				<li>
+					<a href="data/nyRestaurantInspectionResults.json">Restaurant Inspection Results</a>
+				</li>
+				<li>
+					<a href="data/nyWifiHotspots.json">Wifi Hotspots</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>
+				Los Angeles
+			</h3>
+			<ul>
+				<li>
+					<a href="data/laForeclosures.json">Foreclosures</a>
+				</li>
+				<li>
+					<a href="data/laParkingCitations.json">Parking Citations</a>
+				</li>
+				<li>
+					<a href="data/laPowerOutages.json">Power Outages</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="row">
+		<h1 style="text-align: center;">Select a city</h1>
+		<div class="col-md-4">
+			<h2>
+				Boston
+			</h2>
+			<br />
+			<img src="images/cities_diagrams-01.jpg" style="padding: 0 20%;">
+		</div>
+		<div class="col-md-4">
+			<h2>
+				New York
+			</h2>
+			<br />
+			<img src="images/cities_diagrams-02.jpg" style="padding: 0 20%;">
+		</div>
+		<div class="col-md-4">
+			<h2>
+				Los Angeles
+			</h2>
+			<br />
+			<img src="images/cities_diagrams-03.jpg" style="padding: 0 20%;">
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="row">
+		<div class="col-md-4" style="padding-top: 100px;">
+			<button class="worst-something">
+				Worst place to eat
+			</button>
+			<br /><br />
+		</div>
+		<div class="col-md-8">
+			<h2>
+				Boston
+			</h2>
+			<img src="images/boston-visual2-06.png" width="100%" style="padding: 0 15%;">
+			<br />
+			<img src="images/boston-visual1-06.png" width="100%" style="padding: 0 15%;">
+			<br />
+			<img src="images/boston-visual3-07.png" width="100%" style="padding: 0 15%;">
+			<br />
+			<img src="images/boston-visual4-08.png" width="100%" style="padding: 0 15%;">
+			<br />
+			<br />
+			<br />
+		</div>
+	</div>
+</div>
+
+
+<script>
+
+d3.json('data/bostonAsbestosRemovalReports.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't load bostonAsbestosRemovalReports.json");
+		}
+		else {
+			console.log(data, 'Boston Asbestos Reports');
+		}
+	});
+
+d3.json('data/bostonCrimeIncidentReport.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonCrimeIncidentReport.json");
+		}
+		else {
+			console.log(data, 'Boston Crime Incident Report');
+		}
+	});
+
+d3.json('data/bostonFarmersMarketsLocations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonFarmersMarketsLocations.json");
+		}
+		else {
+			console.log(data, 'Boston Farmers Markets Locations');
+		}
+	});
+
+d3.json('data/bostonPublicWorksActiveWorkZones.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonPublicWorksActiveWorkZones.json");
+		}
+		else {
+			console.log(data, 'Boston Public Works Active Work Zones');
+		}
+	});
+
+d3.json('data/bostonWazeAlertData.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load bostonWazeAlertData.json");
+		}
+		else {
+			console.log(data, 'Boston Waze Alert Data');
+		}
+	});
+
+d3.json('data/nyMaintenanceCodeViolations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyMaintenanceCodeViolations.json");
+		}
+		else {
+			console.log(data, 'New York Maintenance Code Violations');
+		}
+	});
+
+d3.json('data/nyRestaurantInspectionResults.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyRestaurantInspectionResults.json");
+		}
+		else {
+			console.log(data, 'New York Restaurant Inspection Results');
+		}
+	});
+
+d3.csv('data/nyNoiseComplaints.csv', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyNoiseComplaints.csv");
+		}
+		else {
+			console.log(data, 'New York Noise Complaints');
+		}
+	});
+
+d3.json('data/nyRentAffordability.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyRentAffordability.json");
+		}
+		else {
+			console.log(data, 'New York Rent Affordability');
+		}
+	});
+
+d3.json('data/nyWifiHotspots.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load nyWifiHotspots.json");
+		}
+		else {
+			console.log(data, 'New York Wifi Hotspots');
+		}
+	});
+
+d3.json('data/laPowerOutages.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laPowerOutages.json");
+		}
+		else {
+			console.log(data, 'LA Power Outages');
+		}
+	});
+
+d3.json('data/laForeclosures.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laForeclosures.json");
+		}
+		else {
+			console.log(data, 'LA Foreclosures');
+		}
+	});
+
+d3.json('data/laParkingCitations.json', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't Load laParkingCitations.json");
+		}
+		else {
+			console.log(data, 'LA Parking Citations');
+		}
+	});
+
+</script>
