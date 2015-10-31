@@ -131,6 +131,9 @@ a:hover {
 .project5 a:hover {
     color: rgba(2, 150, 175, 1);
 }
+.project6 a:hover {
+    color: rgba(209, 112, 90, 1);
+}
 
 .project1 {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/firewall.jpg");
@@ -166,6 +169,14 @@ a:hover {
 
 .project5 {
     background: linear-gradient(rgba(0, 169, 211, 1), rgba(2, 150, 175, 1));
+    background-size: 100vw;
+    background-position: center;
+    padding: 20px;
+    height: 250px;
+}
+
+.project6 {
+    background: linear-gradient(rgba(211, 89, 89, 1), rgba(209, 112, 90, 1));
     background-size: 100vw;
     background-position: center;
     padding: 20px;
