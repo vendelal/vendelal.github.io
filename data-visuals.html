@@ -18,6 +18,9 @@ title: Worst City
 			</h3>
 			<ul>
 				<li>
+					<a href="data/bostonFoodEstablishmentInspections.csv">Food Establishment Inspections</a>
+				</li>
+				<li>
 					<a href="data/bostonAsbestosRemovalReports.json">Asbestos Reports</a>
 				</li>
 				<li>
@@ -126,6 +129,15 @@ title: Worst City
 
 
 <script>
+
+d3.json('data/bostonFoodEstablishmentInspections.csv', function(error, data) {
+		if (error) {
+			console.log(error.status, error.statusText, "Couldn't load bostonFoodEstablishmentInspections.csv");
+		}
+		else {
+			console.log(data, 'Boston Asbestos Reports');
+		}
+	});
 
 d3.json('data/bostonAsbestosRemovalReports.json', function(error, data) {
 		if (error) {
