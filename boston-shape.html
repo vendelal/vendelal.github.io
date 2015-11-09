@@ -1,0 +1,37 @@
+---
+
+layout: default
+title: Boston Map Practice
+
+---
+
+<script src="http://www.dave-landry.com/classes/artg455202/topojson.js"></script>
+<script>
+
+var svg = d3.select('body').append('svg')
+	.attr('width', '1000')
+	.attr('height', '1000'); // if you don't declare a default it'll set weird defaults
+
+d3.json('data/boston.json', function(data){
+
+	var featureCollection = topojson.feature(data, data.objects.boston),
+		proj = d3.geo.mercator(), // type of projection that we want to use. These are preloaded by topojson which we can see by typing d3.geo in the console in the browser
+		path = d3.geo.path().projection(proj); // We need to give geo.path a type of projection so it knows how to display the data
+
+	var paths = svg.selectAll('path')
+		.data(featureCollection.features, function(d){
+			return d.id; // we set the id to "ISO2" code so it will know that that is a unique country
+	});
+
+
+	paths.enter().append('path')
+		.attr('d', path)
+		.attr('fill', '#eee');
+
+	paths.attr('fill', function(d){
+		return d.id === 'Jamaica Plain' ? '#39bee5' : '#eee';
+	})
+
+});
+
+</script>

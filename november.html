@@ -1,0 +1,110 @@
+---
+
+layout: default
+title: Data Interactions
+
+---
+
+<style>
+	#controls {
+		background-color: #eee;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 200px;
+	}
+	svg {
+		background-color: cornflowerblue;
+		margin-left: 200px;
+	}
+</style>
+
+<div id="controls">
+	<select id="yearDropdown">
+	</select>
+</div>
+
+<svg width=500 height=500></svg>
+
+<script>
+
+	var raw_data = [],
+		year = false;
+
+	d3.csv('https://ashleyparis.github.io/data/Olympic.csv', function(error, data){
+
+		raw_data = data.filter(function(d){
+			return d.NOC === 'SWE';
+		});
+
+		var years = [];
+		raw_data.forEach(function(d){
+			d.year = parseFloat(d.Edition);
+			if (years.indexOf(d.year) == -1) {
+				years.push(d.year);
+			}
+		});
+
+		years.sort();
+
+		d3.select('#yearDropdown').selectAll('option')
+			.data(years).enter().append('option')
+			.attr('value', function(d){
+				return d;
+			})
+			.text(function(d){
+				return d;
+			});
+
+		d3.select('#yearDropdown').on('change', function(){
+			year = years[this.selectedIndex];
+			draw();
+		});
+
+		draw();
+
+	});
+
+	function draw(){
+
+		var year_data = raw_data.filter(function(d){
+			return d.year === year;
+		});
+
+		var scale = d3.scale.linear()
+			.domain([0, 250])
+			.range([20, 200]);
+
+		var sweden_data = [
+				{'medals': year_data.length, 'country': 'Sweden'}
+			];
+
+		var circle = d3.select('svg').selectAll('circle')
+			.data(sweden_data);
+
+		circle.enter().append('circle')
+			.attr('r', 0)
+			.attr('cx', 250)
+			.attr('cy', 250);
+
+		circle.transition().duration(500)
+			.attr('r', function(d){
+				return scale(d.medals);
+			});
+
+		circle.on('mouseover', function(d){
+			d3.select(this).attr('fill', 'goldenrod');
+		})
+		.on('mouseout', function(d){
+			d3.select(this).attr('fill', 'black');
+		})
+		.on('click', function(d){
+			d3.select(this).attr('fill', 'darksalmon');
+			console.log(d.country);
+		});
+
+		console.log(year_data);
+
+	}
+
+</script>

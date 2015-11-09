@@ -1,0 +1,172 @@
+---
+
+layout: project
+title: Boston
+
+---
+
+<div class="header">
+  <h1 class="siteTitle">Find the worst areas in your city</h1>
+  <h2 class="cityTitle">Boston</h2>
+</div>
+
+<div class='dotGridContainer' style='width: 100vw; height: 100vh; position:absolute;'>
+
+  <svg width='100%' height='100%'>
+
+    <defs>
+      <pattern id='dotGrid' width="10" height="10" patternUnits="userSpaceOnUse">>
+        <circle cx="5" cy="5" r="3.5" fill="#f4f5f5"/>
+      </pattern>
+    </defs>
+
+    <rect id="dotGridFill" width="100%" height="100%" fill="url(#dotGrid)" />
+
+    <svg id="dataSvg">
+    </svg>
+
+  </svg>
+
+</div>
+
+<div id="back">
+  <a href="worst-city.html">
+    <span class="icon-angle-left"></span>
+    <p>Analyze another city</p>
+  </a>
+</div>
+
+<div id="controls">
+  <h3>What would you like to avoid?</h3>
+  <select id="gradeDropdown">
+  </select>
+  <a href="boston-shape.html" style="text-align:center; text-decoration: underline;">
+    <p>Boston Map Attempt</p>
+  </a>
+</div>
+
+<div id="neighborhoodToggle">
+  <p>Show neighborhoods</p>
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+  </div>
+</div>
+
+<div id="switched" style="top: 425px; left: 310px; width:70px;">
+  <p>Clicked on!</p>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $('#switched').hide();
+    $('.onoffswitch label').click(
+      function(){
+        $("#switched").toggle();
+    });
+});
+
+
+var grade = false,
+    restaurants = [];
+
+d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?dl=1', 
+  function(data) {
+
+    restaurants = data.slice(0, 150);
+    console.log(restaurants);
+
+    var grades = [];
+    restaurants.forEach(function(d){
+      d.grade = d.RESULT;
+      if (grades.indexOf(d.grade) == -1) {
+        grades.push(d.grade);
+      }
+    });
+
+    d3.select('#gradeDropdown').selectAll('option')
+      .data(grades).enter().append('option')
+      .attr('value', function(d){
+        return d;
+      })
+      .text(function(d){
+        return d;
+    });
+
+    d3.select('#gradeDropdown').on('change', function(){
+      grade = grades[this.selectedIndex];
+      draw();
+    });
+
+    draw();
+
+  });
+
+function draw(){
+
+    var grade_data = restaurants.filter(function(d){
+      return d.grade === grade;
+    });
+
+    var circles = d3.select('#dataSvg').selectAll('circle')
+      .data(grade_data);
+
+    circles.enter().append('circle')
+      .attr('r', 0)
+      .attr('cx', function(d, i){ // i is the index of the array
+        return 395 + (10 * (i + 1));
+      })
+      .attr('cy', 105)
+      .attr('fill', function(d){
+        // return d.RESULT == 'HE_Filed' ? 'blue': 'HE_Fail' ? 'red': 'HE_NotReq' ? 'gray': 'orange';
+        if (d.RESULT === "HE_Filed") {
+          return 'blue';
+        }
+        else if (d.RESULT === "HE_Fail") {
+          return 'red';
+        }
+        else if (d.RESULT === "HE_Pass") {
+          return 'green';
+        }
+        else if (d.RESULT === "HE_NotReq") {
+          return 'gray';
+        }
+        else {
+          return 'orange';
+        }
+      });
+
+    circles.transition()
+      .attr('r', 3.5)
+      .delay(function(d, i) {
+        return i / restaurants.length * 1000;
+      })
+      .duration(1000);
+
+    circles.exit().transition().duration(500)
+      .attr('r', 0).remove();
+
+    console.log(grade_data);
+
+  }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
