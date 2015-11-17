@@ -73,17 +73,13 @@ $(document).ready(function(){
 });
 
 
-var grade = false;
-var restaurants = [];
-var maxLat = 0;
-var minLat = 0;
-var maxLon = 0;
-var minLon = 0;
+var grade = false,
+    restaurants = [];
 
 d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?dl=1', 
   function(data) {
 
-    restaurants = data.slice(0, 700);
+    restaurants = data.slice(0, 150);
 
     var grades = [];
     restaurants.forEach(function(d){
@@ -106,50 +102,64 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
         return d.lat;
       });
 
-    var minLat = d3.min(restaurants, function(d){
-      return d.lat;
-    })
-
     var maxLon = d3.max(restaurants, function(d){
-        return d.lon;
-      });
-
-    var minLon = d3.min(restaurants, function(d){
         return d.lon;
       });
 
     console.log(maxLat);
     console.log(maxLon);
 
-    var width = maxLat - minLat / 100;
-    var height = maxLon - minLon / 150;
-
-  });
-
-
-function draw(){
-
-    var grade_data = restaurants.filter(function(d){
-      return d.grade === grade;
-    });
-
-    var circles = d3.select('#dataSvg').selectAll('circle')
-      .data(grade_data);
-
-    circles.enter().append('circle')
-      .attr('r', 0)
-      .attr('cx', function(d, i){ // i is the index of the array
-        return 395 + (10 * (i + 1));
-      })
-      .attr('cy', 105)
-      .attr('fill', 'gray');
-
-    circles.exit().transition().duration(500)
-      .attr('r', 0).remove();
-
-    console.log(grade_data);
+    
 
   }
+
+// function draw(){
+
+//     var grade_data = restaurants.filter(function(d){
+//       return d.grade === grade;
+//     });
+
+//     var circles = d3.select('#dataSvg').selectAll('circle')
+//       .data(grade_data);
+
+//     circles.enter().append('circle')
+//       .attr('r', 0)
+//       .attr('cx', function(d, i){ // i is the index of the array
+//         return 395 + (10 * (i + 1));
+//       })
+//       .attr('cy', 105)
+//       .attr('fill', function(d){
+//         // return d.RESULT == 'HE_Filed' ? 'blue': 'HE_Fail' ? 'red': 'HE_NotReq' ? 'gray': 'orange';
+//         if (d.RESULT === "HE_Filed") {
+//           return 'blue';
+//         }
+//         else if (d.RESULT === "HE_Fail") {
+//           return 'red';
+//         }
+//         else if (d.RESULT === "HE_Pass") {
+//           return 'green';
+//         }
+//         else if (d.RESULT === "HE_NotReq") {
+//           return 'gray';
+//         }
+//         else {
+//           return 'orange';
+//         }
+//       });
+
+//     circles.transition()
+//       .attr('r', 3.5)
+//       .delay(function(d, i) {
+//         return i / restaurants.length * 1000;
+//       })
+//       .duration(1000);
+
+//     circles.exit().transition().duration(500)
+//       .attr('r', 0).remove();
+
+//     console.log(grade_data);
+
+//   }
 
 </script>
 

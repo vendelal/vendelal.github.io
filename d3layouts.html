@@ -1,0 +1,68 @@
+---
+
+layout: default
+title: D3 Layouts
+
+---
+
+<svg height=600 width=600></svg>
+
+<script>
+
+	var data = [
+		{'color': 'crimson', 'name': 'Barry', 'savings': 75},
+		{'color': 'yellow', 'name': 'Harry', 'savings': 25},
+		{'color': 'yellowgreen', 'name': 'Oliver', 'savings': 1523.63}
+	];
+
+	var pie = d3.layout.pie()
+		.value(function(d){
+			return d.savings;
+		});
+
+	data = pie(data);
+
+	var arc = d3.svg.arc()
+		.innerRadius(150)
+		.outerRadius(300);
+
+	var slices = d3.select('svg').selectAll('path')
+		.data(data);
+
+	slices.enter().append('path')
+		.attr('transform', 'translate(300,300)')
+		.attr('fill', function(d){
+			return d.data.color;
+		})
+		.attr('d', arc);
+
+
+// Julia's Airport Data Example: Nesting Data
+
+	var airportData = [
+		{'passengers': 2345, 'continent': 'NA', 'country': 'USA', 'airport': 1},
+		{'passengers': 456, 'continent': 'NA', 'country': 'USA', 'airport': 2},
+		{'passengers': 4573, 'continent': 'Europe', 'country': 'FRA', 'airport': 3},
+		{'passengers': 678, 'continent': 'Europe', 'country': 'GER', 'airport': 7},
+		{'passengers': 45, 'continent': 'Europe', 'country': 'GER', 'airport': 8},
+		{'passengers': 246, 'continent': 'Europe', 'country': 'GEr', 'airport': 99}
+	];
+
+	var countryData = d3.nest()
+		.key(function(d){ // What do you want to nest it by?
+			return d.continent;
+		})
+		.key(function(d){ // You can nest more than one thing
+			return d.country;
+		})
+		.rollup(function(leaves){ // return some function for the values
+			return d3.sum(leaves, function(d){
+				return d.passengers;
+			})
+		})
+		.entries(airportData); // The data you want to nest
+
+	console.log(countryData);
+
+
+</script>
