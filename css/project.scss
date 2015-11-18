@@ -171,6 +171,13 @@ h4 {
     }
 }
 
+.switchContainer {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    right: 25px;
+}
+
 .cityLabel, #switched {
     background-color:#fff;
     width: 50px;

@@ -38,21 +38,20 @@ title: Boston
 
 <div id="controls">
   <h3>What would you like to avoid?</h3>
-  <select id="gradeDropdown">
-  </select>
-  <a href="boston-shape.html" style="text-align:center; text-decoration: underline;">
-    <p>Boston Map Attempt</p>
-  </a>
+  <!-- <select id="gradeDropdown">
+  </select> -->
 </div>
 
 <div id="neighborhoodToggle">
   <p>Show neighborhoods</p>
-  <div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
+  <div class="switchContainer">
+    <div class="onoffswitch">
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+      <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"></span>
+      </label>
+    </div>
   </div>
 </div>
 
@@ -79,12 +78,19 @@ var maxLat = 0;
 var minLat = 0;
 var maxLon = 0;
 var minLon = 0;
+var width = maxLat - minLat;
+var height = maxLon - minLon;
+var step = 7;
+var dataObjects = []; // use this to draw
+var gridWidth = 60;
+var gridHeight = 100;
 
 d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?dl=1', 
   function(data) {
 
-    restaurants = data.slice(0, 700);
+    restaurants = data.slice(0, 10000);
 
+    // find the grades of each restaurant
     var grades = [];
     restaurants.forEach(function(d){
       d.grade = d.RESULT;
@@ -93,6 +99,7 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
       }
     });
 
+    // parse the location for the latitude and longitude and return the max and min
     restaurants.forEach(function(d){
 
       d.lat = parseFloat(d.Location.split(",")[0].slice(1));
@@ -103,51 +110,86 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
     });
 
     var maxLat = d3.max(restaurants, function(d){
-        return d.lat;
-      });
+      return d.lat;
+    });
 
     var minLat = d3.min(restaurants, function(d){
       return d.lat;
     })
 
     var maxLon = d3.max(restaurants, function(d){
-        return d.lon;
-      });
+      return d.lon;
+    });
 
     var minLon = d3.min(restaurants, function(d){
-        return d.lon;
-      });
+      return d.lon;
+    });
 
-    console.log(maxLat);
-    console.log(maxLon);
+    console.log(minLat, maxLat);
+    console.log(minLon, maxLon);
 
-    var width = maxLat - minLat / 100;
-    var height = maxLon - minLon / 150;
+    var xRange = (maxLon - minLon) / gridWidth;
+    var yRange = (maxLat - minLat) / gridHeight;
+    // for each row add the data point if it falls within the range of the step
+    for (var row = 0; row < gridHeight; row++) {
+      var yMin = minLat + yRange * (row + 1);
+      for (var col = 0; col < gridWidth; col++) {
+        var xMin = minLon + xRange * (col + 1);
+        
+        var dot = {};
 
+        // for each dot object, return the data points inside restaurant that are within the xRange and yRange of the current row & col
+        dot.data = restaurants.filter(function(d){
+          if (yMin > d.lat && d.lat >= yMin - yRange &&
+              xMin > d.lon && d.lon >= xMin - xRange ) {
+            return d;
+          }
+          return false;
+        });
+
+        dataObjects.push(dot);
+      }
+    }
+
+    console.log(dataObjects, dataObjects.length);
+    draw();
   });
 
 
+// render the map of boston with data in it
 function draw(){
 
-    var grade_data = restaurants.filter(function(d){
-      return d.grade === grade;
-    });
-
     var circles = d3.select('#dataSvg').selectAll('circle')
-      .data(grade_data);
+      .data(dataObjects);
 
     circles.enter().append('circle')
       .attr('r', 0)
       .attr('cx', function(d, i){ // i is the index of the array
-        return 395 + (10 * (i + 1));
+        return 345 + (10 * ((i % gridWidth) + 1));
       })
-      .attr('cy', 105)
-      .attr('fill', 'gray');
+      .attr('cy', function(d, i) {
+        return 15 + (10 * (Math.ceil((i + 1)/gridHeight)));
+      })
+      .attr('fill', function(d){
+        if (d.data.length == 0) {
+          return 'none';
+        }
+        else {
+          return 'red';
+        }
+      });
+
+    circles.transition()
+      .attr('r', 3.5)
+      .delay(function(d, i) {
+        return i / dataObjects.length * 1000;
+      })
+      .duration(3000);
 
     circles.exit().transition().duration(500)
       .attr('r', 0).remove();
 
-    console.log(grade_data);
+    console.log(restaurants);
 
   }
 
