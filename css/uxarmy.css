@@ -108,6 +108,7 @@ name {
 	h1 {
 		font-size: 50px;
 		padding-top: 50px;
+		margin-top: 319px;
 	}
 	h2 {
 		font-size: 22px;
@@ -131,6 +132,10 @@ name {
 	}
 	.form input.button {
 		width: 100%;
+		-webkit-appearance:none;
+	}
+	input[type=submit], input[class=button] { 
+		-webkit-appearance:none; 
 	}
 	.form {
 		width: 100%;
