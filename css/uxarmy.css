@@ -52,6 +52,10 @@ name {
 	margin: -15px -15px 0 -15px;
 }
 
+.svg2 {
+	visibility: hidden;
+}
+
 .bottom {
 	height: 100%;
 	padding: 50px 150px;
