@@ -125,7 +125,7 @@ name {
 	}
 	.bottom {
 		padding: 20px 20px;
-		height: 585px;
+		height: 610px;
 	}
 	.form input {
 		width: 93%;
@@ -145,11 +145,20 @@ name {
 		float: left;
 		margin-top: 80px;
 	}
-	.footer name {
-		width: 65px;
-		display: inline-block;
+	.footer h3 {
+		text-align: center;
 	}
-	.footer name:nth-child(4) {
-		width: 173px;
+	.footer name {
+		width: 100%;
+	    display: block;
+	    padding: 5px 0px;
+	    text-align: center;
+	    margin: 0px;
+	}
+}
+@media (min-width: 413px) and (max-width: 736px) { 
+	.h1 {
+		font-size: 63px;
+		line-height: 61px;
 	}
 }
