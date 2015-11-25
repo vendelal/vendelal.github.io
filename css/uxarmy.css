@@ -97,3 +97,50 @@ name {
 	bottom: 50px;
 	width: 100%;
 }
+
+/* mobile styles */
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 50px;
+		padding-top: 50px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.header {
+		height: 219px;
+	}
+	.svg1 {
+		visibility: hidden;
+	}
+	.svg2 {
+		visibility: visible;
+		margin-top: -300px;
+	}
+	.bottom {
+		padding: 20px 20px;
+		height: 585px;
+	}
+	.form input {
+		width: 93%;
+	}
+	.form input.button {
+		width: 100%;
+	}
+	.form {
+		width: 100%;
+	}
+	.footer {
+		position: relative;
+		float: left;
+		margin-top: 80px;
+	}
+	.footer name {
+		width: 65px;
+		display: inline-block;
+	}
+	.footer name:nth-child(4) {
+		width: 173px;
+	}
+}

@@ -170,14 +170,14 @@ function draw(){
       return d.data.length;
     });
 
-    // Trying to get the passing grades to make a color scale
-    var passing = [];
-    d.data.forEach(function(d){
-      d.grade = d.data.RESULT;
-      if (d.grade == "PASS") {
-        passing.push(d.grade);
-      }
-    });
+    // // Trying to get the passing grades to make a color scale
+    // var passing = [];
+    // d.data.forEach(function(d){
+    //   d.grade = d.data.RESULT;
+    //   if (d.grade == "PASS") {
+    //     passing.push(d.grade);
+    //   }
+    // });
 
     var opacityScale = d3.scale.linear()
       .domain(extent)
@@ -207,7 +207,7 @@ function draw(){
           return 'none';
         }
         else {
-          return color(passing.length);
+          return '#d35959';//color(passing.length);
         }
 
       })
@@ -222,7 +222,7 @@ function draw(){
     circles.transition()
       .attr('r', 3.5)
       .delay(function(d, i) {
-        return i / dataObjects.length * 1000;
+        return i / restaurantObjects.length * 1000;
       })
       .duration(3000);
 

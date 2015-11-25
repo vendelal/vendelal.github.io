@@ -170,14 +170,14 @@ function draw(){
       return d.data.length;
     });
 
-    // Trying to get the passing grades to make a color scale
-    var passing = [];
-    d.data.forEach(function(d){
-      d.grade = d.data.RESULT;
-      if (d.grade == "PASS") {
-        passing.push(d.grade);
-      }
-    });
+    // // Trying to get the passing grades to make a color scale
+    // var passing = [];
+    // data.forEach(function(d){
+    //   d.grade = d.data.RESULT;
+    //   if (d.grade == "PASS") {
+    //     passing.push(d.grade);
+    //   }
+    // });
 
     var opacityScale = d3.scale.linear()
       .domain(extent)
@@ -233,7 +233,7 @@ function draw(){
 
   }
 
-  d3.select('#worstToEat').on('click', function(d) {
+  d3.select('#worstToEat').on('click', function() {
     draw(restaurantObjects);
   })
 
