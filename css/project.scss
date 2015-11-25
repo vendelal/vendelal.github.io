@@ -142,6 +142,26 @@ h4 {
         padding: 0px 15px;
         line-height: 23px;
     }
+    #worstToEat {
+        height: 109px;
+        cursor: pointer;
+        h4 {
+        padding: 8px 15px 0px 15px;
+        }
+        p {
+            padding: 0px 15px;
+            margin: -20px 0px;
+        }
+        span {
+            padding: 0px 5px 0px 0px;
+        }
+        span ~ span {
+            padding: 0px 5px 0px 15px;
+        }
+    }
+    #worstToEat:hover {
+        background-color: $light-gray;
+    }
 }
 
 #back {
@@ -239,6 +259,7 @@ h4 {
 .onoffswitch-inner:before {
     content: "ON";
     padding-left: 5px;
+    padding-top: 1px;
     background-color: #FFFFFF; 
     font-weight:bold;
     color: $green;
@@ -246,6 +267,7 @@ h4 {
 .onoffswitch-inner:after {
     content: "OFF";
     padding-right: 5px;
+    padding-top: 1px;
     color: $red;
     background-color:#fff;
     font-weight: bold;

@@ -99,7 +99,7 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
     // find the grades of each restaurant
     var grades = [];
     restaurants.forEach(function(d){
-      d.grade = d.RESULT;
+      d.grade = d.GRADE;
       if (grades.indexOf(d.grade) == -1) {
         grades.push(d.grade);
       }
