@@ -1,0 +1,244 @@
+---
+---
+
+$text: #4A4A4A;
+$red: #FF736B;
+$orange: #FB9250;
+$green: #2DCC70;
+
+@font-face {
+    font-family: 'akkuratbold';
+    src: url('../fonts/ufonts.com_akkurat-bold-opentype-webfont.eot');
+    src: url('../fonts/ufonts.com_akkurat-bold-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_akkurat-bold-opentype-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_akkurat-bold-opentype-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_akkurat-bold-opentype-webfont.svg#akkuratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkurat_lightitalic';
+    src: url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.eot');
+    src: url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.woff2') format('woff2'),
+         url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_akkurat-light-italic-opentype-webfont.svg#akkurat_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkurat_lightregular';
+    src: url('../fonts/ufonts.com_akkurat-light-opentype-webfont.eot');
+    src: url('../fonts/ufonts.com_akkurat-light-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_akkurat-light-opentype-webfont.woff2') format('woff2'),
+         url('../fonts/ufonts.com_akkurat-light-opentype-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_akkurat-light-opentype-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_akkurat-light-opentype-webfont.svg#akkurat_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkuratregular';
+    src: url('../fonts/ufonts.com_akkurat-opentype-webfont.eot');
+    src: url('../fonts/ufonts.com_akkurat-opentype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ufonts.com_akkurat-opentype-webfont.woff2') format('woff2'),
+         url('../fonts/ufonts.com_akkurat-opentype-webfont.woff') format('woff'),
+         url('../fonts/ufonts.com_akkurat-opentype-webfont.ttf') format('truetype'),
+         url('../fonts/ufonts.com_akkurat-opentype-webfont.svg#akkuratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'akkurat_lightregular';
+    font-weight: normal;
+    color: $text;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+h1 {
+    font-size: 90px;
+    color: $text;
+    margin: auto auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'akkuratbold';
+    font-size: 24px;
+    margin-bottom: 20px;
+    span {
+        margin-right: 15px;
+    }
+}
+
+h3 {
+    font-size: 18px;
+    color: $text;
+    margin-bottom: 27px;
+}
+
+p {
+    color: $text;
+    line-height: 1.5;
+}
+
+em {
+    font-weight: bold;
+    color: #000;
+    font-style: normal;
+}
+
+.header {
+    background-image: url("/images/how-to/hero.jpg");
+    background-color: #eee;
+    // background-attachment: fixed;
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    background-position: center -135px;
+    height: 520px;
+}
+
+.step {
+    padding: 50px;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.plus {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: $green;
+    color: #fff;
+    font-size: 39px;
+    font-family: akkuratbold;
+    position: relative;
+    margin-top: 20px;
+    span {
+        position: absolute;
+        top: -6px;
+        left: 9px;
+    }
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.step.green {
+    color: $green;
+}
+
+.step.red {
+    color: $red;
+}
+
+.step.orange {
+    color: $orange;
+}
+
+#ideating {
+    background-image: url("/images/how-to/ideating.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#brainstorming {
+    background-image: url("/images/how-to/brainstorming.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#wireframing {
+    background-image: url("/images/how-to/wireframing.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#hi-fidelity {
+    background-image: url("/images/how-to/hi-fidelity.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#html-ing {
+    background-image: url("/images/how-to/html.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+#css-javascript {
+    background-image: url("/images/how-to/css.png");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.footer {
+    padding: 50px;
+    background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

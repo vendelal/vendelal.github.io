@@ -65,7 +65,58 @@ title: Boston
   <p>Clicked on!</p>
 </div>
 
+<!-- BOSTON TOPOJSON -->
+<script src="http://www.dave-landry.com/classes/artg455202/topojson.js"></script>
+<script>
 
+var width = 600, height = 400;
+
+var svg = d3.select('body').append('svg')
+  .attr('width', width)
+  .attr('height', height); // if you don't declare a default it'll set weird defaults
+
+d3.json('data/boston-working.json', function(data){
+
+  var neighborhoods = topojson.feature(data, data.objects.collection);
+
+  // Create a unit projection.
+  var projection = d3.geo.mercator()
+    .scale(1)
+    .translate([0, 0]);
+
+  // Create a path generator.
+  var path = d3.geo.path()
+    .projection(projection);
+
+  // Compute the bounds of a feature of interest, then derive scale & translate.
+  var b = path.bounds(neighborhoods),
+      s = .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
+      t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2];
+
+  // Update the projection to use computed scale & translate.
+  projection
+    .scale(s)
+    .translate(t);
+
+  var paths = svg.selectAll('path')
+    .data(neighborhoods.features, function(d){
+      return d.id; // we set the id to "ISO2" code so it will know that that is a unique country
+  });
+
+  paths.enter().append('path')
+    .attr('d', path)
+    .attr('fill', '#eee');
+
+  paths.attr('fill', function(d){
+    return d.properties.Name === 'Jamaica Plain' ? '#39bee5' : '#eee';
+  })
+
+});
+
+</script>
+
+
+<!-- RESTAURANT DATA -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 
@@ -94,7 +145,7 @@ var gridHeight = 120;
 d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?dl=1', 
   function(data) {
 
-    restaurants = data.slice(0, 10000);
+    restaurants = data;
 
     // find the grades of each restaurant
     var grades = [];
@@ -115,19 +166,19 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
 
     });
 
-    var maxLat = d3.max(restaurants, function(d){
+    maxLat = d3.max(restaurants, function(d){
       return d.lat;
     });
 
-    var minLat = d3.min(restaurants, function(d){
+    minLat = d3.min(restaurants, function(d){
       return d.lat;
     })
 
-    var maxLon = d3.max(restaurants, function(d){
+    maxLon = d3.max(restaurants, function(d){
       return d.lon;
     });
 
-    var minLon = d3.min(restaurants, function(d){
+    minLon = d3.min(restaurants, function(d){
       return d.lon;
     });
 
