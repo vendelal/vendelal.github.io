@@ -108,6 +108,51 @@ em {
     // background-size: cover;
     background-position: center -135px;
     height: 520px;
+    position: relative;
+}
+
+.explanation-btn {
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-style: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.explanation-btn:hover {
+    cursor: pointer;
+}
+
+.explanation-btn:hover .explanation {
+    display:block;
+}
+
+.explanation {
+    display: none;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 40px;
+    width: 430px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: -10px;
+    right: 78px;
 }
 
 .step {
@@ -186,12 +231,13 @@ em {
 }
 
 #hi-fidelity {
-    background-image: url("/images/how-to/hi-fidelity.jpg");
+    background-image: url("/images/how-to/boston_ux.gif");
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
     -webkit-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);
     box-shadow: 0px 10px 22px -6px rgba(0,0,0,0.5);

@@ -22,6 +22,8 @@ title: Boston
 
     <rect id="dotGridFill" width="100%" height="100%" fill="url(#dotGrid)" />
 
+    <svg id="bostonSvg">
+    </svg>
     <svg id="dataSvg">
     </svg>
 
@@ -65,13 +67,16 @@ title: Boston
   <p>Clicked on!</p>
 </div>
 
-<!-- BOSTON TOPOJSON -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://www.dave-landry.com/classes/artg455202/topojson.js"></script>
+
+<!-- BOSTON TOPOJSON -->
 <script>
 
-var width = 600, height = 400;
+var width = 1480, height = 800;
 
-var svg = d3.select('body').append('svg')
+var svg = d3.select('#bostonSvg').append('svg')
   .attr('width', width)
   .attr('height', height); // if you don't declare a default it'll set weird defaults
 
@@ -108,17 +113,13 @@ d3.json('data/boston-working.json', function(data){
     .attr('fill', '#eee');
 
   paths.attr('fill', function(d){
-    return d.properties.Name === 'Jamaica Plain' ? '#39bee5' : '#eee';
+    return d.properties.Name === 'Jamaica Plain' ? '#555' : '#eee';
   })
 
 });
 
-</script>
-
 
 <!-- RESTAURANT DATA -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
 
 $(document).ready(function(){
   $('#switched').hide();
@@ -127,7 +128,6 @@ $(document).ready(function(){
         $("#switched").toggle();
     });
 });
-
 
 var grade = false;
 var restaurants = [];
@@ -141,11 +141,12 @@ var step = 7;
 var restaurantObjects = []; // use this to draw
 var gridWidth = 60;
 var gridHeight = 120;
+var passing = [];
 
 d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?dl=1', 
   function(data) {
 
-    restaurants = data;
+    restaurants = data.slice(0, 10000);
 
     // find the grades of each restaurant
     var grades = [];
@@ -208,6 +209,28 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
         restaurantObjects.push(dot);
       }
     }
+
+    console.log(restaurantObjects);
+    console.log("yo");
+    console.log(restaurantObjects[5903]);
+    console.log(restaurantObjects[5903].data[1].grade);
+    // Get the passing grades to make a color scale
+    restaurantObjects.forEach(function(d){
+      for (var i = 0; i < d.data.length; i++) {
+        if (d.data[i].grade == "HE_Pass") {
+          passing.push(d.data[i].grade);
+        }
+        var percentPassing = 0;
+        if (d.data.length > 0) {
+          percentPassing = passing.length / d.data[i].length;
+        }
+      }
+      return percentPassing;
+      console.log(percentPassing);
+    });
+
+    console.log(passing);
+
   });
 
 
@@ -220,15 +243,6 @@ function draw(){
     var extent = d3.extent(restaurantObjects, function(d){
       return d.data.length;
     });
-
-    // // Trying to get the passing grades to make a color scale
-    // var passing = [];
-    // d.data.forEach(function(d){
-    //   d.grade = d.data.RESULT;
-    //   if (d.grade == "PASS") {
-    //     passing.push(d.grade);
-    //   }
-    // });
 
     var opacityScale = d3.scale.linear()
       .domain(extent)
@@ -251,7 +265,7 @@ function draw(){
         return 345 + (10 * ((i % gridWidth) + 1));
       })
       .attr('cy', function(d, i) {
-        return 15 + (10 * (Math.ceil((i + 1)/gridHeight)));
+        return 65 + (10 * (Math.ceil((i + 1)/gridHeight)));
       })
       .attr('fill', function(d){
         if (d.data.length == 0) {
