@@ -2038,8 +2038,11 @@ d3.csv('https://dl.dropboxusercontent.com/s/lrn65nlo2ymsa4u/bostonFoodFinal.csv?
         }
       }
       return percentPassing;
-      console.log(percentPassing);
+      // console.log(percentPassing);
     });
+
+    draw(restaurantObjects);
+    
   });
 
 // center the map and the data according to screen size
@@ -2068,18 +2071,15 @@ function draw(){
     });
 
     var passFailRatio = function(dots){
-      console.log(dots)
       var pass = 0;
       var fail = 0;
       for(var i = 0, l = dots.length; i < l; i++){
-        if(dots[i].grade == "HE_pass")
+        if(dots[i].grade == "HE_Pass")
           pass = pass + 1;
         else
           fail = fail + 1;
       }
-      console.log(pass,fail)
-      var ratio = pass/fail
-      console.log(ratio);
+      var ratio = pass > fail;
       return ratio;
     }
 
@@ -2089,7 +2089,7 @@ function draw(){
 
     var opacityScale = d3.scale.linear()
       .domain(extent)
-      .range([0.15, 1]);
+      .range([0.25, 1]);
 
     circles.enter().append('circle')
       .attr('r', 0)
@@ -2103,8 +2103,8 @@ function draw(){
         if (d.data.length == 0) {
           return 'none';
         }
-        else if (passFailRatioExtent > 1) {
-          return 'green';
+        else if (passFailRatio(d.data)) {
+          return '#2cb34b';
         }
         else {
           return '#d35959'
@@ -2133,9 +2133,9 @@ function draw(){
 
   }
 
-  d3.select('#worstToEat').on('click', function(d) {
-    draw(restaurantObjects);
-  })
+  // d3.select('#worstToEat').on('click', function(d) {
+  //   draw(restaurantObjects);
+  // })
 
 </script>
 
