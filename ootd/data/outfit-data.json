@@ -1,0 +1,235 @@
+{ "outfits": [
+{ "id": 060816,
+	"date": [{ "month": 6, "day": 8, "year": 2016, "season": "summer"}],
+	"img": "img/060816.JPG",
+	"clothes": [
+		{
+			"name": "white collared shirt",
+			"tags": [{
+				"color": "white",
+				"brand": "aritzia",
+				"type": "top"
+			}]
+		},
+		{
+			"name": "linen skirt with tassles",
+			"tags": [{
+				"color": "tan",
+				"brand": "aritzia",
+				"type": "bottom"
+			}]
+		},
+		{
+			"name": "espadrille sneakers",
+			"tags": [{
+				"color": "white",
+				"brand": "soludos",
+				"type": "shoes"
+			}]
+		},
+		{
+			"name": "suede string",
+			"tags": [{
+				"color": "white",
+				"brand": "etsy",
+				"type": "jewelry"
+			}]
+		},
+		{
+			"name": "braun chainlink watch",
+			"tags": [{
+				"color": "silver",
+				"brand": "braun",
+				"type": "watch"
+			}]
+		}
+	]},
+
+
+{ "id": 060916,
+	"date": [{ "month": 6, "day": 9, "year": 2016, "season": "summer"}],
+	"img": "img/060916.JPG",
+	"clothes": [
+		{
+			"name": "gray long sleeved shirt with buttons",
+			"tags": [{
+				"color": "gray",
+				"brand": "madewell",
+				"type": "top"
+			}]
+		},
+		{
+			"name": "backless dress",
+			"tags": [{
+				"color": "black",
+				"brand": "brandy melville",
+				"type": "dress"
+			}]
+		},
+		{
+			"name": "high tops",
+			"tags": [{
+				"color": "white",
+				"brand": "converse",
+				"type": "shoes"
+			}]
+		},
+		{
+			"name": "suede string",
+			"tags": [{
+				"color": "black",
+				"brand": "etsy",
+				"type": "jewelry"
+			}]
+		},
+		{
+			"name": "warby parker glasses",
+			"tags": [{
+				"color": "turtle",
+				"brand": "warby parker",
+				"type": "glasses"
+			}]
+		},
+		{
+			"name": "larsson and jennings watch",
+			"tags": [{
+				"color": "black",
+				"brand": "larsson and jennings",
+				"type": "watch"
+			}]
+		},
+	]},
+
+
+{ "id": 061016,
+	"date": [{ "month": 6, "day": 10, "year": 2016, "season": "summer"}],
+	"img": "img/061016.JPG",
+	"clothes": [
+		{
+			"name": "green bomber",
+			"tags": [{
+				"color": "green",
+				"brand": "alpha industries",
+				"type": "jacket"
+			}]
+		},
+		{
+			"name": "lace up jersey dress",
+			"tags": [{
+				"color": "gray",
+				"brand": "free people",
+				"type": "dress"
+			}]
+		},
+		{
+			"name": "pink pumas",
+			"tags": [{
+				"color": "pink",
+				"brand": "puma",
+				"type": "shoes"
+			}]
+		},
+		{
+			"name": "aviator glasses",
+			"tags": [{
+				"color": "gold",
+				"brand": "smart eyes",
+				"type": "glasses"
+			}]
+		},
+		{
+			"name": "braun chainlink watch",
+			"tags": [{
+				"color": "silver",
+				"brand": "braun",
+				"type": "watch"
+			}]
+		}
+	]},
+
+
+{ "id": 061116,
+	"date": [{ "month": 6, "day": 11, "year": 2016, "season": "summer"}],
+	"img": "img/061116.JPG",
+	"clothes": [
+		{
+			"name": "blue one piece",
+			"tags": [{
+				"color": "blue",
+				"brand": "beach riot",
+				"type": "swim"
+			}]
+		},
+		{
+			"name": "white flowy skirt",
+			"tags": [{
+				"color": "white",
+				"brand": "brandy melville",
+				"type": "bottom"
+			}]
+		},
+		{
+			"name": "espadrille sneakers",
+			"tags": [{
+				"color": "white",
+				"brand": "soludos",
+				"type": "shoes"
+			}]
+		},
+		{
+			"name": "green bomber",
+			"tags": [{
+				"color": "green",
+				"brand": "alpha industries",
+				"type": "jacket"
+			}]
+		},
+		{
+			"name": "braun chainlink watch",
+			"tags": [{
+				"color": "silver",
+				"brand": "braun",
+				"type": "watch"
+			}]
+		}
+	]},
+
+
+{ "id": 061316,
+	"date": [{ "month": 6, "day": 13, "year": 2016, "season": "summer"}],
+	"img": "img/061316.JPG",
+	"clothes": [
+		{
+			"name": "fleece turtleneck",
+			"tags": [{
+				"color": "gray",
+				"brand": "aritzia",
+				"type": "top"
+			}]
+		},
+		{
+			"name": "denim button up dress",
+			"tags": [{
+				"color": "blue",
+				"brand": "forever 21",
+				"type": "dress"
+			}]
+		},
+		{
+			"name": "black wrap sandal",
+			"tags": [{
+				"color": "black",
+				"brand": "soludos",
+				"type": "shoes"
+			}]
+		},
+		{
+			"name": "braun chainlink watch",
+			"tags": [{
+				"color": "silver",
+				"brand": "braun",
+				"type": "watch"
+			}]
+		}
+	]}
+}]}
