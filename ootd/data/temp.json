@@ -1,9 +1,9 @@
-{"outfits": {
-    "listOfOutfits": [
-      	{ "id": "060816", 
-	      "date": {"month": 6, "day": 8, "year": 2016, "season": "summer"}, 
-	      "img": "img/060816.JPG",
-		  "clothes": [
+{ "options": {
+	"outfits": [
+		{ "id": "060816",
+			"date": { "month": 6, "day": 8, "year": 2016, "season": "summer"},
+			"img": "img/060816.JPG",
+			"clothes": [
 				{
 					"name": "white collared shirt",
 					"tags": {
@@ -45,13 +45,12 @@
 					}
 				}
 			]
-	  	},
+		}
 
-
-      	{ "id": "060916",
-		  "date": {"month": 6, "day": 9, "year": 2016, "season": "summer"},
-		  "img": "img/060916.JPG",
-		  "clothes": [
+		{ "id": "060916",
+			"date": { "month": 6, "day": 9, "year": 2016, "season": "summer"},
+			"img": "img/060916.JPG",
+			"clothes": [
 				{
 					"name": "gray long sleeved shirt with buttons",
 					"tags": {
@@ -100,14 +99,14 @@
 						"type": "watch"
 					}
 				}
-		    ]
+			]
 		},
 
 
-    	{ "id": "061016",
-		  "date": [{ "month": 6, "day": 10, "year": 2016, "season": "summer"}],
-		  "img": "img/061016.JPG",
-		  "clothes": [
+		{ "id": "061016",
+			"date": [{ "month": 6, "day": 10, "year": 2016, "season": "summer"}],
+			"img": "img/061016.JPG",
+			"clothes": [
 				{
 					"name": "green bomber",
 					"tags": {
@@ -151,10 +150,11 @@
 			]
 		},
 
+
 		{ "id": "061116",
-		  "date": [{ "month": 6, "day": 11, "year": 2016, "season": "summer"}],
-		  "img": "img/061116.JPG",
-		  "clothes": [
+			"date": [{ "month": 6, "day": 11, "year": 2016, "season": "summer"}],
+			"img": "img/061116.JPG",
+			"clothes": [
 				{
 					"name": "blue one piece",
 					"tags": {
@@ -197,12 +197,12 @@
 				}
 			]
 		},
-      
 
-      	{ "id": "061316",
-		  "date": [{ "month": 6, "day": 13, "year": 2016, "season": "summer"}],
-		  "img": "img/061316.JPG",
-		  "clothes": [
+
+		{ "id": "061316",
+			"date": [{ "month": 6, "day": 13, "year": 2016, "season": "summer"}],
+			"img": "img/061316.JPG",
+			"clothes": [
 				{
 					"name": "fleece turtleneck",
 					"tags": {
@@ -236,51 +236,7 @@
 					}
 				}
 			]
-		},
-
-
-		{ "id": "061416",
-		  "date": [{ "month": 6, "day": 14, "year": 2016, "season": "summer"}],
-		  "img": "img/061416.JPG",
-		  "clothes": [
-				{
-					"name": "ruffle shoulder top",
-					"tags": {
-						"color": "pink",
-						"brand": "h&m",
-						"type": "top"
-					}
-				},
-				{
-					"name": "tailored shorts",
-					"tags": {
-						"color": "green",
-						"brand": "aritzia",
-						"type": "bottom"
-					}
-				},
-				{
-					"name": "wink slippers",
-					"tags": {
-						"color": "canvas",
-						"brand": "soludos",
-						"type": "shoes"
-					}
-				},
-				{
-					"name": "braun chainlink watch",
-					"tags": {
-						"color": "silver",
-						"brand": "braun",
-						"type": "watch"
-					}
-				}
-			]
 		}
 
-
-
-
-    ]
-  }
-}
+	]
+}}
