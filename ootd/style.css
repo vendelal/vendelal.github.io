@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,6 +11,7 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
+  font-family: 'Yantramanav', sans-serif;
 }
 
 /* Custom page header */
@@ -51,16 +53,18 @@ body {
 }
 
 .outfit-image {
-  height: 100px;
+  height: 150px;
   background-size: cover;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  background-position: center;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.6;
+}
+
+.outfit-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 .outfit-images {

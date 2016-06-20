@@ -276,6 +276,223 @@
 					}
 				}
 			]
+		},
+
+
+
+		{ "id": "061516",
+		  "date": [{ "month": 6, "day": 15, "year": 2016, "season": "summer"}],
+		  "img": "img/061516.JPG",
+		  "clothes": [
+				{
+					"name": "turtleneck bodycon dress",
+					"tags": {
+						"color": "gray",
+						"brand": "brandy melville",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "ankle tie espadrille",
+					"tags": {
+						"color": "black",
+						"brand": "the tannery",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star scarf",
+					"tags": {
+						"color": "gray",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "061616",
+		  "date": [{ "month": 6, "day": 16, "year": 2016, "season": "summer"}],
+		  "img": "img/061616.JPG",
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "short slacks",
+					"tags": {
+						"color": "black",
+						"brand": "forever 21",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "061716",
+		  "date": [{ "month": 6, "day": 17, "year": 2016, "season": "summer"}],
+		  "img": "img/061716.JPG",
+		  "clothes": [
+				{
+					"name": "layered crop top",
+					"tags": {
+						"color": "white",
+						"brand": "lululemon",
+						"type": "top"
+					}
+				},
+				{
+					"name": "linen skirt with tassles",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "perforated leather sneakers",
+					"tags": {
+						"color": "tan",
+						"brand": "rolle",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "061816",
+		  "date": [{ "month": 6, "day": 18, "year": 2016, "season": "summer"}],
+		  "img": "img/061816.JPG",
+		  "clothes": [
+				{
+					"name": "open back maxi dress",
+					"tags": {
+						"color": "black",
+						"brand": "rag & bone",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "adidas small bag",
+					"tags": {
+						"color": "gray",
+						"brand": "adidas",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "banana republic leather jacket",
+					"tags": {
+						"color": "black",
+						"brand": "banana republic",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "062016",
+		  "date": [{ "month": 6, "day": 20, "year": 2016, "season": "summer"}],
+		  "img": "img/062016.JPG",
+		  "clothes": [
+				{
+					"name": "striped linen shirt",
+					"tags": {
+						"color": "white",
+						"brand": "primark",
+						"type": "top"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
