@@ -105,7 +105,7 @@
 
 
     	{ "id": "061016",
-		  "date": [{ "month": 6, "day": 10, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 10, "year": 2016, "season": "summer"},
 		  "img": "img/061016.JPG",
 		  "clothes": [
 				{
@@ -152,7 +152,7 @@
 		},
 
 		{ "id": "061116",
-		  "date": [{ "month": 6, "day": 11, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 11, "year": 2016, "season": "summer"},
 		  "img": "img/061116.JPG",
 		  "clothes": [
 				{
@@ -200,7 +200,7 @@
       
 
       	{ "id": "061316",
-		  "date": [{ "month": 6, "day": 13, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 13, "year": 2016, "season": "summer"},
 		  "img": "img/061316.JPG",
 		  "clothes": [
 				{
@@ -240,7 +240,7 @@
 
 
 		{ "id": "061416",
-		  "date": [{ "month": 6, "day": 14, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 14, "year": 2016, "season": "summer"},
 		  "img": "img/061416.JPG",
 		  "clothes": [
 				{
@@ -262,7 +262,7 @@
 				{
 					"name": "wink slippers",
 					"tags": {
-						"color": "canvas",
+						"color": "tan",
 						"brand": "soludos",
 						"type": "shoes"
 					}
@@ -281,7 +281,7 @@
 
 
 		{ "id": "061516",
-		  "date": [{ "month": 6, "day": 15, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 15, "year": 2016, "season": "summer"},
 		  "img": "img/061516.JPG",
 		  "clothes": [
 				{
@@ -321,7 +321,7 @@
 
 
 		{ "id": "061616",
-		  "date": [{ "month": 6, "day": 16, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 16, "year": 2016, "season": "summer"},
 		  "img": "img/061616.JPG",
 		  "clothes": [
 				{
@@ -369,7 +369,7 @@
 
 
 		{ "id": "061716",
-		  "date": [{ "month": 6, "day": 17, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 17, "year": 2016, "season": "summer"},
 		  "img": "img/061716.JPG",
 		  "clothes": [
 				{
@@ -392,7 +392,7 @@
 					"name": "perforated leather sneakers",
 					"tags": {
 						"color": "tan",
-						"brand": "rolle",
+						"brand": "rollie",
 						"type": "shoes"
 					}
 				},
@@ -409,7 +409,7 @@
 
 
 		{ "id": "061816",
-		  "date": [{ "month": 6, "day": 18, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 18, "year": 2016, "season": "summer"},
 		  "img": "img/061816.JPG",
 		  "clothes": [
 				{
@@ -457,7 +457,7 @@
 
 
 		{ "id": "062016",
-		  "date": [{ "month": 6, "day": 20, "year": 2016, "season": "summer"}],
+		  "date": { "month": 6, "day": 20, "year": 2016, "season": "summer"},
 		  "img": "img/062016.JPG",
 		  "clothes": [
 				{
@@ -490,6 +490,534 @@
 						"color": "silver",
 						"brand": "braun",
 						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "062116",
+		  "date": { "month": 6, "day": 21, "year": 2016, "season": "summer"},
+		  "img": "img/062116.JPG",
+		  "clothes": [
+				{
+					"name": "shirt dress",
+					"tags": {
+						"color": "black",
+						"brand": "brandy melville",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "black wrap sandal",
+					"tags": {
+						"color": "black",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "suede string",
+					"tags": {
+						"color": "black",
+						"brand": "etsy",
+						"type": "jewelry"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "062216",
+		  "date": { "month": 6, "day": 22, "year": 2016, "season": "summer"},
+		  "img": "img/062216.JPG",
+		  "clothes": [
+				{
+					"name": "lacoste polo",
+					"tags": {
+						"color": "white",
+						"brand": "lacoste",
+						"type": "top"
+					}
+				},
+				{
+					"name": "lululemon golf shorts",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pink pumas",
+					"tags": {
+						"color": "pink",
+						"brand": "puma",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "070616",
+		  "date": { "month": 7, "day": 6, "year": 2016, "season": "summer"},
+		  "img": "img/070616.JPG",
+		  "clothes": [
+				{
+					"name": "knit tanktop",
+					"tags": {
+						"color": "white",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "khaki shorts",
+					"tags": {
+						"color": "tan",
+						"brand": "r jeans",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "greek sandals",
+					"tags": {
+						"color": "blue",
+						"brand": "puma",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "byboe earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "byboe",
+						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "070716",
+		  "date": { "month": 7, "day": 7, "year": 2016, "season": "summer"},
+		  "img": "img/070716.JPG",
+		  "clothes": [
+				{
+					"name": "bonjour tanktop",
+					"tags": {
+						"color": "black",
+						"brand": "gina tricot",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long dress shorts",
+					"tags": {
+						"color": "black",
+						"brand": "& other stores",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "star sandals",
+					"tags": {
+						"color": "tan",
+						"brand": "club monaco",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "070816",
+		  "date": { "month": 7, "day": 8, "year": 2016, "season": "summer"},
+		  "img": "img/070816.JPG",
+		  "clothes": [
+				{
+					"name": "black dress with pockets",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "070916",
+		  "date": { "month": 7, "day": 9, "year": 2016, "season": "summer"},
+		  "img": "img/070916.JPG",
+		  "clothes": [
+				{
+					"name": "jean shirt",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "top"
+					}
+				},
+				{
+					"name": "ripped white jeans",
+					"tags": {
+						"color": "white",
+						"brand": "one teaspoon",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "black flip flops",
+					"tags": {
+						"color": "tan",
+						"brand": "havaianas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071116",
+		  "date": { "month": 7, "day": 11, "year": 2016, "season": "summer"},
+		  "img": "img/071116.JPG",
+		  "clothes": [
+				{
+					"name": "short sleeve turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "striped culottes",
+					"tags": {
+						"color": "white",
+						"brand": "unknown",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071316",
+		  "date": { "month": 7, "day": 13, "year": 2016, "season": "summer"},
+		  "img": "img/071316.JPG",
+		  "clothes": [
+				{
+					"name": "gray cropped tanktop",
+					"tags": {
+						"color": "gray",
+						"brand": "brandy melville",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071416",
+		  "date": { "month": 7, "day": 14, "year": 2016, "season": "summer"},
+		  "img": "img/071416.JPG",
+		  "clothes": [
+				{
+					"name": "turtleneck tanktop",
+					"tags": {
+						"color": "black",
+						"brand": "free people",
+						"type": "top"
+					}
+				},
+				{
+					"name": "khaki shorts",
+					"tags": {
+						"color": "tan",
+						"brand": "r jeans",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "low top converse",
+					"tags": {
+						"color": "white",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071516",
+		  "date": { "month": 7, "day": 15, "year": 2016, "season": "summer"},
+		  "img": "img/071516.JPG",
+		  "clothes": [
+				{
+					"name": "pineapple crop top",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long dress shorts",
+					"tags": {
+						"color": "black",
+						"brand": "& other stores",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "ankle tie espadrille",
+					"tags": {
+						"color": "black",
+						"brand": "the tannery",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071816",
+		  "date": { "month": 7, "day": 18, "year": 2016, "season": "summer"},
+		  "img": "img/071816.JPG",
+		  "clothes": [
+				{
+					"name": "white sleevelss turtleneck",
+					"tags": {
+						"color": "white",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "metallic basketball shorts",
+					"tags": {
+						"color": "brown",
+						"brand": "urban outfitters",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "green slippers",
+					"tags": {
+						"color": "green",
+						"brand": "plomo",
+						"type": "shoes"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "071916",
+		  "date": { "month": 7, "day": 19, "year": 2016, "season": "summer"},
+		  "img": "img/071916.JPG",
+		  "clothes": [
+				{
+					"name": "open back ruffle top",
+					"tags": {
+						"color": "black",
+						"brand": "unknown",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black flowy skirt",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "high top converse",
+					"tags": {
+						"color": "black",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "072016",
+		  "date": { "month": 7, "day": 20, "year": 2016, "season": "summer"},
+		  "img": "img/072016.JPG",
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "aerie",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "072116",
+		  "date": { "month": 7, "day": 21, "year": 2016, "season": "summer"},
+		  "img": "img/072116.JPG",
+		  "clothes": [
+				{
+					"name": "patterned cut out tank top",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "linen skirt with tassles",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "ankle tie espadrille",
+					"tags": {
+						"color": "black",
+						"brand": "the tannery",
+						"type": "shoes"
 					}
 				}
 			]
