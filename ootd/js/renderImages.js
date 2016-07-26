@@ -91,6 +91,54 @@ d3.json("data/outfit-data.json", function(error, data) {
 	}
 
 
+	// Filter by Spring
+	var spring = document.getElementById('spring');
+	spring.onclick = 
+	function filterByWinter(){
+
+		// // Remove all of the rendered outfits
+		var container = document.getElementsByClassName('outfit-images')[0];
+		container.innerHTML = "";
+
+		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
+		var filteredArr = [];
+
+		for (var i = 0; i < outfits.length; i++) {
+			var outfitSeason = outfits[i].date.season;
+
+			if ("spring" === outfitSeason) {
+				filteredArr.push(outfits[i]);
+			}
+		}
+		
+		render(filteredArr);
+	}
+
+
+	// Filter by Spring
+	var fall = document.getElementById('fall');
+	fall.onclick = 
+	function filterByWinter(){
+
+		// // Remove all of the rendered outfits
+		var container = document.getElementsByClassName('outfit-images')[0];
+		container.innerHTML = "";
+
+		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
+		var filteredArr = [];
+
+		for (var i = 0; i < outfits.length; i++) {
+			var outfitSeason = outfits[i].date.season;
+
+			if ("fall" === outfitSeason) {
+				filteredArr.push(outfits[i]);
+			}
+		}
+		
+		render(filteredArr);
+	}
+
+
 });
 
 

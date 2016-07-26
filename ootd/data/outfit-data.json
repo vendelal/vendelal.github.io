@@ -1021,6 +1021,46 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "072616",
+		  "date": { "month": 7, "day": 26, "year": 2016, "season": "summer"},
+		  "img": "img/072616.JPG",
+		  "clothes": [
+				{
+					"name": "v-neck silk tanktop",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "overall shorts",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "perforated leather sneakers",
+					"tags": {
+						"color": "tan",
+						"brand": "rollie",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
