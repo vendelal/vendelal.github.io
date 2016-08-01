@@ -1093,6 +1093,46 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "080116",
+		  "date": { "month": 8, "day": 1, "year": 2016, "season": "summer"},
+		  "img": "img/080116.JPG",
+		  "clothes": [
+				{
+					"name": "embroidered bottom blouse",
+					"tags": {
+						"color": "white",
+						"brand": "LF",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "claymore bag",
+					"tags": {
+						"color": "green",
+						"brand": "us military",
+						"type": "accessory"
+					}
+				}
+			]
 		}
 
 

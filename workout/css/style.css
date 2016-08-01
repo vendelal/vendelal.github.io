@@ -70,12 +70,18 @@ th p.type {
 /* ALT */
 
 .old {
-  background-color: #eee;
+  // background-color: #eee;
+  // opacity: .5;
 }
 
 .old table {
   height: 300px;
   margin-bottom: 40px;
+}
+
+.old table, .old th, .old td, .old .notes, .old h5 {
+  border-color: #999;
+  color: #999;
 }
 
 
