@@ -1061,6 +1061,38 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "072716",
+		  "date": { "month": 7, "day": 27, "year": 2016, "season": "summer"},
+		  "img": "img/072716.JPG",
+		  "clothes": [
+				{
+					"name": "embroidered blouse",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "low top converse",
+					"tags": {
+						"color": "white",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				}
+			]
 		}
 
 
