@@ -1,0 +1,99 @@
+body {
+  font-family: 'Karla', sans-serif;
+  color: #666;
+}
+
+h1 {
+  color: black;
+}
+
+h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+}
+
+table {
+  border: 1px solid black;
+  height: 175px;
+  width: 100%;
+  margin: 50px 0px 100px;
+}
+
+th {
+  border-bottom: 3px solid black;
+  height: 30px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+
+td {
+  border-right: 1px solid black;
+  vertical-align: top;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+th p.type {
+  font-size: 12px;
+  color: #999;
+  text-transform: lowercase;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.sets {
+  font-weight: 700;
+  text-align: center;
+}
+
+.four {
+  color: #00adef;
+}
+
+.five {
+  color: #ec008b;
+}
+
+.three {
+  color: #40ad48;
+}
+
+
+
+/* ALT */
+
+.old {
+  // background-color: #eee;
+  // opacity: .5;
+}
+
+.old table {
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.old table, .old th, .old td, .old .notes, .old h5 {
+  border-color: #999;
+  color: #999;
+}
+
+
+@media only screen and (max-width: 375px) {
+    table {
+      margin: 30px 0px;
+    }
+    .old.col-md-12 {
+      margin: 10px;
+    }
+}
+
+
+
+
