@@ -27,11 +27,13 @@
       <div class="bottom">
         <h1>Get invited to the largest Boston UX community on Slack.</h1>
         <div class="form">
-          <form name="contactform" method="post" action="send_form_email.php">
-            <input type="text" placeholder="First and last name" value="" />
-            <input type="text" placeholder="Email" value="" />
-            <input type="submit" class="button" value="SUBMIT" />
+
+          <form action="mail.php"  method="POST" >
+            <input name="name" type="text" placeholder="First and last name" value="" />
+            <input name="email" type="text" placeholder="Email" value="" />
+            <input type="submit" value="Submit" />
           </form>
+
         </div>
         <div class="description">
           <h3>Who can join?</h3>
