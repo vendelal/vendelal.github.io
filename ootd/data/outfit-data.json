@@ -1749,6 +1749,38 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "082516",
+		  "date": { "month": 8, "day": 25, "year": 2016, "season": "summer"},
+		  "img": "img/082516.JPG",
+		  "clothes": [
+				{
+					"name": "t-shirt dress",
+					"tags": {
+						"color": "white",
+						"brand": "& other stories",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "pointed toe cross flats",
+					"tags": {
+						"color": "black",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
