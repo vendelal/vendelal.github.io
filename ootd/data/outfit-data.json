@@ -3,6 +3,7 @@
       	{ "id": "060816", 
 	      "date": {"month": 6, "day": 8, "year": 2016, "season": "summer"}, 
 	      "img": "img/060816.JPG",
+	      "rank": 3,
 		  "clothes": [
 				{
 					"name": "white collared shirt",
@@ -51,6 +52,7 @@
       	{ "id": "060916",
 		  "date": {"month": 6, "day": 9, "year": 2016, "season": "summer"},
 		  "img": "img/060916.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "gray long sleeved shirt with buttons",
@@ -107,6 +109,7 @@
     	{ "id": "061016",
 		  "date": { "month": 6, "day": 10, "year": 2016, "season": "summer"},
 		  "img": "img/061016.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "green bomber",
@@ -154,6 +157,7 @@
 		{ "id": "061116",
 		  "date": { "month": 6, "day": 11, "year": 2016, "season": "summer"},
 		  "img": "img/061116.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "blue one piece",
@@ -202,6 +206,7 @@
       	{ "id": "061316",
 		  "date": { "month": 6, "day": 13, "year": 2016, "season": "summer"},
 		  "img": "img/061316.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "fleece turtleneck",
@@ -242,6 +247,7 @@
 		{ "id": "061416",
 		  "date": { "month": 6, "day": 14, "year": 2016, "season": "summer"},
 		  "img": "img/061416.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "ruffle shoulder top",
@@ -283,6 +289,7 @@
 		{ "id": "061516",
 		  "date": { "month": 6, "day": 15, "year": 2016, "season": "summer"},
 		  "img": "img/061516.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "turtleneck bodycon dress",
@@ -323,6 +330,7 @@
 		{ "id": "061616",
 		  "date": { "month": 6, "day": 16, "year": 2016, "season": "summer"},
 		  "img": "img/061616.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "sleeveless turtleneck",
@@ -371,6 +379,7 @@
 		{ "id": "061716",
 		  "date": { "month": 6, "day": 17, "year": 2016, "season": "summer"},
 		  "img": "img/061716.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "layered crop top",
@@ -411,6 +420,7 @@
 		{ "id": "061816",
 		  "date": { "month": 6, "day": 18, "year": 2016, "season": "summer"},
 		  "img": "img/061816.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "open back maxi dress",
@@ -459,6 +469,7 @@
 		{ "id": "062016",
 		  "date": { "month": 6, "day": 20, "year": 2016, "season": "summer"},
 		  "img": "img/062016.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "striped linen shirt",
@@ -499,6 +510,7 @@
 		{ "id": "062116",
 		  "date": { "month": 6, "day": 21, "year": 2016, "season": "summer"},
 		  "img": "img/062116.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "shirt dress",
@@ -539,6 +551,7 @@
 		{ "id": "062216",
 		  "date": { "month": 6, "day": 22, "year": 2016, "season": "summer"},
 		  "img": "img/062216.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "lacoste polo",
@@ -579,6 +592,7 @@
 		{ "id": "070616",
 		  "date": { "month": 7, "day": 6, "year": 2016, "season": "summer"},
 		  "img": "img/070616.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "knit tanktop",
@@ -619,6 +633,7 @@
 		{ "id": "070716",
 		  "date": { "month": 7, "day": 7, "year": 2016, "season": "summer"},
 		  "img": "img/070716.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "bonjour tanktop",
@@ -659,6 +674,7 @@
 		{ "id": "070816",
 		  "date": { "month": 7, "day": 8, "year": 2016, "season": "summer"},
 		  "img": "img/070816.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "black dress with pockets",
@@ -691,6 +707,7 @@
 		{ "id": "070916",
 		  "date": { "month": 7, "day": 9, "year": 2016, "season": "summer"},
 		  "img": "img/070916.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "jean shirt",
@@ -731,6 +748,7 @@
 		{ "id": "071116",
 		  "date": { "month": 7, "day": 11, "year": 2016, "season": "summer"},
 		  "img": "img/071116.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "short sleeve turtleneck",
@@ -771,6 +789,7 @@
 		{ "id": "071316",
 		  "date": { "month": 7, "day": 13, "year": 2016, "season": "summer"},
 		  "img": "img/071316.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "gray cropped tanktop",
@@ -811,6 +830,7 @@
 		{ "id": "071416",
 		  "date": { "month": 7, "day": 14, "year": 2016, "season": "summer"},
 		  "img": "img/071416.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "turtleneck tanktop",
@@ -851,6 +871,7 @@
 		{ "id": "071516",
 		  "date": { "month": 7, "day": 15, "year": 2016, "season": "summer"},
 		  "img": "img/071516.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "pineapple crop top",
@@ -891,6 +912,7 @@
 		{ "id": "071816",
 		  "date": { "month": 7, "day": 18, "year": 2016, "season": "summer"},
 		  "img": "img/071816.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "white sleevelss turtleneck",
@@ -923,6 +945,7 @@
 		{ "id": "071916",
 		  "date": { "month": 7, "day": 19, "year": 2016, "season": "summer"},
 		  "img": "img/071916.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "open back ruffle top",
@@ -955,6 +978,7 @@
 		{ "id": "072016",
 		  "date": { "month": 7, "day": 20, "year": 2016, "season": "summer"},
 		  "img": "img/072016.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "plain t-shirt",
@@ -995,6 +1019,7 @@
 		{ "id": "072116",
 		  "date": { "month": 7, "day": 21, "year": 2016, "season": "summer"},
 		  "img": "img/072116.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "patterned cut out tank top",
@@ -1027,6 +1052,7 @@
 		{ "id": "072616",
 		  "date": { "month": 7, "day": 26, "year": 2016, "season": "summer"},
 		  "img": "img/072616.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "v-neck silk tanktop",
@@ -1067,6 +1093,7 @@
 		{ "id": "072716",
 		  "date": { "month": 7, "day": 27, "year": 2016, "season": "summer"},
 		  "img": "img/072716.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "embroidered blouse",
@@ -1099,6 +1126,7 @@
 		{ "id": "080116",
 		  "date": { "month": 8, "day": 1, "year": 2016, "season": "summer"},
 		  "img": "img/080116.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "embroidered bottom blouse",
@@ -1139,6 +1167,7 @@
 		{ "id": "080216",
 		  "date": { "month": 8, "day": 2, "year": 2016, "season": "summer"},
 		  "img": "img/080216.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "cropped tank top",
@@ -1179,6 +1208,7 @@
 		{ "id": "080316",
 		  "date": { "month": 8, "day": 3, "year": 2016, "season": "summer"},
 		  "img": "img/080316.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "sweater tank top",
@@ -1227,6 +1257,7 @@
 		{ "id": "080416",
 		  "date": { "month": 8, "day": 4, "year": 2016, "season": "summer"},
 		  "img": "img/080416.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "flower romper",
@@ -1267,6 +1298,7 @@
 		{ "id": "080816",
 		  "date": { "month": 8, "day": 8, "year": 2016, "season": "summer"},
 		  "img": "img/080816.JPG",
+		  "rank": 1,
 		  "clothes": [
 				{
 					"name": "short back turtleneck tanktop",
@@ -1315,6 +1347,7 @@
 		{ "id": "080916",
 		  "date": { "month": 8, "day": 9, "year": 2016, "season": "summer"},
 		  "img": "img/080916.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "tie front dress",
@@ -1355,6 +1388,7 @@
 		{ "id": "081116",
 		  "date": { "month": 8, "day": 11, "year": 2016, "season": "summer"},
 		  "img": "img/081116.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "knitted silk tanktop",
@@ -1411,6 +1445,7 @@
 		{ "id": "081516",
 		  "date": { "month": 8, "day": 15, "year": 2016, "season": "summer"},
 		  "img": "img/081516.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "sleeveless turtleneck",
@@ -1459,6 +1494,7 @@
 		{ "id": "081616",
 		  "date": { "month": 8, "day": 16, "year": 2016, "season": "summer"},
 		  "img": "img/081616.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "sleeveless silk button down",
@@ -1507,6 +1543,7 @@
 		{ "id": "081816",
 		  "date": { "month": 8, "day": 18, "year": 2016, "season": "summer"},
 		  "img": "img/081816.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "silk tank top",
@@ -1563,6 +1600,7 @@
 		{ "id": "081916",
 		  "date": { "month": 8, "day": 19, "year": 2016, "season": "summer"},
 		  "img": "img/070816.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "black dress with pockets",
@@ -1595,6 +1633,7 @@
 		{ "id": "082116",
 		  "date": { "month": 8, "day": 21, "year": 2016, "season": "summer"},
 		  "img": "img/082116.JPG",
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "black dress with fringe",
@@ -1643,6 +1682,7 @@
 		{ "id": "082216",
 		  "date": { "month": 8, "day": 22, "year": 2016, "season": "summer"},
 		  "img": "img/082216.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "floral print dress",
@@ -1675,6 +1715,7 @@
 		{ "id": "082316",
 		  "date": { "month": 8, "day": 23, "year": 2016, "season": "summer"},
 		  "img": "img/082316.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "striped tunic",
@@ -1715,6 +1756,7 @@
 		{ "id": "082416",
 		  "date": { "month": 8, "day": 24, "year": 2016, "season": "summer"},
 		  "img": "img/082416.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "white sleevelss turtleneck",
@@ -1755,6 +1797,7 @@
 		{ "id": "082516",
 		  "date": { "month": 8, "day": 25, "year": 2016, "season": "summer"},
 		  "img": "img/082516.JPG",
+		  "rank": 2,
 		  "clothes": [
 				{
 					"name": "t-shirt dress",
@@ -1778,6 +1821,227 @@
 						"color": "silver",
 						"brand": "braun",
 						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "082716",
+		  "date": { "month": 8, "day": 27, "year": 2016, "season": "summer"},
+		  "img": "img/082716.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "v-neck silk tanktop",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted shorts",
+					"tags": {
+						"color": "white",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "duster",
+					"tags": {
+						"color": "gray",
+						"brand": "brandy melville",
+						"type": "top"
+					}
+				},
+				{
+					"name": "pointed toe heel",
+					"tags": {
+						"color": "gray",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "082916",
+		  "date": { "month": 8, "day": 29, "year": 2016, "season": "summer"},
+		  "img": "img/082916.JPG",
+		  "rank": 1,
+		  "clothes": [
+				{
+					"name": "tube top",
+					"tags": {
+						"color": "pink",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "triangle cut out shirt",
+					"tags": {
+						"color": "white",
+						"brand": "one teaspoon",
+						"type": "top"
+					}
+				},
+				{
+					"name": "khaki shorts",
+					"tags": {
+						"color": "tan",
+						"brand": "r jeans",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "083016",
+		  "date": { "month": 8, "day": 30, "year": 2016, "season": "summer"},
+		  "img": "img/083016.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "wide button down",
+					"tags": {
+						"color": "white",
+						"brand": "brandy melville",
+						"type": "top"
+					}
+				},
+				{
+					"name": "short slacks",
+					"tags": {
+						"color": "black",
+						"brand": "forever 21",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "083116",
+		  "date": { "month": 8, "day": 31, "year": 2016, "season": "summer"},
+		  "img": "img/083116.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "v-neck silk tanktop",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "boyfriend jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pointed toe flats",
+					"tags": {
+						"color": "red",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "byboe earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "byboe",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090116",
+		  "date": { "month": 9, "day": 1, "year": 2016, "season": "summer"},
+		  "img": "img/090116.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "aerie",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long dress shorts",
+					"tags": {
+						"color": "black",
+						"brand": "& other stores",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "perforated leather sneakers",
+					"tags": {
+						"color": "tan",
+						"brand": "rollie",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
 					}
 				}
 			]
