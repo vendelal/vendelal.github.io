@@ -2045,6 +2045,185 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "090216",
+		  "date": { "month": 9, "day": 2, "year": 2016, "season": "summer"},
+		  "img": "img/090216.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "denim crop top",
+					"tags": {
+						"color": "blue",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long dress shorts",
+					"tags": {
+						"color": "black",
+						"brand": "& other stores",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "perforated leather sneakers",
+					"tags": {
+						"color": "tan",
+						"brand": "rollie",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090316",
+		  "date": { "month": 9, "day": 3, "year": 2016, "season": "summer"},
+		  "img": "img/090316.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "short back turtleneck tanktop",
+					"tags": {
+						"color": "white",
+						"brand": "free people",
+						"type": "top"
+					}
+				},
+				{
+					"name": "paige jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "leather and wood platform heels",
+					"tags": {
+						"color": "tan",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090416",
+		  "date": { "month": 9, "day": 4, "year": 2016, "season": "summer"},
+		  "img": "img/090416.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "high top converse",
+					"tags": {
+						"color": "white",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "jean jacket",
+					"tags": {
+						"color": "black",
+						"brand": "levi",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 

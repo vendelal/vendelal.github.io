@@ -67,28 +67,12 @@ d3.json("data/outfit-data.json", function(error, data) {
 	}
 
 
-	// Filter by Summer
-	var summer = document.getElementById('summer');
-	summer.onclick = 
-	function filterBySummer(){
-
-		// // Remove all of the rendered outfits
-		var container = document.getElementsByClassName('outfit-images')[0];
-		container.innerHTML = "";
-
-		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
-		var filteredArr = [];
-
-		for (var i = 0; i < outfits.length; i++) {
-			var outfitSeason = outfits[i].date.season;
-
-			if ("summer" === outfitSeason) {
-				filteredArr.push(outfits[i]);
-			}
-		}
-		
-		render(filteredArr);
-	}
+	// // Filter by Summer
+	// var summer = document.getElementById('summer');
+	// summer.onclick = outfits.filter(function(season){
+	// 	var outfitSeason = outfits.date.season;
+	// 	return outfitSeason = 'summer';
+	// })
 
 
 	// Filter by Spring
