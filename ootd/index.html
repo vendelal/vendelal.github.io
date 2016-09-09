@@ -10,7 +10,7 @@
     <link rel="icon" href="../favicon.ico">
 
     <title>OOTD - Vendela Larsson</title>
-
+    <script src="js/sugar.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Yantramanav:100,400" rel="stylesheet">
@@ -38,11 +38,18 @@
         <h3 class="text-muted">ootd</h3>
       </div>
 
-      <div class="row">
+      <div class="row" id="season_filter_buttons">
         <button id="winter">Winter</button>
         <button id="spring">Spring</button>
         <button id="summer">Summer</button>
         <button id="fall">Fall</button>
+      </div>
+
+      <div class="row" id="color_filter_buttons">
+      </div>
+
+      <div class="row" id="clear_filters_button">
+        <button id="clear">Clear Filters</button>
       </div>
 
       <div class="row outfit-images"></div>
@@ -54,9 +61,12 @@
     </div> <!-- /container -->
 
 
+    <script src="js/jquery-1.11.3.min.js"></script>
 
     <script src="http://d3js.org/d3.v3.min.js"></script>
+
     <script src="js/renderImages.js"></script>
+
 
   </body>
 </html>

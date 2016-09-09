@@ -1,4 +1,5 @@
 d3.json("data/outfit-data.json", function(error, data) {
+	Sugar.extend()
 
 	// Make sure the data loads
     if (error) {
@@ -16,6 +17,8 @@ d3.json("data/outfit-data.json", function(error, data) {
 
     // Loop through each outfit and create a div with the outfit ID and the corresponding background image
     function render(arr){
+    	var container = document.getElementsByClassName('outfit-images')[0];
+        container.innerHTML = "";
 		for (var i = 0; i < arr.length; i++) {
 			var backgroundImgUrl = arr[i].img;
 			var outfitId = arr[i].id;
@@ -34,7 +37,16 @@ d3.json("data/outfit-data.json", function(error, data) {
 		};
 	}
 
-	render(outfits);
+
+//---------------------------------------------------------------------------
+
+	// Clear all the filters
+
+	$("#clear_filters_button").on('click', function(){
+		render(outfits);
+	})
+
+
 
 
 //---------------------------------------------------------------------------
@@ -43,84 +55,83 @@ d3.json("data/outfit-data.json", function(error, data) {
 	// Filter by season
 	// Only return data points with the given season
 
-	// Filter by Winter
-	var winter = document.getElementById('winter');
-	winter.onclick = 
-	function filterByWinter(){
-
-		// // Remove all of the rendered outfits
-		var container = document.getElementsByClassName('outfit-images')[0];
-		container.innerHTML = "";
-
-		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
-		var filteredArr = [];
-
-		for (var i = 0; i < outfits.length; i++) {
-			var outfitSeason = outfits[i].date.season;
-
-			if ("winter" === outfitSeason) {
-				filteredArr.push(outfits[i]);
-			}
-		}
-		
-		render(filteredArr);
+	var filter_by_season = function(season){
+		return outfits.filter(function(outfit){
+			return outfit.date.season == season;
+		})
 	}
 
 
-	// // Filter by Summer
-	// var summer = document.getElementById('summer');
-	// summer.onclick = outfits.filter(function(season){
-	// 	var outfitSeason = outfits.date.season;
-	// 	return outfitSeason = 'summer';
-	// })
+	$('#season_filter_buttons button').each(function(){
+		var season = $(this).attr('id');
+		$(this).on('click', function(){
+			var filtered = filter_by_season(season);
+			render(filtered);
+		})
+	})
 
 
-	// Filter by Spring
-	var spring = document.getElementById('spring');
-	spring.onclick = 
-	function filterByWinter(){
 
-		// // Remove all of the rendered outfits
-		var container = document.getElementsByClassName('outfit-images')[0];
-		container.innerHTML = "";
 
-		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
-		var filteredArr = [];
 
-		for (var i = 0; i < outfits.length; i++) {
-			var outfitSeason = outfits[i].date.season;
 
-			if ("spring" === outfitSeason) {
-				filteredArr.push(outfits[i]);
+//---------------------------------------------------------------------------
+
+	// Generate color buttons
+	// Based on what colors I've used in my closet
+
+	// Loop through each outfit and find the colors in each artcile of clothing
+	var generate_colors = function(){
+		var colors = [];
+		for (var i = 0, l = outfits.length; i < l; i++) {
+			var outfit = outfits[i];
+			for (var j = 0, k = outfit.clothes.length; j < k; j++) {
+				colors.push(outfit.clothes[j].tags.color);
 			}
 		}
-		
-		render(filteredArr);
+
+		// Get only the unique color values
+		return colors.unique();
+	}
+
+	// Take the array of colors and make buttons out of them
+	var generate_color_buttons = function(){
+		var colors = generate_colors();
+		colors.forEach(function(color){
+			var button = $('<button/>', {
+				// text: color.titleize(),
+				click: function(){
+					var filtered_colors = filter_by_color(color);
+					render(filtered_colors);
+				}
+			}).css({'background-color':color, 'width':'20px', 'height':'20px', 'border-radius':'10px'});
+			var container = $('#color_filter_buttons');
+			container.append(button);
+		})
 	}
 
 
-	// Filter by Spring
-	var fall = document.getElementById('fall');
-	fall.onclick = 
-	function filterByWinter(){
+	// Filter by color
+	// Only return data points with the given color
 
-		// // Remove all of the rendered outfits
-		var container = document.getElementsByClassName('outfit-images')[0];
-		container.innerHTML = "";
-
-		// Create empty array and then fill it with the outfits of that season if it matches the name on the button
-		var filteredArr = [];
-
-		for (var i = 0; i < outfits.length; i++) {
-			var outfitSeason = outfits[i].date.season;
-
-			if ("fall" === outfitSeason) {
-				filteredArr.push(outfits[i]);
-			}
-		}
-		
-		render(filteredArr);
+	var filter_by_color = function(color){
+		return outfits.filter(function(outfit){
+			return outfit.clothes.filter(function(clothing_article){
+				return clothing_article.tags.color == color;
+			}).length > 0; // take the length because empty array evaluates to true in javascript
+		})
 	}
+
+
+
+
+
+//---------------------------------------------------------------------------
+
+	// CALL ALL THE SHIT
+
+	render(outfits);
+	generate_color_buttons();
 
 
 });

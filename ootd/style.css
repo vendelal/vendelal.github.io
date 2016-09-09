@@ -5,6 +5,16 @@ body {
   font-family: 'Yantramanav', sans-serif;
 }
 
+button {
+  -webkit-appearance: none;
+  border:none;
+}
+
+button:focus {
+  -webkit-appearance: none;
+  outline:none;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .outfit-images,
@@ -72,6 +82,10 @@ body {
 }
 .outfit-images p + h4 {
   margin-top: 28px;
+}
+
+.header {
+  background-color: #006ff1;
 }
 
 /* Responsive: Portrait tablets and up */

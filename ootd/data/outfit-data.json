@@ -89,7 +89,7 @@
 				{
 					"name": "warby parker glasses",
 					"tags": {
-						"color": "turtle",
+						"color": "brown",
 						"brand": "warby parker",
 						"type": "glasses"
 					}
@@ -1245,7 +1245,7 @@
 				{
 					"name": "sami bracelet",
 					"tags": {
-						"color": "nude",
+						"color": "linen",
 						"brand": "handmade",
 						"type": "accessory"
 					}
@@ -1286,7 +1286,7 @@
 				{
 					"name": "sami bracelet",
 					"tags": {
-						"color": "nude",
+						"color": "linen",
 						"brand": "handmade",
 						"type": "accessory"
 					}
@@ -1335,7 +1335,7 @@
 				{
 					"name": "sami bracelet",
 					"tags": {
-						"color": "nude",
+						"color": "linen",
 						"brand": "handmade",
 						"type": "accessory"
 					}
@@ -1376,7 +1376,7 @@
 				{
 					"name": "sami bracelet",
 					"tags": {
-						"color": "nude",
+						"color": "linen",
 						"brand": "handmade",
 						"type": "accessory"
 					}
@@ -1425,7 +1425,7 @@
 				{
 					"name": "sami bracelet",
 					"tags": {
-						"color": "nude",
+						"color": "linen",
 						"brand": "handmade",
 						"type": "accessory"
 					}
@@ -1531,7 +1531,7 @@
 				{
 					"name": "warby parker glasses",
 					"tags": {
-						"color": "turtle",
+						"color": "brown",
 						"brand": "warby parker",
 						"type": "glasses"
 					}
@@ -2220,6 +2220,186 @@
 					"tags": {
 						"color": "black",
 						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090616",
+		  "date": { "month": 9, "day": 6, "year": 2016, "season": "summer"},
+		  "img": "img/090616.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "pleated silk tank top",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "cropped trouser",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "typographic high tops",
+					"tags": {
+						"color": "white",
+						"brand": "diesel",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "long rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090716",
+		  "date": { "month": 9, "day": 7, "year": 2016, "season": "summer"},
+		  "img": "img/090716.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "chambray shirt",
+					"tags": {
+						"color": "blue",
+						"brand": "levi",
+						"type": "top"
+					}
+				},
+				{
+					"name": "jean shorts",
+					"tags": {
+						"color": "blue",
+						"brand": "levi",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090816",
+		  "date": { "month": 9, "day": 8, "year": 2016, "season": "summer"},
+		  "img": "img/090816.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "silk shirt dress",
+					"tags": {
+						"color": "blue",
+						"brand": "cos",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "pointed toe heel",
+					"tags": {
+						"color": "gray",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "090916",
+		  "date": { "month": 9, "day": 9, "year": 2016, "season": "summer"},
+		  "img": "img/090916.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "silk bell sleeve shirt",
+					"tags": {
+						"color": "white",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "linen skirt with tassles",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
 						"type": "watch"
 					}
 				}
