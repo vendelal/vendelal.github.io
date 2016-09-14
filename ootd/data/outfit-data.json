@@ -2404,6 +2404,170 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "091216",
+		  "date": { "month": 9, "day": 12, "year": 2016, "season": "summer"},
+		  "img": "img/091216.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "pleated silk tank top",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "boyfriend jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "091316",
+		  "date": { "month": 9, "day": 13, "year": 2016, "season": "summer"},
+		  "img": "img/091316.JPG",
+		  "rank": 2,
+		  "extra-view": "img/091316-2.JPG",
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black flowy skirt",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "ankle tie espadrille",
+					"tags": {
+						"color": "black",
+						"brand": "the tannery",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "091416",
+		  "date": { "month": 9, "day": 14, "year": 2016, "season": "summer"},
+		  "img": "img/091416.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "black dress",
+					"tags": {
+						"color": "black",
+						"brand": "urban outfittters",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "aerie",
+						"type": "top"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "birkenstocks",
+					"tags": {
+						"color": "black",
+						"brand": "birkenstock",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
