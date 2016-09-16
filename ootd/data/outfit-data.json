@@ -2404,6 +2404,55 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "091116",
+		  "date": { "month": 9, "day": 11, "year": 2016, "season": "summer"},
+		  "img": "img/091116.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "silk button down",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted shorts",
+					"tags": {
+						"color": "white",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "perforated leather sneakers",
+					"tags": {
+						"color": "tan",
+						"brand": "rollie",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
