@@ -2417,6 +2417,7 @@
 					"tags": {
 						"color": "black",
 						"brand": "zara",
+						"type": "watch"
 					}
 				},
 				{
@@ -2424,6 +2425,7 @@
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
+						"type": "bottom"
 					}
 				},
 				{
@@ -2431,6 +2433,7 @@
 					"tags": {
 						"color": "tan",
 						"brand": "rollie",
+						"type": "shoe"
 					}
 				},
 				{
