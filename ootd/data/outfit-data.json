@@ -2609,6 +2609,55 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "091516",
+		  "date": { "month": 9, "day": 15, "year": 2016, "season": "summer"},
+		  "img": "img/091516.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "paige jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "mules",
+					"tags": {
+						"color": "black",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
