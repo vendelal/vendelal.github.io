@@ -99,12 +99,12 @@ d3.json("data/outfit-data.json", function(error, data) {
 		var colors = generate_colors();
 		colors.forEach(function(color){
 			var button = $('<button/>', {
-				// text: color.titleize(),
+				text: color,
 				click: function(){
 					var filtered_colors = filter_by_color(color);
 					render(filtered_colors);
 				}
-			}).css({'background-color':color, 'width':'20px', 'height':'20px', 'border-radius':'10px'});
+			}).css({'background-color':color, 'width':'15px', 'height':'15px', 'border-radius':'10px'});
 			var container = $('#color_filter_buttons');
 			container.append(button);
 		})

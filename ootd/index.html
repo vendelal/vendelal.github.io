@@ -25,38 +25,35 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="statistics">
 
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">ootd</h3>
+    <div class="container-fluid">
+      <div class="header">
+        <div class="row">
+          <div class="col-xs-4">
+            <h4>Vendela Larsson</h4>
+          </div>
+          <div class="col-xs-8">
+            <nav>
+              <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="index.html">Overview</a></li>
+                <li role="presentation"><a href="outfits.html">Outfits</a></li>
+                <li role="presentation"><a href="clothes.html">Clothes</a></li>
+                <li role="presentation"><a href="about.html">About</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <h2>OOTD</h2>
+        </div>
       </div>
 
-      <div class="row" id="season_filter_buttons">
-        <button id="winter">Winter</button>
-        <button id="spring">Spring</button>
-        <button id="summer">Summer</button>
-        <button id="fall">Fall</button>
+      <div class="row content">
+        <div class="col-md-1 hidden-xs hidden-sm"></div>
+        <div class="col-md-10 stat-box">THIS IS WHERE STATS WILL GO</div>
+        <div class="col-md-1 hidden-xs hidden-sm"></div>
       </div>
-
-      <div class="row" id="color_filter_buttons">
-      </div>
-
-      <div class="row" id="clear_filters_button">
-        <button id="clear">Clear Filters</button>
-      </div>
-
-      <div class="row outfit-images"></div>
-
-      <footer class="footer">
-        <p>&copy; 2016 Vendela Larsson</p>
-      </footer>
 
     </div> <!-- /container -->
 
