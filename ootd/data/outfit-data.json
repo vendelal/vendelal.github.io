@@ -2417,7 +2417,7 @@
 					"tags": {
 						"color": "black",
 						"brand": "zara",
-						"type": "watch"
+						"type": "top"
 					}
 				},
 				{
@@ -2433,7 +2433,7 @@
 					"tags": {
 						"color": "tan",
 						"brand": "rollie",
-						"type": "shoe"
+						"type": "shoes"
 					}
 				},
 				{
@@ -2654,6 +2654,177 @@
 					"tags": {
 						"color": "silver",
 						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "091616",
+		  "date": { "month": 9, "day": 16, "year": 2016, "season": "summer"},
+		  "img": "img/091616.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "pleated tailored shorts",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "sport blazer",
+					"tags": {
+						"color": "black",
+						"brand": "p.e nation",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "byboe earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "byboe",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "mules",
+					"tags": {
+						"color": "black",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "091716",
+		  "date": { "month": 9, "day": 17, "year": 2016, "season": "summer"},
+		  "img": "img/091716.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "denim crop top",
+					"tags": {
+						"color": "blue",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pointed toe heel",
+					"tags": {
+						"color": "gray",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "091916",
+		  "date": { "month": 9, "day": 19, "year": 2016, "season": "summer"},
+		  "img": "img/091916.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "high low long sleeved shirt",
+					"tags": {
+						"color": "black",
+						"brand": "unknown",
+						"type": "top"
+					}
+				},
+				{
+					"name": "denim skirt",
+					"tags": {
+						"color": "black",
+						"brand": "gina tricot",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "typographic high tops",
+					"tags": {
+						"color": "white",
+						"brand": "diesel",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
 						"type": "watch"
 					}
 				}
