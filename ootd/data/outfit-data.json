@@ -2829,6 +2829,55 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "091916",
+		  "date": { "month": 9, "day": 19, "year": 2016, "season": "summer"},
+		  "img": "img/091916.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "v-neck long sleeved shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tailored shorts",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "lace up leather heels",
+					"tags": {
+						"color": "tan",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
 		}
 
 
