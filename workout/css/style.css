@@ -16,9 +16,8 @@ h5 {
 
 table {
   border: 1px solid black;
-  height: 175px;
   width: 100%;
-  margin: 50px 0px 100px;
+  margin: 50px 0px;
 }
 
 th {
@@ -32,7 +31,16 @@ th {
 td {
   border-right: 1px solid black;
   vertical-align: top;
-  padding: 5px;
+  padding: 1px 5px;
+}
+
+table.content td {
+    border-right: none;
+}
+
+td.body-content-td table {
+  border:none;
+  margin:0px;
 }
 
 ul {
@@ -46,6 +54,15 @@ th p.type {
   text-transform: lowercase;
   font-weight: 400;
   margin-bottom: 0px;
+}
+
+table.day {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+table.content {
+  margin-top: 0px;
 }
 
 .sets {
