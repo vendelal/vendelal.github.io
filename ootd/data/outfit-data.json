@@ -2878,6 +2878,47 @@
 					}
 				}
 			]
+		},
+
+
+		{ "id": "092116",
+		  "date": { "month": 9, "day": 21, "year": 2016, "season": "summer"},
+		  "img": "img/092116.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "metallic basketball shorts",
+					"tags": {
+						"color": "brown",
+						"brand": "urban outfitters",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "lace up leather heels",
+					"tags": {
+						"color": "tan",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				}
+			]
 		}
 
 
