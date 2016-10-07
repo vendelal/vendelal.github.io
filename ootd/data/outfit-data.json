@@ -595,7 +595,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "knit tanktop",
+					"name": "knit tank top",
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
@@ -636,7 +636,7 @@
 		  "rank": 3,
 		  "clothes": [
 				{
-					"name": "bonjour tanktop",
+					"name": "bonjour tank top",
 					"tags": {
 						"color": "black",
 						"brand": "gina tricot",
@@ -792,7 +792,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "gray cropped tanktop",
+					"name": "gray cropped tank top",
 					"tags": {
 						"color": "gray",
 						"brand": "brandy melville",
@@ -833,7 +833,7 @@
 		  "rank": 1,
 		  "clothes": [
 				{
-					"name": "turtleneck tanktop",
+					"name": "turtleneck tank top",
 					"tags": {
 						"color": "black",
 						"brand": "free people",
@@ -1055,7 +1055,7 @@
 		  "rank": 3,
 		  "clothes": [
 				{
-					"name": "v-neck silk tanktop",
+					"name": "v-neck silk tank top",
 					"tags": {
 						"color": "white",
 						"brand": "aritzia",
@@ -1301,7 +1301,7 @@
 		  "rank": 1,
 		  "clothes": [
 				{
-					"name": "short back turtleneck tanktop",
+					"name": "short back turtleneck tank top",
 					"tags": {
 						"color": "white",
 						"brand": "free people",
@@ -1391,7 +1391,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "knitted silk tanktop",
+					"name": "knitted silk tank top",
 					"tags": {
 						"color": "white",
 						"brand": "urban outfitters",
@@ -1833,7 +1833,7 @@
 		  "rank": 3,
 		  "clothes": [
 				{
-					"name": "v-neck silk tanktop",
+					"name": "v-neck silk tank top",
 					"tags": {
 						"color": "white",
 						"brand": "aritzia",
@@ -1964,7 +1964,7 @@
 		  "rank": 3,
 		  "clothes": [
 				{
-					"name": "v-neck silk tanktop",
+					"name": "v-neck silk tank top",
 					"tags": {
 						"color": "white",
 						"brand": "aritzia",
@@ -2111,7 +2111,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "short back turtleneck tanktop",
+					"name": "short back turtleneck tank top",
 					"tags": {
 						"color": "white",
 						"brand": "free people",
@@ -2884,7 +2884,7 @@
 		{ "id": "092116",
 		  "date": { "month": 9, "day": 21, "year": 2016, "season": "summer"},
 		  "img": "img/092116.JPG",
-		  "rank": 2,
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "sleeveless turtleneck",
@@ -2916,6 +2916,579 @@
 						"color": "gold",
 						"brand": "unknown",
 						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092216",
+		  "date": { "month": 9, "day": 22, "year": 2016, "season": "fall"},
+		  "img": "img/092216.JPG",
+		  "rank": 1,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "jean shorts",
+					"tags": {
+						"color": "blue",
+						"brand": "levi",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092516",
+		  "date": { "month": 9, "day": 25, "year": 2016, "season": "fall"},
+		  "img": "img/092516.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "stripe open back top",
+					"tags": {
+						"color": "blue",
+						"brand": "free people",
+						"type": "top"
+					}
+				},
+				{
+					"name": "paige jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "espadrille sneakers",
+					"tags": {
+						"color": "white",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "camel poncho",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "leather backpack",
+					"tags": {
+						"color": "gray",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092616",
+		  "date": { "month": 9, "day": 26, "year": 2016, "season": "fall"},
+		  "img": "img/092616.JPG",
+		  "rank": 2,
+		  "extra-view": "img/092616-2.JPG",
+		  "clothes": [
+				{
+					"name": "stripe tie front top",
+					"tags": {
+						"color": "blue",
+						"brand": "tularosa",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black tank top",
+					"tags": {
+						"color": "black",
+						"brand": "banana republic",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "wink slippers",
+					"tags": {
+						"color": "tan",
+						"brand": "soludos",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092716",
+		  "date": { "month": 9, "day": 27, "year": 2016, "season": "fall"},
+		  "img": "img/092716.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "wool turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black flowy skirt",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "short rain boots",
+					"tags": {
+						"color": "black",
+						"brand": "kenneth cole",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092816",
+		  "date": { "month": 9, "day": 28, "year": 2016, "season": "fall"},
+		  "img": "img/092816.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "black dress with pockets",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "culottes",
+					"tags": {
+						"color": "black",
+						"brand": "primark",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "mules",
+					"tags": {
+						"color": "black",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "092916",
+		  "date": { "month": 9, "day": 29, "year": 2016, "season": "fall"},
+		  "img": "img/092916.JPG",
+		  "rank": 3,
+		  "extra-view": "img/092916-2.JPG",
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "aerie",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long overalls",
+					"tags": {
+						"color": "black",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "poncho",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "pointed toe cross flats",
+					"tags": {
+						"color": "black",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "093016",
+		  "date": { "month": 9, "day": 30, "year": 2016, "season": "fall"},
+		  "img": "img/093016.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "dot texture sweater",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "charcoal destroyed jeans",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "poncho",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "short rain boots",
+					"tags": {
+						"color": "black",
+						"brand": "kenneth cole",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "100316",
+		  "date": { "month": 10, "day": 3, "year": 2016, "season": "fall"},
+		  "img": "img/100316.JPG",
+		  "rank": 2,
+		  "extra-view": "img/100316-2.JPG",
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "aerie",
+						"type": "top"
+					}
+				},
+				{
+					"name": "open back maxi dress",
+					"tags": {
+						"color": "black",
+						"brand": "rag & bone",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "banana republic leather jacket",
+					"tags": {
+						"color": "black",
+						"brand": "banana republic",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "mules",
+					"tags": {
+						"color": "black",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "100416",
+		  "date": { "month": 10, "day": 4, "year": 2016, "season": "fall"},
+		  "img": "img/100416.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "silk shirt dress",
+					"tags": {
+						"color": "blue",
+						"brand": "cos",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "boyfriend jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pointed toe heel",
+					"tags": {
+						"color": "gray",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "braun chainlink watch",
+					"tags": {
+						"color": "silver",
+						"brand": "braun",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "100516",
+		  "date": { "month": 10, "day": 5, "year": 2016, "season": "fall"},
+		  "img": "img/100516.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "black tank top",
+					"tags": {
+						"color": "black",
+						"brand": "banana republic",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wide leg tailored pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "sport blazer",
+					"tags": {
+						"color": "black",
+						"brand": "p.e nation",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "mules",
+					"tags": {
+						"color": "black",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "larsson and jennings watch",
+					"tags": {
+						"color": "black",
+						"brand": "larsson and jennings",
+						"type": "watch"
 					}
 				}
 			]
