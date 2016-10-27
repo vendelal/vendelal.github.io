@@ -74,6 +74,31 @@ d3.json("data/outfit-data.json", function(error, data) {
 
 
 
+//---------------------------------------------------------------------------
+
+
+	// Filter by rank
+	// Only return data points with the given rank
+
+	var filter_by_rank = function(rank){
+		return outfits.filter(function(outfit){
+			return outfit.rank == rank;
+		})
+	}
+
+
+	$('#rank_filter_buttons button').each(function(){
+		var rank = $(this).attr('id');
+		$(this).on('click', function(){
+			var filtered = filter_by_rank(rank);
+			render(filtered);
+		})
+	})
+
+
+
+
+
 
 //---------------------------------------------------------------------------
 
