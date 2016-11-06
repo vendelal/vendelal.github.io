@@ -53,7 +53,7 @@ d3.json("data/bitches-data.json", function(error, data) {
 
 	$(function($) {
         $(".card-grid").flip({
-          trigger: 'hover'
+          trigger: 'hover',
         }); 
     });
 });

@@ -76,7 +76,7 @@ button.btn-center {
 }
 
 button.submit-btn {
-  width: 400px;
+  width: 250px;
   margin-top: 20px;
 }
 
@@ -115,11 +115,11 @@ img.emoji {
 
 .form-container {
   margin: 0 auto;
-  width: 400px;
+  width: 300px;
 }
 
 input {
-  width: 400px;
+  width: 250px;
 }
 
 /* Responsive: iPhone 5 */
@@ -135,6 +135,12 @@ input {
 @media screen and (max-width: 768px) {
   .bitch-image {
     height: 510px;
+  }
+  .navigation {
+    margin-top: 17px;
+  }
+  .navigation a {
+    padding: 0px 12px;
   }
 }
 
