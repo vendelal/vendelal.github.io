@@ -129,6 +129,12 @@ input {
     .bitch-image {
       height: 390px;
     }
+    .navigation {
+      margin-top: 17px;
+    }
+    .navigation a {
+      padding: 0px 10px;
+    }
 }
 
 /* Responsive: Phones */
@@ -140,7 +146,7 @@ input {
     margin-top: 17px;
   }
   .navigation a {
-    padding: 0px 12px;
+    padding: 0px 10px;
   }
 }
 
