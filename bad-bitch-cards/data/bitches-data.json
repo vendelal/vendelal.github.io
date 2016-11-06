@@ -1,0 +1,40 @@
+{"bitches": {
+    "listOfBitches": [
+      	{ "id": "alison", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "vendela", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+
+	  	},
+	  	{ "id": "julia", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "claire", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "julia", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "claire", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "julia", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	},
+	  	{ "id": "claire", 
+	      "frontImg": "img/alison.svg",
+	      "backImg": "img/alison.svg"
+	  	}
+
+
+    ]
+  }
+}
