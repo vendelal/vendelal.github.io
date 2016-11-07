@@ -51,6 +51,8 @@ d3.json("data/bitches-data.json", function(error, data) {
 
 	render(bitches);
 
+	console.log(bitches.length);
+
 	$(function($) {
         $(".card-grid").flip({
           trigger: 'hover',

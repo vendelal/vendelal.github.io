@@ -44,7 +44,6 @@ a:hover, a:active {
 
 a.current-page {
   color: #e4b7b7;
-  font-weight: bold;
 }
 
 .navigation {
@@ -147,6 +146,9 @@ input {
   }
   .navigation a {
     padding: 0px 10px;
+  }
+  h1 {
+    text-align: center;
   }
 }
 
