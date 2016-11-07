@@ -45,6 +45,12 @@ d3.json("data/bitches-data.json", function(error, data) {
 			back.appendChild(backImg);
 			cardGrid.appendChild(back);
 
+			var flipIcon = document.createElement('img');
+			flipIcon.setAttribute("src", "img/flip_icon.svg");
+			flipIcon.className = 'flip-icon';
+			back.appendChild(flipIcon);
+			front.appendChild(flipIcon);
+
 			container.appendChild(bootstrapCol);
 		};
 	}

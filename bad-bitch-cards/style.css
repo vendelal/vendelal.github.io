@@ -121,6 +121,11 @@ input {
   width: 250px;
 }
 
+.flip-icon {
+  position: absolute;
+  right: 0px;
+}
+
 /* Responsive: iPhone 5 */
 @media only screen 
   and (min-device-width : 320px) 
