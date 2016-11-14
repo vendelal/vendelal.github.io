@@ -1,5 +1,9 @@
 {"bitches": {
     "listOfBitches": [
+    	{ "id": "hilary", 
+	      "frontImg": "img/hilary-clinton.svg",
+	      "backImg": "img/hilary-clinton.svg"
+	  	},
 	  	{ "id": "rosa", 
 	      "frontImg": "img/rosa-parks.svg",
 	      "backImg": "img/rosa-parks.svg"

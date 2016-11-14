@@ -126,6 +126,44 @@ input {
   right: 0px;
 }
 
+.big-white {
+  text-align: center;
+  font-size: 54px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.big-pink {
+  text-align: center;
+  font-size: 54px;
+  color: #e4b7b7;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.big-pink + p {
+  text-align: center;
+}
+
+.big-pink + p + img {
+  margin: 0 auto;
+}
+
+hr {
+  border:none;
+  border-top:3px dotted #000;
+  color:#fff;
+  height:1px;
+  width:100%;
+}
+
+.contributor {
+  text-align: center; 
+  height: 700px; 
+  margin-top: 75px;
+}
+
 /* Responsive: iPhone 5 */
 @media only screen 
   and (min-device-width : 320px) 
