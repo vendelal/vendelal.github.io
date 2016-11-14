@@ -4193,10 +4193,59 @@
 					}
 				},
 				{
-					"name": "long rain coat",
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "110116",
+		  "date": { "month": 11, "day": 1, "year": 2016, "season": "summer"},
+		  "img": "img/110116.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "floral button down",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "dark jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "free people",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "mules",
 					"tags": {
 						"color": "black",
-						"brand": "lululemon",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "green bomber",
+					"tags": {
+						"color": "green",
+						"brand": "alpha industries",
 						"type": "jacket"
 					}
 				},
@@ -4214,6 +4263,374 @@
 						"color": "tan",
 						"brand": "apple",
 						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "110416",
+		  "date": { "month": 11, "day": 4, "year": 2016, "season": "summer"},
+		  "img": "img/110416.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "High low turtleneck",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "dark jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "free people",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "green bomber",
+					"tags": {
+						"color": "green",
+						"brand": "alpha industries",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "110816",
+		  "date": { "month": 11, "day": 8, "year": 2016, "season": "summer"},
+		  "img": "img/110816.JPG",
+		  "rank": 2,
+		  "extra-view": "img/110816-2.JPG",
+		  "clothes": [
+				{
+					"name": "cropped turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "asos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "ruched crop top",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "low cowboy boots",
+					"tags": {
+						"color": "tan",
+						"brand": "freebird",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "camel poncho",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "110916",
+		  "date": { "month": 11, "day": 9, "year": 2016, "season": "summer"},
+		  "img": "img/110916.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "black dress with pockets",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "opaque tights",
+					"tags": {
+						"color": "black",
+						"brand": "calvin klein",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "olivia knapp jacket",
+					"tags": {
+						"color": "white",
+						"brand": "silvae",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111016",
+		  "date": { "month": 11, "day": 10, "year": 2016, "season": "summer"},
+		  "img": "img/111016.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "scuba dress pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "blazer",
+					"tags": {
+						"color": "black",
+						"brand": "urban outfitters",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "micro puff",
+					"tags": {
+						"color": "gray",
+						"brand": "miss sixty",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111116",
+		  "date": { "month": 11, "day": 11, "year": 2016, "season": "summer"},
+		  "img": "img/111116.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "jean shirt",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "top"
+					}
+				},
+				{
+					"name": "ripped jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "camel poncho",
+					"tags": {
+						"color": "tan",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111416",
+		  "date": { "month": 11, "day": 14, "year": 2016, "season": "summer"},
+		  "img": "img/111416.JPG",
+		  "rank": 2,
+		  "extra-view": "img/111416-2.JPG",
+		  "clothes": [
+				{
+					"name": "off shoulder sweater",
+					"tags": {
+						"color": "brown",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "madewell jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "camo jacket",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "sneaker heels",
+					"tags": {
+						"color": "tan",
+						"brand": "steve madden",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				},
+				{
+					"name": "auxilliary bag",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
 					}
 				}
 			]
