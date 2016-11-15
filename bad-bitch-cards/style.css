@@ -164,6 +164,11 @@ hr {
   margin-top: 75px;
 }
 
+select {
+  width: 250px;
+  display:block;
+}
+
 /* Responsive: iPhone 5 */
 @media only screen 
   and (min-device-width : 320px) 
@@ -176,6 +181,12 @@ hr {
     }
     .navigation a {
       padding: 0px 10px;
+    }
+    .contributor {
+      height: 380px;
+    }
+    .contributor.last {
+      height: 700px;
     }
 }
 
