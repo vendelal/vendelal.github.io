@@ -1,0 +1,286 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import 'https://fonts.googleapis.com/css?family=Oswald|Pavanam';
+
+// COLORS
+$light-gray: #F5F5F5;
+$red: #DE4C4D;
+$text: #222222;
+$medium-gray: #7A7A7A;
+$black: #444;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+body {
+    font-family: 'Pavanam', sans-serif;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p {
+	font-size: 18px;
+	color: $text;
+    line-height: 24px;
+}
+
+p.small {
+    font-size: 15px;
+    color: $medium-gray;
+    letter-spacing: 1px;
+}
+
+p.date {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 54px;
+    color: $black;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    padding: 10px 0px;
+    color: $black;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    padding: 10px 0px;
+    text-transform: none;
+    color: $black;
+    line-height: 30px;
+}
+
+a {
+    text-transform: uppercase;
+    color: $red;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darken($red, 20%);
+}
+
+button {
+    background-color: $red;
+    padding: 15px 25px;
+    @include border-radius(3px);
+    -webkit-appearance: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 30px 0px;
+    -webkit-transition: background-color .5s; /* Safari */
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: darken($red, 15%);
+}
+
+button:focus {
+    outline: none;
+}
+
+.modal textarea {
+    border: 1px solid ;
+}
+
+.modal input, .modal textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0px;
+}
+
+.modal-header .close {
+    margin-top: -18px;
+    font-size: 54px;
+}
+
+.modal-header .close:focus {
+    -webkit-outline: none;
+    outline: none;
+}
+
+.nav {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: $light-gray;
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 19px;
+    }
+    a {
+        color: $text;
+    }
+    a:hover {
+        font-weight: bold;
+    }
+}
+
+.logo {
+    background-image: url("../../images/logo-background.jpg");
+    background-size: cover;
+    position: absolute;
+    box-shadow: 0px 3px 20px #888888;
+    left: 5%;
+    width: 151px;
+    height: 144px;
+    z-index: 999;
+}
+
+.logo img {
+    position: absolute;
+    top: 102px;
+    right: 10px;
+}
+
+.small-divider {
+    height: 3px;
+    width: 25px;
+    background-color: $red;
+    margin: 12px 0px;
+}
+
+.half-row {
+    width:50%;
+    margin: 0px;
+    padding: 40px;
+    height: 600px;
+    float: left;
+    .text {
+        padding: 175px 100px;
+    }
+}
+
+.link-box {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    // left: 20px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: .7;
+    @include border-radius(3px);
+    -webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+
+.link-box:hover {
+    opacity: 1;
+}
+
+#intro .half-row.right {
+    margin-top: 55px;
+    background-image: url("../../images/emmas-kok.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#section1 .half-row {
+    position: relative;
+    &.left {
+        background-image: url("../../images/hemma-living-room.JPG");
+        background-size: cover;
+        background-position: center;
+    }
+    &.right a {
+        margin-top: 20px;
+        display: block;
+    }
+}
+
+#services {
+    background-color: $light-gray;
+    padding: 30px 0px 45px;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p {
+        text-align: center;
+        margin: 20px 0px;
+    }
+}
+
+#section2 .half-row {
+    &.right {
+        background-image: url("../../images/hemma-living-room2.JPG");
+        background-size: cover;
+        background-position: center;
+    }
+    &.left .text {
+        padding: 50px 100px;
+    }
+}
+
+.design-resource {
+    background-color: $light-gray;
+    padding: 20px;
+    margin: 30px 0px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#section3 .half-row {
+    &.left {
+        background-image: url("../../images/branding1.JPG");
+        background-size: cover;
+        background-position: center;
+        img {
+            margin: 190px 100px;
+        }
+    }
+    &.right a {
+        margin-top: 20px;
+        display: block;
+    }
+}
+
+.service {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

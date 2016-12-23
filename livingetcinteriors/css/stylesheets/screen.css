@@ -1,0 +1,362 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "https://fonts.googleapis.com/css?family=Oswald|Pavanam";
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 22, ../sass/screen.scss */
+body {
+  font-family: 'Pavanam', sans-serif;
+  overflow-x: hidden;
+}
+
+/* line 27, ../sass/screen.scss */
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 32, ../sass/screen.scss */
+p {
+  font-size: 18px;
+  color: #222222;
+  line-height: 24px;
+}
+
+/* line 38, ../sass/screen.scss */
+p.small {
+  font-size: 15px;
+  color: #7A7A7A;
+  letter-spacing: 1px;
+}
+
+/* line 44, ../sass/screen.scss */
+p.date {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* line 49, ../sass/screen.scss */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 54px;
+  color: #444;
+}
+
+/* line 55, ../sass/screen.scss */
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  padding: 10px 0px;
+  color: #444;
+}
+
+/* line 62, ../sass/screen.scss */
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  padding: 10px 0px;
+  text-transform: none;
+  color: #444;
+  line-height: 30px;
+}
+
+/* line 71, ../sass/screen.scss */
+a {
+  text-transform: uppercase;
+  color: #DE4C4D;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* line 78, ../sass/screen.scss */
+a:hover {
+  text-decoration: none;
+  color: #a51f1f;
+}
+
+/* line 83, ../sass/screen.scss */
+button {
+  background-color: #DE4C4D;
+  padding: 15px 25px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 30px 0px;
+  -webkit-transition: background-color .5s;
+  /* Safari */
+  transition: background-color .5s;
+}
+
+/* line 99, ../sass/screen.scss */
+button:hover {
+  background-color: #bb2224;
+}
+
+/* line 103, ../sass/screen.scss */
+button:focus {
+  outline: none;
+}
+
+/* line 107, ../sass/screen.scss */
+.modal textarea {
+  border: 1px solid;
+}
+
+/* line 111, ../sass/screen.scss */
+.modal input, .modal textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
+}
+
+/* line 117, ../sass/screen.scss */
+.modal-header .close {
+  margin-top: -18px;
+  font-size: 54px;
+}
+
+/* line 122, ../sass/screen.scss */
+.modal-header .close:focus {
+  -webkit-outline: none;
+  outline: none;
+}
+
+/* line 127, ../sass/screen.scss */
+.nav {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background-color: #F5F5F5;
+}
+/* line 133, ../sass/screen.scss */
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 19px;
+}
+/* line 138, ../sass/screen.scss */
+.nav a {
+  color: #222222;
+}
+/* line 141, ../sass/screen.scss */
+.nav a:hover {
+  font-weight: bold;
+}
+
+/* line 146, ../sass/screen.scss */
+.logo {
+  background-image: url("../../images/logo-background.jpg");
+  background-size: cover;
+  position: absolute;
+  box-shadow: 0px 3px 20px #888888;
+  left: 5%;
+  width: 151px;
+  height: 144px;
+  z-index: 999;
+}
+
+/* line 157, ../sass/screen.scss */
+.logo img {
+  position: absolute;
+  top: 102px;
+  right: 10px;
+}
+
+/* line 163, ../sass/screen.scss */
+.small-divider {
+  height: 3px;
+  width: 25px;
+  background-color: #DE4C4D;
+  margin: 12px 0px;
+}
+
+/* line 170, ../sass/screen.scss */
+.half-row {
+  width: 50%;
+  margin: 0px;
+  padding: 40px;
+  height: 600px;
+  float: left;
+}
+/* line 176, ../sass/screen.scss */
+.half-row .text {
+  padding: 175px 100px;
+}
+
+/* line 181, ../sass/screen.scss */
+.link-box {
+  background-color: white;
+  position: absolute;
+  bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: .7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  -webkit-transition: opacity 1s;
+  /* Safari */
+  transition: opacity 1s;
+}
+
+/* line 194, ../sass/screen.scss */
+.link-box:hover {
+  opacity: 1;
+}
+
+/* line 198, ../sass/screen.scss */
+#intro .half-row.right {
+  margin-top: 55px;
+  background-image: url("../../images/emmas-kok.JPG");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* line 206, ../sass/screen.scss */
+#section1 .half-row {
+  position: relative;
+}
+/* line 208, ../sass/screen.scss */
+#section1 .half-row.left {
+  background-image: url("../../images/hemma-living-room.JPG");
+  background-size: cover;
+  background-position: center;
+}
+/* line 213, ../sass/screen.scss */
+#section1 .half-row.right a {
+  margin-top: 20px;
+  display: block;
+}
+
+/* line 219, ../sass/screen.scss */
+#services {
+  background-color: #F5F5F5;
+  padding: 30px 0px 45px;
+}
+/* line 222, ../sass/screen.scss */
+#services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 226, ../sass/screen.scss */
+#services p {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+/* line 233, ../sass/screen.scss */
+#section2 .half-row.right {
+  background-image: url("../../images/hemma-living-room2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+/* line 238, ../sass/screen.scss */
+#section2 .half-row.left .text {
+  padding: 50px 100px;
+}
+
+/* line 243, ../sass/screen.scss */
+.design-resource {
+  background-color: #F5F5F5;
+  padding: 20px;
+  margin: 30px 0px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+/* line 252, ../sass/screen.scss */
+#section3 .half-row.left {
+  background-image: url("../../images/branding1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+/* line 256, ../sass/screen.scss */
+#section3 .half-row.left img {
+  margin: 190px 100px;
+}
+/* line 260, ../sass/screen.scss */
+#section3 .half-row.right a {
+  margin-top: 20px;
+  display: block;
+}
+
+/* line 266, ../sass/screen.scss */
+.service {
+  margin-top: 50px;
+}

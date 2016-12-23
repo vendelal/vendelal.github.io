@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Living etc. Interiors</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/entypo.css" rel="stylesheet">
+
+    <script src="https://use.typekit.net/vsu5jml.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="individual-work">
+    
+    <div class="container-fluid">
+    <!-- Contact Modal -->
+      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h2 class="modal-title" id="myModalLabel">Contact</h2>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-xs-12">
+
+                  <form action="https://formspree.io/livingetcllc@gmail.com"
+                        method="POST">
+                      <input type="text" name="name" placeholder="Name">
+                      <input type="email" name="_replyto" placeholder="Email">
+                      <textarea type="text" name="message" placeholder="Message/Inquiry" rows="5" /></textarea>
+                      <button type="submit" value="Send" class="btn">Send</button>
+                  </form>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /.modal -->
+    <div class="logo">
+      <a href="../index.html"><img src="../images/logo.png" width="130px" /></a>
+    </div>
+      <div class="row header">
+        <div class="col-xs-12 col-md-9 head">
+          <h2>A Bedroom Two Different Ways</h2>
+        </div>
+        <div class="col-xs-10 col-md-3 nav">
+          <ul>
+            <li><a href="../about/index.html">ABOUT &amp; SERVICES</a></li>
+            <li><button data-toggle="modal" data-target="#contactModal">CONTACT</button></li>
+            <li><a href="index.html">WORK</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 work-hero-image"></div>
+      </div>
+      <div class="row meta-info">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4">
+              <p>A beautiful bedroom designed two different ways.</p>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-2 preview" id="thumbnail1">
+                  <img src="../images/bedroom1-1.jpg" />
+                </div>
+                <div class="col-md-2 preview" id="thumbnail2">
+                  <img src="../images/bedroom1-2.jpg" />
+                </div>
+                <div class="col-md-2 preview" id="thumbnail3">
+                  <img src="../images/bedroom1-3.jpg" />
+                </div>
+                <div class="col-md-2 preview" id="thumbnail4">
+                  <img src="../images/bedroom1-4.jpg" />
+                </div>
+                <div class="col-md-2 preview" id="thumbnail5">
+                  <img src="../images/bedroom1-5.jpg" />
+                </div>
+                <div class="col-md-2 preview" id="thumbnail6">
+                  <img src="../images/bedroom1-6.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="col-xs-12 col-md-12"></div>
+        <div class="col-xs-12 col-md-12" style="text-align:right;">
+          <p style="padding: 15px;">
+            Designed and built by <a href="http://www.vendelalarsson.com">Vendela Larsson</a>, 2016
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script>
+
+    $('#contactModal').modal({
+      show: false
+    });
+
+    $('#thumbnail1').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-1.jpg")')
+    });
+
+    $('#thumbnail2').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-2.jpg")')
+    });
+
+    $('#thumbnail3').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-3.jpg")')
+    });
+
+    $('#thumbnail4').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-4.jpg")')
+    });
+
+    $('#thumbnail5').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-5.jpg")')
+    });
+
+    $('#thumbnail6').click(function(){
+      $('.work-hero-image').css('background-image', 'url("../images/bedroom1-6.jpg")')
+    });
+
+
+
+    </script>
+  </body>
+</html>
