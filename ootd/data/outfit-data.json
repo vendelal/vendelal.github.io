@@ -915,7 +915,7 @@
 		  "rank": 1,
 		  "clothes": [
 				{
-					"name": "white sleevelss turtleneck",
+					"name": "white sleevless turtleneck",
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
@@ -1549,7 +1549,7 @@
 					"name": "silk tank top",
 					"tags": {
 						"color": "white",
-						"brand": "artizia",
+						"brand": "aritzia",
 						"type": "top"
 					}
 				},
@@ -1759,7 +1759,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "white sleevelss turtleneck",
+					"name": "white sleevless turtleneck",
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
@@ -3732,7 +3732,7 @@
 
 
 		{ "id": "101816",
-		  "date": { "month": 10, "day": 18, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 18, "year": 2016, "season": "fall"},
 		  "img": "img/090816.JPG",
 		  "rank": 3,
 		  "clothes": [
@@ -3773,7 +3773,7 @@
 
 
 		{ "id": "101916",
-		  "date": { "month": 10, "day": 19, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 19, "year": 2016, "season": "fall"},
 		  "img": "img/101916.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -3822,7 +3822,7 @@
 
 
 		{ "id": "102016",
-		  "date": { "month": 10, "day": 20, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 20, "year": 2016, "season": "fall"},
 		  "img": "img/102016.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -3871,7 +3871,7 @@
 
 
 		{ "id": "102116",
-		  "date": { "month": 10, "day": 21, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 21, "year": 2016, "season": "fall"},
 		  "img": "img/102116.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -3912,7 +3912,7 @@
 
 
 		{ "id": "102216",
-		  "date": { "month": 10, "day": 22, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 22, "year": 2016, "season": "fall"},
 		  "img": "img/102216.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -3969,7 +3969,7 @@
 
 
 		{ "id": "102416",
-		  "date": { "month": 10, "day": 24, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 24, "year": 2016, "season": "fall"},
 		  "img": "img/102416.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4034,7 +4034,7 @@
 
 
 		{ "id": "102516",
-		  "date": { "month": 10, "day": 25, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 25, "year": 2016, "season": "fall"},
 		  "img": "img/102516.JPG",
 		  "rank": 3,
 		  "clothes": [
@@ -4099,7 +4099,7 @@
 
 
 		{ "id": "102616",
-		  "date": { "month": 10, "day": 26, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 26, "year": 2016, "season": "fall"},
 		  "img": "img/102616.JPG",
 		  "rank": 3,
 		  "clothes": [
@@ -4164,7 +4164,7 @@
 
 
 		{ "id": "102716",
-		  "date": { "month": 10, "day": 27, "year": 2016, "season": "summer"},
+		  "date": { "month": 10, "day": 27, "year": 2016, "season": "fall"},
 		  "img": "img/102716.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4213,7 +4213,7 @@
 
 
 		{ "id": "110116",
-		  "date": { "month": 11, "day": 1, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 1, "year": 2016, "season": "fall"},
 		  "img": "img/110116.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4270,7 +4270,7 @@
 
 
 		{ "id": "110416",
-		  "date": { "month": 11, "day": 4, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 4, "year": 2016, "season": "fall"},
 		  "img": "img/110416.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4327,7 +4327,7 @@
 
 
 		{ "id": "110816",
-		  "date": { "month": 11, "day": 8, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 8, "year": 2016, "season": "fall"},
 		  "img": "img/110816.JPG",
 		  "rank": 2,
 		  "extra-view": "img/110816-2.JPG",
@@ -4383,7 +4383,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -4393,9 +4393,9 @@
 
 
 		{ "id": "110916",
-		  "date": { "month": 11, "day": 9, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 9, "year": 2016, "season": "fall"},
 		  "img": "img/110916.JPG",
-		  "rank": 2,
+		  "rank": 3,
 		  "clothes": [
 				{
 					"name": "black dress with pockets",
@@ -4440,7 +4440,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -4450,7 +4450,7 @@
 
 
 		{ "id": "111016",
-		  "date": { "month": 11, "day": 10, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 10, "year": 2016, "season": "fall"},
 		  "img": "img/111016.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4505,7 +4505,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -4515,7 +4515,7 @@
 
 
 		{ "id": "111116",
-		  "date": { "month": 11, "day": 11, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 11, "year": 2016, "season": "fall"},
 		  "img": "img/111116.JPG",
 		  "rank": 2,
 		  "clothes": [
@@ -4562,7 +4562,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -4572,7 +4572,7 @@
 
 
 		{ "id": "111416",
-		  "date": { "month": 11, "day": 14, "year": 2016, "season": "summer"},
+		  "date": { "month": 11, "day": 14, "year": 2016, "season": "fall"},
 		  "img": "img/111416.JPG",
 		  "rank": 2,
 		  "extra-view": "img/111416-2.JPG",
@@ -4620,7 +4620,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -4631,6 +4631,862 @@
 						"color": "black",
 						"brand": "aritzia",
 						"type": "accessory"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111516",
+		  "date": { "month": 11, "day": 15, "year": 2016, "season": "fall"},
+		  "img": "img/111516.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "knitted mock neck long sleeve",
+					"tags": {
+						"color": "gray",
+						"brand": "LF",
+						"type": "top"
+					}
+				},
+				{
+					"name": "culottes",
+					"tags": {
+						"color": "black",
+						"brand": "primark",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pointed toe cross flats",
+					"tags": {
+						"color": "black",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "warby parker glasses",
+					"tags": {
+						"color": "brown",
+						"brand": "warby parker",
+						"type": "glasses"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111616",
+		  "date": { "month": 11, "day": 16, "year": 2016, "season": "fall"},
+		  "img": "img/111616.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "san diego spirit jersey",
+					"tags": {
+						"color": "blue",
+						"brand": "unknown",
+						"type": "top"
+					}
+				},
+				{
+					"name": "tank top",
+					"tags": {
+						"color": "orange",
+						"brand": "primark",
+						"type": "top"
+					}
+				},
+				{
+					"name": "madewell jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "high top converse",
+					"tags": {
+						"color": "white",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "camo jacket",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "white",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "111716",
+		  "date": { "month": 11, "day": 17, "year": 2016, "season": "fall"},
+		  "img": "img/111716.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "striped tunic",
+					"tags": {
+						"color": "white",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "fur poncho",
+					"tags": {
+						"color": "gray",
+						"brand": "century 21",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "112816",
+		  "date": { "month": 11, "day": 28, "year": 2016, "season": "fall"},
+		  "img": "img/112816.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "dot texture sweater",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "dark jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "free people",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "knitted scarf",
+					"tags": {
+						"color": "blue",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "long rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "112916",
+		  "date": { "month": 11, "day": 29, "year": 2016, "season": "fall"},
+		  "img": "img/112916.JPG",
+		  "rank": 1,
+		  "clothes": [
+				{
+					"name": "turtleneck bodycon dress",
+					"tags": {
+						"color": "gray",
+						"brand": "brandy melville",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "stockings",
+					"tags": {
+						"color": "black",
+						"brand": "calvin klein",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "sleeveless sweater",
+					"tags": {
+						"color": "gray",
+						"brand": "cheap monday",
+						"type": "top"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "120616",
+		  "date": { "month": 12, "day": 6, "year": 2016, "season": "fall"},
+		  "img": "img/120616.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "off shoulder sweater",
+					"tags": {
+						"color": "brown",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "charcoal destroyed jeans",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "121216",
+		  "date": { "month": 12, "day": 12, "year": 2016, "season": "fall"},
+		  "img": "img/121216.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "striped turtleneck",
+					"tags": {
+						"color": "blue",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "baggy green pants",
+					"tags": {
+						"color": "green",
+						"brand": "monki",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "gold heart earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "122116",
+		  "date": { "month": 12, "day": 21, "year": 2016, "season": "winter"},
+		  "img": "img/122116.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "silk button down",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black jeans",
+					"tags": {
+						"color": "black",
+						"brand": "urban outfitters",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "motorcycle boots",
+					"tags": {
+						"color": "black",
+						"brand": "durango",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "wool beanie",
+					"tags": {
+						"color": "pink",
+						"brand": "cos",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "aviator glasses",
+					"tags": {
+						"color": "gold",
+						"brand": "smart eyes",
+						"type": "glasses"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "122216",
+		  "date": { "month": 12, "day": 22, "year": 2016, "season": "winter"},
+		  "img": "img/122216.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "white",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "charcoal destroyed jeans",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pink chunky sweater",
+					"tags": {
+						"color": "pink",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wool beanie",
+					"tags": {
+						"color": "pink",
+						"brand": "cos",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "star earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "010317",
+		  "date": { "month": 1, "day": 3, "year": 2017, "season": "winter"},
+		  "img": "img/010317.JPG",
+		  "rank": 2,
+		  "extra-view": "img/010317-2.JPG",
+		  "clothes": [
+				{
+					"name": "sweatshirt dress shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "soi clothing",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black jeans",
+					"tags": {
+						"color": "black",
+						"brand": "urban outfitters",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "fleece quarter zip",
+					"tags": {
+						"color": "black",
+						"brand": "mountain hardware",
+						"type": "top"
+					}
+				},
+				{
+					"name": "spray funnel jacket",
+					"tags": {
+						"color": "black",
+						"brand": "p.e nation",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "nike airs",
+					"tags": {
+						"color": "black",
+						"brand": "nike",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "010417",
+		  "date": { "month": 1, "day": 4, "year": 2017, "season": "winter"},
+		  "img": "img/010417.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "cropped long sleeve",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "ripped jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "fleece quarter zip",
+					"tags": {
+						"color": "black",
+						"brand": "mountain hardware",
+						"type": "top"
+					}
+				},
+				{
+					"name": "spray funnel jacket",
+					"tags": {
+						"color": "black",
+						"brand": "p.e nation",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "lace up winter boot",
+					"tags": {
+						"color": "gray",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "010517",
+		  "date": { "month": 1, "day": 5, "year": 2017, "season": "winter"},
+		  "img": "img/010517.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "dot texture sweater",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wide leg tailored pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "ribbed peanut hat",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "010617",
+		  "date": { "month": 1, "day": 6, "year": 2017, "season": "winter"},
+		  "img": "img/010617.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "pleated bottom blouse",
+					"tags": {
+						"color": "blue",
+						"brand": "soi clothing",
+						"type": "top"
+					}
+				},
+				{
+					"name": "high waisted jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "short rain boots",
+					"tags": {
+						"color": "black",
+						"brand": "kenneth cole",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "wool beanie",
+					"tags": {
+						"color": "pink",
+						"brand": "cos",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "011117",
+		  "date": { "month": 1, "day": 11, "year": 2017, "season": "winter"},
+		  "img": "img/011117.JPG",
+		  "rank": 3,
+		  "extra-view": "img/011117-2.JPG",
+		  "clothes": [
+				{
+					"name": "silk bell sleeve shirt",
+					"tags": {
+						"color": "white",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "culottes",
+					"tags": {
+						"color": "black",
+						"brand": "primark",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "wool beanie",
+					"tags": {
+						"color": "pink",
+						"brand": "cos",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
 					}
 				}
 			]
