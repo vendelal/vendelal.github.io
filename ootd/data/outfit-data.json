@@ -87,7 +87,7 @@
 					}
 				},
 				{
-					"name": "warby parker glasses",
+					"name": "baker glasses",
 					"tags": {
 						"color": "brown",
 						"brand": "warby parker",
@@ -915,7 +915,7 @@
 		  "rank": 1,
 		  "clothes": [
 				{
-					"name": "white sleevless turtleneck",
+					"name": "white sleeveless turtleneck",
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
@@ -1529,7 +1529,7 @@
 					}
 				},
 				{
-					"name": "warby parker glasses",
+					"name": "baker glasses",
 					"tags": {
 						"color": "brown",
 						"brand": "warby parker",
@@ -1759,7 +1759,7 @@
 		  "rank": 2,
 		  "clothes": [
 				{
-					"name": "white sleevless turtleneck",
+					"name": "white sleeveless turtleneck",
 					"tags": {
 						"color": "white",
 						"brand": "h&m",
@@ -4667,7 +4667,7 @@
 					}
 				},
 				{
-					"name": "warby parker glasses",
+					"name": "baker glasses",
 					"tags": {
 						"color": "brown",
 						"brand": "warby parker",
@@ -5427,6 +5427,63 @@
 		},
 
 
+		{ "id": "010917",
+		  "date": { "month": 1, "day": 9, "year": 2017, "season": "winter"},
+		  "img": "img/010917.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "striped turtleneck",
+					"tags": {
+						"color": "blue",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "quarter sleeve knit sweater",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "madewell jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "lace up winter boot",
+					"tags": {
+						"color": "gray",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
 		{ "id": "011117",
 		  "date": { "month": 1, "day": 11, "year": 2017, "season": "winter"},
 		  "img": "img/011117.JPG",
@@ -5466,6 +5523,14 @@
 					}
 				},
 				{
+					"name": "baker glasses",
+					"tags": {
+						"color": "brown",
+						"brand": "warby parker",
+						"type": "glasses"
+					}
+				},
+				{
 					"name": "wool beanie",
 					"tags": {
 						"color": "pink",
@@ -5485,6 +5550,1311 @@
 					"name": "apple watch",
 					"tags": {
 						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "011217",
+		  "date": { "month": 1, "day": 12, "year": 2017, "season": "winter"},
+		  "img": "img/011217.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "cropped turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "asos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "open back maxi dress",
+					"tags": {
+						"color": "black",
+						"brand": "rag & bone",
+						"type": "dress"
+					}
+				},
+				{
+					"name": "long rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "baker glasses",
+					"tags": {
+						"color": "brown",
+						"brand": "warby parker",
+						"type": "glasses"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "011917",
+		  "date": { "month": 1, "day": 19, "year": 2017, "season": "winter"},
+		  "img": "img/011917.JPG",
+		  "rank": 3,
+		  "extra-view": "img/011917-2.JPG",
+		  "clothes": [
+				{
+					"name": "asymmetrical long sleeved shirt",
+					"tags": {
+						"color": "pink",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "scuba dress pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "hoop earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "byboe",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "012017",
+		  "date": { "month": 1, "day": 20, "year": 2017, "season": "winter"},
+		  "img": "img/012017.JPG",
+		  "rank": 2,
+		  "extra-view": "img/012017-2.JPG",
+		  "clothes": [
+				{
+					"name": "black tank top",
+					"tags": {
+						"color": "black",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "sweatpants",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "spray funnel jacket",
+					"tags": {
+						"color": "black",
+						"brand": "p.e nation",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "jennings glasses",
+					"tags": {
+						"color": "brown",
+						"brand": "warby parker",
+						"type": "glasses"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "020117",
+		  "date": { "month": 2, "day": 1, "year": 2017, "season": "winter"},
+		  "img": "img/020117.JPG",
+		  "rank": 2,
+		  "extra-view": "img/020117-2.JPG",
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "brandy melville",
+						"type": "top"
+					}
+				},
+				{
+					"name": "cropped trouser",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "pink chunky sweater",
+					"tags": {
+						"color": "pink",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "fur pom pom beanie",
+					"tags": {
+						"color": "brown",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "baker glasses",
+					"tags": {
+						"color": "brown",
+						"brand": "warby parker",
+						"type": "glasses"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "020417",
+		  "date": { "month": 2, "day": 4, "year": 2017, "season": "winter"},
+		  "img": "img/020417.JPG",
+		  "rank": 2,
+		  "extra-view": "img/020417-2.JPG",
+		  "clothes": [
+				{
+					"name": "open back ruffle top",
+					"tags": {
+						"color": "black",
+						"brand": "unknown",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wide leg tailored pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "circle purse",
+					"tags": {
+						"color": "gray",
+						"brand": "baggu",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "skagen watch",
+					"tags": {
+						"color": "silver",
+						"brand": "skagen",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "020717",
+		  "date": { "month": 2, "day": 7, "year": 2017, "season": "winter"},
+		  "img": "img/020717.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "pleated silk tank top",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "baggy wax pants",
+					"tags": {
+						"color": "black",
+						"brand": "unknown",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "green bomber",
+					"tags": {
+						"color": "green",
+						"brand": "alpha industries",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "020817",
+		  "date": { "month": 2, "day": 8, "year": 2017, "season": "winter"},
+		  "img": "img/020817.JPG",
+		  "rank": 2,
+		  "extra-view": "img/020817-2.JPG",
+		  "clothes": [
+				{
+					"name": "v-neck long sleeved shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "cropped trouser",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "knitted turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "brandy melville",
+						"type": "top"
+					}
+				},
+				{
+					"name": "camo jacket",
+					"tags": {
+						"color": "green",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "high top converse",
+					"tags": {
+						"color": "black",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "020917",
+		  "date": { "month": 2, "day": 9, "year": 2017, "season": "winter"},
+		  "img": "img/020917.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "flannel",
+					"tags": {
+						"color": "red",
+						"brand": "hollister",
+						"type": "top"
+					}
+				},
+				{
+					"name": "paige jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "short rain boots",
+					"tags": {
+						"color": "black",
+						"brand": "kenneth cole",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021017",
+		  "date": { "month": 2, "day": 10, "year": 2017, "season": "winter"},
+		  "img": "img/021017.JPG",
+		  "rank": 1,
+		  "clothes": [
+				{
+					"name": "knitted silk tank top",
+					"tags": {
+						"color": "white",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "knitted sweater",
+					"tags": {
+						"color": "white",
+						"brand": "shein",
+						"type": "top"
+					}
+				},
+				{
+					"name": "madewell jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "madewell",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "knit beanie",
+					"tags": {
+						"color": "white",
+						"brand": "superdry",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "bally boots",
+					"tags": {
+						"color": "black",
+						"brand": "bally",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021417",
+		  "date": { "month": 2, "day": 14, "year": 2017, "season": "winter"},
+		  "img": "img/021417.JPG",
+		  "rank": 1,
+		  "clothes": [
+				{
+					"name": "sleeveless turtleneck",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "zara leather jacket",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "joggers",
+					"tags": {
+						"color": "gray",
+						"brand": "fabletics",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "short rain boots",
+					"tags": {
+						"color": "black",
+						"brand": "kenneth cole",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021517",
+		  "date": { "month": 2, "day": 15, "year": 2017, "season": "winter"},
+		  "img": "img/021517.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "pleated bottom blouse",
+					"tags": {
+						"color": "blue",
+						"brand": "soi clothing",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wax pants",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "cashmere beanie",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021617",
+		  "date": { "month": 2, "day": 16, "year": 2017, "season": "winter"},
+		  "img": "img/021617.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "quarter sleeve wrap top",
+					"tags": {
+						"color": "black",
+						"brand": "american apparel",
+						"type": "top"
+					}
+				},
+				{
+					"name": "black flowy skirt",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "quarter sleeve knit sweater",
+					"tags": {
+						"color": "black",
+						"brand": "cos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "community winter coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021717",
+		  "date": { "month": 2, "day": 17, "year": 2017, "season": "winter"},
+		  "img": "img/021717.JPG",
+		  "rank": 3,
+		  "extra-view": "img/021717-2.JPG",
+		  "clothes": [
+				{
+					"name": "cropped turtleneck",
+					"tags": {
+						"color": "black",
+						"brand": "asos",
+						"type": "top"
+					}
+				},
+				{
+					"name": "culottes",
+					"tags": {
+						"color": "black",
+						"brand": "primark",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "cashmere beanie",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "021817",
+		  "date": { "month": 2, "day": 18, "year": 2017, "season": "winter"},
+		  "img": "img/021817.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "striped tunic",
+					"tags": {
+						"color": "white",
+						"brand": "urban outfitters",
+						"type": "top"
+					}
+				},
+				{
+					"name": "cropped trouser",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "green bomber",
+					"tags": {
+						"color": "green",
+						"brand": "alpha industries",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "knitted scarf",
+					"tags": {
+						"color": "tan",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022117",
+		  "date": { "month": 2, "day": 21, "year": 2017, "season": "winter"},
+		  "img": "img/022117.JPG",
+		  "rank": 2,
+		  "clothes": [
+				{
+					"name": "plain t-shirt",
+					"tags": {
+						"color": "gray",
+						"brand": "gap",
+						"type": "top"
+					}
+				},
+				{
+					"name": "paige jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "paige denim",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "blazer",
+					"tags": {
+						"color": "black",
+						"brand": "urban outfitters",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "stan smiths",
+					"tags": {
+						"color": "white",
+						"brand": "adidas",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022217",
+		  "date": { "month": 2, "day": 22, "year": 2017, "season": "winter"},
+		  "img": "img/022217.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "cropped long sleeve",
+					"tags": {
+						"color": "gray",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "wide leg tailored pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022317",
+		  "date": { "month": 2, "day": 23, "year": 2017, "season": "winter"},
+		  "img": "img/022317.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "silk bell sleeve shirt",
+					"tags": {
+						"color": "white",
+						"brand": "zara",
+						"type": "top"
+					}
+				},
+				{
+					"name": "long overalls",
+					"tags": {
+						"color": "black",
+						"brand": "h&m",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022417",
+		  "date": { "month": 2, "day": 24, "year": 2017, "season": "winter"},
+		  "img": "img/022417.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "embroidered blouse",
+					"tags": {
+						"color": "black",
+						"brand": "scotch & soda",
+						"type": "top"
+					}
+				},
+				{
+					"name": "knit sweater",
+					"tags": {
+						"color": "gray",
+						"brand": "h&m",
+						"type": "top"
+					}
+				},
+				{
+					"name": "scuba dress pants",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "high top converse",
+					"tags": {
+						"color": "white",
+						"brand": "converse",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022717",
+		  "date": { "month": 2, "day": 27, "year": 2017, "season": "winter"},
+		  "img": "img/022717.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "white button down",
+					"tags": {
+						"color": "white",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "charcoal destroyed jeans",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "lace up winter boot",
+					"tags": {
+						"color": "gray",
+						"brand": "aldo",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "silver bull head belt buckle",
+					"tags": {
+						"color": "silver",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "tan",
 						"brand": "apple",
 						"type": "watch"
 					}

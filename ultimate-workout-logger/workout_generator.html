@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Workout Generator</title>
+
+  <script src="js/sugar.js"></script>
+  <script src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+    <div class="row">
+      <h1>Workout Generator</h1>
+    </div>
+    <div class="row">
+      <h4>What type of workout do you want to do?</h4>
+      <button onClick="filterByType(workouts, 'cardio')">Cardio</button>
+      <button onClick="filterByType(workouts, 'weights')">Weights</button>
+    </div>
+    <div class="row">
+      <h4>What part of your body do you want to work on?</h4>
+      <button onClick="filterByBodyPart(filtered_workouts, 'lower-body')">Lower Body</button>
+      <button onClick="filterByBodyPart(filtered_workouts, 'upper-body')">Upper Body</button>
+      <button onClick="filterByBodyPart(filtered_workouts, 'full-body')">Full Body</button>
+      <button onClick="makeRandom(workouts)">Random Workout</button>
+    </div>
+    <div class="hr"></div>
+    <div class="row">
+      <div class="result"></div>
+    </div>
+
+
+  <style>
+
+    html {
+      font-family:'helvetica neue';
+      background-color: #1e284e;
+      color: #d2ddff;
+    }
+
+    .row {
+      width: 100%;
+      text-align:center;
+      margin-bottom: 40px;
+    }
+
+    button {
+      border-radius: 5px;
+      background-color: #355ba5;
+      border: 1px solid transparent;
+      padding: 10px 20px;
+      color: #adc1ff;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+
+    button:focus {
+      background-color: #5581d6;
+      outline: none;
+      color: #ffffff;
+    }
+
+    .hr {
+      height: 1px;
+      background-color: #384775;
+      margin: 50px;
+      box-shadow: 0px -1px 0px 0px rgba(0,0,0,1);
+    }
+
+    h2 {
+      margin-bottom: 5px;
+    }
+
+    p {
+      padding: 0px;
+    }
+
+    p.small {
+      padding: 0px 0px 30px;
+      font-style: italic;
+      margin:0px;
+      color: #7486bb;
+    }
+
+
+  </style>
+
+  <script>
+
+  let workouts = [
+    {
+      "type": "cardio",
+      "title": "Running",
+      "duration": 20,
+      "bodypart": "lower-body",
+      "description": "Run or jog at a comfortable pace."
+    },
+    {
+      "type": "cardio",
+      "title": "Intervals",
+      "duration": 20,
+      "bodypart": "lower-body",
+      "description": "Sprint for 1 min, jog for 1 min."
+    },
+    {
+      "type": "cardio",
+      "title": "Body Weight Workout",
+      "duration": 6,
+      "bodypart": "full-body",
+      "description": "50 burpees, 50 pushups, 30 sit ups as fast as you can."
+    },
+    {
+      "type": "weights",
+      "title": "Squats",
+      "duration": 10,
+      "bodypart": "lower-body",
+      "description": "Barbell squats, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Hip Thrusts",
+      "duration": 10,
+      "bodypart": "lower-body",
+      "description": "Weighted hip thrusts, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Glute Bridges",
+      "duration": 10,
+      "bodypart": "lower-body",
+      "description": "Weighted glute bridges, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Deadlifts",
+      "duration": 10,
+      "bodypart": "lower-body",
+      "description": "Weighted deadlifts, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Pullups",
+      "duration": 10,
+      "bodypart": "upper-body",
+      "description": "5 sets of AMRAP body weight pullups."
+    },
+    {
+      "type": "weights",
+      "title": "Military Press",
+      "duration": 10,
+      "bodypart": "upper-body",
+      "description": "Weighted military presses, 5 sets of 10 reps with either dumbells or barbell."
+    },
+    {
+      "type": "weights",
+      "title": "Lateral raises",
+      "duration": 8,
+      "bodypart": "upper-body",
+      "description": "Weighted lateral raises with dumbells, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Kettlebell Swings",
+      "duration": 5,
+      "bodypart": "lower-body",
+      "description": "5 sets of AMRAP KB swings at a challenging weight."
+    },
+    {
+      "type": "weights",
+      "title": "Donkey Kicks",
+      "duration": 8,
+      "bodypart": "lower-body",
+      "description": "5 sets of 10 weighted donkey kicks."
+    },
+    {
+      "type": "weights",
+      "title": "Lateral Band Walks",
+      "duration": 7,
+      "bodypart": "lower-body",
+      "description": "3 times back and forth about 50ft. Back and forth = 1 time."
+    },
+    {
+      "type": "weights",
+      "title": "Stiff Legged Deadlifts",
+      "duration": 8,
+      "bodypart": "lower-body",
+      "description": "Weighted stiff legged deadlifts, 3 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Bench Press",
+      "duration": 10,
+      "bodypart": "upper-body",
+      "description": "Barbell or dumbell bench press, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Bent Over Row",
+      "duration": 6,
+      "bodypart": "upper-body",
+      "description": "4 sets of 10 reps with dumbells."
+    },
+    {
+      "type": "weights",
+      "title": "Back Extensions",
+      "duration": 5,
+      "bodypart": "full-body",
+      "description": "Weighted back extensions, 5 sets of 10 reps."
+    },
+    {
+      "type": "weights",
+      "title": "Tricep Pressdowns",
+      "duration": 5,
+      "bodypart": "upper-body",
+      "description": "3 sets of 10 reps at a challenging weight."
+    },
+    {
+      "type": "weights",
+      "title": "Hamstring Curls",
+      "duration": 5,
+      "bodypart": "lower-body",
+      "description": "Weighted hamstring curls, 5 sets of 10 reps."
+    }
+  ];
+
+
+  let result = document.querySelector('.result');
+
+  function displayResults(arr) {
+    for (var i = 0; i < arr.length; i++) {
+      let workoutTitle = document.createElement('h2');
+      workoutTitle.innerHTML = arr[i].title;
+
+      let workoutDescription = document.createElement('p');
+      workoutDescription.innerHTML = arr[i].description;
+
+      let workoutTime = document.createElement('p');
+      workoutTime.className = 'small';
+      workoutTime.innerHTML = '~' + arr[i].duration + ' minutes';
+
+      result.append(workoutTitle, workoutDescription, workoutTime)
+    }
+  }
+
+
+  let random_workouts = [];
+
+  function makeRandom(arr) {
+    random_workouts = [];
+
+    // syntax for while under 5 loop
+    result.innerHTML = "";
+    r = 11 - (Math.round(Math.random() * 10));
+    
+    random_workouts.push(workouts[r]);
+    // remove r item from the arr
+
+    displayResults(random_workouts);
+  }
+
+
+
+  let filtered_workouts = [];
+
+  // Filters whether cardio or weights
+  function filterByType(arr, str) {
+    result.innerHTML = "";
+    filtered_workouts = [];
+    filtered_by_body_part = [];
+
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i].type === str) {
+        filtered_workouts.push(arr[i]);
+      }
+    }
+  }
+
+
+
+  let filtered_by_body_part = [];
+
+  function filterByBodyPart(arr, str) {
+    result.innerHTML = "";
+    filtered_by_body_part = [];
+
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i].bodypart === str) {
+        filtered_by_body_part.push(arr[i]);
+      }
+    }
+    // makeRandom(filtered_by_body_part);
+    displayResults(filtered_by_body_part); // delete this once makeRandom works
+  }
+
+
+  </script>
+</body>
+</html>
