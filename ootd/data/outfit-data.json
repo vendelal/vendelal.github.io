@@ -6578,7 +6578,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -6643,7 +6643,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -6708,7 +6708,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -6781,7 +6781,7 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
 						"brand": "apple",
 						"type": "watch"
 					}
@@ -6854,7 +6854,218 @@
 				{
 					"name": "apple watch",
 					"tags": {
-						"color": "tan",
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "022817",
+		  "date": { "month": 2, "day": 28, "year": 2017, "season": "winter"},
+		  "img": "img/022817.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "bonjour tank top",
+					"tags": {
+						"color": "black",
+						"brand": "gina tricot",
+						"type": "top"
+					}
+				},
+				{
+					"name": "destroyed denim shirt",
+					"tags": {
+						"color": "blue",
+						"brand": "american eagle",
+						"type": "top"
+					}
+				},
+				{
+					"name": "dark jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "abercrombie",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "vagabonds",
+					"tags": {
+						"color": "black",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "fur collar wool coat",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "black beanie",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "bull head belt buckle",
+					"tags": {
+						"color": "brown",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "030117",
+		  "date": { "month": 3, "day": 1, "year": 2017, "season": "winter"},
+		  "img": "img/030117.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "v-neck",
+					"tags": {
+						"color": "black",
+						"brand": "unkown",
+						"type": "top"
+					}
+				},
+				{
+					"name": "chef jacket",
+					"tags": {
+						"color": "black",
+						"brand": "aritzia",
+						"type": "top"
+					}
+				},
+				{
+					"name": "charcoal destroyed jeans",
+					"tags": {
+						"color": "black",
+						"brand": "zara",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "doc marten chelsea boots",
+					"tags": {
+						"color": "black",
+						"brand": "doc marten",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "long rain coat",
+					"tags": {
+						"color": "black",
+						"brand": "lululemon",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "bull head belt buckle",
+					"tags": {
+						"color": "brown",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "brown",
+						"brand": "apple",
+						"type": "watch"
+					}
+				}
+			]
+		},
+
+
+		{ "id": "030217",
+		  "date": { "month": 3, "day": 2, "year": 2017, "season": "winter"},
+		  "img": "img/030217.JPG",
+		  "rank": 3,
+		  "clothes": [
+				{
+					"name": "knitted mock neck long sleeve",
+					"tags": {
+						"color": "gray",
+						"brand": "LF",
+						"type": "top"
+					}
+				},
+				{
+					"name": "dark blue jeans",
+					"tags": {
+						"color": "blue",
+						"brand": "abercrombie",
+						"type": "bottom"
+					}
+				},
+				{
+					"name": "brown bootie",
+					"tags": {
+						"color": "brown",
+						"brand": "vagabond",
+						"type": "shoes"
+					}
+				},
+				{
+					"name": "pink puffer jacket",
+					"tags": {
+						"color": "pink",
+						"brand": "pelle petterson",
+						"type": "jacket"
+					}
+				},
+				{
+					"name": "line earrings",
+					"tags": {
+						"color": "gold",
+						"brand": "unknown",
+						"type": "accessory"
+					}
+				},
+				{
+					"name": "apple watch",
+					"tags": {
+						"color": "silver",
 						"brand": "apple",
 						"type": "watch"
 					}
