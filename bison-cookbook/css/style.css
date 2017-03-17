@@ -1,0 +1,85 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  color: #4a4a4a;
+  background-color: #fffdfa;
+  line-height: 1.8;
+}
+
+h1 {
+  font-family: "essonnes-display", serif;
+  font-weight: 700;
+}
+
+h1.number {
+  color: #F95532;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: "freight-sans-pro", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #F95532;
+}
+
+p.lead {
+  font-family:  "freight-sans-pro", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+}
+
+.recipe {
+  border-bottom: 1px solid #4a4a4a;
+  padding: 75px 0px 100px;
+}
+
+.title {
+  text-align: center;
+  background-color: #fff;
+}
+
+.title-image {
+  text-align: center;
+  background-color: #F95532;
+  padding: 100px 0px;
+}
+
+.header {
+  height: 150px;
+}
+
+.recipe-title {
+  margin-top: 26px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.recipe-image {
+  background-color: #FFFEE1;
+  padding: 60px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  margin-top: 100px;
+  padding: 15px; 
+  margin: -15px 0px;
+}
+

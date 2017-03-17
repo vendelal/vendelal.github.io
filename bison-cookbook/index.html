@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../favicon.ico">
+
+    <title>Bison Cookbook</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <script src="https://use.typekit.net/wan1nco.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container-fluid title" style="margin: 100px 0px 50px; ">
+      <h1>Bison Cookbook</h1>
+      <p class="lead">A COLLECTION OF RECIPES FROM BISON’S VERY OWN MASTER CHEFS</p>
+    </div>
+
+    <div class="container-fluid title-image">
+      <img src="img/cover_light.svg" />
+    </div>
+
+    <div class="container">
+
+
+      <div class="row recipe">
+        <div class="col-md-4">
+          <div class="header">
+            <p class="small">Dinner</p>
+            <h1 class="number">01</h1>
+          </div>
+          <div class="ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>2-3lbs potatoes (fingerling, baby or waxy chopped into 1inch pieces </li>
+              <li>1 big head of kale </li>
+              <li>5 carrots </li>
+              <li>6 celery</li>
+              <li> 3 medium onions </li>
+              <li>2 leeks </li>
+              <li>1 garlic </li>
+              <li>1 pint heavy cream </li>
+              <li>1 gallons chicken stock</li>
+              <li> 2 lbs 85/15 ground beef </li>
+              <li>1.5 cup grated salty strong cheese (parmesan, romano, asiago) </li>
+              <li>Oil </li>
+              <li>Salt</li>
+              <li> Pepper</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="header">
+            <h1 class="recipe-title">Tasty Soup</h1>
+            <p class="lead">Joe Maki</p>
+          </div>
+          <div class="recipe-image">
+            <img src="img/soup.svg" />
+          </div>
+          <div class="ingredients">
+            <h4>Directions</h4>
+            <p class="lead">MEATBALLS</p>
+            <p>Break up hamburger in a mixing bowel Sprinkle 1 teaspoon salt over the meat Sprinkle grated cheese over the meat Mix well Form into large grape sized meatballs</p>
+            <p class="lead">SOUP BASE</p>
+            <p>Chop celery, carrots, onions, leeks, and garlic, salt pepper Saute in oil until the veggies start getting soft and aromatic Add chicken stock, potatoes, kale</p>
+            <p>Simmer for a while until potatoes are cooked Reduce heat to low Add heavy cream, and salt to taste</p>
+            <p>Let it sit for an hour</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row recipe">
+        <div class="col-md-4">
+          <div class="header">
+            <p class="small">Breakfast</p>
+            <h1 class="number">02</h1>
+          </div>
+          <div class="ingredients">
+            <h4>Ingredients</h4>
+            <ul>
+              <li>Portuguese rolls</li>
+              <li>1 ½ - 2 eggs per sandwich</li>
+              <li>Fresh tomatoes</li>
+              <li>Sharp cheddar cheese</li>
+              <li>Salt & pepper</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="header">
+            <h1 class="recipe-title">Joe's Better-Than-Clover's Breakfast Sandwich</h1>
+            <p class="lead">Joe Maki</p>
+          </div>
+          <div class="recipe-image">
+            <img src="img/breakfast_sandwich.svg" />
+          </div>
+          <div class="ingredients">
+            <h4>Directions</h4>
+            <p>1. Butter and grill rolls on inside in a pan</p>
+            <p>2. Bring pot of water to boil with eggs in there, take off right away once you have a roaring boil and leave for 4-5 min, then cool down immediately with cold water/ice</p>
+            <p>3. Assemble sandwiches, cheese on bottom, then tomatoes salted, then eggs salted</p>
+            </p>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div> <!-- /container -->
+
+    <div class="container-fluid footer">
+      <div class="container">
+        <img src="img/footer.png" />
+      </div>
+    </div>
+
+
+
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script>
+      var windowWidth = $(window).width();
+        if(windowWidth > 970){
+            var tallestTable = Math.max($('#monday').height(), $('#tuesday').height(), $('#wednesday').height(), $('#thursday').height(), $('#friday').height(), $('#saturady').height());
+            $('.body-content').css('height', tallestTable);
+        }
+    </script>
+  </body>
+</html>
