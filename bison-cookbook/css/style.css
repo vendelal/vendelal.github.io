@@ -47,9 +47,43 @@ p.lead {
   padding: 75px 0px 100px;
 }
 
+.nav {
+  margin-top: 63px;
+}
+
+.nav li a {
+  font-family:  "freight-sans-pro", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  color: #4a4a4a;
+}
+
+.nav li a:hover {
+  background-color: #FFFEE1;
+}
+
+.nav li.active a {
+  font-family:  "freight-sans-pro", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  color: #F95532;
+}
+
+.nav li.active a::before {
+  content: ' — ';
+}
+
+.affix {
+  top: 0px;
+  width:160px;
+}
+
 .title {
   text-align: center;
-  background-color: #fff;
 }
 
 .title-image {
@@ -80,7 +114,7 @@ ul {
 .footer {
   background-color: #f7f7f7;
   margin-top: 100px;
-  padding: 15px; 
+  padding: 15px;
   margin: -15px 0px;
 }
 
