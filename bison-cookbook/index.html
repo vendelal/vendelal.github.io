@@ -40,8 +40,21 @@
     </div>
 
     <div class="container">
-      <div class="col-md-2" id="leftCol">
+      <div class="col-md-2 hidden-xs hidden-sm" id="leftCol">
         <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#breakfast">Breakfast</a></li>
+           <!--  <ul class="nav nav-stacked">
+              <li><a href="#joes-breakfast">Joe's Breakfast Sandwiches</a></li>
+            </ul> -->
+          <li><a href="#drinks">Drinks</a></li>
+          <li>
+            <a href="#dinner">Dinner</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 hidden-md hidden-lg" id="topbar">
+        <ul class="nav nav-tabs" id="topnav">
           <li><a href="#breakfast">Breakfast</a></li>
            <!--  <ul class="nav nav-stacked">
               <li><a href="#joes-breakfast">Joe's Breakfast Sandwiches</a></li>
@@ -412,6 +425,18 @@
 
       body.scrollspy({
         target: '#leftCol',
+        // offset: navHeight
+      });
+
+      $('#topnav').affix({
+        offset: {
+          top: 543,
+          // bottom: navHeight
+        }
+      });
+
+      body.scrollspy({
+        target: '#topbar',
         // offset: navHeight
       });
     </script>

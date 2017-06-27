@@ -77,9 +77,20 @@ p.lead {
   content: ' — ';
 }
 
-.affix {
+.nav-stacked.affix {
   top: 0px;
   width:160px;
+}
+
+.nav-tabs.affix {
+  top: 0px;
+  width:90%;
+}
+
+.nav-tabs {
+  background-color: #fffdfa;
+  margin-top: 0px;
+  z-index: 10;
 }
 
 .title {
