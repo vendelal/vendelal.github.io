@@ -27,6 +27,7 @@
 
 			<nav>
 				<ul>
+					<li><a href="{{ url() }}" {% if craft.request.firstSegment == '' %}class="active"{% endif %}>Home</a></li>
 					<li><a href="{{ url('solutions') }}" {% if craft.request.firstSegment == 'solutions' %}class="active"{% endif %}>Solutions</a></li>
 					<li><a href="{{ url('news') }}" {% if craft.request.firstSegment == 'news' %}class="active"{% endif %}>News</a></li>
 					<li><a href="{{ url('jobs') }}" {% if craft.request.firstSegment == 'jobs' %}class="active"{% endif %}>Work with us</a></li>
@@ -45,7 +46,7 @@
 		<footer id="footer">
 			<div class="row">
 				<div class="col-6">
-					<a href="{{ url('solutions') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>CONTACT <img src="img/mail.png" /></a>
+					<a href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>CONTACT <img src="img/mail.png" /></a>
 					<span style="color: #8792A4; padding: 0px 10px;"> | </span>
 					<span style="color: #8792A4; letter-spacing: 1px;">781.772.1427 </span>
 				</div>
