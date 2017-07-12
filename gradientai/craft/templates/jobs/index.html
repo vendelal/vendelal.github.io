@@ -1,0 +1,57 @@
+{% extends "_layout" %}
+{% set title = "Jobs" %}
+
+{% set entries = craft.entries.section('jobPostings') %}
+
+{% set equalOpportunities = craft.entries.slug('equal-opportunities').first() %}
+
+
+
+{% block content %}
+
+    <div class="jumbotron jobs">
+        <div class="row first">
+            <div class="col-8">
+                <h1 class="headline">{{ entry.headline }}</h1>
+                <p>{{ entry.leadText }}</p>
+            </div>
+            <div class="col-4 hidden-sm"></div>
+        </div>
+    </div>
+    <div class="content jobs">
+        {% for entry in entries if entry.slug != "equal-opportunities" %}
+        <div class="row job">
+            <div class="col-8">
+                <h2>{{ entry.title }}</h2>
+            </div>
+            <div class="col-4">
+                <a href="mailto:jobs@gradientai.com"><button>Apply Now</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <p>{{ entry.aboutYou }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <p>{{ entry.responsibilities }}</p>
+                <p>{{ entry.youWill }}</p>
+            </div>
+             <div class="col-6">
+                <p>{{ entry.desiredSkills }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="equal-opportunities">
+        <img src="img/icon_team.png" />
+        <div class="container">
+            <div class="col-12">
+                {{ equalOpportunities.body }}
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

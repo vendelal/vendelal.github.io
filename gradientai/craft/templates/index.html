@@ -1,0 +1,110 @@
+{#
+ # Homepage template
+ # ---------------
+ #
+ # When this template gets loaded, it will be because someone has accessed
+ # http://yoursite.com/ (without any URI). Craft checks to see if you have
+ # a Single section set to be the Homepage (as you do, by default), and
+ # loads the section’s Template (this file). A special ‘entry’ variable
+ # will already be set for you, assigned to the Homepage entry.
+ #
+ # It's worth noting that even if you didn't have a Homepage Single section,
+ # as long as this template remains at craft/templates/index.html, it
+ # would still be the one to get loaded when accessing http://yoursite.com/,
+ # albeit without an ‘entry’ variable already set for you.
+ #
+ # See this page for more details on how Craft routes requests:
+ # http://craftcms.com/docs/routing
+ #}
+
+{% extends "_layout" %}
+
+{% set entries = craft.entries.section('homepageContent') %}
+
+{% set power = craft.entries.slug('power-up-your-team').first() %}
+
+{% set understand = craft.entries.slug('understand-the-present-and-adapt-to-the-future').first() %}
+
+{% set experience = craft.entries.slug('your-experience-and-our-technology').first() %}
+
+{% set team = craft.entries.slug('our-team').first() %}
+
+
+
+{% block content %}
+
+    <div class="jumbotron">
+    	<h1 class="headline">{{ entry.title }}</h1>
+
+    	{{ entry.body }}
+    </div>
+
+	<!-- <h2>Recent News</h2>
+	<ul>
+		{% for entry in craft.entries.section('news').limit(5).find() %}
+			<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+		{% endfor %}
+	</ul> -->
+
+    <div class="content">
+        <div class="row" align="center">
+            <h4 class="font-regular lead">{{ entry.leadText }}</h4>
+            <a href="/solutions"><button>See our Solution</button></a>
+        </div>
+        <div class="row first">
+            <div class="col-6 homePageEntry">
+                <img src="img/icon_powerup.png" />
+                <h1>{{ power.title }}</h1>
+                <p>{{ power.body }}</p>
+                <a href="/solutions"><button style="margin: 20px 0px 0px 50px;">See our Solution</button></a>
+            </div>
+        </div>
+        <div class="row second">
+            <div class="col-6 homePageEntry">
+                <img src="img/icon_understand.png" />
+                <h1>{{ understand.title }}</h1>
+                <p>{{ understand.body }}</p>
+            </div><!--
+             <div class="col-6 hidden-sm">
+                <img src="img/figure1.png" />
+            </div> -->
+        </div>
+    </div>
+
+    <div class="row highlight">
+        <table class="highlight-img-container" align="center">
+            <tr>
+                <td><img class="highlight-img" src="img/confused.png" /></td>
+                <td><img class="highlight-img" src="img/small_arrow.png" /></td>
+                <td><img class="highlight-img" src="img/gradient_screen.png" /></td>
+                <td><img class="highlight-img" src="img/small_arrow.png" /></td>
+                <td><img class="highlight-img" src="img/chart_screen.png" /></td>
+            </tr>
+        </table>
+        <h3>Leverage data to gain insight and outperform your peers.</h3>
+    </div>
+
+    <div class="content">
+        <div class="row third">
+            <div class="col-8 homePageEntry">
+                <img src="img/icon_experience.png" />
+                <h1>{{ experience.title }}</h1>
+                <p>{{ experience.body }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row team">
+        <div class="col-2 hidden-sm"></div>
+        <div class="col-2" style="text-align: center;">
+            <img src="img/icon_team.png" style="margin-top: 75px;"/>
+        </div>
+        <div class="col-7">
+            <h3 style="color: white;">{{ team.title }}</h3>
+            <p>{{ team.body }}</p>
+        </div>
+        <div class="col-1 hidden-sm"></div>
+    </div>
+
+
+{% endblock %}

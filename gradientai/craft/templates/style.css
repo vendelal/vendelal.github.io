@@ -1,0 +1,352 @@
+html, body {
+    font-family: 'Libre Franklin', sans-serif;
+    background: #fff;
+    margin: 0;
+    color: #39414D;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+#header, #footer {
+    display: block;
+    background: #fff;
+}
+
+#header a {
+    color: #39414D;
+}
+
+#header {
+    padding: 25px 0px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index:10;
+    box-shadow: 0px 7px 19px rgba(0, 0, 0, .10);
+}
+
+#header:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header h1, #header h1 a {
+    float: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    color: #1B82E3;
+    padding-left: 25px;
+}
+
+#header nav {
+    display: block;
+    float: right;
+    padding-right: 25px;
+}
+
+#header nav ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+#header nav ul li {
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+#header nav ul li a {
+    display: block;
+    margin-top: 4px;
+    line-height: 22px;
+}
+
+#header nav ul li a:hover,
+#header nav ul li a.active {
+    border-bottom: 2px solid #fff;
+    color: #1B82E3;
+}
+
+#header nav ul li a.active {
+    cursor: default;
+    font-weight: bold;
+    color: #1B82E3;
+}
+
+button, input[type="submit" i] {
+    cursor: pointer;
+    background-color: #1B82E3;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding: 15px 30px;
+}
+
+input[type="submit" i] {
+    text-align: center;
+}
+
+button:hover, input[type="submit" i]:hover {
+    background-color: #116CC2;
+}
+
+.jobs button {
+    margin: 25px;
+    float: right;
+}
+
+.jobs h2 {
+    color: #1B82E3;
+}
+
+h1.headline {
+    font-size: 48px;
+    color: #39414D;
+}
+
+h1 {
+    color: #1B82E3;
+}
+
+#content a {
+    color: #1B82E3;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #116CC2;
+}
+
+#content {
+    margin-top: 77px;
+}
+
+.content {
+    background: #fff url('img/dot-pattern.png') no-repeat left top;
+    // padding: 100px 150px;
+    z-index: 4;
+}
+
+.content.solutions {
+    background: #fff;
+}
+
+.content.jobs {
+    background: #fff;
+    padding: 5%;
+}
+
+.content.news {
+    background: #ECF3FA;
+    height: 100vh;
+    overflow: scroll;
+    padding: 5%;
+}
+
+.jumbotron {
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    padding: 100px;
+    background-image: url('img/jumbotron.png');
+    background-size: cover;
+    position:relative;
+    background-position: center;
+    box-shadow: 0px 7px 19px rgba(0, 0, 0, .10);
+    z-index: 5;
+}
+
+.jumbotron.solutions {
+    height: 200px;
+}
+
+.jumbotron.solutions, .jumbotron.jobs {
+    background: url('img/dot-pattern-horizontal.png') no-repeat top center;
+    background-size: contain;
+    padding: 200px 0px 0px;
+    box-shadow: none;
+}
+
+.jumbotron.jobs {
+    box-shadow: none;
+    text-align: left;
+    height: auto;
+}
+
+.lead {
+    padding: 75px 170px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.homePageEntry {
+    padding: 0px 13%;
+}
+
+.homePageEntry p {
+    padding-left: 50px;
+}
+
+.first {
+    background: url('img/photo_working.png') no-repeat right top;
+    margin: 75px 0;
+}
+
+.second {
+    background: url('img/figure1.png') no-repeat right center;
+    padding: 75px 0;
+}
+
+.third {
+    padding: 75px 0;
+}
+
+.solutions .first {
+    background: url('img/figure3.png') no-repeat right center;
+    padding-left: 5%;
+}
+
+.solutions .second {
+    background: url('img/figure5.png') no-repeat left top;
+    padding-right: 5%;
+}
+
+.solutions .third {
+    padding-left: 5%;
+}
+
+.jobs .first {
+    background: url('img/figure4.png') no-repeat right center;
+    margin: 0;
+}
+
+.jobs .first h1, .jobs .first p {
+    padding-left: 5%;
+    color: #1B82E3;
+}
+
+.highlight {
+    background-color: #1B82E3;
+    height: 240px;
+    text-align: center;
+    padding: 65px 0px;
+    color: #fff;
+}
+
+.highlight-img-container {
+    text-align: center;
+    width:80%
+}
+
+.highlight-img {
+    margin: 20px;
+}
+
+.team {
+    background: #39414D url('img/figure2.png') no-repeat bottom left;
+    color: #C6C9CA;
+    padding: 50px 0px;
+}
+
+.job {
+    border-top: 1px solid #eee;
+    margin: 50px 0px;
+}
+
+.equal-opportunities {
+    background: #39414D;
+    color: #C6C9CA;
+    position: relative;
+}
+
+.equal-opportunities p {
+    font-size: 14px;
+}
+
+.equal-opportunities strong {
+    color: #fff;
+}
+
+.equal-opportunities .container {
+    padding: 50px 0;
+}
+
+.equal-opportunities img {
+    position: absolute;
+    margin-top: -37px;
+    right: 5%;
+}
+
+.article {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px rgba(27, 130, 227, .15);
+    padding: 20px 50px;
+}
+
+.article .date {
+    font-size: 14px;
+    color: #C6C9CA;
+}
+
+form {
+    -webkit-appearance: none;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #CDE0F2;
+    font-size: 14px;
+    margin: 10px 0px 20px;
+    width: 100%;
+}
+
+form label, form input {
+    display: block;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: bold;
+    color: #bb5b43;
+    margin-top: -20px;
+}
+
+#gotcha {
+    display: none;
+}
+
+#footer {
+    background-color: #282E37;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #6C7684;
+}
+
+#footer a {
+    color: #1B82E3;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#footer img {
+    margin: -2px 5px;
+}
