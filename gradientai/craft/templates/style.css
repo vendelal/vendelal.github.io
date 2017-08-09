@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Benton Sans Reg', sans-serif;
     background: #fff;
     margin: 0;
     color: #39414D;
@@ -236,9 +236,13 @@ h1 {
     margin: 0;
 }
 
-.jobs .first h1, .jobs .first p {
+.jobs .first h1 {
     padding-left: 5%;
     color: #1B82E3;
+}
+
+.jobs .first p {
+    padding-left: 5%;
 }
 
 .highlight {
