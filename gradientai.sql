@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
--- https://www.phpmyadmin.net/
+-- version 4.4.10
+-- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Aug 23, 2017 at 02:47 AM
--- Server version: 5.6.35
--- PHP Version: 7.0.15
+-- Generation Time: Aug 23, 2017 at 04:38 AM
+-- Server version: 5.5.42
+-- PHP Version: 5.6.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -34,9 +34,9 @@ CREATE TABLE `craft_assetfiles` (
   `folderId` int(11) NOT NULL,
   `filename` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `kind` varchar(50) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unknown',
-  `width` int(11) UNSIGNED DEFAULT NULL,
-  `height` int(11) UNSIGNED DEFAULT NULL,
-  `size` bigint(20) UNSIGNED DEFAULT NULL,
+  `width` int(11) unsigned DEFAULT NULL,
+  `height` int(11) unsigned DEFAULT NULL,
+  `size` bigint(20) unsigned DEFAULT NULL,
   `dateModified` datetime DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -91,7 +91,7 @@ CREATE TABLE `craft_assetsources` (
   `handle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `type` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `settings` text COLLATE utf8_unicode_ci,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `fieldLayoutId` int(10) DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -167,7 +167,7 @@ CREATE TABLE `craft_categorygroups` (
   `fieldLayoutId` int(11) DEFAULT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `handle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `hasUrls` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `hasUrls` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `template` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -205,36 +205,33 @@ CREATE TABLE `craft_content` (
   `field_body` text COLLATE utf8_unicode_ci,
   `field_headline` text COLLATE utf8_unicode_ci,
   `field_leadText` text COLLATE utf8_unicode_ci,
-  `field_aboutYou` text COLLATE utf8_unicode_ci,
-  `field_responsibilities` text COLLATE utf8_unicode_ci,
-  `field_youWill` text COLLATE utf8_unicode_ci,
-  `field_desiredSkills` text COLLATE utf8_unicode_ci,
+  `field_jobLink` text COLLATE utf8_unicode_ci,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_content`
 --
 
-INSERT INTO `craft_content` (`id`, `elementId`, `locale`, `title`, `field_body`, `field_headline`, `field_leadText`, `field_aboutYou`, `field_responsibilities`, `field_youWill`, `field_desiredSkills`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 1, 'en_us', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '840966b5-7645-4a3f-86cd-fbbd169bb6c9'),
-(2, 2, 'en_us', 'Outperform your peers.', '<p>A product-focused predictive analytics group within Milliman</p>', NULL, 'Insurance companies that efficiently leverage data outperform their peers. We work with large, real-world datasets, and apply advanced techniques spanning optimization, statistics, and artificial intelligence.', NULL, NULL, NULL, NULL, '2017-07-12 16:27:08', '2017-07-12 17:24:20', 'beb67c99-c54e-49ce-a651-4f6cd2f44c2a'),
-(3, 3, 'en_us', 'We just installed Craft!', '<p>Craft is the CMS that’s powering Localhost. It’s beautiful, powerful, flexible, and easy-to-use, and it’s made by Pixel &amp; Tonic. We can’t wait to dive in and see what it’s capable of!</p><!--pagebreak--><p>This is even more captivating content, which you couldn’t see on the News index page because it was entered after a Page Break, and the News index template only likes to show the content on the first page.</p><p>Craft: a nice alternative to Word, if you’re making a website.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'fb7d3854-b1b3-45c1-a01a-b9e64eb5bafd'),
-(4, 4, 'en_us', 'Power up your team', '<p>We use predictive data analytics to augment human intelligence. Give your team the right tools to uncover formerly hidden patterns underlying your large, structured and unstructured datasets.</p>\n<p>Our goal is to help your business exceed the most important goals by taking a deeper look into your data to provide more accurate insights. We work to improve your revenue and profitability by turning your most valuable asset (your employees) into your greatest competitive advantage.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 16:35:14', '2017-07-12 16:35:14', '19352d6e-3d2e-486e-bbea-56b15b97d69f'),
-(5, 5, 'en_us', 'Understand the present and adapt to the future', '<p>Patterns underlying big data are non-linear. Machine learning to uncover these patterns has been historically underutilized within the insurance industry. </p>\n<p>gradientA.I. has the solutions in place to deliver with uncompromising agility. Insurance companies that can effectively leverage the power of their data outperform their peers, our product offering allows our customers to know more sooner.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:21:16', '2017-07-12 17:21:16', '23999278-43fb-4e94-afd2-4893bf155dab'),
-(6, 6, 'en_us', 'Your experience and our technology', '<p>At gradientAI, we’re tackling some of the most challenging problems within the insurance and healthcare industry while leveraging advanced data analysis and machine intelligence. </p>\n<p><strong>You have the historical data and the deep understanding of the challenges. Our team will work with you to address these challenges using our product that prioritizes your needs.</strong><strong> </strong></p>\n<p>We strive to establish a true partnership to help you get the most out of our products and engineering expertise.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:22:09', '2017-07-12 17:22:09', '599b292b-ed80-4a8b-bc6c-d69a722d988f'),
-(7, 7, 'en_us', 'Our Team', '<p>Join us on our mission to solve the most challenging problems in the healthcare and insurance industry. At gradient A.I., talented and motivated successful startup veterans, software engineers, and data scientists representing the best schools in the country work together to deliver impactful products to our customers. </p>\n<p>We work with large, real-world datasets and advanced techniques spanning artificial intelligence, optimization and statistics. Our work has tangible impact: our solutions enable data driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals. </p>\n<p><strong>Come help us shape the future</strong></p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:22:39', '2017-07-12 17:22:39', 'f26766b0-07b3-4c23-9947-9276825f5ea5'),
-(8, 8, 'en_us', 'Workers’ Comp', '<p>The gradient A.I. solution is aimed at solving a broad range of business problems starting with early identification of “creeping catastrophic” claims. <strong>“Creeping CATs,” while typically a small percentage of all non-CAT claims, usually account for the majority of total losses.</strong> Companies following best practices tend to identify these larger loss claims miss the “window of suggestibility” that provides the adjuster with the greatest opportunity to positively influence claim outcome.</p>\n<p>Despite the drop in claim frequency the cost of claims in workers’ compensation is rising at rates similar to overall wage costs. In addition to this accelerating cost curve, frequency tends to pick up with an accelerating economy leading to even faster growth of costs.</p>\n<p>A growing number of companies are taking advantage of the gradient A.I.’s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration, as well as identifying the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim.</p>\n<p>With integrated reporting capabilities, which combine all claims data through both internal and external systems, our customers are provided with a comprehensive and accurate decision support platform.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:26:36', '2017-07-12 17:26:36', '2aa0dc49-b7b3-47a1-8964-3aa722290fde'),
-(9, 9, 'en_us', 'Underwriting', '<p>gradient A.I. uses the most advanced machine learning based analytics to combine our clients’data in tandem with big data from existing partnerships to provide improved risk selection and pricing.</p>\n<p><strong>A recent poll of 300+ insurance companies suggested that on average each company is utilizing approximately 15% of their internal data. Put simply, companies have a vast amount of data on hand but lack the necessary tools to take advantage of their existing data.</strong></p>\n<p>Our capabilities increase the power of internal data by efficiently pulling together all internal data, both structured and unstructured, with external “Big Data” to overcome the issue of “we don’t have enough data.” The proof is in providing more accurate pricing and better performingpolicies. The addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace.</p>\n<p>The gradient A.I. underwriting platform improves efficiency and reduces quote turnaround time, including automated decision-making support. Our learning based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:27:06', '2017-07-12 17:27:06', '501f0555-331f-4a56-bd93-fa45af71bd3d'),
-(10, 10, 'en_us', 'Data Warehouse', '<p>The gradient A.I. Data Warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems. The process uses AI to gather client data from multiple sources, deposit the data into the data warehouse and normalize the data in a single comprehensive data silo. This platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as Tableau or Power BI.<br /></p>\n<p><strong>The breakthrough from gradient A.I. comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine, the DCA (Digital Collection Agent), to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative.</strong><strong> </strong></p>\n<p>This approach allows data intake and management to be handled internally efficiently without adding extra steps in the process for our clients.</p>\n<p>The gradient A.I. Data Warehouse reduces time, cost and resources required for our clients while empowering them with powerful results that had been eluding them prior to having access to the gradient A.I. Data Warehouse.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 17:27:29', '2017-07-12 17:27:29', 'da47a1d1-d1e8-4a6b-b399-dc0486be0d26'),
-(11, 11, 'en_us', 'Jobs', NULL, 'Come work with us!', 'We are looking for motivated, critical and creative thinkers to contribute to our team as software engineers. You will use what you have learned in class and be able to apply it alongside a team of engineers representing the best schools in the area. You are comfortable thinking outside the box across projects and use-cases. You are able to hit the ground running, independent, fast learner, comfortable within fast-paced, unstructured environment.Don’t see your position listed? We are always looking for talented and amazing people to join our team, please email us at jobs@gradientai.com.', NULL, NULL, NULL, NULL, '2017-07-12 18:22:37', '2017-07-12 18:46:03', '96972691-cb51-47b2-958a-99254bc385ec'),
-(12, 12, 'en_us', 'Equal Opportunities', '<p>Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities</p>\n<p>The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information.</p>', NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 18:33:57', '2017-07-12 18:33:57', '86b98564-76f0-47a3-8944-3c362fcf1196'),
-(13, 13, 'en_us', 'Data Scientist', NULL, NULL, NULL, '<p><strong>About You</strong></p>\n<p>We are seeking talented data scientists to join our data modeling team. This position will help define how our products will evolve by working closely with engineers to rapidly prototype new features and complementary products, delivering our customers actionable intelligence from large data sets. The role involves research as well as software implementations of machine learning prototypes and experiments. Data Scientists are required to be able to understand user needs through interaction with client-facing staff, architect solutions and shepherd products through prototype phase. Requirements will be vague. Iterations will be rapid and we seek researchers who are nimble and willing to take smart risks. BS/MS to Ph.D levels available.</p>', '<p><strong>Responsibilities</strong></p>\n<p>You are equal parts researcher, information architect and hacker. You will communicate and collaborate with software engineers. You must enjoy developing creative solutions to difficult problems in an autonomous, startup environment with direct contact to top management and industry experts. You are passionate about innovating and enjoy independence to pursue designated goals.</p>', '<p><strong>You will:</strong></p>\n<p>- Mine and analyze data pertaining to discover critical business insights</p>\n<p>- Generate ideas for new products, from directing high-level concept formation to prototyping</p>\n<p>- Synthesize research data, turning data to actionable insights and specific model requirements </p>\n<p>- Quickly deploy out-of the-box solutions where possible, innovate when necessary </p>\n<p>- Stay current with advancements in machine learning and advocate for the appropriate application of those advancements in our own products </p>\n<p>- Work closely with engineers and production developers to ensure clear, effective communication within the team </p>\n<p>- Occasionally develop short, optimized pieces of code</p>', '<p><strong>Desired Skills</strong></p>\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:</p>\n<p>- Machine learning and/or statistics coursework </p>\n<p>- Familiarity with recent large-scale machine learning tools (e.g. TensorFlow, Torch, Spark, Hadoop) a plus, but not required.</p>\n<p>- Familiarity with a modern scripting language (like Python) </p>\n<p>- Database experience (SQL) a plus, but not required </p>\n<p>- Research oriented – you seek to understand model behavior, not just apply tools blindly </p>\n<p>- Able to adapt quickly, and draw from a range of tools as needed </p>\n<p>- Industry experience a plus</p>', '2017-07-12 18:38:54', '2017-07-12 18:38:54', 'efd4ded1-b803-4ad0-88b5-db6fbaa944b0'),
-(14, 14, 'en_us', 'Software Engineer', NULL, NULL, NULL, '<p><strong>About You</strong></p>\n<p>In this role, you will contribute towards building new functionality for our platform by applying what you know, learning new technologies and tools, and expanding your competence in multiple areas; you will contribute towards building and improving our current platform to help us fundamentally change the way an entire industry works.</p>', '<p><strong>Responsibilities</strong></p>\n<p>You’ll contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI/analytics. </p>', '<p><strong>You will:</strong></p>\n<p>- Assist Integration of predictive models into database-backed environments, real-time query APIs, and existing modeling pipelines, considering computational and other constraints.</p>\n<p>- Contribute to significant strategic projects focused on enhancements to core tooling, automation, scalability, and broad statistical machine learning capabilities.</p>\n<p>- Collaborate with other team members, including machine learning researchers, database engineers and project managers, to design, generalize, optimize and implement predictive models and research.</p>', '<p><strong>Desired Skills</strong></p>\n<p>The nature of your work calls for a unique mixture of skills. What is most important is that you are exceptional in what you do know, and have the desire and ability to learn new things quickly and build on your current set of skills.</p>\n<p><strong>Required qualifications</strong></p>\n<p>- Currently pursuing a BS level or higher in CS or have an applicable background.</p>\n<p>- Fluency in modern scripting languages, ideally Python.</p>\n<p>- Experience with predictive analytics, algorithms, or machine learning, and at least one supporting technology stack (e.g., Spark, TensorFlow, sklearn).</p>\n<p>- Ability to pay close attention to detail.</p>', '2017-07-12 18:40:21', '2017-07-12 18:40:21', '16b2fbbd-7d38-48e7-9fc4-97014fb53915'),
-(15, 15, 'en_us', 'Senior Software Engineer', NULL, NULL, NULL, '<p><strong>About You</strong></p>\n<p>In this role, we are looking for someone who not only can contribute at a high level to make the best products for our clients. You will be given the freedom to maximize the potential of our existing products as well as create new features for our clients. You will be challenged and you will shape this business, and by extension, the way the industries we serve leverage data and predictive analytics. You will expand your competence and explore new technologies at the intersection of machine learning, engineering, and product delivery.</p>', '<p><strong>Responsibilities</strong></p>\n<p>You and your team will contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI/analytics. </p>', '<p><strong>You will:</strong></p>\n<p>- Design, own and lead significant strategic projects focused on enhancements to core model tooling, automation, and scalability.</p>\n<p>- Build on our current vision and roadmap around platform strategy.</p>\n<p>- Scale and optimize existing pipelines, and advance process repeatability.</p>\n<p>- Collaborate with the research team members to translate research into practice.</p>\n<p>- Engineer effective systems to deploy products in a robust and scalable environment.</p>\n<p>- Design and build systems for end-to-end high throughput data handling, and integrate predictive models into database-backed environments, client-facing APIs, and existing modeling pipelines.</p>', '<p><strong>Desired Skills</strong></p>\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:</p>\n<p>- BS/MS/PhD in CS, or equivalent experience and self-education.</p>\n<p>- Minimum of 5 years of experience in software engineering.</p>\n<p>- Experience as a software architect/lead architect.</p>\n<p>- Experience with predictive analytics, algorithms, or machine learning, and supporting stacks (e.g. Spark MLlib, TensorFlow, scikit-learn).</p>\n<p>- A working knowledge of SQL, and/or experience with non-relational/alternative databases.</p>\n<p>- Experience with a cloud-computing environment (e.g. Amazon EC2).</p>\n<p>- Experience with distributed computing frameworks (e.g. Apache Spark).<br /></p>', '2017-07-12 18:44:35', '2017-07-12 18:44:35', '19aca2b0-c45b-4565-9a4a-148b05af5170'),
-(16, 16, 'en_us', 'Solutions', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2017-07-12 20:39:34', '2017-07-12 20:39:34', '8b8816d0-540d-4325-bef1-bdcbae123786');
+INSERT INTO `craft_content` (`id`, `elementId`, `locale`, `title`, `field_body`, `field_headline`, `field_leadText`, `field_jobLink`, `dateCreated`, `dateUpdated`, `uid`) VALUES
+(1, 1, 'en_us', NULL, NULL, NULL, NULL, NULL, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '840966b5-7645-4a3f-86cd-fbbd169bb6c9'),
+(2, 2, 'en_us', 'Outperform your peers.', '<p>A product-focused predictive analytics group within Milliman</p>', NULL, 'Insurance companies that efficiently leverage data outperform their peers. We work with large, real-world datasets, and apply advanced techniques spanning optimization, statistics, and artificial intelligence.', NULL, '2017-07-12 16:27:08', '2017-07-12 17:24:20', 'beb67c99-c54e-49ce-a651-4f6cd2f44c2a'),
+(3, 3, 'en_us', 'We just installed Craft!', '<p>Craft is the CMS that’s powering Localhost. It’s beautiful, powerful, flexible, and easy-to-use, and it’s made by Pixel &amp; Tonic. We can’t wait to dive in and see what it’s capable of!</p><!--pagebreak--><p>This is even more captivating content, which you couldn’t see on the News index page because it was entered after a Page Break, and the News index template only likes to show the content on the first page.</p><p>Craft: a nice alternative to Word, if you’re making a website.</p>', NULL, NULL, NULL, '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'fb7d3854-b1b3-45c1-a01a-b9e64eb5bafd'),
+(4, 4, 'en_us', 'Power up your team', '<p>We use predictive data analytics to augment human intelligence. Give your team the right tools to uncover formerly hidden patterns underlying your large, structured, and unstructured datasets.  </p>\n<p>Our goal is to help your business exceed its most important goals by taking a deeper look into your data to provide more accurate insights. We work to improve your revenue and profitability by turning your most valuable asset--your employees-- into your greatest competitive advantage.</p>', NULL, NULL, NULL, '2017-07-12 16:35:14', '2017-08-23 01:51:27', '19352d6e-3d2e-486e-bbea-56b15b97d69f'),
+(5, 5, 'en_us', 'Understand the present and adapt to the future', '<p>Patterns underlying big data are non-linear. Machine learning to uncover these patterns has been historically underutilized within the insurance industry. gradient A.I. has the solutions in place to deliver with uncompromising agility. </p>\n<p>Insurance companies that can effectively leverage the power of their data outperform their peers. Our product offering allows our customers to know more sooner.</p>', NULL, NULL, NULL, '2017-07-12 17:21:16', '2017-08-23 01:51:37', '23999278-43fb-4e94-afd2-4893bf155dab'),
+(6, 6, 'en_us', 'Your experience and our technology', '<p>At gradient A.I., we’re tackling some of the most challenging problems within the insurance and healthcare industries while leveraging advanced data analysis and machine intelligence. </p>\n<p><strong>You have the historical data and the deep understanding of the challenges. Our team will work with you to address these challenges using our product that prioritizes your needs. </strong></p>\n<p>We strive to establish a true partnership to help you get the most out of our products and engineering expertise. </p>', NULL, NULL, NULL, '2017-07-12 17:22:09', '2017-08-23 01:51:50', '599b292b-ed80-4a8b-bc6c-d69a722d988f'),
+(7, 7, 'en_us', 'Our Team', '<p>Join us on our mission to solve the most challenging problems in the healthcare and insurance industries. At gradient A.I., talented and motivated successful startup veterans, software engineers, and data scientists representing the best schools in the country work together to deliver superior products to our customers. </p>\n<p>We work with large, real-world datasets and advanced techniques spanning artificial intelligence, optimization, and statistics. Our work has a tangible impact: our solutions enable data-driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals. Come help us shape the future.</p>\n<p><strong>Come help us shape the future</strong></p><p></p>', NULL, NULL, NULL, '2017-07-12 17:22:39', '2017-08-23 01:52:07', 'f26766b0-07b3-4c23-9947-9276825f5ea5'),
+(8, 8, 'en_us', 'Workers’ Comp', '<p>The gradient A.I. solution is aimed at solving a broad range of business problems starting with early identification of “creeping catastrophic” claims. <strong>“Creeping CATs,” while typically a small percentage of all non-CAT claims, usually account for the majority of total losses</strong>. Companies following best practices that tend to identify these larger loss claims miss the “window of suggestibility” that provides the adjuster with the greatest opportunity to positively influence claim outcomes.</p>\n<p>Despite the drop in claim frequency, the cost of claims in workers’ compensation is rising at rates similar to overall wage costs. In addition to this accelerating cost curve, frequency tends to pick up with an accelerating economy, leading to even faster growth of costs.</p>\n<p>A growing number of companies are taking advantage of gradient A.I.’s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration as well as identify the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim.</p>\n<p>With integrated reporting capabilities, which combine all claims data through both internal and external systems, our customers receive a comprehensive and accurate decision support platform.</p>', NULL, NULL, NULL, '2017-07-12 17:26:36', '2017-08-23 01:49:58', '2aa0dc49-b7b3-47a1-8964-3aa722290fde'),
+(9, 9, 'en_us', 'Underwriting', '<p>gradient A.I. uses the most advanced machine learning-based analytics to combine our clients’ data in tandem with big data from existing partnerships to provide improved risk selection and pricing.</p>\n<p><strong>A recent poll of over 300 insurance companies suggested that, on average, each company is utilizing approximately 15% of its internal data. Put simply, companies have a vast amount of data on hand, but lack the necessary tools to take advantage of their existing data.</strong></p>\n<p>Our capabilities increase the power of internal data by efficiently pulling together all internal data, both structured and unstructured, with external “big data” to overcome the issue of “we don’t have enough data.” The proof is in providing more accurate pricing and better performing policies. The addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace.</p>\n<p>The gradient A.I. underwriting platform improves efficiency and reduces quote turnaround time, including automated decision-making support. Our learning-based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches.</p>', NULL, NULL, NULL, '2017-07-12 17:27:06', '2017-08-23 01:50:24', '501f0555-331f-4a56-bd93-fa45af71bd3d'),
+(10, 10, 'en_us', 'Data Warehouse', '<p>The gradient A.I. data warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems. The process uses AI to gather client data from multiple sources, deposit the data into the data warehouse, and normalize the data in a single comprehensive data silo. This platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as Tableau or Power BI.</p>\n<p><strong>The breakthrough from gradient A.I. comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine, the Digital Collection Agent (DCA), to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative. This approach allows data intake and management to be handled internally and efficiently without adding extra steps in the process for our clients.</strong><strong> </strong></p>\n<p>The gradient A.I. data warehouse reduces time, costs, and resources required for our clients while empowering them with powerful results that were eluding them prior to having access to the gradient A.I. data warehouse.</p>', NULL, NULL, NULL, '2017-07-12 17:27:29', '2017-08-23 01:50:59', 'da47a1d1-d1e8-4a6b-b399-dc0486be0d26'),
+(11, 11, 'en_us', 'Jobs', NULL, 'Come work with us!', '<p>At gradient A.I., we pride ourselves on creating the best culture for success. As a member of the team, you will work alongside some of the brightest minds in the industry with the shared goal of changing the way the insurance industry operates. We value people who thrive in an independent work environment and can deliver out of the box solutions to complex problems. </p>\n<p><strong>At gradient A.I., you will be given the resources to succeed from day 1.</strong></p>\n<p>If this sounds like the right place to you, jump through one of the links below. If you don’t see anything related to you but feel like you can contribute, we are always looking for talented individuals to join the team. Just email <strong>hello@gradientai.com</strong></p>', NULL, '2017-07-12 18:22:37', '2017-08-23 02:35:41', '96972691-cb51-47b2-958a-99254bc385ec'),
+(12, 12, 'en_us', 'Equal Opportunities', '<p>Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities</p>\n<p>The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information.</p>', NULL, NULL, NULL, '2017-07-12 18:33:57', '2017-07-12 18:33:57', '86b98564-76f0-47a3-8944-3c362fcf1196'),
+(13, 13, 'en_us', 'Data Scientist', NULL, NULL, NULL, 'https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/OpportunityDetail?opportunityId=d12def57-a3ab-4b8d-b627-5ced74183e6d', '2017-07-12 18:38:54', '2017-08-23 01:31:19', 'efd4ded1-b803-4ad0-88b5-db6fbaa944b0'),
+(14, 14, 'en_us', 'Software Engineer', NULL, NULL, NULL, 'https://www.indeed.com/viewjob?jk=059ab74a6ca61013&q=Milliman&l=cambridge&tk=1blb0ohsr0kcj3c8&from=web', '2017-07-12 18:40:21', '2017-08-23 01:31:42', '16b2fbbd-7d38-48e7-9fc4-97014fb53915'),
+(15, 15, 'en_us', 'Senior Software Engineer', NULL, NULL, NULL, 'https://recruiting2.ultipro.com/MIL1017/JobBoard/f54234e9-dfde-b183-fd20-4fbdb19cba7a/OpportunityDetail?opportunityId=25e8a4a8-6448-4293-b8e1-e0490bf655a3', '2017-07-12 18:44:35', '2017-08-23 01:31:57', '19aca2b0-c45b-4565-9a4a-148b05af5170'),
+(16, 16, 'en_us', 'Solutions', NULL, NULL, NULL, NULL, '2017-07-12 20:39:34', '2017-07-12 20:39:34', '8b8816d0-540d-4325-bef1-bdcbae123786');
 
 -- --------------------------------------------------------
 
@@ -248,11 +245,11 @@ CREATE TABLE `craft_deprecationerrors` (
   `fingerprint` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `lastOccurrence` datetime NOT NULL,
   `file` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `line` smallint(6) UNSIGNED NOT NULL,
+  `line` smallint(6) unsigned NOT NULL,
   `class` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `method` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `template` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `templateLine` smallint(6) UNSIGNED DEFAULT NULL,
+  `templateLine` smallint(6) unsigned DEFAULT NULL,
   `message` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `traces` text COLLATE utf8_unicode_ci,
   `dateCreated` datetime NOT NULL,
@@ -284,12 +281,12 @@ CREATE TABLE `craft_elementindexsettings` (
 CREATE TABLE `craft_elements` (
   `id` int(11) NOT NULL,
   `type` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
-  `enabled` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
-  `archived` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `enabled` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `archived` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_elements`
@@ -299,18 +296,18 @@ INSERT INTO `craft_elements` (`id`, `type`, `enabled`, `archived`, `dateCreated`
 (1, 'User', 1, 0, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '3f708361-fee2-4222-af58-4c37d87b31ee'),
 (2, 'Entry', 1, 0, '2017-07-12 16:27:08', '2017-07-12 17:24:20', '5e00fa16-5bf9-4b0f-b553-8b70961fbe4a'),
 (3, 'Entry', 1, 0, '2017-07-12 16:27:08', '2017-07-12 16:27:08', '9110df68-52ab-45ff-b919-456173efa366'),
-(4, 'Entry', 1, 0, '2017-07-12 16:35:14', '2017-07-12 16:35:14', '6bbef77f-10a2-43f2-b898-49fb7d61b835'),
-(5, 'Entry', 1, 0, '2017-07-12 17:21:16', '2017-07-12 17:21:16', '8ba61521-48ac-4941-a40a-4fc394219b38'),
-(6, 'Entry', 1, 0, '2017-07-12 17:22:09', '2017-07-12 17:22:09', 'cc1fe34a-5c2e-4ed1-9500-931399ba20a1'),
-(7, 'Entry', 1, 0, '2017-07-12 17:22:39', '2017-07-12 17:22:39', 'e5e4bcf1-3f52-4d57-bd71-bc69fab4ec4a'),
-(8, 'Entry', 1, 0, '2017-07-12 17:26:36', '2017-07-12 17:26:36', 'a29dc90a-00b0-46b9-917b-af195f96b5f3'),
-(9, 'Entry', 1, 0, '2017-07-12 17:27:06', '2017-07-12 17:27:06', '0b534d96-223b-40be-8a8e-cbe1bc52ba43'),
-(10, 'Entry', 1, 0, '2017-07-12 17:27:29', '2017-07-12 17:27:29', '3b567786-761f-49e2-b9b7-a40bd2ee783e'),
-(11, 'Entry', 1, 0, '2017-07-12 18:22:37', '2017-07-12 18:46:03', 'b2d09e11-7e97-4152-ab32-017d76a7b894'),
+(4, 'Entry', 1, 0, '2017-07-12 16:35:14', '2017-08-23 01:51:27', '6bbef77f-10a2-43f2-b898-49fb7d61b835'),
+(5, 'Entry', 1, 0, '2017-07-12 17:21:16', '2017-08-23 01:51:37', '8ba61521-48ac-4941-a40a-4fc394219b38'),
+(6, 'Entry', 1, 0, '2017-07-12 17:22:09', '2017-08-23 01:51:50', 'cc1fe34a-5c2e-4ed1-9500-931399ba20a1'),
+(7, 'Entry', 1, 0, '2017-07-12 17:22:39', '2017-08-23 01:52:07', 'e5e4bcf1-3f52-4d57-bd71-bc69fab4ec4a'),
+(8, 'Entry', 1, 0, '2017-07-12 17:26:36', '2017-08-23 01:49:58', 'a29dc90a-00b0-46b9-917b-af195f96b5f3'),
+(9, 'Entry', 1, 0, '2017-07-12 17:27:06', '2017-08-23 01:50:24', '0b534d96-223b-40be-8a8e-cbe1bc52ba43'),
+(10, 'Entry', 1, 0, '2017-07-12 17:27:29', '2017-08-23 01:50:59', '3b567786-761f-49e2-b9b7-a40bd2ee783e'),
+(11, 'Entry', 1, 0, '2017-07-12 18:22:37', '2017-08-23 02:35:41', 'b2d09e11-7e97-4152-ab32-017d76a7b894'),
 (12, 'Entry', 1, 0, '2017-07-12 18:33:57', '2017-07-12 18:33:57', '1042770d-1079-47d5-883a-dd0b485a7438'),
-(13, 'Entry', 1, 0, '2017-07-12 18:38:54', '2017-07-12 18:38:54', '312980c6-f088-4274-80da-16aa8ee37f5c'),
-(14, 'Entry', 1, 0, '2017-07-12 18:40:21', '2017-07-12 18:40:21', '2f14af3d-a2fa-42f0-a067-5d13a2b95d93'),
-(15, 'Entry', 1, 0, '2017-07-12 18:44:35', '2017-07-12 18:44:35', 'a655aea7-de46-4e64-aa50-ebeb98047e95'),
+(13, 'Entry', 1, 0, '2017-07-12 18:38:54', '2017-08-23 01:31:19', '312980c6-f088-4274-80da-16aa8ee37f5c'),
+(14, 'Entry', 1, 0, '2017-07-12 18:40:21', '2017-08-23 01:31:42', '2f14af3d-a2fa-42f0-a067-5d13a2b95d93'),
+(15, 'Entry', 1, 0, '2017-07-12 18:44:35', '2017-08-23 01:31:57', 'a655aea7-de46-4e64-aa50-ebeb98047e95'),
 (16, 'Entry', 1, 0, '2017-07-12 20:39:34', '2017-07-12 20:39:34', '968331f2-c9d4-46ef-907c-4af4fc8946e6');
 
 -- --------------------------------------------------------
@@ -325,11 +322,11 @@ CREATE TABLE `craft_elements_i18n` (
   `locale` char(12) COLLATE utf8_unicode_ci NOT NULL,
   `slug` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `uri` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `enabled` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `enabled` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_elements_i18n`
@@ -339,18 +336,18 @@ INSERT INTO `craft_elements_i18n` (`id`, `elementId`, `locale`, `slug`, `uri`, `
 (1, 1, 'en_us', '', NULL, 1, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '71528634-e886-49cd-8812-d85012cc7e97'),
 (2, 2, 'en_us', 'homepage', '__home__', 1, '2017-07-12 16:27:08', '2017-07-12 17:24:20', 'b29adb2f-191e-4f9c-8f41-0ae7cd8bb5ef'),
 (3, 3, 'en_us', 'we-just-installed-craft', 'news/2017/we-just-installed-craft', 1, '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'cc7dfc9c-a9a2-4ec6-9d0e-28fe150e1931'),
-(4, 4, 'en_us', 'power-up-your-team', NULL, 1, '2017-07-12 16:35:14', '2017-07-12 16:35:14', 'd016aa40-b319-467d-8f4b-d88b3837700c'),
-(5, 5, 'en_us', 'understand-the-present-and-adapt-to-the-future', NULL, 1, '2017-07-12 17:21:16', '2017-07-12 17:21:17', 'b4506082-14e4-43bb-8da2-0fde1c4fe3b2'),
-(6, 6, 'en_us', 'your-experience-and-our-technology', NULL, 1, '2017-07-12 17:22:09', '2017-07-12 17:22:09', '45ca22cc-89e4-4ed0-9df6-a285cb646c94'),
-(7, 7, 'en_us', 'our-team', NULL, 1, '2017-07-12 17:22:39', '2017-07-12 17:22:39', 'e62336c9-887f-4737-8849-75a6a29f9fa3'),
-(8, 8, 'en_us', 'workers-comp', NULL, 1, '2017-07-12 17:26:36', '2017-07-12 17:26:36', 'c6cde344-f9c1-4d0b-9a53-51b8c20155eb'),
-(9, 9, 'en_us', 'underwriting', NULL, 1, '2017-07-12 17:27:06', '2017-07-12 17:27:06', '7a744b56-8d04-4bb9-9dad-5be04a2fe8a5'),
-(10, 10, 'en_us', 'data-warehouse', NULL, 1, '2017-07-12 17:27:29', '2017-07-12 17:27:29', '69198884-9796-493c-818a-08e0752711c3'),
-(11, 11, 'en_us', 'jobs', 'jobs', 1, '2017-07-12 18:22:37', '2017-07-12 18:46:04', '5dffc7c9-6f25-4600-93dc-f26cb47cfaf8'),
+(4, 4, 'en_us', 'power-up-your-team', NULL, 1, '2017-07-12 16:35:14', '2017-08-23 01:51:27', 'd016aa40-b319-467d-8f4b-d88b3837700c'),
+(5, 5, 'en_us', 'understand-the-present-and-adapt-to-the-future', NULL, 1, '2017-07-12 17:21:16', '2017-08-23 01:51:37', 'b4506082-14e4-43bb-8da2-0fde1c4fe3b2'),
+(6, 6, 'en_us', 'your-experience-and-our-technology', NULL, 1, '2017-07-12 17:22:09', '2017-08-23 01:51:50', '45ca22cc-89e4-4ed0-9df6-a285cb646c94'),
+(7, 7, 'en_us', 'our-team', NULL, 1, '2017-07-12 17:22:39', '2017-08-23 01:52:07', 'e62336c9-887f-4737-8849-75a6a29f9fa3'),
+(8, 8, 'en_us', 'workers-comp', NULL, 1, '2017-07-12 17:26:36', '2017-08-23 01:49:59', 'c6cde344-f9c1-4d0b-9a53-51b8c20155eb'),
+(9, 9, 'en_us', 'underwriting', NULL, 1, '2017-07-12 17:27:06', '2017-08-23 01:50:24', '7a744b56-8d04-4bb9-9dad-5be04a2fe8a5'),
+(10, 10, 'en_us', 'data-warehouse', NULL, 1, '2017-07-12 17:27:29', '2017-08-23 01:50:59', '69198884-9796-493c-818a-08e0752711c3'),
+(11, 11, 'en_us', 'jobs', 'jobs', 1, '2017-07-12 18:22:37', '2017-08-23 02:35:41', '5dffc7c9-6f25-4600-93dc-f26cb47cfaf8'),
 (12, 12, 'en_us', 'equal-opportunities', 'job-postings/equal-opportunities', 1, '2017-07-12 18:33:57', '2017-07-12 18:33:57', '4e80098a-0c87-4c0e-9d79-a9f797c87e77'),
-(13, 13, 'en_us', 'data-scientist', 'job-postings/data-scientist', 1, '2017-07-12 18:38:54', '2017-07-12 18:38:54', 'aa911457-81e8-487e-bd56-df54c8f1fde6'),
-(14, 14, 'en_us', 'software-engineer', 'job-postings/software-engineer', 1, '2017-07-12 18:40:21', '2017-07-12 18:40:35', 'a1c943f3-f4aa-4031-b587-7bbc085af8b9'),
-(15, 15, 'en_us', 'senior-software-engineer', 'job-postings/senior-software-engineer', 1, '2017-07-12 18:44:35', '2017-07-12 18:44:40', 'c0298cd2-d287-42b0-94ee-8b59aded75c0'),
+(13, 13, 'en_us', 'data-scientist', 'job-postings/data-scientist', 1, '2017-07-12 18:38:54', '2017-08-23 01:31:19', 'aa911457-81e8-487e-bd56-df54c8f1fde6'),
+(14, 14, 'en_us', 'software-engineer', 'job-postings/software-engineer', 1, '2017-07-12 18:40:21', '2017-08-23 01:31:42', 'a1c943f3-f4aa-4031-b587-7bbc085af8b9'),
+(15, 15, 'en_us', 'senior-software-engineer', 'job-postings/senior-software-engineer', 1, '2017-07-12 18:44:35', '2017-08-23 01:31:57', 'c0298cd2-d287-42b0-94ee-8b59aded75c0'),
 (16, 16, 'en_us', 'solutions', 'solutions', 1, '2017-07-12 20:39:34', '2017-07-12 20:39:34', '0b02fb5b-e8a5-48c2-af01-aa7f51c16179');
 
 -- --------------------------------------------------------
@@ -395,18 +392,18 @@ CREATE TABLE `craft_entries` (
 INSERT INTO `craft_entries` (`id`, `sectionId`, `typeId`, `authorId`, `postDate`, `expiryDate`, `dateCreated`, `dateUpdated`, `uid`) VALUES
 (2, 1, NULL, NULL, '2017-07-12 16:27:08', NULL, '2017-07-12 16:27:08', '2017-07-12 17:24:20', '493f0782-6d2c-4d31-98a2-5734ee7781f2'),
 (3, 2, 2, 1, '2017-07-12 16:27:08', NULL, '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'e53e50a7-1faf-4063-8a89-e66949e6be1d'),
-(4, 3, 4, 1, '2017-07-12 16:35:14', NULL, '2017-07-12 16:35:14', '2017-07-12 16:35:14', '8a838715-c2ce-4b20-8855-feed7bcbd02c'),
-(5, 3, 4, 1, '2017-07-12 17:21:16', NULL, '2017-07-12 17:21:16', '2017-07-12 17:21:16', '6c454a20-e650-4155-a649-6380e953d119'),
-(6, 3, 4, 1, '2017-07-12 17:22:09', NULL, '2017-07-12 17:22:09', '2017-07-12 17:22:09', '53784ff4-550d-413b-a49a-b32ee0eeffaa'),
-(7, 3, 4, 1, '2017-07-12 17:22:39', NULL, '2017-07-12 17:22:39', '2017-07-12 17:22:39', 'f3869dc3-6bd4-4c7a-851b-3afde19948de'),
-(8, 5, 6, 1, '2017-07-12 17:26:36', NULL, '2017-07-12 17:26:36', '2017-07-12 17:26:36', 'f7ade025-6f0f-472c-8b2c-7daaa5c3584a'),
-(9, 5, 6, 1, '2017-07-12 17:27:06', NULL, '2017-07-12 17:27:06', '2017-07-12 17:27:06', '1a21d5e1-8626-44a5-af41-e71f561fa9bf'),
-(10, 5, 6, 1, '2017-07-12 17:27:29', NULL, '2017-07-12 17:27:29', '2017-07-12 17:27:29', 'd59da824-a5b1-47ae-a344-5248bc649a12'),
-(11, 6, 7, NULL, '2017-07-12 18:34:58', NULL, '2017-07-12 18:22:37', '2017-07-12 18:46:04', '9d63f9bb-14f4-4ca8-a282-4967db8955b1'),
+(4, 3, 4, 1, '2017-07-12 16:35:00', NULL, '2017-07-12 16:35:14', '2017-08-23 01:51:27', '8a838715-c2ce-4b20-8855-feed7bcbd02c'),
+(5, 3, 4, 1, '2017-07-12 17:21:00', NULL, '2017-07-12 17:21:16', '2017-08-23 01:51:37', '6c454a20-e650-4155-a649-6380e953d119'),
+(6, 3, 4, 1, '2017-07-12 17:22:00', NULL, '2017-07-12 17:22:09', '2017-08-23 01:51:50', '53784ff4-550d-413b-a49a-b32ee0eeffaa'),
+(7, 3, 4, 1, '2017-07-12 17:22:00', NULL, '2017-07-12 17:22:39', '2017-08-23 01:52:07', 'f3869dc3-6bd4-4c7a-851b-3afde19948de'),
+(8, 5, 6, 1, '2017-07-12 17:26:00', NULL, '2017-07-12 17:26:36', '2017-08-23 01:49:59', 'f7ade025-6f0f-472c-8b2c-7daaa5c3584a'),
+(9, 5, 6, 1, '2017-07-12 17:27:00', NULL, '2017-07-12 17:27:06', '2017-08-23 01:50:24', '1a21d5e1-8626-44a5-af41-e71f561fa9bf'),
+(10, 5, 6, 1, '2017-07-12 17:27:00', NULL, '2017-07-12 17:27:29', '2017-08-23 01:50:59', 'd59da824-a5b1-47ae-a344-5248bc649a12'),
+(11, 6, 7, NULL, '2017-07-12 18:34:58', NULL, '2017-07-12 18:22:37', '2017-08-23 02:35:41', '9d63f9bb-14f4-4ca8-a282-4967db8955b1'),
 (12, 7, 9, 1, '2017-07-12 18:33:57', NULL, '2017-07-12 18:33:57', '2017-07-12 18:33:57', 'daf364cd-a894-443d-a503-31ac4d5c3f91'),
-(13, 7, 8, 1, '2017-07-12 18:38:54', NULL, '2017-07-12 18:38:54', '2017-07-12 18:38:54', 'c830fe78-4de0-4640-aeb0-0fb9208834e1'),
-(14, 7, 8, 1, '2017-07-12 18:40:21', NULL, '2017-07-12 18:40:21', '2017-07-12 18:40:21', '3665b2d1-c978-4b7b-bb1e-139c65c57465'),
-(15, 7, 8, 1, '2017-07-12 18:44:35', NULL, '2017-07-12 18:44:35', '2017-07-12 18:44:35', '2a71f3bf-4bae-494e-b98b-7da0f74a08d3'),
+(13, 7, 8, 1, '2017-07-12 18:38:00', NULL, '2017-07-12 18:38:54', '2017-08-23 01:31:19', 'c830fe78-4de0-4640-aeb0-0fb9208834e1'),
+(14, 7, 8, 1, '2017-07-12 18:40:00', NULL, '2017-07-12 18:40:21', '2017-08-23 01:31:42', '3665b2d1-c978-4b7b-bb1e-139c65c57465'),
+(15, 7, 8, 1, '2017-07-12 18:44:00', NULL, '2017-07-12 18:44:35', '2017-08-23 01:31:57', '2a71f3bf-4bae-494e-b98b-7da0f74a08d3'),
 (16, 4, NULL, NULL, '2017-07-12 20:39:33', NULL, '2017-07-12 20:39:34', '2017-07-12 20:39:34', 'b56641c2-0073-467d-9b22-8fb5d4d03365');
 
 -- --------------------------------------------------------
@@ -441,14 +438,14 @@ CREATE TABLE `craft_entrytypes` (
   `fieldLayoutId` int(11) DEFAULT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `handle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `hasTitleField` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `hasTitleField` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `titleLabel` varchar(255) COLLATE utf8_unicode_ci DEFAULT 'Title',
   `titleFormat` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_entrytypes`
@@ -461,7 +458,7 @@ INSERT INTO `craft_entrytypes` (`id`, `sectionId`, `fieldLayoutId`, `name`, `han
 (5, 4, 9, 'Solutions', 'solutions', 1, 'Title', NULL, 1, '2017-07-12 17:24:54', '2017-07-12 17:24:54', '6f132774-8694-4b0a-93b6-6fc23d06d749'),
 (6, 5, 11, 'Solutions Content', 'solutionsContent', 1, 'Title', NULL, 1, '2017-07-12 17:25:10', '2017-07-12 17:25:53', 'f3712957-a7ce-401f-8692-0b0581722f5e'),
 (7, 6, 15, 'Jobs', 'jobs', 1, 'Title', NULL, 1, '2017-07-12 18:22:18', '2017-07-12 18:24:47', 'def87610-0396-46b5-b775-36faa5972b09'),
-(8, 7, 14, 'Job Postings', 'jobPostings', 1, 'Title', NULL, 1, '2017-07-12 18:22:56', '2017-07-12 18:23:25', '331c6176-1e27-4226-86af-01ee04dbe1e4'),
+(8, 7, 18, 'Job Postings', 'jobPostings', 1, 'Title', NULL, 1, '2017-07-12 18:22:56', '2017-08-23 01:29:09', '331c6176-1e27-4226-86af-01ee04dbe1e4'),
 (9, 7, 16, 'Equal Opportunities', 'equalOpportunities', 1, 'Title', NULL, 2, '2017-07-12 18:25:12', '2017-07-12 18:25:12', 'e3abe8c6-82b4-4cf2-8274-56c4f918c614');
 
 -- --------------------------------------------------------
@@ -476,38 +473,50 @@ CREATE TABLE `craft_entryversions` (
   `sectionId` int(11) NOT NULL,
   `creatorId` int(11) DEFAULT NULL,
   `locale` char(12) COLLATE utf8_unicode_ci NOT NULL,
-  `num` smallint(6) UNSIGNED NOT NULL,
+  `num` smallint(6) unsigned NOT NULL,
   `notes` tinytext COLLATE utf8_unicode_ci,
   `data` mediumtext COLLATE utf8_unicode_ci NOT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_entryversions`
 --
 
 INSERT INTO `craft_entryversions` (`id`, `entryId`, `sectionId`, `creatorId`, `locale`, `num`, `notes`, `data`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 2, 1, 1, 'en_us', 1, NULL, '{\"typeId\":\"1\",\"authorId\":null,\"title\":\"Homepage\",\"slug\":\"homepage\",\"postDate\":1499876828,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":[]}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '92647ef5-c9e7-4969-8ed5-7b7747452062'),
-(2, 2, 1, 1, 'en_us', 2, NULL, '{\"typeId\":null,\"authorId\":null,\"title\":\"Welcome to Localhost!\",\"slug\":\"homepage\",\"postDate\":1499876828,\"expiryDate\":null,\"enabled\":\"1\",\"parentId\":null,\"fields\":{\"1\":\"<p>It\\u2019s true, this site doesn\\u2019t have a whole lot of content yet, but don\\u2019t worry. Our web developers have just installed the CMS, and they\\u2019re setting things up for the content editors this very moment. Soon Localhost will be an oasis of fresh perspectives, sharp analyses, and astute opinions that will keep you coming back again and again.<\\/p>\"}}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '21889add-f13c-4fd1-871a-5572341099d2'),
-(3, 3, 2, 1, 'en_us', 1, NULL, '{\"typeId\":\"2\",\"authorId\":\"1\",\"title\":\"We just installed Craft!\",\"slug\":\"we-just-installed-craft\",\"postDate\":1499876828,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":[]}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'a0dbace3-e23d-4a27-bdba-f99588269264'),
-(4, 4, 3, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Power up your team\",\"slug\":\"power-up-your-team\",\"postDate\":1499877314,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"1\":\"<p>We use predictive data analytics to augment human intelligence. Give your team the right tools to uncover formerly hidden patterns underlying your large, structured and unstructured datasets.<\\/p>\\r\\n<p>Our goal is to help your business exceed the most important goals by taking a deeper look into your data to provide more accurate insights. We work to improve your revenue and profitability by turning your most valuable asset (your employees) into your greatest competitive advantage.<\\/p>\"}}', '2017-07-12 16:35:14', '2017-07-12 16:35:14', 'dd092e99-641b-4b19-85f6-e3f1e648fed6'),
-(5, 5, 3, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Understand the present and adapt to the future\",\"slug\":\"understand-the-present-and-adapt-to-the-future\",\"postDate\":1499880076,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"1\":\"<p>Patterns underlying big data are non-linear. Machine learning to uncover these patterns has been historically underutilized within the insurance industry.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p>gradientA.I. has the solutions in place to deliver with uncompromising agility. Insurance companies that can effectively leverage the power of their data outperform their peers, our product offering allows our customers to know more sooner.<\\/p>\"}}', '2017-07-12 17:21:16', '2017-07-12 17:21:16', 'a596ff72-9748-435c-9eac-7b8c5e29e541'),
-(6, 6, 3, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Your experience and our technology\",\"slug\":\"your-experience-and-our-technology\",\"postDate\":1499880129,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"1\":\"<p>At gradientAI, we\\u2019re tackling some of the most challenging problems within the insurance and healthcare industry while leveraging advanced data analysis and machine intelligence.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><strong>You have the historical data and the deep understanding of the challenges. Our team will work with you to address these challenges using our product that prioritizes your needs.<\\/strong><span class=\\\"Apple-converted-space\\\"><strong>&nbsp;<\\/strong><\\/span><\\/p>\\r\\n<p>We strive to establish a true partnership to help you get the most out of our products and engineering expertise.<\\/p>\"}}', '2017-07-12 17:22:09', '2017-07-12 17:22:09', 'bab0c8ac-3637-4dd2-8fa7-40d4bd09a526'),
-(7, 7, 3, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Our Team\",\"slug\":\"our-team\",\"postDate\":1499880159,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"1\":\"<p>Join us on our mission to solve the most challenging problems in the healthcare and insurance industry. At gradient A.I., talented and motivated successful startup veterans, software engineers, and data scientists representing the best schools in the country work together to deliver impactful products to our customers.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p>We work with large, real-world datasets and advanced techniques spanning artificial intelligence, optimization and statistics. Our work has tangible impact: our solutions enable data driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><strong>Come help us shape the future<\\/strong><\\/p>\"}}', '2017-07-12 17:22:39', '2017-07-12 17:22:39', '3230e64b-1e42-48b0-8ba2-d263a13ea770'),
-(8, 2, 1, 1, 'en_us', 3, '', '{\"typeId\":null,\"authorId\":null,\"title\":\"Outperform your peers.\",\"slug\":\"homepage\",\"postDate\":1499876828,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"1\":\"<p>A product-focused predictive analytics group within Milliman<\\/p>\"}}', '2017-07-12 17:23:20', '2017-07-12 17:23:20', '93662816-cf2e-41ac-bc81-bf3a2c3b7f10'),
-(9, 2, 1, 1, 'en_us', 4, '', '{\"typeId\":null,\"authorId\":null,\"title\":\"Outperform your peers.\",\"slug\":\"homepage\",\"postDate\":1499876828,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"1\":\"<p>A product-focused predictive analytics group within Milliman<\\/p>\",\"4\":\"Insurance companies that efficiently leverage data outperform their peers. We work with large, real-world datasets, and apply advanced techniques spanning optimization, statistics, and artificial intelligence.\"}}', '2017-07-12 17:24:20', '2017-07-12 17:24:20', 'ba691038-5eac-467f-a269-2c03e211cf7e'),
-(10, 8, 5, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Workers\\u2019 Comp\",\"slug\":\"workers-comp\",\"postDate\":1499880396,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"1\":\"<p>The gradient A.I. solution is aimed at solving a broad range of business problems starting with early identification of \\u201ccreeping catastrophic\\u201d claims. <strong>\\u201cCreeping CATs,\\u201d while typically a small percentage of all non-CAT claims, usually account for the majority of total losses.<\\/strong> Companies following best practices tend to identify these larger loss claims miss the<span class=\\\"s1\\\"> \\u201cw<\\/span>indow of suggestibilit<span class=\\\"s1\\\">y\\u201d <\\/span>that provides the adjuster with the greatest opportunity to positively influence claim outcome.<\\/p>\\r\\n<p>Despite the drop in claim frequency the cost of claims in workers\\u2019 compensation is rising at rates similar to overall wage costs. In addition to this accelerating cost curve, frequency tends to pick up with an accelerating economy leading to even faster growth of costs.<\\/p>\\r\\n<p>A growing number of companies are taking advantage of the gradient A.I.\\u2019s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration, as well as identifying the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim.<\\/p>\\r\\n<p>With integrated reporting capabilities, which combine all claims data through both internal and external systems, our customers are provided with a comprehensive and accurate decision support platform.<\\/p>\"}}', '2017-07-12 17:26:36', '2017-07-12 17:26:36', '0b13c801-1062-4068-8dc0-1f91e5e732e8'),
-(11, 9, 5, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Underwriting\",\"slug\":\"underwriting\",\"postDate\":1499880426,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"1\":\"<p>gradient A.I. uses the most advanced machine learning based analytics to combine our clients\\u2019data in tandem with big data from existing partnerships to provide improved risk selection and pricing.<\\/p>\\r\\n<p><strong>A recent poll of 300+ insurance companies suggested that on average each company is utilizing approximately 15% of their internal data. Put simply, companies have a vast amount of data on hand but lack the necessary tools to take advantage of their existing data.<\\/strong><\\/p>\\r\\n<p>Our capabilities increase the power of internal data by efficiently pulling together all internal data, both structured and unstructured, with external \\u201cBig Data\\u201d to overcome the issue of \\u201cwe don\\u2019t have enough data.\\u201d The proof is in providing more accurate pricing and better performingpolicies. The addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace.<\\/p>\\r\\n<p>The gradient A.I. underwriting platform improves efficiency and reduces quote turnaround time, including automated decision-making support. Our learning based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches.<\\/p>\"}}', '2017-07-12 17:27:06', '2017-07-12 17:27:06', '7e9a2e8d-7ab1-4c2c-9153-e7a5c59fb509'),
-(12, 10, 5, 1, 'en_us', 1, '', '{\"typeId\":null,\"authorId\":\"1\",\"title\":\"Data Warehouse\",\"slug\":\"data-warehouse\",\"postDate\":1499880449,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"1\":\"<p>The gradient A.I. Data Warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems. The process uses AI to gather client data from multiple sources, deposit the data into the data warehouse and normalize the data in a single comprehensive data silo. This platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as Tableau or Power BI.<br><\\/p>\\r\\n<p><strong>The breakthrough from gradient A.I. comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine, the DCA (Digital Collection Agent), to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative.<\\/strong><span class=\\\"Apple-converted-space\\\"><strong>&nbsp;<\\/strong><\\/span><\\/p>\\r\\n<p>This approach allows data intake and management to be handled internally efficiently without adding extra steps in the process for our clients.<\\/p>\\r\\n<p>The gradient A.I. Data Warehouse reduces time, cost and resources required for our clients while empowering them with powerful results that had been eluding them prior to having access to the gradient A.I. Data Warehouse.<\\/p>\"}}', '2017-07-12 17:27:29', '2017-07-12 17:27:29', '72543e5d-0742-4d57-838c-3e4de1a2895b'),
-(13, 11, 6, 1, 'en_us', 1, NULL, '{\"typeId\":\"7\",\"authorId\":null,\"title\":\"Jobs\",\"slug\":\"jobs\",\"postDate\":1499883757,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":[]}', '2017-07-12 18:22:37', '2017-07-12 18:22:37', 'c3897bed-3989-49ee-b761-2e18e82334d0'),
-(14, 12, 7, 1, 'en_us', 1, '', '{\"typeId\":\"9\",\"authorId\":\"1\",\"title\":\"Equal Opportunities\",\"slug\":\"equal-opportunities\",\"postDate\":1499884437,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"1\":\"<p>Equal Opportunity Employer\\/Protected Veterans\\/Individuals with Disabilities<\\/p>\\r\\n<p>The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor\\u2019s legal duty to furnish information.<\\/p>\"}}', '2017-07-12 18:33:57', '2017-07-12 18:33:57', 'aebb9cad-4bd1-4fb0-9dd4-7abff4772a09'),
-(15, 13, 7, 1, 'en_us', 1, '', '{\"typeId\":\"8\",\"authorId\":\"1\",\"title\":\"Data Scientist\",\"slug\":\"data-scientist\",\"postDate\":1499884734,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"5\":\"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>We are seeking talented data scientists to join our data modeling team. This position will help define how our products will evolve by working closely with engineers to rapidly prototype new features and complementary products, delivering our customers actionable intelligence from large data sets. The role involves research as well as software implementations of machine learning prototypes and experiments. Data Scientists are required to be able to understand user needs through interaction with client-facing staff, architect solutions and shepherd products through prototype phase. Requirements will be vague. Iterations will be rapid and we seek researchers who are nimble and willing to take smart risks. BS\\/MS to Ph.D levels available.<\\/p>\",\"8\":\"<p><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Machine learning and\\/or statistics coursework<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Familiarity with recent large-scale machine learning tools (e.g. TensorFlow, Torch, Spark, Hadoop) a plus, but not required.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Familiarity with a modern scripting language (like Python)<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Database experience (SQL) a plus, but not required<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Research oriented \\u2013 you seek to understand model behavior, not just apply tools blindly<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Able to adapt quickly, and draw from a range of tools as needed<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Industry experience a plus<\\/p>\",\"6\":\"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You are equal parts researcher, information architect and hacker. You will communicate and collaborate with software engineers. You must enjoy developing creative solutions to difficult problems in an autonomous, startup environment with direct contact to top management and industry experts. You are passionate about innovating and enjoy independence to pursue designated goals.<\\/p>\",\"7\":\"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Mine and analyze data pertaining to discover critical business insights<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Generate ideas for new products, from directing high-level concept formation to prototyping<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Synthesize research data, turning data to actionable insights and specific model requirements<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Quickly deploy out-of the-box solutions where possible, innovate when necessary<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Stay current with advancements in machine learning and advocate for the appropriate application of those advancements in our own products<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Work closely with engineers and production developers to ensure clear, effective communication within the team<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Occasionally develop short, optimized pieces of code<\\/p>\"}}', '2017-07-12 18:38:54', '2017-07-12 18:38:54', '192ad8e7-f139-446d-a0fb-5d2eee6ee089'),
-(16, 14, 7, 1, 'en_us', 1, '', '{\"typeId\":\"8\",\"authorId\":\"1\",\"title\":\"Software Engineer\",\"slug\":\"software-engineer\",\"postDate\":1499884821,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"5\":\"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>In this role, you will contribute towards building new functionality for our platform by applying what you know, learning new technologies and tools, and expanding your competence in multiple areas; you will contribute towards building and improving our current platform to help us fundamentally change the way an entire industry works.<\\/p>\",\"8\":\"<p><strong><\\/strong><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The nature of your work calls for a unique mixture of skills. What is most important is that you are exceptional in what you do know, and have the desire and ability to learn new things quickly and build on your current set of skills.<\\/p>\\r\\n<p><strong>Required qualifications<\\/strong><\\/p>\\r\\n<p>- Currently pursuing a BS level or higher in CS or have an applicable background.<\\/p>\\r\\n<p>- Fluency in modern scripting languages, ideally Python.<\\/p>\\r\\n<p>- Experience with predictive analytics, algorithms, or machine learning, and at least one supporting technology stack (e.g., Spark, TensorFlow, sklearn).<\\/p>\\r\\n<p>- Ability to pay close attention to detail.<\\/p>\",\"6\":\"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You\\u2019ll contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI\\/analytics.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\",\"7\":\"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Assist Integration of predictive models into database-backed environments, real-time query APIs, and existing modeling pipelines, considering computational and other constraints.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Contribute to significant strategic projects focused on enhancements to core tooling, automation, scalability, and broad statistical machine learning capabilities.<\\/p>\\r\\n<p>- Collaborate with other team members, including machine learning researchers, database engineers and project managers, to design, generalize, optimize and implement predictive models and research.<\\/p>\"}}', '2017-07-12 18:40:21', '2017-07-12 18:40:21', 'ddd1fe7f-6adf-4fc6-9058-c322ebd969a1'),
-(17, 15, 7, 1, 'en_us', 1, '', '{\"typeId\":\"8\",\"authorId\":\"1\",\"title\":\"Senior Software Engineer\",\"slug\":\"senior-software-engineer\",\"postDate\":1499885075,\"expiryDate\":null,\"enabled\":1,\"parentId\":\"\",\"fields\":{\"5\":\"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>In this role, we are looking for someone who not only can contribute at a high level to make the best products for our clients. You will be given the freedom to maximize the potential of our existing products as well as create new features for our clients. You will be challenged and you will shape this business, and by extension, the way the industries we serve leverage data and predictive analytics. You will expand your competence and explore new technologies at the intersection of machine learning, engineering, and product delivery.<\\/p>\",\"8\":\"<p><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>BS\\/MS\\/PhD in CS, or equivalent experience and self-education.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Minimum of 5 years of experience in software engineering.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Experience as a software architect\\/lead architect.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Experience with predictive analytics, algorithms, or machine learning, and supporting stacks (e.g. Spark MLlib, TensorFlow, scikit-learn).<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>A working knowledge of SQL, and\\/or experience with non-relational\\/alternative databases.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Experience with a cloud-computing environment (e.g. Amazon EC2).<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Experience with distributed computing frameworks (e.g. Apache Spark).<br><\\/p>\",\"6\":\"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You and your team will contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI\\/analytics.<span class=\\\"Apple-converted-space\\\">&nbsp;<\\/span><\\/p>\",\"7\":\"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Design, own and lead significant strategic projects focused on enhancements to core model tooling, automation, and scalability.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Build on our current vision and roadmap around platform strategy.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Scale and optimize existing pipelines, and advance process repeatability.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Collaborate with the research team members to translate research into practice.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Engineer effective systems to deploy products in a robust and scalable environment.<\\/p>\\r\\n<p><span class=\\\"s1\\\">- <\\/span>Design and build systems for end-to-end high throughput data handling, and integrate predictive models into database-backed environments, client-facing APIs, and existing modeling pipelines.<\\/p>\"}}', '2017-07-12 18:44:35', '2017-07-12 18:44:35', '4ae978cb-a0ff-443a-80ea-d959fa37342b'),
-(18, 11, 6, 1, 'en_us', 2, '', '{\"typeId\":\"7\",\"authorId\":null,\"title\":\"Jobs\",\"slug\":\"jobs\",\"postDate\":1499884498,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":{\"3\":\"Come work with us!\",\"4\":\"We are looking for motivated, critical and creative thinkers to contribute to our team as software engineers. You will use what you have learned in class and be able to apply it alongside a team of engineers representing the best schools in the area. You are comfortable thinking outside the box across projects and use-cases. You are able to hit the ground running, independent, fast learner, comfortable within fast-paced, unstructured environment.Don\\u2019t see your position listed? We are always looking for talented and amazing people to join our team, please email us at jobs@gradientai.com.\"}}', '2017-07-12 18:46:04', '2017-07-12 18:46:04', '6c805507-25c4-4c95-85db-d5ff69d35d54'),
-(19, 16, 4, 1, 'en_us', 1, NULL, '{\"typeId\":\"5\",\"authorId\":null,\"title\":\"Solutions\",\"slug\":\"solutions\",\"postDate\":1499891973,\"expiryDate\":null,\"enabled\":1,\"parentId\":null,\"fields\":[]}', '2017-07-12 20:39:34', '2017-07-12 20:39:34', 'a33f865c-64bf-4338-b9e4-b53b21859b43');
+(1, 2, 1, 1, 'en_us', 1, NULL, '{"typeId":"1","authorId":null,"title":"Homepage","slug":"homepage","postDate":1499876828,"expiryDate":null,"enabled":1,"parentId":null,"fields":[]}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '92647ef5-c9e7-4969-8ed5-7b7747452062'),
+(2, 2, 1, 1, 'en_us', 2, NULL, '{"typeId":null,"authorId":null,"title":"Welcome to Localhost!","slug":"homepage","postDate":1499876828,"expiryDate":null,"enabled":"1","parentId":null,"fields":{"1":"<p>It\\u2019s true, this site doesn\\u2019t have a whole lot of content yet, but don\\u2019t worry. Our web developers have just installed the CMS, and they\\u2019re setting things up for the content editors this very moment. Soon Localhost will be an oasis of fresh perspectives, sharp analyses, and astute opinions that will keep you coming back again and again.<\\/p>"}}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '21889add-f13c-4fd1-871a-5572341099d2'),
+(3, 3, 2, 1, 'en_us', 1, NULL, '{"typeId":"2","authorId":"1","title":"We just installed Craft!","slug":"we-just-installed-craft","postDate":1499876828,"expiryDate":null,"enabled":1,"parentId":null,"fields":[]}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'a0dbace3-e23d-4a27-bdba-f99588269264'),
+(4, 4, 3, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Power up your team","slug":"power-up-your-team","postDate":1499877314,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>We use predictive data analytics to augment human intelligence. Give your team the right tools to uncover formerly hidden patterns underlying your large, structured and unstructured datasets.<\\/p>\\r\\n<p>Our goal is to help your business exceed the most important goals by taking a deeper look into your data to provide more accurate insights. We work to improve your revenue and profitability by turning your most valuable asset (your employees) into your greatest competitive advantage.<\\/p>"}}', '2017-07-12 16:35:14', '2017-07-12 16:35:14', 'dd092e99-641b-4b19-85f6-e3f1e648fed6'),
+(5, 5, 3, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Understand the present and adapt to the future","slug":"understand-the-present-and-adapt-to-the-future","postDate":1499880076,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>Patterns underlying big data are non-linear. Machine learning to uncover these patterns has been historically underutilized within the insurance industry.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p>gradientA.I. has the solutions in place to deliver with uncompromising agility. Insurance companies that can effectively leverage the power of their data outperform their peers, our product offering allows our customers to know more sooner.<\\/p>"}}', '2017-07-12 17:21:16', '2017-07-12 17:21:16', 'a596ff72-9748-435c-9eac-7b8c5e29e541'),
+(6, 6, 3, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Your experience and our technology","slug":"your-experience-and-our-technology","postDate":1499880129,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>At gradientAI, we\\u2019re tackling some of the most challenging problems within the insurance and healthcare industry while leveraging advanced data analysis and machine intelligence.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><strong>You have the historical data and the deep understanding of the challenges. Our team will work with you to address these challenges using our product that prioritizes your needs.<\\/strong><span class=\\"Apple-converted-space\\"><strong>&nbsp;<\\/strong><\\/span><\\/p>\\r\\n<p>We strive to establish a true partnership to help you get the most out of our products and engineering expertise.<\\/p>"}}', '2017-07-12 17:22:09', '2017-07-12 17:22:09', 'bab0c8ac-3637-4dd2-8fa7-40d4bd09a526'),
+(7, 7, 3, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Our Team","slug":"our-team","postDate":1499880159,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>Join us on our mission to solve the most challenging problems in the healthcare and insurance industry. At gradient A.I., talented and motivated successful startup veterans, software engineers, and data scientists representing the best schools in the country work together to deliver impactful products to our customers.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p>We work with large, real-world datasets and advanced techniques spanning artificial intelligence, optimization and statistics. Our work has tangible impact: our solutions enable data driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><strong>Come help us shape the future<\\/strong><\\/p>"}}', '2017-07-12 17:22:39', '2017-07-12 17:22:39', '3230e64b-1e42-48b0-8ba2-d263a13ea770'),
+(8, 2, 1, 1, 'en_us', 3, '', '{"typeId":null,"authorId":null,"title":"Outperform your peers.","slug":"homepage","postDate":1499876828,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>A product-focused predictive analytics group within Milliman<\\/p>"}}', '2017-07-12 17:23:20', '2017-07-12 17:23:20', '93662816-cf2e-41ac-bc81-bf3a2c3b7f10'),
+(9, 2, 1, 1, 'en_us', 4, '', '{"typeId":null,"authorId":null,"title":"Outperform your peers.","slug":"homepage","postDate":1499876828,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>A product-focused predictive analytics group within Milliman<\\/p>","4":"Insurance companies that efficiently leverage data outperform their peers. We work with large, real-world datasets, and apply advanced techniques spanning optimization, statistics, and artificial intelligence."}}', '2017-07-12 17:24:20', '2017-07-12 17:24:20', 'ba691038-5eac-467f-a269-2c03e211cf7e'),
+(10, 8, 5, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Workers\\u2019 Comp","slug":"workers-comp","postDate":1499880396,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>The gradient A.I. solution is aimed at solving a broad range of business problems starting with early identification of \\u201ccreeping catastrophic\\u201d claims. <strong>\\u201cCreeping CATs,\\u201d while typically a small percentage of all non-CAT claims, usually account for the majority of total losses.<\\/strong> Companies following best practices tend to identify these larger loss claims miss the<span class=\\"s1\\"> \\u201cw<\\/span>indow of suggestibilit<span class=\\"s1\\">y\\u201d <\\/span>that provides the adjuster with the greatest opportunity to positively influence claim outcome.<\\/p>\\r\\n<p>Despite the drop in claim frequency the cost of claims in workers\\u2019 compensation is rising at rates similar to overall wage costs. In addition to this accelerating cost curve, frequency tends to pick up with an accelerating economy leading to even faster growth of costs.<\\/p>\\r\\n<p>A growing number of companies are taking advantage of the gradient A.I.\\u2019s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration, as well as identifying the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim.<\\/p>\\r\\n<p>With integrated reporting capabilities, which combine all claims data through both internal and external systems, our customers are provided with a comprehensive and accurate decision support platform.<\\/p>"}}', '2017-07-12 17:26:36', '2017-07-12 17:26:36', '0b13c801-1062-4068-8dc0-1f91e5e732e8'),
+(11, 9, 5, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Underwriting","slug":"underwriting","postDate":1499880426,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>gradient A.I. uses the most advanced machine learning based analytics to combine our clients\\u2019data in tandem with big data from existing partnerships to provide improved risk selection and pricing.<\\/p>\\r\\n<p><strong>A recent poll of 300+ insurance companies suggested that on average each company is utilizing approximately 15% of their internal data. Put simply, companies have a vast amount of data on hand but lack the necessary tools to take advantage of their existing data.<\\/strong><\\/p>\\r\\n<p>Our capabilities increase the power of internal data by efficiently pulling together all internal data, both structured and unstructured, with external \\u201cBig Data\\u201d to overcome the issue of \\u201cwe don\\u2019t have enough data.\\u201d The proof is in providing more accurate pricing and better performingpolicies. The addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace.<\\/p>\\r\\n<p>The gradient A.I. underwriting platform improves efficiency and reduces quote turnaround time, including automated decision-making support. Our learning based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches.<\\/p>"}}', '2017-07-12 17:27:06', '2017-07-12 17:27:06', '7e9a2e8d-7ab1-4c2c-9153-e7a5c59fb509'),
+(12, 10, 5, 1, 'en_us', 1, '', '{"typeId":null,"authorId":"1","title":"Data Warehouse","slug":"data-warehouse","postDate":1499880449,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>The gradient A.I. Data Warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems. The process uses AI to gather client data from multiple sources, deposit the data into the data warehouse and normalize the data in a single comprehensive data silo. This platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as Tableau or Power BI.<br><\\/p>\\r\\n<p><strong>The breakthrough from gradient A.I. comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine, the DCA (Digital Collection Agent), to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative.<\\/strong><span class=\\"Apple-converted-space\\"><strong>&nbsp;<\\/strong><\\/span><\\/p>\\r\\n<p>This approach allows data intake and management to be handled internally efficiently without adding extra steps in the process for our clients.<\\/p>\\r\\n<p>The gradient A.I. Data Warehouse reduces time, cost and resources required for our clients while empowering them with powerful results that had been eluding them prior to having access to the gradient A.I. Data Warehouse.<\\/p>"}}', '2017-07-12 17:27:29', '2017-07-12 17:27:29', '72543e5d-0742-4d57-838c-3e4de1a2895b'),
+(13, 11, 6, 1, 'en_us', 1, NULL, '{"typeId":"7","authorId":null,"title":"Jobs","slug":"jobs","postDate":1499883757,"expiryDate":null,"enabled":1,"parentId":null,"fields":[]}', '2017-07-12 18:22:37', '2017-07-12 18:22:37', 'c3897bed-3989-49ee-b761-2e18e82334d0'),
+(14, 12, 7, 1, 'en_us', 1, '', '{"typeId":"9","authorId":"1","title":"Equal Opportunities","slug":"equal-opportunities","postDate":1499884437,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>Equal Opportunity Employer\\/Protected Veterans\\/Individuals with Disabilities<\\/p>\\r\\n<p>The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor\\u2019s legal duty to furnish information.<\\/p>"}}', '2017-07-12 18:33:57', '2017-07-12 18:33:57', 'aebb9cad-4bd1-4fb0-9dd4-7abff4772a09'),
+(15, 13, 7, 1, 'en_us', 1, '', '{"typeId":"8","authorId":"1","title":"Data Scientist","slug":"data-scientist","postDate":1499884734,"expiryDate":null,"enabled":1,"parentId":"","fields":{"5":"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>We are seeking talented data scientists to join our data modeling team. This position will help define how our products will evolve by working closely with engineers to rapidly prototype new features and complementary products, delivering our customers actionable intelligence from large data sets. The role involves research as well as software implementations of machine learning prototypes and experiments. Data Scientists are required to be able to understand user needs through interaction with client-facing staff, architect solutions and shepherd products through prototype phase. Requirements will be vague. Iterations will be rapid and we seek researchers who are nimble and willing to take smart risks. BS\\/MS to Ph.D levels available.<\\/p>","8":"<p><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Machine learning and\\/or statistics coursework<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Familiarity with recent large-scale machine learning tools (e.g. TensorFlow, Torch, Spark, Hadoop) a plus, but not required.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Familiarity with a modern scripting language (like Python)<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Database experience (SQL) a plus, but not required<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Research oriented \\u2013 you seek to understand model behavior, not just apply tools blindly<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Able to adapt quickly, and draw from a range of tools as needed<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Industry experience a plus<\\/p>","6":"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You are equal parts researcher, information architect and hacker. You will communicate and collaborate with software engineers. You must enjoy developing creative solutions to difficult problems in an autonomous, startup environment with direct contact to top management and industry experts. You are passionate about innovating and enjoy independence to pursue designated goals.<\\/p>","7":"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Mine and analyze data pertaining to discover critical business insights<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Generate ideas for new products, from directing high-level concept formation to prototyping<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Synthesize research data, turning data to actionable insights and specific model requirements<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Quickly deploy out-of the-box solutions where possible, innovate when necessary<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Stay current with advancements in machine learning and advocate for the appropriate application of those advancements in our own products<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Work closely with engineers and production developers to ensure clear, effective communication within the team<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Occasionally develop short, optimized pieces of code<\\/p>"}}', '2017-07-12 18:38:54', '2017-07-12 18:38:54', '192ad8e7-f139-446d-a0fb-5d2eee6ee089'),
+(16, 14, 7, 1, 'en_us', 1, '', '{"typeId":"8","authorId":"1","title":"Software Engineer","slug":"software-engineer","postDate":1499884821,"expiryDate":null,"enabled":1,"parentId":"","fields":{"5":"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>In this role, you will contribute towards building new functionality for our platform by applying what you know, learning new technologies and tools, and expanding your competence in multiple areas; you will contribute towards building and improving our current platform to help us fundamentally change the way an entire industry works.<\\/p>","8":"<p><strong><\\/strong><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The nature of your work calls for a unique mixture of skills. What is most important is that you are exceptional in what you do know, and have the desire and ability to learn new things quickly and build on your current set of skills.<\\/p>\\r\\n<p><strong>Required qualifications<\\/strong><\\/p>\\r\\n<p>- Currently pursuing a BS level or higher in CS or have an applicable background.<\\/p>\\r\\n<p>- Fluency in modern scripting languages, ideally Python.<\\/p>\\r\\n<p>- Experience with predictive analytics, algorithms, or machine learning, and at least one supporting technology stack (e.g., Spark, TensorFlow, sklearn).<\\/p>\\r\\n<p>- Ability to pay close attention to detail.<\\/p>","6":"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You\\u2019ll contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI\\/analytics.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>","7":"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Assist Integration of predictive models into database-backed environments, real-time query APIs, and existing modeling pipelines, considering computational and other constraints.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Contribute to significant strategic projects focused on enhancements to core tooling, automation, scalability, and broad statistical machine learning capabilities.<\\/p>\\r\\n<p>- Collaborate with other team members, including machine learning researchers, database engineers and project managers, to design, generalize, optimize and implement predictive models and research.<\\/p>"}}', '2017-07-12 18:40:21', '2017-07-12 18:40:21', 'ddd1fe7f-6adf-4fc6-9058-c322ebd969a1'),
+(17, 15, 7, 1, 'en_us', 1, '', '{"typeId":"8","authorId":"1","title":"Senior Software Engineer","slug":"senior-software-engineer","postDate":1499885075,"expiryDate":null,"enabled":1,"parentId":"","fields":{"5":"<p><strong>About You<\\/strong><\\/p>\\r\\n<p>In this role, we are looking for someone who not only can contribute at a high level to make the best products for our clients. You will be given the freedom to maximize the potential of our existing products as well as create new features for our clients. You will be challenged and you will shape this business, and by extension, the way the industries we serve leverage data and predictive analytics. You will expand your competence and explore new technologies at the intersection of machine learning, engineering, and product delivery.<\\/p>","8":"<p><strong>Desired Skills<\\/strong><\\/p>\\r\\n<p>The interdisciplinary nature of our work calls for an unusual mixture of skills that few may already possess. What is most important is that you are exceptional in what you do know, and have the desire, willingness, and ability to learn new things quickly and build upon your current set of skills.The ideal candidate will have some or all of the following qualifications:<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>BS\\/MS\\/PhD in CS, or equivalent experience and self-education.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Minimum of 5 years of experience in software engineering.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Experience as a software architect\\/lead architect.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Experience with predictive analytics, algorithms, or machine learning, and supporting stacks (e.g. Spark MLlib, TensorFlow, scikit-learn).<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>A working knowledge of SQL, and\\/or experience with non-relational\\/alternative databases.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Experience with a cloud-computing environment (e.g. Amazon EC2).<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Experience with distributed computing frameworks (e.g. Apache Spark).<br><\\/p>","6":"<p><strong>Responsibilities<\\/strong><\\/p>\\r\\n<p>You and your team will contribute to any and all parts of our flow for developing and deploying high-volume predictive models: from data infrastructure to modeling engines and algorithms, to high-performance cloud computing interfaces, to client-facing BI\\/analytics.<span class=\\"Apple-converted-space\\">&nbsp;<\\/span><\\/p>","7":"<p><strong>You will:<\\/strong><\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Design, own and lead significant strategic projects focused on enhancements to core model tooling, automation, and scalability.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Build on our current vision and roadmap around platform strategy.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Scale and optimize existing pipelines, and advance process repeatability.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Collaborate with the research team members to translate research into practice.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Engineer effective systems to deploy products in a robust and scalable environment.<\\/p>\\r\\n<p><span class=\\"s1\\">- <\\/span>Design and build systems for end-to-end high throughput data handling, and integrate predictive models into database-backed environments, client-facing APIs, and existing modeling pipelines.<\\/p>"}}', '2017-07-12 18:44:35', '2017-07-12 18:44:35', '4ae978cb-a0ff-443a-80ea-d959fa37342b'),
+(18, 11, 6, 1, 'en_us', 2, '', '{"typeId":"7","authorId":null,"title":"Jobs","slug":"jobs","postDate":1499884498,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"3":"Come work with us!","4":"We are looking for motivated, critical and creative thinkers to contribute to our team as software engineers. You will use what you have learned in class and be able to apply it alongside a team of engineers representing the best schools in the area. You are comfortable thinking outside the box across projects and use-cases. You are able to hit the ground running, independent, fast learner, comfortable within fast-paced, unstructured environment.Don\\u2019t see your position listed? We are always looking for talented and amazing people to join our team, please email us at jobs@gradientai.com."}}', '2017-07-12 18:46:04', '2017-07-12 18:46:04', '6c805507-25c4-4c95-85db-d5ff69d35d54'),
+(19, 16, 4, 1, 'en_us', 1, NULL, '{"typeId":"5","authorId":null,"title":"Solutions","slug":"solutions","postDate":1499891973,"expiryDate":null,"enabled":1,"parentId":null,"fields":[]}', '2017-07-12 20:39:34', '2017-07-12 20:39:34', 'a33f865c-64bf-4338-b9e4-b53b21859b43'),
+(20, 13, 7, 1, 'en_us', 2, '', '{"typeId":"8","authorId":"1","title":"Data Scientist","slug":"data-scientist","postDate":1499884680,"expiryDate":null,"enabled":1,"parentId":"","fields":{"9":"https:\\/\\/recruiting2.ultipro.com\\/MIL1017\\/JobBoard\\/f54234e9-dfde-b183-fd20-4fbdb19cba7a\\/OpportunityDetail?opportunityId=d12def57-a3ab-4b8d-b627-5ced74183e6d"}}', '2017-08-23 01:31:19', '2017-08-23 01:31:19', 'dcfe0f62-70ca-4138-9d2b-d64da19e97e3'),
+(21, 14, 7, 1, 'en_us', 2, '', '{"typeId":"8","authorId":"1","title":"Software Engineer","slug":"software-engineer","postDate":1499884800,"expiryDate":null,"enabled":1,"parentId":"","fields":{"9":"https:\\/\\/www.indeed.com\\/viewjob?jk=059ab74a6ca61013&q=Milliman&l=cambridge&tk=1blb0ohsr0kcj3c8&from=web"}}', '2017-08-23 01:31:43', '2017-08-23 01:31:43', '5ac5808c-3da1-49fa-846c-c851fdf65272'),
+(22, 15, 7, 1, 'en_us', 2, '', '{"typeId":"8","authorId":"1","title":"Senior Software Engineer","slug":"senior-software-engineer","postDate":1499885040,"expiryDate":null,"enabled":1,"parentId":"","fields":{"9":"https:\\/\\/recruiting2.ultipro.com\\/MIL1017\\/JobBoard\\/f54234e9-dfde-b183-fd20-4fbdb19cba7a\\/OpportunityDetail?opportunityId=25e8a4a8-6448-4293-b8e1-e0490bf655a3"}}', '2017-08-23 01:31:57', '2017-08-23 01:31:57', '1a3fbf19-91a5-4995-9972-c96bc3012337'),
+(23, 11, 6, 1, 'en_us', 3, '', '{"typeId":"7","authorId":null,"title":"Jobs","slug":"jobs","postDate":1499884498,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"3":"Come work with us!","4":"At gradient A.I., we pride ourselves on creating the best culture for success. As a member of the team, you will work alongside some of the brightest minds in the industry with the shared goal of changing the way the insurance industry operates. We value people who thrive in an independent work environment and can deliver out of the box solutions to complex problems. \\r\\n\\r\\nAt gradient A.I., you will be given the resources to succeed from day 1.\\r\\n\\r\\nIf this sounds like the right place to you, jump through one of the links below. If you don\\u2019t see anything related to you but feel like you can contribute, we are always looking for talented individuals to join the team. Just email hello@gradientai.com"}}', '2017-08-23 01:46:04', '2017-08-23 01:46:04', '9d659989-fa7f-4f1b-8ea9-d3dd899de797'),
+(24, 8, 5, 1, 'en_us', 2, '', '{"typeId":"6","authorId":"1","title":"Workers\\u2019 Comp","slug":"workers-comp","postDate":1499880360,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>The gradient A.I. solution is aimed at solving a broad range of business problems starting with early identification of \\u201ccreeping catastrophic\\u201d claims. <strong>\\u201cCreeping CATs,\\u201d while typically a small percentage of all non-CAT claims, usually account for the majority of total losses<\\/strong>. Companies following best practices that tend to identify these larger loss claims miss the \\u201cwindow of suggestibility\\u201d that provides the adjuster with the greatest opportunity to positively influence claim outcomes.<\\/p>\\r\\n<p>Despite the drop in claim frequency, the cost of claims in workers\\u2019 compensation is rising at rates similar to overall wage costs. In addition to this accelerating cost curve, frequency tends to pick up with an accelerating economy, leading to even faster growth of costs.<\\/p>\\r\\n<p>A growing number of companies are taking advantage of gradient A.I.\\u2019s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration as well as identify the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim.<\\/p>\\r\\n<p>With integrated reporting capabilities, which combine all claims data through both internal and external systems, our customers receive a comprehensive and accurate decision support platform.<\\/p>"}}', '2017-08-23 01:49:59', '2017-08-23 01:49:59', '403a29f3-98a2-454f-b2c2-2ee11251e645'),
+(25, 9, 5, 1, 'en_us', 2, '', '{"typeId":"6","authorId":"1","title":"Underwriting","slug":"underwriting","postDate":1499880420,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>gradient A.I. uses the most advanced machine learning-based analytics to combine our clients\\u2019 data in tandem with big data from existing partnerships to provide improved risk selection and pricing.<\\/p>\\r\\n<p><strong>A recent poll of over 300 insurance companies suggested that, on average, each company is utilizing approximately 15% of its internal data. Put simply, companies have a vast amount of data on hand, but lack the necessary tools to take advantage of their existing data.<\\/strong><\\/p>\\r\\n<p>Our capabilities increase the power of internal data by efficiently pulling together all internal data, both structured and unstructured, with external \\u201cbig data\\u201d to overcome the issue of \\u201cwe don\\u2019t have enough data.\\u201d The proof is in providing more accurate pricing and better performing policies. The addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace.<\\/p>\\r\\n<p>The gradient A.I. underwriting platform improves efficiency and reduces quote turnaround time, including automated decision-making support. Our learning-based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches.<\\/p>"}}', '2017-08-23 01:50:24', '2017-08-23 01:50:24', 'd788976a-6991-49e9-bb12-f2afbfee3900'),
+(26, 10, 5, 1, 'en_us', 2, '', '{"typeId":"6","authorId":"1","title":"Data Warehouse","slug":"data-warehouse","postDate":1499880420,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"1":"<p>The gradient A.I. data warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems. The process uses AI to gather client data from multiple sources, deposit the data into the data warehouse, and normalize the data in a single comprehensive data silo. This platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as Tableau or Power BI.<\\/p>\\r\\n<p><strong>The breakthrough from gradient A.I. comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine, the Digital Collection Agent (DCA), to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative. This approach allows data intake and management to be handled internally and efficiently without adding extra steps in the process for our clients.<\\/strong><span class=\\"s1\\"><strong>&nbsp;<\\/strong><\\/span><\\/p>\\r\\n<p>The gradient A.I. data warehouse reduces time, costs, and resources required for our clients while empowering them with powerful results that were eluding them prior to having access to the gradient A.I. data warehouse.<\\/p>"}}', '2017-08-23 01:50:59', '2017-08-23 01:50:59', '212d8c17-eade-4f16-bf2a-c9c8def28b1f'),
+(27, 4, 3, 1, 'en_us', 2, '', '{"typeId":"4","authorId":"1","title":"Power up your team","slug":"power-up-your-team","postDate":1499877300,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>We use predictive data analytics to augment human intelligence. Give your team the right tools to uncover formerly hidden patterns underlying your large, structured, and unstructured datasets. &nbsp;<\\/p>\\r\\n<p>Our goal is to help your business exceed its most important goals by taking a deeper look into your data to provide more accurate insights. We work to improve your revenue and profitability by turning your most valuable asset--your employees-- into your greatest competitive advantage.<\\/p>"}}', '2017-08-23 01:51:27', '2017-08-23 01:51:27', 'ce2333c3-c76f-4604-9b66-f25ea7586d0c'),
+(28, 5, 3, 1, 'en_us', 2, '', '{"typeId":"4","authorId":"1","title":"Understand the present and adapt to the future","slug":"understand-the-present-and-adapt-to-the-future","postDate":1499880060,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>Patterns underlying big data are non-linear. Machine learning to uncover these patterns has been historically underutilized within the insurance industry. gradient A.I. has the solutions in place to deliver with uncompromising agility.&nbsp;<\\/p>\\r\\n<p>Insurance companies that can effectively leverage the power of their data outperform their peers. Our product offering allows our customers to know more sooner.<\\/p>"}}', '2017-08-23 01:51:37', '2017-08-23 01:51:37', '8ced8946-e61e-4d7c-8956-61c4e49c5740'),
+(29, 6, 3, 1, 'en_us', 2, '', '{"typeId":"4","authorId":"1","title":"Your experience and our technology","slug":"your-experience-and-our-technology","postDate":1499880120,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>At gradient A.I., we\\u2019re tackling some of the most challenging problems within the insurance and healthcare industries while leveraging advanced data analysis and machine intelligence.&nbsp;<\\/p>\\r\\n<p><strong>You have the historical data and the deep understanding of the challenges. Our team will work with you to address these challenges using our product that prioritizes your needs.&nbsp;<\\/strong><\\/p>\\r\\n<p>We strive to establish a true partnership to help you get the most out of our products and engineering expertise.&nbsp;<\\/p>"}}', '2017-08-23 01:51:50', '2017-08-23 01:51:50', 'dbd43217-d4b8-4328-a17d-1ceb53eab59d'),
+(30, 7, 3, 1, 'en_us', 2, '', '{"typeId":"4","authorId":"1","title":"Our Team","slug":"our-team","postDate":1499880120,"expiryDate":null,"enabled":1,"parentId":"","fields":{"1":"<p>Join us on our mission to solve the most challenging problems in the healthcare and insurance industries. At gradient A.I., talented and motivated successful startup veterans, software engineers, and data scientists representing the best schools in the country work together to deliver superior products to our customers.&nbsp;<\\/p>\\r\\n<p>We work with large, real-world datasets and advanced techniques spanning artificial intelligence, optimization, and statistics. Our work has a tangible impact: our solutions enable data-driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals. Come help us shape the future.<\\/p>\\r\\n<p><strong>Come help us shape the future<\\/strong><\\/p><p><strong><\\/strong><\\/p>"}}', '2017-08-23 01:52:07', '2017-08-23 01:52:07', '3b919169-c89e-4bbc-9238-4e6ac39b6347'),
+(31, 11, 6, 1, 'en_us', 4, '', '{"typeId":"7","authorId":null,"title":"Jobs","slug":"jobs","postDate":1499884498,"expiryDate":null,"enabled":1,"parentId":null,"fields":{"3":"Come work with us!","4":"<p>At gradient A.I., we pride ourselves on creating the best culture for success. As a member of the team, you will work alongside some of the brightest minds in the industry with the shared goal of changing the way the insurance industry operates. We value people who thrive in an independent work environment and can deliver out of the box solutions to complex problems. <\\/p>\\r\\n<p><strong>At gradient A.I., you will be given the resources to succeed from day 1.<\\/strong><\\/p>\\r\\n<p>If this sounds like the right place to you, jump through one of the links below. If you don\\u2019t see anything related to you but feel like you can contribute, we are always looking for talented individuals to join the team. Just email <strong>hello@gradientai.com<\\/strong><\\/p>"}}', '2017-08-23 02:35:41', '2017-08-23 02:35:41', 'e255b92d-eb84-4393-bc91-dc10f6b5c9b1');
 
 -- --------------------------------------------------------
 
@@ -521,7 +530,7 @@ CREATE TABLE `craft_fieldgroups` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_fieldgroups`
@@ -542,12 +551,12 @@ CREATE TABLE `craft_fieldlayoutfields` (
   `layoutId` int(11) NOT NULL,
   `tabId` int(11) NOT NULL,
   `fieldId` int(11) NOT NULL,
-  `required` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `required` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_fieldlayoutfields`
@@ -560,13 +569,10 @@ INSERT INTO `craft_fieldlayoutfields` (`id`, `layoutId`, `tabId`, `fieldId`, `re
 (5, 8, 4, 1, 1, 1, '2017-07-12 17:24:04', '2017-07-12 17:24:04', 'a482710b-1ba5-4c3c-9dab-b949924abcaf'),
 (6, 8, 4, 4, 0, 2, '2017-07-12 17:24:04', '2017-07-12 17:24:04', '6e80b636-d1f3-4602-8061-907a61c243c5'),
 (7, 11, 5, 1, 0, 1, '2017-07-12 17:25:53', '2017-07-12 17:25:53', 'df227956-b1d1-43c1-8f49-35034a9dadc8'),
-(8, 14, 6, 5, 0, 1, '2017-07-12 18:23:25', '2017-07-12 18:23:25', '114bb133-423a-41c2-a5ee-79e1190d21b3'),
-(9, 14, 6, 6, 0, 2, '2017-07-12 18:23:25', '2017-07-12 18:23:25', 'e22f6aad-1af1-4113-8ccf-8e603d2ed884'),
-(10, 14, 6, 7, 0, 3, '2017-07-12 18:23:25', '2017-07-12 18:23:25', '27988c4c-0c8e-460c-a53c-89a23ff5f568'),
-(11, 14, 6, 8, 0, 4, '2017-07-12 18:23:25', '2017-07-12 18:23:25', '51b25bd6-31cc-4592-8a13-b378b60d4ea0'),
 (12, 15, 7, 3, 0, 1, '2017-07-12 18:24:47', '2017-07-12 18:24:47', '5da4b850-904a-4e86-83d2-b58ac3c9e006'),
 (13, 15, 7, 4, 0, 2, '2017-07-12 18:24:47', '2017-07-12 18:24:47', 'fd761cc7-a0f6-474b-8377-14b3c016fcbb'),
-(14, 16, 8, 1, 0, 1, '2017-07-12 18:25:12', '2017-07-12 18:25:12', 'a1f630ff-d0d8-4d56-8951-ee8d57033bf1');
+(14, 16, 8, 1, 0, 1, '2017-07-12 18:25:12', '2017-07-12 18:25:12', 'a1f630ff-d0d8-4d56-8951-ee8d57033bf1'),
+(15, 18, 9, 9, 0, 1, '2017-08-23 01:29:09', '2017-08-23 01:29:09', '672aeebf-7472-42bb-a922-5d4e2e381351');
 
 -- --------------------------------------------------------
 
@@ -580,7 +586,7 @@ CREATE TABLE `craft_fieldlayouts` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_fieldlayouts`
@@ -593,9 +599,9 @@ INSERT INTO `craft_fieldlayouts` (`id`, `type`, `dateCreated`, `dateUpdated`, `u
 (8, 'Entry', '2017-07-12 17:24:04', '2017-07-12 17:24:04', '4841d9c9-9697-4623-a8db-94c6ad9017e7'),
 (9, 'Entry', '2017-07-12 17:24:54', '2017-07-12 17:24:54', '12d7b07f-a998-41c3-bd43-b1780bfca7a4'),
 (11, 'Entry', '2017-07-12 17:25:53', '2017-07-12 17:25:53', 'aacd002f-4bf9-4b77-bf96-c65a037940a4'),
-(14, 'Entry', '2017-07-12 18:23:25', '2017-07-12 18:23:25', 'aa047a28-5ef9-479d-9533-1b51fcca7d31'),
 (15, 'Entry', '2017-07-12 18:24:47', '2017-07-12 18:24:47', '03ddb29d-ed0f-4de3-9f34-e1a659d74eb3'),
-(16, 'Entry', '2017-07-12 18:25:12', '2017-07-12 18:25:12', '7e825eab-e053-445b-a204-9c54a7461594');
+(16, 'Entry', '2017-07-12 18:25:12', '2017-07-12 18:25:12', '7e825eab-e053-445b-a204-9c54a7461594'),
+(18, 'Entry', '2017-08-23 01:29:09', '2017-08-23 01:29:09', '56b3c8d3-67da-46de-9b99-fc97eeb48563');
 
 -- --------------------------------------------------------
 
@@ -607,11 +613,11 @@ CREATE TABLE `craft_fieldlayouttabs` (
   `id` int(11) NOT NULL,
   `layoutId` int(11) NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_fieldlayouttabs`
@@ -622,9 +628,9 @@ INSERT INTO `craft_fieldlayouttabs` (`id`, `layoutId`, `name`, `sortOrder`, `dat
 (3, 7, 'Tab 1', 1, '2017-07-12 16:33:52', '2017-07-12 16:33:52', 'db633f94-b884-4102-859c-6bd9558db23b'),
 (4, 8, 'Content', 1, '2017-07-12 17:24:04', '2017-07-12 17:24:04', 'b5f62b47-8cab-4b99-8d22-234254efa9d0'),
 (5, 11, 'Tab 1', 1, '2017-07-12 17:25:53', '2017-07-12 17:25:53', '91c89933-1e14-4ed3-b6c1-6e3dfe7afca5'),
-(6, 14, 'Tab 1', 1, '2017-07-12 18:23:25', '2017-07-12 18:23:25', '13742965-29b8-421e-b865-f3723fe4aa50'),
 (7, 15, 'Tab 1', 1, '2017-07-12 18:24:47', '2017-07-12 18:24:47', '3e360955-268b-4c9e-90fb-de9e9ee15589'),
-(8, 16, 'Tab 1', 1, '2017-07-12 18:25:12', '2017-07-12 18:25:12', '43c93eba-37bb-4a0b-af12-089240e6b6e0');
+(8, 16, 'Tab 1', 1, '2017-07-12 18:25:12', '2017-07-12 18:25:12', '43c93eba-37bb-4a0b-af12-089240e6b6e0'),
+(9, 18, 'Tab 1', 1, '2017-08-23 01:29:09', '2017-08-23 01:29:09', 'e0c653a8-2e95-49cb-92b4-e2138066a19b');
 
 -- --------------------------------------------------------
 
@@ -639,27 +645,24 @@ CREATE TABLE `craft_fields` (
   `handle` varchar(58) COLLATE utf8_unicode_ci NOT NULL,
   `context` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'global',
   `instructions` text COLLATE utf8_unicode_ci,
-  `translatable` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `translatable` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `type` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `settings` text COLLATE utf8_unicode_ci,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_fields`
 --
 
 INSERT INTO `craft_fields` (`id`, `groupId`, `name`, `handle`, `context`, `instructions`, `translatable`, `type`, `settings`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 1, 'Body', 'body', 'global', NULL, 1, 'RichText', '{\"configFile\":\"Standard.json\",\"columnType\":\"text\"}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '2ef55da7-4418-463b-91cd-e767633580f7'),
-(2, 1, 'Tags', 'tags', 'global', NULL, 0, 'Tags', '{\"source\":\"taggroup:1\"}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'ade3d356-6ccf-4667-b8b9-11fe4a550aa9'),
-(3, 1, 'Headline', 'headline', 'global', 'Page headline', 0, 'PlainText', '{\"placeholder\":\"Page Headline\",\"maxLength\":\"\",\"multiline\":\"1\",\"initialRows\":\"4\"}', '2017-07-12 17:19:13', '2017-07-12 17:19:13', '058dae21-e73c-45f8-aa85-c9eb33f93743'),
-(4, 1, 'Lead Text', 'leadText', 'global', 'Lead text for page.', 0, 'PlainText', '{\"placeholder\":\"\",\"maxLength\":\"\",\"multiline\":\"1\",\"initialRows\":\"4\"}', '2017-07-12 17:19:39', '2017-07-12 17:19:39', '589e10fc-17f6-4d35-a390-19262bec2319'),
-(5, 2, 'About you', 'aboutYou', 'global', 'What type of person should this candidate be?', 0, 'RichText', '{\"configFile\":\"\",\"availableAssetSources\":\"*\",\"availableTransforms\":\"*\",\"cleanupHtml\":\"1\",\"purifyHtml\":\"1\",\"purifierConfig\":\"\",\"columnType\":\"text\"}', '2017-07-12 17:31:05', '2017-07-12 17:31:05', 'b3c134b7-0145-4a24-899f-22099a5fbdc8'),
-(6, 2, 'Responsibilities', 'responsibilities', 'global', 'What are the responsibilites for this job position?', 0, 'RichText', '{\"configFile\":\"\",\"availableAssetSources\":\"*\",\"availableTransforms\":\"*\",\"cleanupHtml\":\"1\",\"purifyHtml\":\"1\",\"purifierConfig\":\"\",\"columnType\":\"text\"}', '2017-07-12 17:31:50', '2017-07-12 17:31:50', 'e79e93b8-2ff5-4490-a9eb-926450697929'),
-(7, 2, 'You will', 'youWill', 'global', 'What will this person be doing in this role?', 0, 'RichText', '{\"configFile\":\"\",\"availableAssetSources\":\"*\",\"availableTransforms\":\"*\",\"cleanupHtml\":\"1\",\"purifyHtml\":\"1\",\"purifierConfig\":\"\",\"columnType\":\"text\"}', '2017-07-12 17:32:06', '2017-07-12 17:32:06', 'f55ca90a-a0bc-4b28-8609-67ee6d56b012'),
-(8, 2, 'Desired Skills', 'desiredSkills', 'global', 'What skills should this person possess?', 0, 'RichText', '{\"configFile\":\"\",\"availableAssetSources\":\"*\",\"availableTransforms\":\"*\",\"cleanupHtml\":\"1\",\"purifyHtml\":\"1\",\"purifierConfig\":\"\",\"columnType\":\"text\"}', '2017-07-12 17:32:30', '2017-07-12 17:32:30', '172a6b09-6eda-488f-90a4-91615930b773');
+(1, 1, 'Body', 'body', 'global', NULL, 1, 'RichText', '{"configFile":"Standard.json","columnType":"text"}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '2ef55da7-4418-463b-91cd-e767633580f7'),
+(2, 1, 'Tags', 'tags', 'global', NULL, 0, 'Tags', '{"source":"taggroup:1"}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', 'ade3d356-6ccf-4667-b8b9-11fe4a550aa9'),
+(3, 1, 'Headline', 'headline', 'global', 'Page headline', 0, 'PlainText', '{"placeholder":"Page Headline","maxLength":"","multiline":"1","initialRows":"4"}', '2017-07-12 17:19:13', '2017-07-12 17:19:13', '058dae21-e73c-45f8-aa85-c9eb33f93743'),
+(4, 1, 'Lead Text', 'leadText', 'global', 'Lead text for page.', 0, 'RichText', '{"configFile":"","availableAssetSources":"*","availableTransforms":"*","cleanupHtml":"1","purifyHtml":"1","purifierConfig":"","columnType":"text"}', '2017-07-12 17:19:39', '2017-08-23 02:35:26', '589e10fc-17f6-4d35-a390-19262bec2319'),
+(9, 2, 'Job Link', 'jobLink', 'global', 'Here is the link to the job posting', 0, 'PlainText', '{"placeholder":"","maxLength":"","multiline":"","initialRows":"4"}', '2017-08-23 01:28:28', '2017-08-23 01:28:44', '7bd3ca99-dd75-4ca8-82d9-62e4939c6006');
 
 -- --------------------------------------------------------
 
@@ -687,16 +690,16 @@ CREATE TABLE `craft_info` (
   `id` int(11) NOT NULL,
   `version` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `schemaVersion` varchar(15) COLLATE utf8_unicode_ci NOT NULL,
-  `edition` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `edition` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `siteName` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `siteUrl` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `timezone` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `on` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `maintenance` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `on` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `maintenance` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_info`
@@ -713,7 +716,7 @@ INSERT INTO `craft_info` (`id`, `version`, `schemaVersion`, `edition`, `siteName
 
 CREATE TABLE `craft_locales` (
   `locale` char(12) COLLATE utf8_unicode_ci NOT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
@@ -737,7 +740,7 @@ CREATE TABLE `craft_matrixblocks` (
   `ownerId` int(11) NOT NULL,
   `fieldId` int(11) NOT NULL,
   `typeId` int(11) DEFAULT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `ownerLocale` char(12) COLLATE utf8_unicode_ci DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -756,7 +759,7 @@ CREATE TABLE `craft_matrixblocktypes` (
   `fieldLayoutId` int(11) DEFAULT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `handle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
@@ -776,7 +779,7 @@ CREATE TABLE `craft_migrations` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_migrations`
@@ -835,7 +838,7 @@ CREATE TABLE `craft_plugins` (
   `schemaVersion` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,
   `licenseKey` char(24) COLLATE utf8_unicode_ci DEFAULT NULL,
   `licenseKeyStatus` enum('valid','invalid','mismatched','unknown') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'unknown',
-  `enabled` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `enabled` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `settings` text COLLATE utf8_unicode_ci,
   `installDate` datetime NOT NULL,
   `dateCreated` datetime NOT NULL,
@@ -890,7 +893,7 @@ CREATE TABLE `craft_routes` (
   `urlParts` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `urlPattern` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `template` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
@@ -929,25 +932,25 @@ INSERT INTO `craft_searchindex` (`elementId`, `attribute`, `fieldId`, `locale`, 
 (3, 'field', 2, 'en_us', ''),
 (3, 'slug', 0, 'en_us', ' we just installed craft '),
 (3, 'title', 0, 'en_us', ' we just installed craft '),
-(4, 'field', 1, 'en_us', ' we use predictive data analytics to augment human intelligence give your team the right tools to uncover formerly hidden patterns underlying your large structured and unstructured datasets our goal is to help your business exceed the most important goals by taking a deeper look into your data to provide more accurate insights we work to improve your revenue and profitability by turning your most valuable asset your employees into your greatest competitive advantage '),
+(4, 'field', 1, 'en_us', ' we use predictive data analytics to augment human intelligence give your team the right tools to uncover formerly hidden patterns underlying your large structured and unstructured datasets our goal is to help your business exceed its most important goals by taking a deeper look into your data to provide more accurate insights we work to improve your revenue and profitability by turning your most valuable asset your employees into your greatest competitive advantage '),
 (4, 'slug', 0, 'en_us', ' power up your team '),
 (4, 'title', 0, 'en_us', ' power up your team '),
-(5, 'field', 1, 'en_us', ' patterns underlying big data are non linear machine learning to uncover these patterns has been historically underutilized within the insurance industry gradienta i has the solutions in place to deliver with uncompromising agility insurance companies that can effectively leverage the power of their data outperform their peers our product offering allows our customers to know more sooner '),
+(5, 'field', 1, 'en_us', ' patterns underlying big data are non linear machine learning to uncover these patterns has been historically underutilized within the insurance industry gradient a i has the solutions in place to deliver with uncompromising agility insurance companies that can effectively leverage the power of their data outperform their peers our product offering allows our customers to know more sooner '),
 (5, 'slug', 0, 'en_us', ' understand the present and adapt to the future '),
 (5, 'title', 0, 'en_us', ' understand the present and adapt to the future '),
-(6, 'field', 1, 'en_us', ' at gradientai we re tackling some of the most challenging problems within the insurance and healthcare industry while leveraging advanced data analysis and machine intelligence you have the historical data and the deep understanding of the challenges our team will work with you to address these challenges using our product that prioritizes your needs we strive to establish a true partnership to help you get the most out of our products and engineering expertise '),
+(6, 'field', 1, 'en_us', ' at gradient a i we re tackling some of the most challenging problems within the insurance and healthcare industries while leveraging advanced data analysis and machine intelligence you have the historical data and the deep understanding of the challenges our team will work with you to address these challenges using our product that prioritizes your needs we strive to establish a true partnership to help you get the most out of our products and engineering expertise '),
 (6, 'slug', 0, 'en_us', ' your experience and our technology '),
 (6, 'title', 0, 'en_us', ' your experience and our technology '),
-(7, 'field', 1, 'en_us', ' join us on our mission to solve the most challenging problems in the healthcare and insurance industry at gradient a i talented and motivated successful startup veterans software engineers and data scientists representing the best schools in the country work together to deliver impactful products to our customers we work with large real world datasets and advanced techniques spanning artificial intelligence optimization and statistics our work has tangible impact our solutions enable data driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals come help us shape the future '),
+(7, 'field', 1, 'en_us', ' join us on our mission to solve the most challenging problems in the healthcare and insurance industries at gradient a i talented and motivated successful startup veterans software engineers and data scientists representing the best schools in the country work together to deliver superior products to our customers we work with large real world datasets and advanced techniques spanning artificial intelligence optimization and statistics our work has a tangible impact our solutions enable data driven decisions that lead to improved financial performance for our customers as well as better treatment and outcomes for individuals come help us shape the future come help us shape the future '),
 (7, 'slug', 0, 'en_us', ' our team '),
 (7, 'title', 0, 'en_us', ' our team '),
-(8, 'field', 1, 'en_us', ' the gradient a i solution is aimed at solving a broad range of business problems starting with early identification of creeping catastrophic claims creeping cats while typically a small percentage of all non cat claims usually account for the majority of total losses companies following best practices tend to identify these larger loss claims miss the window of suggestibility that provides the adjuster with the greatest opportunity to positively influence claim outcome despite the drop in claim frequency the cost of claims in workers compensation is rising at rates similar to overall wage costs in addition to this accelerating cost curve frequency tends to pick up with an accelerating economy leading to even faster growth of costs a growing number of companies are taking advantage of the gradient a i s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration as well as identifying the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim with integrated reporting capabilities which combine all claims data through both internal and external systems our customers are provided with a comprehensive and accurate decision support platform '),
+(8, 'field', 1, 'en_us', ' the gradient a i solution is aimed at solving a broad range of business problems starting with early identification of creeping catastrophic claims creeping cats while typically a small percentage of all non cat claims usually account for the majority of total losses companies following best practices that tend to identify these larger loss claims miss the window of suggestibility that provides the adjuster with the greatest opportunity to positively influence claim outcomes despite the drop in claim frequency the cost of claims in workers compensation is rising at rates similar to overall wage costs in addition to this accelerating cost curve frequency tends to pick up with an accelerating economy leading to even faster growth of costs a growing number of companies are taking advantage of gradient a i s powerful suite of decision support solutions to help identify both the claims with the highest risk of cost and duration as well as identify the most impactful intervention strategies that can have the greatest positive outcome at every point throughout the life of a claim with integrated reporting capabilities which combine all claims data through both internal and external systems our customers receive a comprehensive and accurate decision support platform '),
 (8, 'slug', 0, 'en_us', ' workers comp '),
 (8, 'title', 0, 'en_us', ' workers comp '),
-(9, 'field', 1, 'en_us', ' gradient a i uses the most advanced machine learning based analytics to combine our clients data in tandem with big data from existing partnerships to provide improved risk selection and pricing a recent poll of 300 insurance companies suggested that on average each company is utilizing approximately 15% of their internal data put simply companies have a vast amount of data on hand but lack the necessary tools to take advantage of their existing data our capabilities increase the power of internal data by efficiently pulling together all internal data both structured and unstructured with external big data to overcome the issue of we don t have enough data the proof is in providing more accurate pricing and better performingpolicies the addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace the gradient a i underwriting platform improves efficiency and reduces quote turnaround time including automated decision making support our learning based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches '),
+(9, 'field', 1, 'en_us', ' gradient a i uses the most advanced machine learning based analytics to combine our clients data in tandem with big data from existing partnerships to provide improved risk selection and pricing a recent poll of over 300 insurance companies suggested that on average each company is utilizing approximately 15% of its internal data put simply companies have a vast amount of data on hand but lack the necessary tools to take advantage of their existing data our capabilities increase the power of internal data by efficiently pulling together all internal data both structured and unstructured with external big data to overcome the issue of we don t have enough data the proof is in providing more accurate pricing and better performing policies the addition of integrated reporting provides accurate and timely analysis of business strategies and the ability to identify emerging opportunities to gain a competitive edge in the marketplace the gradient a i underwriting platform improves efficiency and reduces quote turnaround time including automated decision making support our learning based models constantly measure underwriting performance to identify changes in the underlying risks long before traditional approaches '),
 (9, 'slug', 0, 'en_us', ' underwriting '),
 (9, 'title', 0, 'en_us', ' underwriting '),
-(10, 'field', 1, 'en_us', ' the gradient a i data warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems the process uses ai to gather client data from multiple sources deposit the data into the data warehouse and normalize the data in a single comprehensive data silo this platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as tableau or power bi the breakthrough from gradient a i comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine the dca digital collection agent to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative this approach allows data intake and management to be handled internally efficiently without adding extra steps in the process for our clients the gradient a i data warehouse reduces time cost and resources required for our clients while empowering them with powerful results that had been eluding them prior to having access to the gradient a i data warehouse '),
+(10, 'field', 1, 'en_us', ' the gradient a i data warehouse leverages the latest artificial intelligence technologies to provide clients the fastest time to access data across all internal operational systems the process uses ai to gather client data from multiple sources deposit the data into the data warehouse and normalize the data in a single comprehensive data silo this platform allows clients to gain actionable insights into their data on a macro or micro level through the latest commercial business intelligence solutions such as tableau or power bi the breakthrough from gradient a i comes from applying machine learning capabilities on the data intake and normalization through our licensed adaptive learning engine the digital collection agent dca to eliminate the costly and time consuming efforts traditionally required to build and support an enterprise class data warehouse initiative this approach allows data intake and management to be handled internally and efficiently without adding extra steps in the process for our clients the gradient a i data warehouse reduces time costs and resources required for our clients while empowering them with powerful results that were eluding them prior to having access to the gradient a i data warehouse '),
 (10, 'slug', 0, 'en_us', ' data warehouse '),
 (10, 'title', 0, 'en_us', ' data warehouse '),
 (11, 'slug', 0, 'en_us', ' jobs '),
@@ -956,7 +959,7 @@ INSERT INTO `craft_searchindex` (`elementId`, `attribute`, `fieldId`, `locale`, 
 (12, 'slug', 0, 'en_us', ' equal opportunities '),
 (12, 'title', 0, 'en_us', ' equal opportunities '),
 (11, 'field', 3, 'en_us', ' come work with us '),
-(11, 'field', 4, 'en_us', ' we are looking for motivated critical and creative thinkers to contribute to our team as software engineers you will use what you have learned in class and be able to apply it alongside a team of engineers representing the best schools in the area you are comfortable thinking outside the box across projects and use cases you are able to hit the ground running independent fast learner comfortable within fast paced unstructured environment don t see your position listed we are always looking for talented and amazing people to join our team please email us at jobs gradientai com '),
+(11, 'field', 4, 'en_us', ' at gradient a i we pride ourselves on creating the best culture for success as a member of the team you will work alongside some of the brightest minds in the industry with the shared goal of changing the way the insurance industry operates we value people who thrive in an independent work environment and can deliver out of the box solutions to complex problems at gradient a i you will be given the resources to succeed from day 1 if this sounds like the right place to you jump through one of the links below if you don t see anything related to you but feel like you can contribute we are always looking for talented individuals to join the team just email hello gradientai com '),
 (13, 'field', 5, 'en_us', ' about you we are seeking talented data scientists to join our data modeling team this position will help define how our products will evolve by working closely with engineers to rapidly prototype new features and complementary products delivering our customers actionable intelligence from large data sets the role involves research as well as software implementations of machine learning prototypes and experiments data scientists are required to be able to understand user needs through interaction with client facing staff architect solutions and shepherd products through prototype phase requirements will be vague iterations will be rapid and we seek researchers who are nimble and willing to take smart risks bs ms to ph d levels available '),
 (13, 'field', 6, 'en_us', ' responsibilities you are equal parts researcher information architect and hacker you will communicate and collaborate with software engineers you must enjoy developing creative solutions to difficult problems in an autonomous startup environment with direct contact to top management and industry experts you are passionate about innovating and enjoy independence to pursue designated goals '),
 (13, 'field', 7, 'en_us', ' you will mine and analyze data pertaining to discover critical business insights generate ideas for new products from directing high level concept formation to prototyping synthesize research data turning data to actionable insights and specific model requirements quickly deploy out of the box solutions where possible innovate when necessary stay current with advancements in machine learning and advocate for the appropriate application of those advancements in our own products work closely with engineers and production developers to ensure clear effective communication within the team occasionally develop short optimized pieces of code '),
@@ -976,7 +979,10 @@ INSERT INTO `craft_searchindex` (`elementId`, `attribute`, `fieldId`, `locale`, 
 (15, 'slug', 0, 'en_us', ' senior software engineer '),
 (15, 'title', 0, 'en_us', ' senior software engineer '),
 (16, 'slug', 0, 'en_us', ' solutions '),
-(16, 'title', 0, 'en_us', ' solutions ');
+(16, 'title', 0, 'en_us', ' solutions '),
+(13, 'field', 9, 'en_us', ' https recruiting2 ultipro com mil1017 jobboard f54234e9 dfde b183 fd20 4fbdb19cba7a opportunitydetail opportunityid=d12def57 a3ab 4b8d b627 5ced74183e6d '),
+(14, 'field', 9, 'en_us', ' https www indeed com viewjob jk=059ab74a6ca61013 q=milliman l=cambridge tk=1blb0ohsr0kcj3c8 from=web '),
+(15, 'field', 9, 'en_us', ' https recruiting2 ultipro com mil1017 jobboard f54234e9 dfde b183 fd20 4fbdb19cba7a opportunitydetail opportunityid=25e8a4a8 6448 4293 b8e1 e0490bf655a3 ');
 
 -- --------------------------------------------------------
 
@@ -990,13 +996,13 @@ CREATE TABLE `craft_sections` (
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `handle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `type` enum('single','channel','structure') COLLATE utf8_unicode_ci NOT NULL DEFAULT 'channel',
-  `hasUrls` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `hasUrls` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `template` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `enableVersioning` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `enableVersioning` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_sections`
@@ -1021,13 +1027,13 @@ CREATE TABLE `craft_sections_i18n` (
   `id` int(11) NOT NULL,
   `sectionId` int(11) NOT NULL,
   `locale` char(12) COLLATE utf8_unicode_ci NOT NULL,
-  `enabledByDefault` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `enabledByDefault` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `urlFormat` text COLLATE utf8_unicode_ci,
   `nestedUrlFormat` text COLLATE utf8_unicode_ci,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_sections_i18n`
@@ -1055,7 +1061,7 @@ CREATE TABLE `craft_sessions` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_sessions`
@@ -1066,7 +1072,8 @@ INSERT INTO `craft_sessions` (`id`, `userId`, `token`, `dateCreated`, `dateUpdat
 (2, 1, '3d0a296dc58a30fe066d114aada0b1f3fa7ba65dczozMjoidlY4ek9XVGQ5bVQ5cHpoVV91RHRCWThUblZwcUtSdHkiOw==', '2017-07-12 18:21:30', '2017-07-12 18:21:30', 'e18faa3c-59ff-425a-a073-3cfc81ff90bc'),
 (3, 1, '0378c92c96331d7c26127fed0c386f8e50a96a49czozMjoiSERMVmgxVjhSZ1FFODFNZ2luZ19KVWlmcXRwSnMyaHYiOw==', '2017-07-12 20:26:59', '2017-07-12 20:26:59', 'ea705ec8-3643-4d90-986d-782e6eafe0cc'),
 (4, 1, 'b55bbdf14d940559fc67f3148fc0e9b24e1a9ccaczozMjoieTNRSzRXcnVoVGhLUVpGc3pCX0dvQk4yR0RoZ21RQ2wiOw==', '2017-07-15 13:46:38', '2017-07-15 13:46:38', 'db385f80-e581-4704-bf74-5f29ef44ac8f'),
-(5, 1, 'a0615b9f61460a289b8f0482910c72f705ee23f1czozMjoiR34zNn5xelFKRmd3Nk9Nd1p5RE5BbmRQVVZJQ3JneVgiOw==', '2017-07-21 17:00:32', '2017-07-21 17:00:32', '5f082567-863f-4613-93f2-f0bff7e0c8b7');
+(5, 1, 'a0615b9f61460a289b8f0482910c72f705ee23f1czozMjoiR34zNn5xelFKRmd3Nk9Nd1p5RE5BbmRQVVZJQ3JneVgiOw==', '2017-07-21 17:00:32', '2017-07-21 17:00:32', '5f082567-863f-4613-93f2-f0bff7e0c8b7'),
+(6, 1, 'e4b549f569e620737cc59e2699b564a4f7d3482fczozMjoiVWY2M1RCbmoxNUZXcGxXZkRBMmJrcmJFM09wbX5BcDkiOw==', '2017-08-23 01:07:05', '2017-08-23 01:07:05', 'd50554d3-612f-4641-b1c6-59f554a15a03');
 
 -- --------------------------------------------------------
 
@@ -1094,14 +1101,14 @@ CREATE TABLE `craft_structureelements` (
   `id` int(11) NOT NULL,
   `structureId` int(11) NOT NULL,
   `elementId` int(11) DEFAULT NULL,
-  `root` int(11) UNSIGNED DEFAULT NULL,
-  `lft` int(11) UNSIGNED NOT NULL,
-  `rgt` int(11) UNSIGNED NOT NULL,
-  `level` smallint(6) UNSIGNED NOT NULL,
+  `root` int(11) unsigned DEFAULT NULL,
+  `lft` int(11) unsigned NOT NULL,
+  `rgt` int(11) unsigned NOT NULL,
+  `level` smallint(6) unsigned NOT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_structureelements`
@@ -1127,11 +1134,11 @@ INSERT INTO `craft_structureelements` (`id`, `structureId`, `elementId`, `root`,
 
 CREATE TABLE `craft_structures` (
   `id` int(11) NOT NULL,
-  `maxLevels` smallint(6) UNSIGNED DEFAULT NULL,
+  `maxLevels` smallint(6) unsigned DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_structures`
@@ -1154,14 +1161,14 @@ CREATE TABLE `craft_systemsettings` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_systemsettings`
 --
 
 INSERT INTO `craft_systemsettings` (`id`, `category`, `settings`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 'email', '{\"protocol\":\"php\",\"emailAddress\":\"vendela@j-plus.co\",\"senderName\":\"gradient A.I.\"}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '31731e23-3d32-46ac-ba7c-14586e35c4a9');
+(1, 'email', '{"protocol":"php","emailAddress":"vendela@j-plus.co","senderName":"gradient A.I."}', '2017-07-12 16:27:08', '2017-07-12 16:27:08', '31731e23-3d32-46ac-ba7c-14586e35c4a9');
 
 -- --------------------------------------------------------
 
@@ -1177,7 +1184,7 @@ CREATE TABLE `craft_taggroups` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_taggroups`
@@ -1208,12 +1215,12 @@ CREATE TABLE `craft_tags` (
 
 CREATE TABLE `craft_tasks` (
   `id` int(11) NOT NULL,
-  `root` int(11) UNSIGNED DEFAULT NULL,
-  `lft` int(11) UNSIGNED NOT NULL,
-  `rgt` int(11) UNSIGNED NOT NULL,
-  `level` smallint(6) UNSIGNED NOT NULL,
-  `currentStep` int(11) UNSIGNED DEFAULT NULL,
-  `totalSteps` int(11) UNSIGNED DEFAULT NULL,
+  `root` int(11) unsigned DEFAULT NULL,
+  `lft` int(11) unsigned NOT NULL,
+  `rgt` int(11) unsigned NOT NULL,
+  `level` smallint(6) unsigned NOT NULL,
+  `currentStep` int(11) unsigned DEFAULT NULL,
+  `totalSteps` int(11) unsigned DEFAULT NULL,
   `status` enum('pending','error','running') COLLATE utf8_unicode_ci DEFAULT NULL,
   `type` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -1221,7 +1228,7 @@ CREATE TABLE `craft_tasks` (
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1272,8 +1279,8 @@ CREATE TABLE `craft_tokens` (
   `id` int(11) NOT NULL,
   `token` char(32) COLLATE utf8_unicode_ci NOT NULL,
   `route` text COLLATE utf8_unicode_ci,
-  `usageLimit` tinyint(3) UNSIGNED DEFAULT NULL,
-  `usageCount` tinyint(3) UNSIGNED DEFAULT NULL,
+  `usageLimit` tinyint(3) unsigned DEFAULT NULL,
+  `usageCount` tinyint(3) unsigned DEFAULT NULL,
   `expiryDate` datetime NOT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -1369,23 +1376,23 @@ CREATE TABLE `craft_users` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `password` char(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `preferredLocale` char(12) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `weekStartDay` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `admin` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `client` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `locked` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `suspended` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `pending` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
-  `archived` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `weekStartDay` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `admin` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `client` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `locked` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `suspended` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `pending` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `archived` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `lastLoginDate` datetime DEFAULT NULL,
   `lastLoginAttemptIPAddress` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
   `invalidLoginWindowStart` datetime DEFAULT NULL,
-  `invalidLoginCount` tinyint(4) UNSIGNED DEFAULT NULL,
+  `invalidLoginCount` tinyint(4) unsigned DEFAULT NULL,
   `lastInvalidLoginDate` datetime DEFAULT NULL,
   `lockoutDate` datetime DEFAULT NULL,
   `verificationCode` char(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `verificationCodeIssuedDate` datetime DEFAULT NULL,
   `unverifiedEmail` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `passwordResetRequired` tinyint(1) UNSIGNED NOT NULL DEFAULT '0',
+  `passwordResetRequired` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `lastPasswordChangeDate` datetime DEFAULT NULL,
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
@@ -1397,7 +1404,7 @@ CREATE TABLE `craft_users` (
 --
 
 INSERT INTO `craft_users` (`id`, `username`, `photo`, `firstName`, `lastName`, `email`, `password`, `preferredLocale`, `weekStartDay`, `admin`, `client`, `locked`, `suspended`, `pending`, `archived`, `lastLoginDate`, `lastLoginAttemptIPAddress`, `invalidLoginWindowStart`, `invalidLoginCount`, `lastInvalidLoginDate`, `lockoutDate`, `verificationCode`, `verificationCodeIssuedDate`, `unverifiedEmail`, `passwordResetRequired`, `lastPasswordChangeDate`, `dateCreated`, `dateUpdated`, `uid`) VALUES
-(1, 'gradientai', NULL, NULL, NULL, 'vendela@j-plus.co', '$2y$13$iwet7HZJnE.y0IPzpiXvnufkg1bChlRBs7Iv5ahddYkvxL.lPFC4G', NULL, 0, 1, 0, 0, 0, 0, 0, '2017-07-21 17:00:32', '::1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '2017-07-21 17:00:32', '52fc046e-e922-4f9a-bfa4-a93be2f7a075');
+(1, 'gradientai', NULL, NULL, NULL, 'vendela@j-plus.co', '$2y$13$iwet7HZJnE.y0IPzpiXvnufkg1bChlRBs7Iv5ahddYkvxL.lPFC4G', NULL, 0, 1, 0, 0, 0, 0, 0, '2017-08-23 01:07:05', '::1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '2017-07-12 16:27:05', '2017-07-12 16:27:05', '2017-08-23 01:07:05', '52fc046e-e922-4f9a-bfa4-a93be2f7a075');
 
 -- --------------------------------------------------------
 
@@ -1409,14 +1416,14 @@ CREATE TABLE `craft_widgets` (
   `id` int(11) NOT NULL,
   `userId` int(11) NOT NULL,
   `type` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
-  `sortOrder` smallint(6) UNSIGNED DEFAULT NULL,
-  `colspan` tinyint(4) UNSIGNED DEFAULT NULL,
+  `sortOrder` smallint(6) unsigned DEFAULT NULL,
+  `colspan` tinyint(4) unsigned DEFAULT NULL,
   `settings` text COLLATE utf8_unicode_ci,
-  `enabled` tinyint(1) UNSIGNED NOT NULL DEFAULT '1',
+  `enabled` tinyint(1) unsigned NOT NULL DEFAULT '1',
   `dateCreated` datetime NOT NULL,
   `dateUpdated` datetime NOT NULL,
   `uid` char(36) COLLATE utf8_unicode_ci NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `craft_widgets`
@@ -1426,7 +1433,7 @@ INSERT INTO `craft_widgets` (`id`, `userId`, `type`, `sortOrder`, `colspan`, `se
 (1, 1, 'RecentEntries', 1, NULL, NULL, 1, '2017-07-12 16:27:13', '2017-07-12 16:27:13', 'b027f24f-c816-40e2-80a5-0a291a3520c9'),
 (2, 1, 'GetHelp', 2, NULL, NULL, 1, '2017-07-12 16:27:13', '2017-07-12 16:27:13', '1943e7ab-2780-44f4-a645-7a05c2e7a57c'),
 (3, 1, 'Updates', 3, NULL, NULL, 1, '2017-07-12 16:27:13', '2017-07-12 16:27:13', 'ecdbec5d-1382-4e09-9c8b-96856e8038ca'),
-(4, 1, 'Feed', 4, NULL, '{\"url\":\"https:\\/\\/craftcms.com\\/news.rss\",\"title\":\"Craft News\"}', 1, '2017-07-12 16:27:13', '2017-07-12 16:27:13', '7b830384-7cee-40c7-bdb1-7ab466af3217');
+(4, 1, 'Feed', 4, NULL, '{"url":"https:\\/\\/craftcms.com\\/news.rss","title":"Craft News"}', 1, '2017-07-12 16:27:13', '2017-07-12 16:27:13', '7b830384-7cee-40c7-bdb1-7ab466af3217');
 
 --
 -- Indexes for dumped tables
@@ -1726,8 +1733,8 @@ ALTER TABLE `craft_routes`
 -- Indexes for table `craft_searchindex`
 --
 ALTER TABLE `craft_searchindex`
-  ADD PRIMARY KEY (`elementId`,`attribute`,`fieldId`,`locale`);
-ALTER TABLE `craft_searchindex` ADD FULLTEXT KEY `craft_searchindex_keywords_idx` (`keywords`);
+  ADD PRIMARY KEY (`elementId`,`attribute`,`fieldId`,`locale`),
+  ADD FULLTEXT KEY `craft_searchindex_keywords_idx` (`keywords`);
 
 --
 -- Indexes for table `craft_sections`
@@ -1945,7 +1952,7 @@ ALTER TABLE `craft_categorygroups_i18n`
 -- AUTO_INCREMENT for table `craft_content`
 --
 ALTER TABLE `craft_content`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `craft_deprecationerrors`
 --
@@ -1960,12 +1967,12 @@ ALTER TABLE `craft_elementindexsettings`
 -- AUTO_INCREMENT for table `craft_elements`
 --
 ALTER TABLE `craft_elements`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `craft_elements_i18n`
 --
 ALTER TABLE `craft_elements_i18n`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `craft_emailmessages`
 --
@@ -1980,42 +1987,42 @@ ALTER TABLE `craft_entrydrafts`
 -- AUTO_INCREMENT for table `craft_entrytypes`
 --
 ALTER TABLE `craft_entrytypes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `craft_entryversions`
 --
 ALTER TABLE `craft_entryversions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=32;
 --
 -- AUTO_INCREMENT for table `craft_fieldgroups`
 --
 ALTER TABLE `craft_fieldgroups`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `craft_fieldlayoutfields`
 --
 ALTER TABLE `craft_fieldlayoutfields`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `craft_fieldlayouts`
 --
 ALTER TABLE `craft_fieldlayouts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT for table `craft_fieldlayouttabs`
 --
 ALTER TABLE `craft_fieldlayouttabs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `craft_fields`
 --
 ALTER TABLE `craft_fields`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `craft_info`
 --
 ALTER TABLE `craft_info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `craft_matrixblocktypes`
 --
@@ -2025,7 +2032,7 @@ ALTER TABLE `craft_matrixblocktypes`
 -- AUTO_INCREMENT for table `craft_migrations`
 --
 ALTER TABLE `craft_migrations`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=39;
 --
 -- AUTO_INCREMENT for table `craft_plugins`
 --
@@ -2050,17 +2057,17 @@ ALTER TABLE `craft_routes`
 -- AUTO_INCREMENT for table `craft_sections`
 --
 ALTER TABLE `craft_sections`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `craft_sections_i18n`
 --
 ALTER TABLE `craft_sections_i18n`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `craft_sessions`
 --
 ALTER TABLE `craft_sessions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `craft_shunnedmessages`
 --
@@ -2070,27 +2077,27 @@ ALTER TABLE `craft_shunnedmessages`
 -- AUTO_INCREMENT for table `craft_structureelements`
 --
 ALTER TABLE `craft_structureelements`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `craft_structures`
 --
 ALTER TABLE `craft_structures`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `craft_systemsettings`
 --
 ALTER TABLE `craft_systemsettings`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `craft_taggroups`
 --
 ALTER TABLE `craft_taggroups`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `craft_tasks`
 --
 ALTER TABLE `craft_tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `craft_templatecachecriteria`
 --
@@ -2135,7 +2142,7 @@ ALTER TABLE `craft_userpermissions_users`
 -- AUTO_INCREMENT for table `craft_widgets`
 --
 ALTER TABLE `craft_widgets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- Constraints for dumped tables
 --

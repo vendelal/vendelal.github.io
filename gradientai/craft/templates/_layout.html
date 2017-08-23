@@ -46,13 +46,16 @@
 
 		<footer id="footer">
 			<div class="row">
-				<div class="col-6">
-					<a href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>CONTACT <img src="img/mail.png" /></a>
-					<span><img src="img/gradient_milliman_logo.png" /></span>
+				<div class="col-1"></div>
+				<div class="col-5">
+					<a class="pull-left" href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>CONTACT <img src="img/mail.png" /></a>
+					<br>
+					<span class="pull-left" style="margin-top: 10px;">Copyright © {{ now.year }} Milliman, Inc. All Rights Reserved</span>
 				</div>
-				<div class="col-6">
-					Copyright © {{ now.year }} Milliman, Inc. All Rights Reserved
+				<div class="col-5">
+					<span><img src="img/milliman_logo.svg" class="pull-right" /></span>
 				</div>
+				<div class="col-1"></div>
 			</div>
 		</footer>
 	</div>

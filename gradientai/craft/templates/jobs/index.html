@@ -19,30 +19,22 @@
         </div>
     </div>
     <div class="content jobs">
-        {% for entry in entries if entry.slug != "equal-opportunities" %}
-        <div class="row job">
-            <div class="col-8">
-                <h2>{{ entry.title }}</h2>
-            </div>
-            <div class="col-4">
-                <a href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}><button>Apply Now</button></a>
-            </div>
-        </div>
         <div class="row">
+            <div class="col-2"></div>
             <div class="col-8">
-                <p>{{ entry.aboutYou }}</p>
+                {% for entry in entries if entry.slug != "equal-opportunities" %}
+                <div class="row job job-post">
+                    <div class="col-8">
+                        <h2>{{ entry.title }}</h2>
+                    </div>
+                    <div class="col-4">
+                        <a href="{{ entry.jobLink }}"><button>Apply Now</button></a>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
+            <div class="col-2"></div>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <p>{{ entry.responsibilities }}</p>
-                <p>{{ entry.youWill }}</p>
-            </div>
-             <div class="col-6">
-                <p>{{ entry.desiredSkills }}</p>
-            </div>
-        </div>
-        {% endfor %}
     </div>
     <div class="equal-opportunities">
         <img src="img/icon_team.png" />
