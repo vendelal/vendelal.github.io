@@ -30,7 +30,7 @@
 				<ul>
 					<li><a href="{{ url() }}" {% if craft.request.firstSegment == '' %}class="active"{% endif %}>Home</a></li>
 					<li><a href="{{ url('solutions') }}" {% if craft.request.firstSegment == 'solutions' %}class="active"{% endif %}>Solutions</a></li>
-					<li><a href="{{ url('news') }}" {% if craft.request.firstSegment == 'news' %}class="active"{% endif %}>News</a></li>
+					<!-- <li><a href="{{ url('news') }}" {% if craft.request.firstSegment == 'news' %}class="active"{% endif %}>News</a></li> -->
 					<li><a href="{{ url('jobs') }}" {% if craft.request.firstSegment == 'jobs' %}class="active"{% endif %}>Work with us</a></li>
 					<li><a href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>Contact</a></li>
 				</ul>
@@ -53,7 +53,7 @@
 					<span class="pull-left" style="margin-top: 10px;">Copyright © {{ now.year }} Milliman, Inc. All Rights Reserved</span>
 				</div>
 				<div class="col-5">
-					<span><img src="img/milliman_logo.svg" class="pull-right" /></span>
+					<span><img src="img/milliman_logo_gray.svg" class="pull-right" /></span>
 				</div>
 				<div class="col-1"></div>
 			</div>
